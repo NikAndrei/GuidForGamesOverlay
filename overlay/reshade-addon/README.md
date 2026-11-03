@@ -1,48 +1,37 @@
-# Аддон ReShade (C++)
+# Аддон ReShade
 
-| Файл | Что делает |
-|---|---|
-| `src/addon.cpp` | только Windows: регистрация в ReShade, проверка игры, клавиатура (через ReShade) и XInput, `block_input_next_frame` |
-| `src/ui.cpp` | окно на ImGui: вкладки, список, карточка с уровнями |
-| `src/client.cpp` | связь с сервисом: TCP, JSON по строкам, переподключение каждые 2 с, свой поток |
-| `src/model.cpp` | разбор сообщений сервиса и команды (`reveal`, `hide`, `game`) |
-| `src/nav.cpp` | навигация: вкладки, выбор (держится по id, когда список обновился), карточка |
-| `src/input.cpp` | комбинация вызова (View+R3, 0,5 с), кнопки → действия, автоповтор, стик → крестовина |
-| `src/guard.cpp` | белый список игр, признаки античитов |
+`addon.cpp` — только Windows: регистрация в ReShade, проверка игры (белый список, античиты), клавиатура (через ReShade)
+и XInput, `block_input_next_frame`, пока окно открыто. Окно, навигация, связь с сервисом — общие, в `../core/`.
+Сборка и проверка — `../README.md`. Функции ImGui аддон вызывает через таблицу ReShade (`reshade_overlay.hpp`),
+сам ImGui в аддон не входит: в `core/ui.cpp` можно использовать только функции, которые есть в этой таблице
+(сборка аддона это проверяет — иначе ошибка компоновки).
 
-Всё, кроме `addon.cpp`, от Windows не зависит и проверяется на Linux.
+## Установка
 
-Зависимости скачивает CMake: заголовки ReShade 6.6.2 (API 18), ImGui 1.92.2 (та версия, под которую собран
-ReShade — `IMGUI_VERSION_NUM 19222`), nlohmann/json 3.11.3. Функции ImGui аддон вызывает через таблицу ReShade
-(`reshade_overlay.hpp`), сам ImGui в аддон не входит.
+1. Поставить **ReShade с поддержкой аддонов** («with full add-on support») в игру — DD2.exe / re4.exe.
+2. Положить `guidforgames.addon64` рядом с exe игры (там же, где `dxgi.dll` / `d3d12.dll` ReShade).
+3. Запустить `gfg-service.exe` — до или после игры, окно подключится само.
+4. Если русский текст в окне не виден (квадратики), у ReShade шрифт без кириллицы: в меню ReShade
+   (Home) → Settings → Global font указать `C:\Windows\Fonts\segoeui.ttf` или переключить язык ReShade на русский.
+   Окно подскажет это само.
 
-## Сборка (Windows, Visual Studio 2022)
+Пока окно открыто, клавиатура и мышь до игры не доходят. **Контроллер игра слышит** — ReShade его не перехватывает;
+справку лучше открывать на паузе.
 
-```bash
-cmake -S overlay/reshade-addon -B build-addon -A x64
-cmake --build build-addon --config Release
-```
+## Настройки
 
-Результат — `build-addon/Release/guidforgames.addon64`. Готовый файл кладёт в архив `gfg-overlay-windows`
-GitHub Actions (`.github/workflows/service.yml`).
+В `ReShade.ini`, раздел `[GuidForGames]` (ключи появляются при первом запуске):
 
-## Проверка без Windows
+| Ключ | По умолчанию | |
+|---|---|---|
+| `Host`, `Port` | `127.0.0.1`, `7871` | где сервис |
+| `AllowedExe` | `DD2.exe,re4.exe` | белый список игр: в остальных аддон не включается |
+| `Hotkey` | `112,0,1,0` | клавиша как в ReShade: код, Ctrl, Shift, Alt (112 — F1) |
+| `GamepadCombo` | `1` | `0` — не открывать окно с контроллера |
 
-```bash
-cmake -S overlay/reshade-addon -B build -DGFG_BUILD_PREVIEW=ON
-cmake --build build
-ctest --test-dir build                                    # ядро: протокол, навигация, ввод, защита
-build/gfg_client_smoke 7871 re4.exe                       # связь с запущенным сервисом
-curl -s localhost:7870/api/ui > ui.json
-build/gfg_ui_preview ui.json out.ppm /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf open,down,confirm
-```
+## Защита
 
-`gfg_ui_preview` рисует окно настоящим ImGui в картинку (программная отрисовка) — так видно, как оно выглядит,
-и проверки ImGui ловят ошибки вызовов, которые в игре привели бы к падению.
-
-Кросс-сборка под Windows на Linux (mingw-w64) — для проверки, что аддон компилируется:
-
-```bash
-cmake -S overlay/reshade-addon -B build-win -DCMAKE_TOOLCHAIN_FILE=cmake/mingw-w64.cmake -DGFG_BUILD_TESTS=OFF
-cmake --build build-win
-```
+- Аддон включается только в играх из `AllowedExe`.
+- Если в процессе или рядом с exe есть признаки античита (EasyAntiCheat, BattlEye, Vanguard, XIGNCODE, GameGuard…),
+  аддон не включается, даже если игра в белом списке; проверка повторяется каждые 10 с (античит может загрузиться позже).
+  Причина пишется в журнал ReShade (`ReShade.log`).
