@@ -1,0 +1,24 @@
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+
+# Сохранения игр и выходные файлы мода — только локально
+saves/
+*.bin
+state/
+
+# Сборка
+build/
+out/
+target/
+node_modules/
+dist/
+*.log
+
+# ОС и IDE
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/

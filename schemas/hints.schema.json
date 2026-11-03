@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/NikAndrei/GuidForGamesOverlay/schemas/hints.schema.json",
+  "title": "Правила подсказок игры",
+  "description": "Условие по модели состояния → какие подсказки актуальны. Текст подсказок берётся из записи GuidForGames (entry), а свой текст (hints) нужен, только если такой записи нет.",
+  "type": "object",
+  "required": ["game", "rules"],
+  "properties": {
+    "game": { "type": "string" },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "when"],
+        "properties": {
+          "id": { "type": "string" },
+          "when": { "$ref": "#/$defs/condition" },
+          "entry": { "type": "string", "description": "id записи в data/<game>/entries GuidForGames" },
+          "title": { "$ref": "#/$defs/text" },
+          "hints": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 3,
+            "items": { "type": "string" },
+            "description": "намёк → подробнее → полный спойлер"
+          },
+          "media": { "type": "array", "items": { "type": "string" }, "description": "скриншоты и видео (пути или URL)" },
+          "priority": { "type": "integer", "default": 0 }
+        },
+        "anyOf": [{ "required": ["entry"] }, { "required": ["title", "hints"] }],
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "text": {
+      "type": "object",
+      "required": ["ru"],
+      "properties": { "ru": { "type": "string" }, "en": { "type": "string" } }
+    },
+    "condition": {
+      "description": "Все указанные поля должны выполняться одновременно; all/any/not — для составных условий.",
+      "type": "object",
+      "properties": {
+        "progressAtLeast": { "type": "string" },
+        "progressBefore": { "type": "string" },
+        "quest": {
+          "type": "object",
+          "required": ["id"],
+          "properties": {
+            "id": { "type": "string" },
+            "status": { "enum": ["active", "done", "failed", "unavailable"] },
+            "stage": { "type": "integer" },
+            "stageAtLeast": { "type": "integer" }
+          }
+        },
+        "flag": { "type": "string" },
+        "noFlag": { "type": "string" },
+        "location": { "type": "string" },
+        "hasItem": { "type": "string" },
+        "all": { "type": "array", "items": { "$ref": "#/$defs/condition" } },
+        "any": { "type": "array", "items": { "$ref": "#/$defs/condition" } },
+        "not": { "$ref": "#/$defs/condition" }
+      },
+      "additionalProperties": false
+    }
+  }
+}
