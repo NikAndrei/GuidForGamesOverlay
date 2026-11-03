@@ -6,6 +6,9 @@
   },
   "adapter": "re4",
   "steamAppId": 2050650,
+  "exe": [
+    "re4.exe"
+  ],
   "regions": [
     {
       "id": "village",

@@ -27,9 +27,20 @@ pub struct Game {
     pub checked_at: Option<String>,
 }
 
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum Current {
+    /// Оверлей не сообщал игру: показываем ту, чьё состояние обновлялось последним.
+    Auto,
+    Game(usize),
+    /// Оверлей запущен в игре, которой сервис не знает: подсказок нет.
+    Unknown,
+}
+
 pub struct Inner {
     pub games: Vec<Game>,
     pub reveals: Reveals,
+    /// Игра, в которой запущен оверлей (по имени exe).
+    pub current: Current,
 }
 
 #[derive(Clone)]
@@ -70,7 +81,11 @@ impl App {
             .unwrap_or_default();
         let (ui, _) = watch::channel(UiModel::default());
         Ok(Self {
-            inner: Arc::new(Mutex::new(Inner { games, reveals })),
+            inner: Arc::new(Mutex::new(Inner {
+                games,
+                reveals,
+                current: Current::Auto,
+            })),
             ui,
             reveals_file,
         })
@@ -186,17 +201,48 @@ impl App {
         true
     }
 
-    /// Пересобрать модель UI. Текущая игра — та, чьё состояние обновлялось последним.
+    /// Оверлей сообщил exe игры. Возвращает id игры или `None`, если игра не поддерживается.
+    pub fn set_game_by_exe(&self, exe: &str) -> Option<String> {
+        let id = {
+            let mut inner = self.inner.lock().unwrap();
+            let idx = inner
+                .games
+                .iter()
+                .position(|g| g.content.exe.iter().any(|e| e.eq_ignore_ascii_case(exe)));
+            inner.current = idx.map_or(Current::Unknown, Current::Game);
+            idx.map(|i| inner.games[i].id.clone())
+        };
+        self.publish();
+        id
+    }
+
+    /// Пересобрать модель UI. Текущая игра — та, где запущен оверлей, а без него — та,
+    /// чьё состояние обновлялось последним.
     fn publish(&self) {
         let model = {
             let inner = self.inner.lock().unwrap();
-            inner
-                .games
-                .iter()
-                .filter_map(|g| g.state.as_ref().map(|s| (g, s)))
-                .max_by(|(_, a), (_, b)| a.updated_at.cmp(&b.updated_at))
-                .map(|(g, s)| ui::build(s, &g.content, &g.rules, &inner.reveals))
-                .unwrap_or_default()
+            match inner.current {
+                Current::Unknown => UiModel::default(),
+                Current::Game(i) => match &inner.games[i].state {
+                    Some(s) => {
+                        let g = &inner.games[i];
+                        ui::build(s, &g.content, &g.rules, &inner.reveals)
+                    }
+                    // Игра известна, но данных нет (мод не установлен, сейва нет): пустой список с её названием.
+                    None => UiModel {
+                        game: Some(inner.games[i].id.clone()),
+                        title: Some(inner.games[i].content.title.clone()),
+                        ..Default::default()
+                    },
+                },
+                Current::Auto => inner
+                    .games
+                    .iter()
+                    .filter_map(|g| g.state.as_ref().map(|s| (g, s)))
+                    .max_by(|(_, a), (_, b)| a.updated_at.cmp(&b.updated_at))
+                    .map(|(g, s)| ui::build(s, &g.content, &g.rules, &inner.reveals))
+                    .unwrap_or_default(),
+            }
         };
         self.ui.send_if_modified(|cur| {
             if *cur == model {

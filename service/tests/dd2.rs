@@ -203,7 +203,26 @@ async fn overlay_protocol_end_to_end() {
         .unwrap();
     assert_eq!(next().await["type"], "error");
 
+    // RE4 выключена в настройках — такой игры нет: пустая модель и ошибка; DD2 узнаётся по exe без учёта регистра.
+    w.write_all(b"{\"cmd\":\"game\",\"exe\":\"re4.exe\"}\n")
+        .await
+        .unwrap();
+    // Ответ на команду и новая модель идут разными путями: порядок любой.
+    let (a, b) = (next().await, next().await);
+    let (ui, err) = if a["type"] == "ui" { (a, b) } else { (b, a) };
+    assert!(ui["ui"]["game"].is_null());
+    assert_eq!(err["type"], "error");
+    w.write_all(b"{\"cmd\":\"game\",\"exe\":\"dd2.EXE\"}\n")
+        .await
+        .unwrap();
+    assert_eq!(next().await["ui"]["game"], "dragons-dogma-2");
+    w.write_all(b"{\"cmd\":\"reveal\",\"item\":\"mq-in-dragons-wake\"}\n")
+        .await
+        .unwrap();
+    assert_eq!(next().await["ui"]["items"][0]["revealed"], 2);
+    assert_eq!(app.ui().game.as_deref(), Some("dragons-dogma-2"));
+
     // Раскрытое сохраняется на диск.
     let saved = fs::read_to_string(dir.path().join("state/reveals.json")).unwrap();
-    assert!(saved.contains("\"mq-in-dragons-wake\": 1"));
+    assert!(saved.contains("\"mq-in-dragons-wake\": 2"));
 }
