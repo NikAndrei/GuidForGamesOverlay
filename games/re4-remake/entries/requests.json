@@ -1,0 +1,1117 @@
+[
+  {
+    "id": "req-blue-medallions-1",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Ферма у мельницы",
+      "en": "Farm"
+    },
+    "title": {
+      "ru": "Уничтожить синие медальоны",
+      "en": "Destroy the Blue Medallions"
+    },
+    "availableFrom": "ch1",
+    "missableAfter": "ch2",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Первое поручение торговца ждёт на ферме — присмотрись к синей бумажке и к постройкам вокруг.",
+      "Синяя записка висит справа от запертой решётки перед мостом. Нужно сбить пять синих медальонов на ферме: в амбаре, коровнике, сарае и на стенах домов.",
+      "Медальоны: 1) в окне запертого амбара; 2) на балке в коровнике — стреляй снаружи через окно; 3) под потолком сарая напротив коровника; 4) на доме справа от дороги, по которой ты пришёл (через загон); 5) зайди в дверь справа от решётки, обезвредь растяжку, по второму этажу и мосткам дойди к амбару и обернись. Награда — 3 шпинели у торговца."
+    ],
+    "match": {
+      "where": [
+        "ферма",
+        "мельница",
+        "амбар",
+        "коровник",
+        "сарай",
+        "farm"
+      ],
+      "what": [
+        "синий медальон",
+        "медальон",
+        "blue medallion",
+        "medallion"
+      ],
+      "how": [
+        "сбить",
+        "выстрел",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "3 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "47974"
+    ],
+    "gameRefs": [
+      "request:10001"
+    ]
+  },
+  {
+    "id": "req-pest-control",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Заброшенная фабрика",
+      "en": "Abandoned Factory"
+    },
+    "title": {
+      "ru": "Борьба с вредителями",
+      "en": "Pest Control"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch3",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Торговец не любит грызунов — а в здании, откуда ты только что вышел, их хватает.",
+      "Записка у торговца при первой встрече. Вернись на фабрику: крысы в длинном коридоре и в большой комнате.",
+      "Нужно убить трёх крыс на фабрике: одна в конце длинного коридора, где ходил селянин с вилами; две — в большой комнате, где стоял мужик с топором. Хватит удара ножом. Награда — 3 шпинели."
+    ],
+    "match": {
+      "where": [
+        "фабрика",
+        "заброшенная фабрика",
+        "коридор",
+        "factory"
+      ],
+      "what": [
+        "крыса",
+        "крысы",
+        "rat",
+        "rats"
+      ],
+      "how": [
+        "убить",
+        "нож",
+        "kill"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "3 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48041"
+    ],
+    "gameRefs": [
+      "request:10005"
+    ]
+  },
+  {
+    "id": "req-viper-hunter",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Деревня, ратуша",
+      "en": "Village, Town Hall"
+    },
+    "title": {
+      "ru": "Охотник на гадюк",
+      "en": "Viper Hunter"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch4",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Торговцу нужны змеи — они прячутся там, где ты обычно ищешь патроны.",
+      "Записка у торговца возле ратуши на площади. Гадюки выползают из деревянных ящиков и водятся у воды в Рыбопитомнике.",
+      "Нужны три гадюки: убей ножом или выстрелом и подбери. Вероятные места: ящик в ратуше перед торговцем, ящик в домике сразу за церковью, Рыбопитомник (ищи по шипению). Змея занимает 2 ячейки — продавай торговцу сразу, проданные засчитываются. Награда — 4 шпинели."
+    ],
+    "match": {
+      "where": [
+        "ратуша",
+        "рыбопитомник",
+        "церковь",
+        "town hall",
+        "fish farm"
+      ],
+      "what": [
+        "гадюка",
+        "змея",
+        "viper",
+        "snake",
+        "ящик"
+      ],
+      "how": [
+        "убить",
+        "продать",
+        "kill",
+        "sell"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "4 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48122"
+    ],
+    "gameRefs": [
+      "request:10002"
+    ]
+  },
+  {
+    "id": "req-grave-robber",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Кладбище у церкви",
+      "en": "Cemetery by the Church"
+    },
+    "title": {
+      "ru": "Осквернение могил",
+      "en": "Grave Robber"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch4",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "На кладбище два надгробия чем-то отличаются от остальных.",
+      "Записка у торговца за церковью, но сделать можно заранее: на кладбище найди два надгробия с одинаковыми эмблемами.",
+      "Сбей эмблемы (знак лас-плагас) с двух одинаковых надгробий-близнецов на кладбище — ножом или выстрелом; рядом обычно бродит селянин. Затем поговори с торговцем. Награда — 2 шпинели."
+    ],
+    "match": {
+      "where": [
+        "кладбище",
+        "церковь",
+        "надгробие",
+        "могила",
+        "cemetery",
+        "graveyard"
+      ],
+      "what": [
+        "эмблема",
+        "надгробие",
+        "twin tombstones",
+        "emblem",
+        "tombstone"
+      ],
+      "how": [
+        "сбить",
+        "выстрел",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "2 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48131"
+    ],
+    "gameRefs": [
+      "request:10003"
+    ]
+  },
+  {
+    "id": "req-blue-medallions-2",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Карьер и Рыбопитомник",
+      "en": "Quarry and Fish Farm"
+    },
+    "title": {
+      "ru": "Уничтожить синие медальоны 2",
+      "en": "Destroy the Blue Medallions 2"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch4",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Ещё пять синих мишеней спрятаны между карьером и прудами с рыбой.",
+      "Записка справа от гигантского молота на пути от церкви. Медальоны: на лесах карьера, у причала, в домике на рыбной ферме, за дощатой стеной у воды и под платформой в конце.",
+      "1) После трёх собак посмотри наверх на леса; 2) у причала с лодкой спустись и обернись к лестнице — за сваями; 3) домик с двумя бочками на рыбной ферме; 4) спустись к воде — через дыру в деревянной стене слева; 5) в конце Рыбопитомника спрыгни с платформы, у красного сундука — под платформой справа. Награда — 4 шпинели."
+    ],
+    "match": {
+      "where": [
+        "карьер",
+        "рыбопитомник",
+        "рыбная ферма",
+        "причал",
+        "quarry",
+        "fish farm"
+      ],
+      "what": [
+        "синий медальон",
+        "медальон",
+        "blue medallion",
+        "medallion"
+      ],
+      "how": [
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "4 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48146"
+    ],
+    "gameRefs": [
+      "request:10004"
+    ]
+  },
+  {
+    "id": "req-catch-big-fish",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Поселение у озера",
+      "en": "Lakeside Settlement"
+    },
+    "title": {
+      "ru": "Поймайте мне большую рыбу",
+      "en": "Catch Me a Big Fish"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch5",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Торговец мечтает о крупном улове — понадобится гарпун и ключ с символом культа.",
+      "Записка за запертой дверью с символом культа в поселении у озера (открой Ключом культа, Insignia Key). Рыба плавает у лодочного сарая.",
+      "В поселении у озера отопри дверь с символом культа — записка слева у бочек. У лодочного сарая найди крупного окуня (Lunker Bass), убей одним броском гарпуна, подбери и продай торговцу. Награда — 4 шпинели."
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "поселение у озера",
+        "лодочный сарай",
+        "lake",
+        "lakeside settlement",
+        "boathouse"
+      ],
+      "what": [
+        "большая рыба",
+        "окунь",
+        "lunker bass",
+        "fish",
+        "гарпун"
+      ],
+      "how": [
+        "гарпун",
+        "продать",
+        "harpoon",
+        "sell"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "4 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48382"
+    ],
+    "gameRefs": [
+      "request:10008"
+    ]
+  },
+  {
+    "id": "req-egg-hunt",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Озеро",
+      "en": "The Lake"
+    },
+    "title": {
+      "ru": "Охота за яйцами",
+      "en": "Egg Hunt"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch5",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Торговцу нужно не простое яйцо — поищи на берегах озера.",
+      "Записка висит слева на стене у алтаря, где берёшь ключ от старой часовни. Плыви на лодке на восток озера.",
+      "После боя с озёрным чудовищем возьми лодку и исследуй восточную часть озера — там лежит золотое куриное яйцо (Gold Chicken Egg). Продай его торговцу. Награда — 3 шпинели."
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "алтарь",
+        "восток",
+        "lake"
+      ],
+      "what": [
+        "золотое яйцо",
+        "куриное яйцо",
+        "gold chicken egg",
+        "egg"
+      ],
+      "how": [
+        "продать",
+        "лодка",
+        "sell",
+        "boat"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "3 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48215"
+    ],
+    "gameRefs": [
+      "request:10007"
+    ]
+  },
+  {
+    "id": "req-savage-mutt",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Деревня, дом старосты",
+      "en": "Village Chief's Manor"
+    },
+    "title": {
+      "ru": "Злобная псина",
+      "en": "A Savage Mutt"
+    },
+    "availableFrom": "ch5",
+    "missableAfter": "ch6",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Когда вернёшься с Эшли на площадь, на улицах появится особо злая собака — но не сразу.",
+      "Записка слева от входа в ратушу, напротив торговца. Пса выманит посещение дома старосты на севере площади.",
+      "В доме старосты на втором этаже найди криво висящую картину — за ней рычаг; Эшли спустит лестницу. Наверху прочти записи и возьми старинную фотокамеру. На обратном пути на главной улице появится жуткий пёс — обычная собака-плагас, только живучая. Награда — 8 шпинелей."
+    ],
+    "match": {
+      "where": [
+        "дом старосты",
+        "площадь",
+        "ратуша",
+        "chief's manor",
+        "village"
+      ],
+      "what": [
+        "пёс",
+        "собака",
+        "dog",
+        "mutt"
+      ],
+      "how": [
+        "убить",
+        "kill"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "8 шпинелей",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48293"
+    ],
+    "gameRefs": [
+      "request:10009"
+    ]
+  },
+  {
+    "id": "req-blue-medallions-3",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Ворота замка",
+      "en": "Castle Gate"
+    },
+    "title": {
+      "ru": "Уничтожить синие медальоны 3",
+      "en": "Destroy the Blue Medallions 3"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch8",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Синие медальоны вернулись — теперь среди катапульт у стен замка.",
+      "Записку найдёшь позже, но медальоны можно сбивать сразу: двое у дальней катапульты, в беседке, внизу за решёткой, на дереве за башней, у красного сундука.",
+      "1–2) пройди катапульты до спуска с жёлтой тряпкой, не прыгай — обернись к дальней катапульте; 3) обойди решётку справа — в беседке; 4) у обрыва справа посмотри вниз за решётку; 5) спрыгни, подними пушку, поднимись по лестнице — на дереве за башней; 6) чуть дальше, у красного сундука. Награда — 5 шпинелей."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "ворота замка",
+        "катапульта",
+        "castle",
+        "castle gate"
+      ],
+      "what": [
+        "синий медальон",
+        "медальон",
+        "blue medallion",
+        "medallion"
+      ],
+      "how": [
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "5 шпинелей",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48486"
+    ],
+    "gameRefs": [
+      "request:10010"
+    ]
+  },
+  {
+    "id": "req-jewel-thief",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Замок",
+      "en": "The Castle"
+    },
+    "title": {
+      "ru": "Похититель самоцветов",
+      "en": "Jewel Thief"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "Изумруд берётся в главе 8 (или позже, пока гнездо доступно), само поручение выдаётся в главе 12 — успей сдать до главы 13.",
+    "hints": [
+      "Птицы любят блестяшки — одно гнездо на крыше прячет драгоценность.",
+      "Поручение появится в главе 12, но самоцвет можно добыть ещё в начале главы 8: смотри на крыши слева.",
+      "В начале главы 8 повернись налево и найди гнездо на крыше здания, правее фиолетового факела. Сбей его любым выстрелом и подбери Поцарапанный изумруд (Scratched Emerald). В главе 12 возьми поручение и сдай камень торговцу. Награда — 3 шпинели."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "крыша",
+        "фиолетовый факел",
+        "castle",
+        "roof"
+      ],
+      "what": [
+        "гнездо",
+        "изумруд",
+        "поцарапанный изумруд",
+        "scratched emerald",
+        "nest"
+      ],
+      "how": [
+        "сбить",
+        "выстрел",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "3 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48956"
+    ],
+    "gameRefs": [
+      "request:10011"
+    ]
+  },
+  {
+    "id": "req-blue-medallions-4",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Главный зал замка",
+      "en": "Grand Hall"
+    },
+    "title": {
+      "ru": "Уничтожить синие медальоны 4",
+      "en": "Destroy the Blue Medallions 4"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch10",
+    "missableNote": "Медальон над креслом в оружейной сбивай до прыжка вниз — иначе придётся возвращаться. Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "В главном зале замка снова синие мишени — одна даже в люстре.",
+      "Записка на столе в комнате торговца после лабиринта. Медальоны: у входа, за статуей, в люстре, за окном обеденной, над креслом в оружейной, в галерее.",
+      "1) справа у входа в главный зал; 2) на колонне за статуей без трёх голов; 3) поднимись — в огромной люстре; 4) в Обеденной комнате за дальним окном у дивана; 5) дверь напротив люстры в оружейную — над большим креслом, сбей до того как спрыгнешь вниз; 6) в галерее после боя у моста — за последней колонной слева. Награда — 5 шпинелей."
+    ],
+    "match": {
+      "where": [
+        "главный зал",
+        "обеденная",
+        "оружейная",
+        "галерея",
+        "grand hall",
+        "dining hall",
+        "gallery"
+      ],
+      "what": [
+        "синий медальон",
+        "медальон",
+        "люстра",
+        "blue medallion",
+        "chandelier"
+      ],
+      "how": [
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "5 шпинелей",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48712"
+    ],
+    "gameRefs": [
+      "request:10012"
+    ]
+  },
+  {
+    "id": "req-more-pest-control",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Главный зал и библиотека",
+      "en": "Grand Hall and Library"
+    },
+    "title": {
+      "ru": "Новая борьба с вредителями",
+      "en": "More Pest Control"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch11",
+    "missableNote": "Поручение растянуто на главы 9–10; третья крыса — в библиотеке в главе 10.",
+    "hints": [
+      "Крысы добрались и до замка — две найдутся сейчас, третья позже.",
+      "Записка слева от статуи без головы. Ищи крыс в обеденном зале, в коридоре у зала с рыцарями и в библиотеке (глава 10).",
+      "1) в обеденном зале; 2) после того как возьмёшь голову льва и разберёшься с рыцарями — в коридоре; 3) в начале главы 10 через открывшийся проход и дверь справа в библиотеку — в комнате с головами животных. Награда — 3 шпинели."
+    ],
+    "match": {
+      "where": [
+        "главный зал",
+        "обеденный зал",
+        "библиотека",
+        "grand hall",
+        "library"
+      ],
+      "what": [
+        "крыса",
+        "крысы",
+        "rat",
+        "rats"
+      ],
+      "how": [
+        "убить",
+        "kill"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "3 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48719"
+    ],
+    "gameRefs": [
+      "request:10006"
+    ]
+  },
+  {
+    "id": "req-merciless-knight",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, под библиотекой",
+      "en": "Castle, below the Library"
+    },
+    "title": {
+      "ru": "Безжалостный рыцарь",
+      "en": "Merciless Knight"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch11",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Где-то внизу ждёт рыцарь в золотых доспехах — и не один.",
+      "Записка на комоде справа за открывшейся дверью в начале главы 10. После библиотеки спустись на лифте.",
+      "Спустись на лифте после библиотеки — там золотой рыцарь с ещё двумя противниками. Сбей шлемы гранатами (светошумовыми или обычными), затем стреляй по открывшимся уязвимым местам. Награда — 8 шпинелей."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "библиотека",
+        "лифт",
+        "castle",
+        "library"
+      ],
+      "what": [
+        "рыцарь",
+        "золотой рыцарь",
+        "доспехи",
+        "knight",
+        "armor"
+      ],
+      "how": [
+        "убить",
+        "граната",
+        "kill",
+        "grenade"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "8 шпинелей",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48790"
+    ],
+    "gameRefs": [
+      "request:10013"
+    ]
+  },
+  {
+    "id": "req-insect-hive",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Улей в пещере",
+      "en": "The Hive"
+    },
+    "title": {
+      "ru": "Улей насекомых",
+      "en": "Insect Hive"
+    },
+    "availableFrom": "ch11",
+    "missableAfter": "ch12",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Огромный улей в пещере дышит — у него есть уязвимые жёлтые места.",
+      "Записка на стене за бочкой с горючим, когда спустишься после вагонеток. Нужно уничтожить четыре входа в улей — светящиеся жёлтые пятна на самом улье.",
+      "1) от записки налево и вверх — внизу улья; 2–3) поднимись чуть выше, у выхода из туннеля — слева и справа; 4) оттуда направо, не входя в следующий туннель: встань к деревянной ограде. Стреляй, пока свечение не погаснет. Награда — 4 шпинели."
+    ],
+    "match": {
+      "where": [
+        "пещера",
+        "улей",
+        "шахта",
+        "hive",
+        "cave"
+      ],
+      "what": [
+        "вход в улей",
+        "улей",
+        "жёлтое пятно",
+        "hive entrance",
+        "nest"
+      ],
+      "how": [
+        "выстрел",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "4 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48940"
+    ],
+    "gameRefs": [
+      "request:10014"
+    ]
+  },
+  {
+    "id": "req-salazar-disgrace",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Тронный зал",
+      "en": "Throne Room"
+    },
+    "title": {
+      "ru": "Позор семьи Салазаров",
+      "en": "The Disgrace of the Salazar Family"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Портрет хозяина замка просит, чтобы его испортили — но пуля не годится.",
+      "Записка слева на стене у вагонетки после боя с Краузером. Вернись в тронный зал — там висит портрет Рамона и нужное «оружие».",
+      "Не садись в вагонетку: открой засов, через большой зал и восточную дверь вернись в тронный зал (враги вернутся). В запертом шкафчике там же (открой кубическим устройством) — золотое куриное яйцо. Снаряди его и брось в портрет Рамона слева от трона. Промахнёшься в другую картину — загружай сохранение. Награда — 4 шпинели."
+    ],
+    "match": {
+      "where": [
+        "тронный зал",
+        "трон",
+        "throne room"
+      ],
+      "what": [
+        "портрет",
+        "рамон",
+        "картина",
+        "яйцо",
+        "portrait",
+        "ramon",
+        "egg"
+      ],
+      "how": [
+        "бросить",
+        "throw"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "4 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "48957"
+    ],
+    "gameRefs": [
+      "request:10016"
+    ]
+  },
+  {
+    "id": "req-blue-medallions-5",
+    "type": "quest",
+    "region": "island",
+    "location": {
+      "ru": "Комплекс на острове",
+      "en": "Island Facility"
+    },
+    "title": {
+      "ru": "Уничтожить синие медальоны 5",
+      "en": "Destroy the Blue Medallions 5"
+    },
+    "availableFrom": "ch14",
+    "missableAfter": "ch15",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "На острове торговец снова просит пострелять по синим мишеням.",
+      "Записка перед комнатой торговца в начале главы 14. Медальоны снаружи: у лестницы, за оградой у обрыва, у красного контейнера, у клеток в дальнем углу, на цистерне.",
+      "1) выйдя из здания, у лестницы обернись и посмотри вверх — левее железной клетки; 2) левее, за оградой у обрыва; 3) держась левой стороны — перед красным контейнером; 4) в дальнем правом углу у двух бочек, возле клеток; 5) поднимись к двери, не входи — слева на крайней цистерне. Награда — 5 шпинелей."
+    ],
+    "match": {
+      "where": [
+        "остров",
+        "комплекс",
+        "обрыв",
+        "контейнер",
+        "island",
+        "facility"
+      ],
+      "what": [
+        "синий медальон",
+        "медальон",
+        "blue medallion",
+        "medallion"
+      ],
+      "how": [
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "5 шпинелей",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "49122"
+    ],
+    "gameRefs": [
+      "request:10015"
+    ]
+  },
+  {
+    "id": "req-even-more-pest-control",
+    "type": "quest",
+    "region": "island",
+    "location": {
+      "ru": "Канализация комплекса",
+      "en": "Island Sewers"
+    },
+    "title": {
+      "ru": "Очередная борьба с вредителями",
+      "en": "Even More Pest Control"
+    },
+    "availableFrom": "ch14",
+    "missableAfter": "ch15",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Крысы есть и на острове — в сырых подземных ходах.",
+      "Записка у торговца после восстановления питания, но крыс можно убить заранее: в канализации, у кучи мусора, у рычага питания и после моста с Эшли.",
+      "Нужно четыре крысы: 1) на трубе при входе в канализацию (или в коридоре между дверями с рычагами для Эшли); 2) у кучи мусора, где лежал регенератор; 3) на металлической платформе справа от рычага переключения питания; 4) у кучи мусора в комнате сразу после моста, который держит Эшли. Если сделал заранее — записки у торговца не будет. Награда — 3 шпинели."
+    ],
+    "match": {
+      "where": [
+        "канализация",
+        "остров",
+        "рычаг",
+        "мост",
+        "sewers",
+        "island"
+      ],
+      "what": [
+        "крыса",
+        "крысы",
+        "rat",
+        "rats"
+      ],
+      "how": [
+        "убить",
+        "kill"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "3 шпинели",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "49174"
+    ],
+    "gameRefs": [
+      "request:10019"
+    ]
+  },
+  {
+    "id": "req-wandering-dead",
+    "type": "quest",
+    "region": "island",
+    "location": {
+      "ru": "Инкубационная лаборатория",
+      "en": "Incubation Lab"
+    },
+    "title": {
+      "ru": "Бродячие мертвецы",
+      "en": "The Wandering Dead"
+    },
+    "availableFrom": "ch14",
+    "missableAfter": "ch15",
+    "missableNote": "Если уже поднялся на лифте, но не дошёл до следующей катсцены, можно вернуться тем же путём. Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Опасная тварь бродит там, где ты уже был — придётся вернуться назад.",
+      "Записка на ящиках слева от лифта после сцены, где Эшли пробивает стену. Открой ворота назад и иди к коридору к Морозильнику и в инкубационную лабораторию.",
+      "Вернись туда, где нашёл Эшли, дальняя дверь слева (к Морозильнику; Эшли можно спрятать в шкафчике). В инкубационной лаборатории — особый регенератор, набитый паразитами: сначала стреляй куда угодно, затем добивай остатки через биосенсорный прицел. Не стой на месте — после шипов следует дальняя атака. Подбери александрит с тела. Награда — 8 шпинелей."
+    ],
+    "match": {
+      "where": [
+        "инкубационная лаборатория",
+        "морозильник",
+        "лифт",
+        "incubation lab",
+        "freezer"
+      ],
+      "what": [
+        "регенератор",
+        "паразит",
+        "мертвец",
+        "regenerator",
+        "parasite"
+      ],
+      "how": [
+        "биосенсорный прицел",
+        "biosensor scope",
+        "убить",
+        "kill"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "8 шпинелей",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "49184"
+    ],
+    "gameRefs": [
+      "request:10018"
+    ]
+  },
+  {
+    "id": "req-blue-medallions-6",
+    "type": "quest",
+    "region": "island",
+    "location": {
+      "ru": "Руины у утёса",
+      "en": "Cliffside Ruins"
+    },
+    "title": {
+      "ru": "Уничтожить синие медальоны 6",
+      "en": "Destroy the Blue Medallions 6"
+    },
+    "availableFrom": "ch15",
+    "missableAfter": "ch16",
+    "missableNote": "Поручение привязано к области: уйдёшь дальше по сюжету — вернуться не получится. Надёжнее закрыть его до конца главы.",
+    "hints": [
+      "Последние синие медальоны — среди древних руин на острове.",
+      "Записка перед двойной дверью после сцены с Саддлером (выход из лагеря на вертолёте). Медальоны: у тропинки, на арке башни, на лесах, за каменной аркой, на скале у пещеры.",
+      "1) сразу у тропинки справа; 2) от записки чуть назад, вверх — на арке башни; 3) оттуда налево — на строительных лесах; 4) у арки со спуском в подземелье, не прыгая — за каменной аркой перед тобой; 5) спустись, пройди пещерой наружу — через ближнее окно на скале. Награда — 5 шпинелей; не забудь поговорить с торговцем. Все 19 поручений — достижение «Мастер на все руки» (Jack of All Trades)."
+    ],
+    "match": {
+      "where": [
+        "руины",
+        "утёс",
+        "башня",
+        "пещера",
+        "ruins",
+        "cliffside"
+      ],
+      "what": [
+        "синий медальон",
+        "медальон",
+        "blue medallion",
+        "medallion"
+      ],
+      "how": [
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "шпинели",
+        "5 шпинелей",
+        "spinel",
+        "мастер на все руки",
+        "jack of all trades"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96427-kak-vypolnit-vse-porucheniya-torgovca-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/request-objectives/",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408296"
+    ],
+    "mapMarkers": [
+      "49299"
+    ],
+    "gameRefs": [
+      "request:10017"
+    ]
+  }
+]

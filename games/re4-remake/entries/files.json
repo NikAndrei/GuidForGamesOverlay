@@ -1,0 +1,3570 @@
+[
+  {
+    "id": "file-overview",
+    "type": "tip",
+    "title": {
+      "ru": "Файлы: документы и записки",
+      "en": "Files"
+    },
+    "availableFrom": "ch1",
+    "hints": [
+      "Записки, фото, книги и предметы, которые можно осмотреть, складываются в «Документы» (Files). В кампании Леона их 73: 28 в Деревне, 23 в Замке, 22 на Острове (во «Второпях написанной записке» две части — в справочнике одна запись). Часть даёт подсказки к загадкам: «Илюминадос 4:3» — к Хрустальному шару, «Второпях написанная записка» — к напольным часам; четыре документа выдают по сюжету. Места отмечены на вкладке «Карта»; деревенские и замковые лучше собрать до точек невозврата. С модом GuidForGames прочитанные документы отмечаются сами. Названия — официальные из игры."
+    ],
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ]
+  },
+  {
+    "id": "file-mission-brief",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "С самого начала игры",
+      "en": "From the start of the game"
+    },
+    "title": {
+      "ru": "Описание задания",
+      "en": "Mission Brief"
+    },
+    "availableFrom": "ch1",
+    "hints": [
+      "Глава 1, Деревня: документ, который выдают по сюжету.",
+      "Где искать: С самого начала игры.",
+      "Брифинг лежит в «Документах» с первой минуты — открой меню и прочитай."
+    ],
+    "match": {
+      "where": [
+        "from the start of the game",
+        "с самого начала игры"
+      ],
+      "what": [
+        "описание задания",
+        "mission brief",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "47926"
+    ],
+    "gameRefs": [
+      "file:4"
+    ]
+  },
+  {
+    "id": "file-crude-charm",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Охотничий домик",
+      "en": "Hunter's Lodge"
+    },
+    "title": {
+      "ru": "Примитивный медальон",
+      "en": "Crude Charm"
+    },
+    "availableFrom": "ch1",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 1, Деревня: предмет, который можно осмотреть.",
+      "Где искать: Охотничий домик.",
+      "Лежит на кровати в Охотничьем домике — осмотри его, прежде чем подниматься на второй этаж."
+    ],
+    "match": {
+      "where": [
+        "hunter's lodge",
+        "охотничий домик"
+      ],
+      "what": [
+        "примитивный медальон",
+        "crude charm",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "47922"
+    ],
+    "gameRefs": [
+      "file:38"
+    ]
+  },
+  {
+    "id": "file-officer-s-badge",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Охотничий домик",
+      "en": "Hunter's Lodge"
+    },
+    "title": {
+      "ru": "Жетон полицейского",
+      "en": "Officer's Badge"
+    },
+    "availableFrom": "ch1",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 1, Деревня: предмет, который можно осмотреть.",
+      "Где искать: Охотничий домик.",
+      "Его можно осмотреть, когда убьёшь первого врага в Охотничьем домике, — до подъёма на второй этаж."
+    ],
+    "match": {
+      "where": [
+        "hunter's lodge",
+        "охотничий домик"
+      ],
+      "what": [
+        "жетон полицейского",
+        "officer's badge",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "47925"
+    ],
+    "gameRefs": [
+      "file:35"
+    ]
+  },
+  {
+    "id": "file-charred-picture-frame",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Поселение у озера, дом, где был Луис",
+      "en": "Lakeside Settlement, the house where Luis was held"
+    },
+    "title": {
+      "ru": "Обугленная фоторамка",
+      "en": "Charred Picture Frame"
+    },
+    "availableFrom": "ch1",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 1, Деревня: предмет, который можно осмотреть.",
+      "Где искать: Поселение у озера, дом, где был Луис.",
+      "В доме Поселения у озера, где держали Луиса, рядом с дверью на навесном замке."
+    ],
+    "match": {
+      "where": [
+        "lakeside settlement, the house where luis was held",
+        "поселение у озера, дом, где был луис"
+      ],
+      "what": [
+        "обугленная фоторамка",
+        "charred picture frame",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48030"
+    ],
+    "gameRefs": [
+      "file:39"
+    ]
+  },
+  {
+    "id": "file-merchant-tip-get-rich-quick",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Заброшенная фабрика",
+      "en": "Abandoned Factory"
+    },
+    "title": {
+      "ru": "Совет торговца: быстрая нажива!",
+      "en": "Merchant Tip: Get Rich Quick!"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 2, Деревня: совет торговца.",
+      "Где искать: Заброшенная фабрика.",
+      "У пишущей машинки и торговца на Заброшенной фабрике."
+    ],
+    "match": {
+      "where": [
+        "заброшенная фабрика",
+        "abandoned factory"
+      ],
+      "what": [
+        "совет торговца: быстрая нажива!",
+        "merchant tip: get rich quick!",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48042"
+    ],
+    "gameRefs": [
+      "file:8"
+    ]
+  },
+  {
+    "id": "file-scribbles-about-dolls",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Долина, по пути от фабрики к усадьбе старосты",
+      "en": "Valley, on the way from the factory to the chief's manor"
+    },
+    "title": {
+      "ru": "Записи о куклах",
+      "en": "Scribbles About Dolls"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 2, Деревня: записка.",
+      "Где искать: Долина, по пути от фабрики к усадьбе старосты.",
+      "В Долине по дороге от фабрики к усадьбе старосты, недалеко от места боя с бензопильщиком. Это та самая записка о заводных смотрителях."
+    ],
+    "match": {
+      "where": [
+        "valley, on the way from the factory to the chief's manor",
+        "долина, по пути от фабрики к усадьбе старосты"
+      ],
+      "what": [
+        "записи о куклах",
+        "scribbles about dolls",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48077"
+    ],
+    "gameRefs": [
+      "file:97"
+    ]
+  },
+  {
+    "id": "file-photo-of-a-family",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Долина, дом старосты",
+      "en": "Valley, the chief's house"
+    },
+    "title": {
+      "ru": "Фотография семьи",
+      "en": "Photo of a Family"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 2, Деревня: фотография.",
+      "Где искать: Долина, дом старосты.",
+      "В доме старосты в Долине, рядом с Хрустальным шаром (Crystal Marble) и запертой дверью."
+    ],
+    "match": {
+      "where": [
+        "долина, дом старосты",
+        "valley, the chief's house"
+      ],
+      "what": [
+        "фотография семьи",
+        "photo of a family",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48092"
+    ],
+    "gameRefs": [
+      "file:33"
+    ]
+  },
+  {
+    "id": "file-village-records-vol-3",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Усадьба старосты",
+      "en": "Chief's Manor"
+    },
+    "title": {
+      "ru": "Деревенская хроника, часть 3",
+      "en": "Village Records Vol. 3"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 2, Деревня: книга или хроника.",
+      "Где искать: Усадьба старосты.",
+      "В усадьбе старосты, недалеко от двери с круглым гнездом и Ключа с эмблемой (Insignia Key)."
+    ],
+    "match": {
+      "where": [
+        "усадьба старосты",
+        "chief's manor"
+      ],
+      "what": [
+        "деревенская хроника, часть 3",
+        "village records vol. 3",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48100"
+    ],
+    "gameRefs": [
+      "file:32"
+    ]
+  },
+  {
+    "id": "file-iluminados-4-3",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Усадьба старосты",
+      "en": "Chief's Manor"
+    },
+    "title": {
+      "ru": "Илюминадос 4:3",
+      "en": "Iluminados 4:3"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 2, Деревня: книга или хроника.",
+      "Где искать: Усадьба старосты.",
+      "В усадьбе старосты, рядом с пишущей машинкой главы 2. В тексте — подсказка к замку Хрустального шара."
+    ],
+    "match": {
+      "where": [
+        "усадьба старосты",
+        "chief's manor"
+      ],
+      "what": [
+        "илюминадос 4:3",
+        "iluminados 4:3",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48399"
+    ],
+    "gameRefs": [
+      "file:31"
+    ]
+  },
+  {
+    "id": "file-luis-serra-report",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Начало главы 3",
+      "en": "Start of Chapter 3"
+    },
+    "title": {
+      "ru": "Досье: Луис Серра",
+      "en": "Luis Serra Report"
+    },
+    "availableFrom": "ch3",
+    "hints": [
+      "Глава 3, Деревня: документ, который выдают по сюжету.",
+      "Где искать: Начало главы 3.",
+      "Выдают сам в начале главы 3, в усадьбе старосты."
+    ],
+    "match": {
+      "where": [
+        "начало главы 3",
+        "start of chapter 3"
+      ],
+      "what": [
+        "досье: луис серра",
+        "luis serra report",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48457"
+    ],
+    "gameRefs": [
+      "file:15"
+    ]
+  },
+  {
+    "id": "file-iluminados-4-9",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Деревня, ратуша",
+      "en": "Village, town hall"
+    },
+    "title": {
+      "ru": "Илюминадос 4:9",
+      "en": "Iluminados 4:9"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 3, Деревня: книга или хроника.",
+      "Где искать: Деревня, ратуша.",
+      "В ратуше на деревенской площади, недалеко от пишущей машинки и торговца главы 3."
+    ],
+    "match": {
+      "where": [
+        "village, town hall",
+        "деревня, ратуша"
+      ],
+      "what": [
+        "илюминадос 4:9",
+        "iluminados 4:9",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48114"
+    ],
+    "gameRefs": [
+      "file:40"
+    ]
+  },
+  {
+    "id": "file-merchant-tip-the-prudent-choice",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Деревня, у торговца",
+      "en": "Village, by the merchant"
+    },
+    "title": {
+      "ru": "Совет торговца: разумный выбор",
+      "en": "Merchant Tip: The Prudent Choice"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 3, Деревня: совет торговца.",
+      "Где искать: Деревня, у торговца.",
+      "У пишущей машинки и торговца главы 3 на деревенской площади."
+    ],
+    "match": {
+      "where": [
+        "village, by the merchant",
+        "деревня, у торговца"
+      ],
+      "what": [
+        "совет торговца: разумный выбор",
+        "merchant tip: the prudent choice",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48117"
+    ],
+    "gameRefs": [
+      "file:3"
+    ]
+  },
+  {
+    "id": "file-photo-of-ashley",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Церковь, комната с пишущей машинкой",
+      "en": "Church, the typewriter room"
+    },
+    "title": {
+      "ru": "Фотография Эшли",
+      "en": "Photo of Ashley"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 3, Деревня: фотография.",
+      "Где искать: Церковь, комната с пишущей машинкой.",
+      "В комнате с пишущей машинкой у церкви."
+    ],
+    "match": {
+      "where": [
+        "church, the typewriter room",
+        "церковь, комната с пишущей машинкой"
+      ],
+      "what": [
+        "фотография эшли",
+        "photo of ashley",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48129"
+    ],
+    "gameRefs": [
+      "file:41"
+    ]
+  },
+  {
+    "id": "file-lakeside-map",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Церковь, комната с пишущей машинкой",
+      "en": "Church, the typewriter room"
+    },
+    "title": {
+      "ru": "Карта окрестностей озера",
+      "en": "Lakeside Map"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 3, Деревня: карта.",
+      "Где искать: Церковь, комната с пишущей машинкой.",
+      "Рядом с пишущей машинкой у церкви, недалеко от церковных ворот."
+    ],
+    "match": {
+      "where": [
+        "church, the typewriter room",
+        "церковь, комната с пишущей машинкой"
+      ],
+      "what": [
+        "карта окрестностей озера",
+        "lakeside map",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48134"
+    ],
+    "gameRefs": [
+      "file:11"
+    ]
+  },
+  {
+    "id": "file-merchant-tip-get-cash-back",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, у торговца",
+      "en": "Lake, by the merchant"
+    },
+    "title": {
+      "ru": "Совет торговца: как подзаработать",
+      "en": "Merchant Tip: Get Cash Back!"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 3, Деревня: совет торговца.",
+      "Где искать: Озеро, у торговца.",
+      "У пишущей машинки и торговца на нижнем уровне у озера."
+    ],
+    "match": {
+      "where": [
+        "озеро, у торговца",
+        "lake, by the merchant"
+      ],
+      "what": [
+        "совет торговца: как подзаработать",
+        "merchant tip: get cash back!",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48157"
+    ],
+    "gameRefs": [
+      "file:12"
+    ]
+  },
+  {
+    "id": "file-when-low-on-boat-fuel",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, причал",
+      "en": "Lake, the pier"
+    },
+    "title": {
+      "ru": "Если надо заправить лодку",
+      "en": "When Low on Boat Fuel"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 3, Деревня: записка.",
+      "Где искать: Озеро, причал.",
+      "На причале с шестигранной загадкой на озере."
+    ],
+    "match": {
+      "where": [
+        "озеро, причал",
+        "lake, the pier"
+      ],
+      "what": [
+        "если надо заправить лодку",
+        "when low on boat fuel",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48163"
+    ],
+    "gameRefs": [
+      "file:26"
+    ]
+  },
+  {
+    "id": "file-target-practice-rules",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Карьер, у тира",
+      "en": "Quarry, by the shooting range"
+    },
+    "title": {
+      "ru": "Правила стрельбища",
+      "en": "Target Practice Rules"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 3, Деревня: записка.",
+      "Где искать: Карьер, у тира.",
+      "Недалеко от торговца у подъёмника к тиру в карьере."
+    ],
+    "match": {
+      "where": [
+        "карьер, у тира",
+        "quarry, by the shooting range"
+      ],
+      "what": [
+        "правила стрельбища",
+        "target practice rules",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48425"
+    ],
+    "gameRefs": [
+      "file:92"
+    ]
+  },
+  {
+    "id": "file-tattered-officer-s-cap",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, начало главы 4",
+      "en": "Lake, start of Chapter 4"
+    },
+    "title": {
+      "ru": "Рваная офицерская фуражка",
+      "en": "Tattered Officer's Cap"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 4, Деревня: предмет, который можно осмотреть.",
+      "Где искать: Озеро, начало главы 4.",
+      "Недалеко от места, где начинается глава 4, у озера."
+    ],
+    "match": {
+      "where": [
+        "озеро, начало главы 4",
+        "lake, start of chapter 4"
+      ],
+      "what": [
+        "рваная офицерская фуражка",
+        "tattered officer's cap",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48207"
+    ],
+    "gameRefs": [
+      "file:43"
+    ]
+  },
+  {
+    "id": "file-old-man-s-journal",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Поселение у озера, подвал дома",
+      "en": "Lakeside Settlement, house basement"
+    },
+    "title": {
+      "ru": "Дневник старика",
+      "en": "Old Man's Journal"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 4, Деревня: записка.",
+      "Где искать: Поселение у озера, подвал дома.",
+      "В подвале дома в Поселении у озера (там, где в главе 1 был Луис)."
+    ],
+    "match": {
+      "where": [
+        "поселение у озера, подвал дома",
+        "lakeside settlement, house basement"
+      ],
+      "what": [
+        "дневник старика",
+        "old man's journal",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48408"
+    ],
+    "gameRefs": [
+      "file:44"
+    ]
+  },
+  {
+    "id": "file-broken-cell-phone",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Деревня, у церкви",
+      "en": "Village, by the church"
+    },
+    "title": {
+      "ru": "Разбитый сотовый телефон",
+      "en": "Broken Cell Phone"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 4, Деревня: предмет, который можно осмотреть.",
+      "Где искать: Деревня, у церкви.",
+      "У церкви, рядом с кладбищем."
+    ],
+    "match": {
+      "where": [
+        "village, by the church",
+        "деревня, у церкви"
+      ],
+      "what": [
+        "разбитый сотовый телефон",
+        "broken cell phone",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48429"
+    ],
+    "gameRefs": [
+      "file:46"
+    ]
+  },
+  {
+    "id": "file-rearing-log",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Карьер, за ареной Эль Гиганте",
+      "en": "Quarry, past the El Gigante arena"
+    },
+    "title": {
+      "ru": "Хроника вскармливания",
+      "en": "Rearing Log"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 4, Деревня: записка.",
+      "Где искать: Карьер, за ареной Эль Гиганте.",
+      "В карьере, куда можно пройти после победы над Эль Гиганте."
+    ],
+    "match": {
+      "where": [
+        "карьер, за ареной эль гиганте",
+        "quarry, past the el gigante arena"
+      ],
+      "what": [
+        "хроника вскармливания",
+        "rearing log",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48449"
+    ],
+    "gameRefs": [
+      "file:45"
+    ]
+  },
+  {
+    "id": "file-village-records-vol-2",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Усадьба старосты, чердак",
+      "en": "Chief's Manor, attic"
+    },
+    "title": {
+      "ru": "Деревенская хроника, часть 2",
+      "en": "Village Records Vol. 2"
+    },
+    "availableFrom": "ch5",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 5, Деревня: книга или хроника.",
+      "Где искать: Усадьба старосты, чердак.",
+      "На чердаке усадьбы старосты."
+    ],
+    "match": {
+      "where": [
+        "chief's manor, attic",
+        "усадьба старосты, чердак"
+      ],
+      "what": [
+        "деревенская хроника, часть 2",
+        "village records vol. 2",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48439"
+    ],
+    "gameRefs": [
+      "file:9"
+    ]
+  },
+  {
+    "id": "file-a-father-s-portrait",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Усадьба старосты, чердак",
+      "en": "Chief's Manor, attic"
+    },
+    "title": {
+      "ru": "Портрет отца",
+      "en": "A Father's Portrait"
+    },
+    "availableFrom": "ch5",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 5, Деревня: фотография.",
+      "Где искать: Усадьба старосты, чердак.",
+      "На чердаке усадьбы старосты."
+    ],
+    "match": {
+      "where": [
+        "chief's manor, attic",
+        "усадьба старосты, чердак"
+      ],
+      "what": [
+        "портрет отца",
+        "a father's portrait",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48441"
+    ],
+    "gameRefs": [
+      "file:48"
+    ]
+  },
+  {
+    "id": "file-photo-of-the-factory",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Усадьба старосты, чердак",
+      "en": "Chief's Manor, attic"
+    },
+    "title": {
+      "ru": "Фотография завода",
+      "en": "Photo of the Factory"
+    },
+    "availableFrom": "ch5",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 5, Деревня: фотография.",
+      "Где искать: Усадьба старосты, чердак.",
+      "На чердаке усадьбы старосты."
+    ],
+    "match": {
+      "where": [
+        "chief's manor, attic",
+        "усадьба старосты, чердак"
+      ],
+      "what": [
+        "фотография завода",
+        "photo of the factory",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48444"
+    ],
+    "gameRefs": [
+      "file:49"
+    ]
+  },
+  {
+    "id": "file-photo-of-a-boy-and-his-grandfather",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Усадьба старосты, чердак",
+      "en": "Chief's Manor, attic"
+    },
+    "title": {
+      "ru": "Фотография мальчика с дедушкой",
+      "en": "Photo of a Boy and His Grandfather"
+    },
+    "availableFrom": "ch5",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 5, Деревня: фотография.",
+      "Где искать: Усадьба старосты, чердак.",
+      "На чердаке усадьбы старосты."
+    ],
+    "match": {
+      "where": [
+        "chief's manor, attic",
+        "усадьба старосты, чердак"
+      ],
+      "what": [
+        "фотография мальчика с дедушкой",
+        "photo of a boy and his grandfather",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48446"
+    ],
+    "gameRefs": [
+      "file:51"
+    ]
+  },
+  {
+    "id": "file-village-records-vol-1",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Усадьба старосты, чердак",
+      "en": "Chief's Manor, attic"
+    },
+    "title": {
+      "ru": "Деревенская хроника, часть 1",
+      "en": "Village Records Vol. 1"
+    },
+    "availableFrom": "ch5",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 5, Деревня: книга или хроника.",
+      "Где искать: Усадьба старосты, чердак.",
+      "На чердаке усадьбы старосты."
+    ],
+    "match": {
+      "where": [
+        "chief's manor, attic",
+        "усадьба старосты, чердак"
+      ],
+      "what": [
+        "деревенская хроника, часть 1",
+        "village records vol. 1",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48448"
+    ],
+    "gameRefs": [
+      "file:10"
+    ]
+  },
+  {
+    "id": "file-merchant-tip-midnight-stroll",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "У торговца главы 6",
+      "en": "By the Chapter 6 merchant"
+    },
+    "title": {
+      "ru": "Совет торговца: ночные прогулки",
+      "en": "Merchant Tip: Midnight Stroll"
+    },
+    "availableFrom": "ch6",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 6, Деревня: совет торговца.",
+      "Где искать: У торговца главы 6.",
+      "У торговца и пишущей машинки главы 6."
+    ],
+    "match": {
+      "where": [
+        "у торговца главы 6",
+        "by the chapter 6 merchant"
+      ],
+      "what": [
+        "совет торговца: ночные прогулки",
+        "merchant tip: midnight stroll",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48307"
+    ],
+    "gameRefs": [
+      "file:13"
+    ]
+  },
+  {
+    "id": "file-tighten-the-defenses",
+    "type": "file",
+    "region": "village",
+    "location": {
+      "ru": "Длинная зона после торговца",
+      "en": "The long area past the merchant"
+    },
+    "title": {
+      "ru": "Укрепить оборону!",
+      "en": "Tighten the Defenses"
+    },
+    "availableFrom": "ch6",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: прочитай до перехода к главе 7.",
+    "hints": [
+      "Глава 6, Деревня: записка.",
+      "Где искать: Длинная зона после торговца.",
+      "В длинной зоне после торговца главы 6, недалеко от пишущей машинки."
+    ],
+    "match": {
+      "where": [
+        "длинная зона после торговца",
+        "the long area past the merchant"
+      ],
+      "what": [
+        "укрепить оборону!",
+        "tighten the defenses",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-village/"
+    ],
+    "mapMarkers": [
+      "48310"
+    ],
+    "gameRefs": [
+      "file:52"
+    ]
+  },
+  {
+    "id": "file-quarterly-findings-excerpt",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Прибытие в замок",
+      "en": "Arrival at the castle"
+    },
+    "title": {
+      "ru": "Квартальный отчёт — отрывок",
+      "en": "Quarterly Findings - Excerpt"
+    },
+    "availableFrom": "ch7",
+    "hints": [
+      "Глава 7, Замок: документ, который выдают по сюжету.",
+      "Где искать: Прибытие в замок.",
+      "Выдают сам, когда в начале главы 7 добираешься до замка."
+    ],
+    "match": {
+      "where": [
+        "прибытие в замок",
+        "arrival at the castle"
+      ],
+      "what": [
+        "квартальный отчёт — отрывок",
+        "quarterly findings - excerpt",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48459"
+    ],
+    "gameRefs": [
+      "file:16"
+    ]
+  },
+  {
+    "id": "file-merchant-tip-the-handgun-for-you",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, у торговца",
+      "en": "Castle, by the merchant"
+    },
+    "title": {
+      "ru": "Совет торговца: выбираем пистолет!",
+      "en": "Merchant Tip: The Handgun for You!"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 7, Замок: совет торговца.",
+      "Где искать: Замок, у торговца.",
+      "У пишущей машинки и торговца главы 7 у входа в замок."
+    ],
+    "match": {
+      "where": [
+        "замок, у торговца",
+        "castle, by the merchant"
+      ],
+      "what": [
+        "совет торговца: выбираем пистолет!",
+        "merchant tip: the handgun for you!",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48462"
+    ],
+    "gameRefs": [
+      "file:20"
+    ]
+  },
+  {
+    "id": "file-caretaker-s-note",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, у ворот в подземелье",
+      "en": "Castle, by the dungeon gate"
+    },
+    "title": {
+      "ru": "Записка смотрителя",
+      "en": "Caretaker's Note"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 7, Замок: записка.",
+      "Где искать: Замок, у ворот в подземелье.",
+      "Рядом с запертыми воротами в подземелье, недалеко от зала для приёмов."
+    ],
+    "match": {
+      "where": [
+        "замок, у ворот в подземелье",
+        "castle, by the dungeon gate"
+      ],
+      "what": [
+        "записка смотрителя",
+        "caretaker's note",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48511"
+    ],
+    "gameRefs": [
+      "file:55"
+    ]
+  },
+  {
+    "id": "file-parasites-and-their-ecology-vol-2",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Зал для приёмов",
+      "en": "Audience Hall"
+    },
+    "title": {
+      "ru": "Жизнь паразитов, часть 2",
+      "en": "Parasites and their Ecology Vol. 2"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 7, Замок: книга или хроника.",
+      "Где искать: Зал для приёмов.",
+      "Рядом с пишущей машинкой главы 7 у зала для приёмов, у запертой двери."
+    ],
+    "match": {
+      "where": [
+        "audience hall",
+        "зал для приёмов"
+      ],
+      "what": [
+        "жизнь паразитов, часть 2",
+        "parasites and their ecology vol. 2",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48549"
+    ],
+    "gameRefs": [
+      "file:57"
+    ]
+  },
+  {
+    "id": "file-consign-the-crimson-flame",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Зал со статуей алого фонаря",
+      "en": "Hall with the Crimson Lantern statue"
+    },
+    "title": {
+      "ru": "Отнеси алое пламя",
+      "en": "Consign the Crimson Flame"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 8, Замок: записка.",
+      "Где искать: Зал со статуей алого фонаря.",
+      "Рядом со статуей алого фонаря и управлением люстрой."
+    ],
+    "match": {
+      "where": [
+        "зал со статуей алого фонаря",
+        "hall with the crimson lantern statue"
+      ],
+      "what": [
+        "отнеси алое пламя",
+        "consign the crimson flame",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48595"
+    ],
+    "gameRefs": [
+      "file:6"
+    ]
+  },
+  {
+    "id": "file-iluminados-3-2",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, у литографической двери",
+      "en": "Castle, by the lithographic door"
+    },
+    "title": {
+      "ru": "Илюминадос 3:2",
+      "en": "Iluminados 3:2"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 8, Замок: книга или хроника.",
+      "Где искать: Замок, у литографической двери.",
+      "Недалеко от загадки с литографической дверью и Маленького ключа главы 8."
+    ],
+    "match": {
+      "where": [
+        "замок, у литографической двери",
+        "castle, by the lithographic door"
+      ],
+      "what": [
+        "илюминадос 3:2",
+        "iluminados 3:2",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48613"
+    ],
+    "gameRefs": [
+      "file:59"
+    ]
+  },
+  {
+    "id": "file-salazar-family-chronology",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Запертая комната у статуи алого фонаря",
+      "en": "Locked room by the Crimson Lantern statue"
+    },
+    "title": {
+      "ru": "Летопись рода Салазаров",
+      "en": "Salazar Family Chronology"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 9, Замок: книга или хроника.",
+      "Где искать: Запертая комната у статуи алого фонаря.",
+      "В комнате, куда попадаешь в главе 9, когда Эшли снова с тобой и открываются ворота во двор."
+    ],
+    "match": {
+      "where": [
+        "запертая комната у статуи алого фонаря",
+        "locked room by the crimson lantern statue"
+      ],
+      "what": [
+        "летопись рода салазаров",
+        "salazar family chronology",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48692"
+    ],
+    "gameRefs": [
+      "file:60"
+    ]
+  },
+  {
+    "id": "file-merchant-tip-next-level-upgrades",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Главный зал замка, у торговца",
+      "en": "Castle main hall, by the merchant"
+    },
+    "title": {
+      "ru": "Совет торговца: крутые улучшения!",
+      "en": "Merchant Tip: Next-level Upgrades!"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 9, Замок: совет торговца.",
+      "Где искать: Главный зал замка, у торговца.",
+      "У торговца и пишущей машинки главы 9."
+    ],
+    "match": {
+      "where": [
+        "castle main hall, by the merchant",
+        "главный зал замка, у торговца"
+      ],
+      "what": [
+        "совет торговца: крутые улучшения!",
+        "merchant tip: next-level upgrades!",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48713"
+    ],
+    "gameRefs": [
+      "file:21"
+    ]
+  },
+  {
+    "id": "file-way-to-the-hidden-mausoleum",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Библиотека (эпизод за Эшли)",
+      "en": "Library (Ashley section)"
+    },
+    "title": {
+      "ru": "Путь к тайной усыпальнице",
+      "en": "Way to the Hidden Mausoleum"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 9, Замок: записка.",
+      "Где искать: Библиотека (эпизод за Эшли).",
+      "В эпизоде за Эшли, рядом со вторыми напольными часами."
+    ],
+    "match": {
+      "where": [
+        "library (ashley section)",
+        "библиотека (эпизод за эшли)"
+      ],
+      "what": [
+        "путь к тайной усыпальнице",
+        "way to the hidden mausoleum",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48774"
+    ],
+    "gameRefs": [
+      "file:25"
+    ]
+  },
+  {
+    "id": "file-librarian-s-note",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Библиотека, верхний этаж",
+      "en": "Library, upper floor"
+    },
+    "title": {
+      "ru": "Записка библиотекаря",
+      "en": "Librarian's Note"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 9, Замок: записка.",
+      "Где искать: Библиотека, верхний этаж.",
+      "На верхнем этаже библиотеки, рядом с гнездом в форме щита."
+    ],
+    "match": {
+      "where": [
+        "библиотека, верхний этаж",
+        "library, upper floor"
+      ],
+      "what": [
+        "записка библиотекаря",
+        "librarian's note",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48777"
+    ],
+    "gameRefs": [
+      "file:14"
+    ]
+  },
+  {
+    "id": "file-hastily-written-note",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Библиотека, у лифта",
+      "en": "Library, by the elevator"
+    },
+    "title": {
+      "ru": "Второпях написанная записка",
+      "en": "Hastily Written Note"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 9, Замок: записка.",
+      "Где искать: Библиотека, у лифта.",
+      "В библиотеке у лифта, рядом с ультрафиолетовой лампой. В тексте — подсказка к обеим загадкам с напольными часами."
+    ],
+    "match": {
+      "where": [
+        "библиотека, у лифта",
+        "library, by the elevator"
+      ],
+      "what": [
+        "второпях написанная записка",
+        "hastily written note",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48778"
+    ],
+    "gameRefs": [
+      "file:22",
+      "file:62"
+    ]
+  },
+  {
+    "id": "file-chronicles-of-pursuit-1",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, у фуникулёра часовой башни",
+      "en": "Castle, by the clock tower cable car"
+    },
+    "title": {
+      "ru": "Хроники изысканий 1",
+      "en": "Chronicles of Pursuit 1"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 10, Замок: книга или хроника.",
+      "Где искать: Замок, у фуникулёра часовой башни.",
+      "Недалеко от фуникулёра к часовой башне."
+    ],
+    "match": {
+      "where": [
+        "замок, у фуникулёра часовой башни",
+        "castle, by the clock tower cable car"
+      ],
+      "what": [
+        "хроники изысканий 1",
+        "chronicles of pursuit 1",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48819"
+    ],
+    "gameRefs": [
+      "file:1"
+    ]
+  },
+  {
+    "id": "file-prisoner-s-note",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Подземелье, каменное здание",
+      "en": "Dungeon, stone building"
+    },
+    "title": {
+      "ru": "Записи пленника",
+      "en": "Prisoner's Note"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 10, Замок: записка.",
+      "Где искать: Подземелье, каменное здание.",
+      "В каменном здании в подземелье."
+    ],
+    "match": {
+      "where": [
+        "подземелье, каменное здание",
+        "dungeon, stone building"
+      ],
+      "what": [
+        "записи пленника",
+        "prisoner's note",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48860"
+    ],
+    "gameRefs": [
+      "file:65"
+    ]
+  },
+  {
+    "id": "file-emergency-liquid-nitrogen-showers",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Канализация, у торговца",
+      "en": "Sewers, by the merchant"
+    },
+    "title": {
+      "ru": "Распылители жидкого азота",
+      "en": "Emergency Liquid Nitrogen Showers"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 10, Замок: записка.",
+      "Где искать: Канализация, у торговца.",
+      "Недалеко от торговца главы 10 и душа с жидким азотом."
+    ],
+    "match": {
+      "where": [
+        "sewers, by the merchant",
+        "канализация, у торговца"
+      ],
+      "what": [
+        "распылители жидкого азота",
+        "emergency liquid nitrogen showers",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48871"
+    ],
+    "gameRefs": [
+      "file:96"
+    ]
+  },
+  {
+    "id": "file-chronicles-of-pursuit-3",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Шахта, у лифта",
+      "en": "Mine, by the elevator"
+    },
+    "title": {
+      "ru": "Хроники изысканий 3",
+      "en": "Chronicles of Pursuit 3"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 10, Замок: книга или хроника.",
+      "Где искать: Шахта, у лифта.",
+      "Рядом с лифтом, недалеко от пишущей машинки главы 11."
+    ],
+    "match": {
+      "where": [
+        "шахта, у лифта",
+        "mine, by the elevator"
+      ],
+      "what": [
+        "хроники изысканий 3",
+        "chronicles of pursuit 3",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48874"
+    ],
+    "gameRefs": [
+      "file:67"
+    ]
+  },
+  {
+    "id": "file-notice-about-power-supply",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Шахта, у лифта",
+      "en": "Mine, by the elevator"
+    },
+    "title": {
+      "ru": "Записка об электроэнергии",
+      "en": "Notice About Power Supply"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 10, Замок: записка.",
+      "Где искать: Шахта, у лифта.",
+      "У лифта, где заканчивается глава 10."
+    ],
+    "match": {
+      "where": [
+        "шахта, у лифта",
+        "mine, by the elevator"
+      ],
+      "what": [
+        "записка об электроэнергии",
+        "notice about power supply",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48877"
+    ],
+    "gameRefs": [
+      "file:66"
+    ]
+  },
+  {
+    "id": "file-foreman-s-log",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Пещера над шахтой",
+      "en": "Cave above the mine"
+    },
+    "title": {
+      "ru": "Дневник бригадира",
+      "en": "Foreman's Log"
+    },
+    "availableFrom": "ch11",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 11, Замок: записка.",
+      "Где искать: Пещера над шахтой.",
+      "В пещере наверху, рядом с пишущей машинкой и торговцем главы 11."
+    ],
+    "match": {
+      "where": [
+        "пещера над шахтой",
+        "cave above the mine"
+      ],
+      "what": [
+        "дневник бригадира",
+        "foreman's log",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48904"
+    ],
+    "gameRefs": [
+      "file:68"
+    ]
+  },
+  {
+    "id": "file-explosives-storage-notice",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Подземная лаборатория",
+      "en": "Underground laboratory"
+    },
+    "title": {
+      "ru": "Отчёт о перемещении взрывчатки",
+      "en": "Explosives Storage Notice"
+    },
+    "availableFrom": "ch11",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 11, Замок: записка.",
+      "Где искать: Подземная лаборатория.",
+      "Рядом с переключателем двери в подземной лаборатории."
+    ],
+    "match": {
+      "where": [
+        "underground laboratory",
+        "подземная лаборатория"
+      ],
+      "what": [
+        "отчёт о перемещении взрывчатки",
+        "explosives storage notice",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48906"
+    ],
+    "gameRefs": [
+      "file:19"
+    ]
+  },
+  {
+    "id": "file-chronicles-of-pursuit-2",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Зал перед тронным залом",
+      "en": "Hall before the throne room"
+    },
+    "title": {
+      "ru": "Хроники изысканий 2",
+      "en": "Chronicles of Pursuit 2"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 12, Замок: книга или хроника.",
+      "Где искать: Зал перед тронным залом.",
+      "Недалеко от загадки со статуями единорогов."
+    ],
+    "match": {
+      "where": [
+        "зал перед тронным залом",
+        "hall before the throne room"
+      ],
+      "what": [
+        "хроники изысканий 2",
+        "chronicles of pursuit 2",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48966"
+    ],
+    "gameRefs": [
+      "file:2"
+    ]
+  },
+  {
+    "id": "file-ramon-s-confession",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Тронный зал",
+      "en": "Throne room"
+    },
+    "title": {
+      "ru": "Покаяние Рамона",
+      "en": "Ramon's Confession"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 12, Замок: записка.",
+      "Где искать: Тронный зал.",
+      "В тронном зале, недалеко от кубического тайника."
+    ],
+    "match": {
+      "where": [
+        "тронный зал",
+        "throne room"
+      ],
+      "what": [
+        "покаяние рамона",
+        "ramon's confession",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48968"
+    ],
+    "gameRefs": [
+      "file:56"
+    ]
+  },
+  {
+    "id": "file-housekeeper-s-memo-2",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Тронный зал, кубический тайник",
+      "en": "Throne room, the cube cache"
+    },
+    "title": {
+      "ru": "Записка экономки 2",
+      "en": "Housekeeper's Memo 2"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 12, Замок: записка.",
+      "Где искать: Тронный зал, кубический тайник.",
+      "Рядом с кубическим тайником в тронном зале."
+    ],
+    "match": {
+      "where": [
+        "throne room, the cube cache",
+        "тронный зал, кубический тайник"
+      ],
+      "what": [
+        "записка экономки 2",
+        "housekeeper's memo 2",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "48971"
+    ],
+    "gameRefs": [
+      "file:70"
+    ]
+  },
+  {
+    "id": "file-housekeeper-s-memo-1",
+    "type": "file",
+    "region": "castle",
+    "location": {
+      "ru": "Часовая башня",
+      "en": "Clock tower"
+    },
+    "title": {
+      "ru": "Записка экономки 1",
+      "en": "Housekeeper's Memo 1"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "После отплытия на остров в замок не вернуться: прочитай до главы 13.",
+    "hints": [
+      "Глава 12, Замок: записка.",
+      "Где искать: Часовая башня.",
+      "В часовой башне, недалеко от места, где заканчивается глава 12."
+    ],
+    "match": {
+      "where": [
+        "clock tower",
+        "часовая башня"
+      ],
+      "what": [
+        "записка экономки 1",
+        "housekeeper's memo 1",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-castle/"
+    ],
+    "mapMarkers": [
+      "49017"
+    ],
+    "gameRefs": [
+      "file:28"
+    ]
+  },
+  {
+    "id": "file-eroded-cave-epitaph",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Пещера за взорванными камнями",
+      "en": "Cave past the blasted rocks"
+    },
+    "title": {
+      "ru": "Стёртая эпитафия в пещере",
+      "en": "Eroded Cave Epitaph"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Глава 13, Остров: надпись.",
+      "Где искать: Пещера за взорванными камнями.",
+      "В пещере за проходом, заваленным камнями (их нужно взорвать)."
+    ],
+    "match": {
+      "where": [
+        "cave past the blasted rocks",
+        "пещера за взорванными камнями"
+      ],
+      "what": [
+        "стёртая эпитафия в пещере",
+        "eroded cave epitaph",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49023"
+    ],
+    "gameRefs": [
+      "file:71"
+    ]
+  },
+  {
+    "id": "file-laboratory-notice",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Секционная",
+      "en": "Dissection room"
+    },
+    "title": {
+      "ru": "Записка из лаборатории",
+      "en": "Laboratory Notice"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Глава 13, Остров: записка.",
+      "Где искать: Секционная.",
+      "У рычага управления питанием рядом с Секционной."
+    ],
+    "match": {
+      "where": [
+        "секционная",
+        "dissection room"
+      ],
+      "what": [
+        "записка из лаборатории",
+        "laboratory notice",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49079"
+    ],
+    "gameRefs": [
+      "file:98"
+    ]
+  },
+  {
+    "id": "file-subject-analysis-regenerador",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Секционная",
+      "en": "Dissection room"
+    },
+    "title": {
+      "ru": "Анализ подопытного: регенерадор",
+      "en": "Subject Analysis: Regenerador"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Глава 13, Остров: отчёт или донесение.",
+      "Где искать: Секционная.",
+      "В Секционной, у терминала с загадкой и ключ-карты 1-го уровня."
+    ],
+    "match": {
+      "where": [
+        "секционная",
+        "dissection room"
+      ],
+      "what": [
+        "анализ подопытного: регенерадор",
+        "subject analysis: regenerador",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49086"
+    ],
+    "gameRefs": [
+      "file:73"
+    ]
+  },
+  {
+    "id": "file-case-2002-f-escaped-test-subject",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Лаборатория с колбами регенераторов",
+      "en": "Lab with the Regenerador tanks"
+    },
+    "title": {
+      "ru": "Дело 2002-f: побег подопытного",
+      "en": "Case 2002-f: Escaped Test Subject"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Глава 13, Остров: отчёт или донесение.",
+      "Где искать: Лаборатория с колбами регенераторов.",
+      "В лаборатории с колбами регенераторов, рядом с ключ-картой 3-го уровня."
+    ],
+    "match": {
+      "where": [
+        "лаборатория с колбами регенераторов",
+        "lab with the regenerador tanks"
+      ],
+      "what": [
+        "дело 2002-f: побег подопытного",
+        "case 2002-f: escaped test subject",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49106"
+    ],
+    "gameRefs": [
+      "file:7"
+    ]
+  },
+  {
+    "id": "file-copy-of-irradiation-report",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Комната, где нашли Эшли",
+      "en": "Where Ashley was found"
+    },
+    "title": {
+      "ru": "Копия отчёта об облучении",
+      "en": "Copy of Irradiation Report"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Глава 14, Остров: документ, который выдают по сюжету.",
+      "Где искать: Комната, где нашли Эшли.",
+      "Выдают сам в начале главы 14."
+    ],
+    "match": {
+      "where": [
+        "комната, где нашли эшли",
+        "where ashley was found"
+      ],
+      "what": [
+        "копия отчёта об облучении",
+        "copy of irradiation report",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49113"
+    ],
+    "gameRefs": [
+      "file:17"
+    ]
+  },
+  {
+    "id": "file-captive-researcher-s-note",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Комната, где нашли Эшли",
+      "en": "Where Ashley was found"
+    },
+    "title": {
+      "ru": "Записка пленного учёного",
+      "en": "Captive Researcher's Note"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Глава 14, Остров: записка.",
+      "Где искать: Комната, где нашли Эшли.",
+      "В камере, где нашли Эшли, у замка 3-го уровня."
+    ],
+    "match": {
+      "where": [
+        "комната, где нашли эшли",
+        "where ashley was found"
+      ],
+      "what": [
+        "записка пленного учёного",
+        "captive researcher's note",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49114"
+    ],
+    "gameRefs": [
+      "file:74"
+    ]
+  },
+  {
+    "id": "file-transporting-the-amber",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Хранилище янтаря",
+      "en": "Amber storage"
+    },
+    "title": {
+      "ru": "Транспортировка янтаря",
+      "en": "Transporting the Amber"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Глава 14, Остров: записка.",
+      "Где искать: Хранилище янтаря.",
+      "Между хранилищем янтаря и генераторной на лагерной стоянке."
+    ],
+    "match": {
+      "where": [
+        "хранилище янтаря",
+        "amber storage"
+      ],
+      "what": [
+        "транспортировка янтаря",
+        "transporting the amber",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49187"
+    ],
+    "gameRefs": [
+      "file:23"
+    ]
+  },
+  {
+    "id": "file-superior-species-report",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Хранилище янтаря",
+      "en": "Amber storage"
+    },
+    "title": {
+      "ru": "Отчёт о программе размножения",
+      "en": "Superior Species Report"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Глава 14, Остров: отчёт или донесение.",
+      "Где искать: Хранилище янтаря.",
+      "В хранилище янтаря."
+    ],
+    "match": {
+      "where": [
+        "хранилище янтаря",
+        "amber storage"
+      ],
+      "what": [
+        "отчёт о программе размножения",
+        "superior species report",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49191"
+    ],
+    "gameRefs": [
+      "file:75"
+    ]
+  },
+  {
+    "id": "file-defenses-development",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Лагерная стоянка, генераторная",
+      "en": "Campground, generator room"
+    },
+    "title": {
+      "ru": "Усиление обороны",
+      "en": "Defenses Development"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Глава 14, Остров: отчёт или донесение.",
+      "Где искать: Лагерная стоянка, генераторная.",
+      "В генераторной на лагерной стоянке."
+    ],
+    "match": {
+      "where": [
+        "лагерная стоянка, генераторная",
+        "campground, generator room"
+      ],
+      "what": [
+        "усиление обороны",
+        "defenses development",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49199"
+    ],
+    "gameRefs": [
+      "file:76"
+    ]
+  },
+  {
+    "id": "file-case-file",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Палатка за большими воротами",
+      "en": "Tent past the large gates"
+    },
+    "title": {
+      "ru": "Досье █████",
+      "en": "Case File"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Глава 14, Остров: отчёт или донесение.",
+      "Где искать: Палатка за большими воротами.",
+      "В палатке за большими воротами (за грузовым складом)."
+    ],
+    "match": {
+      "where": [
+        "палатка за большими воротами",
+        "tent past the large gates"
+      ],
+      "what": [
+        "досье █████",
+        "case file",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49207"
+    ],
+    "gameRefs": [
+      "file:77"
+    ]
+  },
+  {
+    "id": "file-photo-of-leon",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Палатка за большими воротами",
+      "en": "Tent past the large gates"
+    },
+    "title": {
+      "ru": "Фотография Леона",
+      "en": "Photo of Leon"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Глава 14, Остров: фотография.",
+      "Где искать: Палатка за большими воротами.",
+      "В палатке за большими воротами (за грузовым складом)."
+    ],
+    "match": {
+      "where": [
+        "палатка за большими воротами",
+        "tent past the large gates"
+      ],
+      "what": [
+        "фотография леона",
+        "photo of leon",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49208"
+    ],
+    "gameRefs": [
+      "file:78"
+    ]
+  },
+  {
+    "id": "file-ashley-graham-s-abduction",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Палатка за большими воротами",
+      "en": "Tent past the large gates"
+    },
+    "title": {
+      "ru": "Похищение Эшли Грэм",
+      "en": "Ashley Graham's Abduction"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Глава 14, Остров: отчёт или донесение.",
+      "Где искать: Палатка за большими воротами.",
+      "В палатке за большими воротами (за грузовым складом)."
+    ],
+    "match": {
+      "where": [
+        "палатка за большими воротами",
+        "tent past the large gates"
+      ],
+      "what": [
+        "похищение эшли грэм",
+        "ashley graham's abduction",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49210"
+    ],
+    "gameRefs": [
+      "file:79"
+    ]
+  },
+  {
+    "id": "file-krauser-s-recording",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Палатка за большими воротами",
+      "en": "Tent past the large gates"
+    },
+    "title": {
+      "ru": "Аудиосообщение Краузера",
+      "en": "Krauser's Recording"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Глава 14, Остров: отчёт или донесение.",
+      "Где искать: Палатка за большими воротами.",
+      "В палатке за большими воротами (за грузовым складом)."
+    ],
+    "match": {
+      "where": [
+        "палатка за большими воротами",
+        "tent past the large gates"
+      ],
+      "what": [
+        "аудиосообщение краузера",
+        "krauser's recording",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49212"
+    ],
+    "gameRefs": [
+      "file:34"
+    ]
+  },
+  {
+    "id": "file-cliffside-epitaph",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Пещера за каменной аркой",
+      "en": "Cave past the stone arch"
+    },
+    "title": {
+      "ru": "Эпитафия на утёсе",
+      "en": "Cliffside Epitaph"
+    },
+    "availableFrom": "ch15",
+    "hints": [
+      "Глава 15, Остров: надпись.",
+      "Где искать: Пещера за каменной аркой.",
+      "В пещере за каменной аркой у руин на утёсе."
+    ],
+    "match": {
+      "where": [
+        "cave past the stone arch",
+        "пещера за каменной аркой"
+      ],
+      "what": [
+        "эпитафия на утёсе",
+        "cliffside epitaph",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49297"
+    ],
+    "gameRefs": [
+      "file:81"
+    ]
+  },
+  {
+    "id": "file-biological-specimen-transfer",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Хранилище образцов",
+      "en": "Specimen storage"
+    },
+    "title": {
+      "ru": "Перевозка биологических образцов",
+      "en": "Biological Specimen Transfer"
+    },
+    "availableFrom": "ch15",
+    "hints": [
+      "Глава 15, Остров: отчёт или донесение.",
+      "Где искать: Хранилище образцов.",
+      "В подсобке у хранилища образцов, за двойной дверью."
+    ],
+    "match": {
+      "where": [
+        "хранилище образцов",
+        "specimen storage"
+      ],
+      "what": [
+        "перевозка биологических образцов",
+        "biological specimen transfer",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49306"
+    ],
+    "gameRefs": [
+      "file:82"
+    ]
+  },
+  {
+    "id": "file-the-amber",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Большой ангар",
+      "en": "Large hangar"
+    },
+    "title": {
+      "ru": "Янтарь",
+      "en": "The Amber"
+    },
+    "availableFrom": "ch16",
+    "hints": [
+      "Глава 16, Остров: отчёт или донесение.",
+      "Где искать: Большой ангар.",
+      "Недалеко от места, где начинается глава 16, по пути к большому ангару."
+    ],
+    "match": {
+      "where": [
+        "большой ангар",
+        "large hangar"
+      ],
+      "what": [
+        "янтарь",
+        "the amber",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49346"
+    ],
+    "gameRefs": [
+      "file:86"
+    ]
+  },
+  {
+    "id": "file-emails",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Большой ангар",
+      "en": "Large hangar"
+    },
+    "title": {
+      "ru": "Электронные письма",
+      "en": "Emails"
+    },
+    "availableFrom": "ch16",
+    "hints": [
+      "Глава 16, Остров: отчёт или донесение.",
+      "Где искать: Большой ангар.",
+      "Недалеко от места, где начинается глава 16, по пути к большому ангару."
+    ],
+    "match": {
+      "where": [
+        "большой ангар",
+        "large hangar"
+      ],
+      "what": [
+        "электронные письма",
+        "emails",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49347"
+    ],
+    "gameRefs": [
+      "file:85"
+    ]
+  },
+  {
+    "id": "file-group-photo",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Большой ангар",
+      "en": "Large hangar"
+    },
+    "title": {
+      "ru": "Групповая фотография",
+      "en": "Group Photo"
+    },
+    "availableFrom": "ch16",
+    "hints": [
+      "Глава 16, Остров: фотография.",
+      "Где искать: Большой ангар.",
+      "Недалеко от места, где начинается глава 16, по пути к большому ангару."
+    ],
+    "match": {
+      "where": [
+        "большой ангар",
+        "large hangar"
+      ],
+      "what": [
+        "групповая фотография",
+        "group photo",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49349"
+    ],
+    "gameRefs": [
+      "file:89"
+    ]
+  },
+  {
+    "id": "file-methods-for-eradicating-las-plagas",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Большой ангар",
+      "en": "Large hangar"
+    },
+    "title": {
+      "ru": "Способы извлечения лас плагас",
+      "en": "Methods for Eradicating Las Plagas"
+    },
+    "availableFrom": "ch16",
+    "hints": [
+      "Глава 16, Остров: отчёт или донесение.",
+      "Где искать: Большой ангар.",
+      "Недалеко от места, где начинается глава 16, по пути к большому ангару."
+    ],
+    "match": {
+      "where": [
+        "большой ангар",
+        "large hangar"
+      ],
+      "what": [
+        "способы извлечения лас плагас",
+        "methods for eradicating las plagas",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49350"
+    ],
+    "gameRefs": [
+      "file:88"
+    ]
+  },
+  {
+    "id": "file-saddler-s-animus",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Большой ангар",
+      "en": "Large hangar"
+    },
+    "title": {
+      "ru": "Намерения Сэдлера",
+      "en": "Saddler's Animus"
+    },
+    "availableFrom": "ch16",
+    "hints": [
+      "Глава 16, Остров: отчёт или донесение.",
+      "Где искать: Большой ангар.",
+      "Недалеко от места, где начинается глава 16, по пути к большому ангару."
+    ],
+    "match": {
+      "where": [
+        "большой ангар",
+        "large hangar"
+      ],
+      "what": [
+        "намерения сэдлера",
+        "saddler's animus",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49353"
+    ],
+    "gameRefs": [
+      "file:87"
+    ]
+  },
+  {
+    "id": "file-iluminados-final-chapter",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Святилище, за колонной",
+      "en": "Sanctuary, behind the pillar"
+    },
+    "title": {
+      "ru": "Илюминадос: последняя глава",
+      "en": "Iluminados Final Chapter"
+    },
+    "availableFrom": "ch16",
+    "hints": [
+      "Глава 16, Остров: книга или хроника.",
+      "Где искать: Святилище, за колонной.",
+      "В святилище за колонной, незадолго до торговца главы 16."
+    ],
+    "match": {
+      "where": [
+        "святилище, за колонной",
+        "sanctuary, behind the pillar"
+      ],
+      "what": [
+        "илюминадос: последняя глава",
+        "iluminados final chapter",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49360"
+    ],
+    "gameRefs": [
+      "file:90"
+    ]
+  },
+  {
+    "id": "file-provenance-monolith",
+    "type": "file",
+    "region": "island",
+    "location": {
+      "ru": "Святилище, за колонной",
+      "en": "Sanctuary, behind the pillar"
+    },
+    "title": {
+      "ru": "Монолит-первоисточник",
+      "en": "Provenance Monolith"
+    },
+    "availableFrom": "ch16",
+    "hints": [
+      "Глава 16, Остров: надпись.",
+      "Где искать: Святилище, за колонной.",
+      "В святилище за колонной, незадолго до торговца главы 16."
+    ],
+    "match": {
+      "where": [
+        "святилище, за колонной",
+        "sanctuary, behind the pillar"
+      ],
+      "what": [
+        "монолит-первоисточник",
+        "provenance monolith",
+        "файл",
+        "документ",
+        "file"
+      ],
+      "how": [
+        "прочитать",
+        "осмотреть",
+        "read",
+        "examine"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://guides4gamers.com/resident-evil-4-remake/pois/files-the-island/"
+    ],
+    "mapMarkers": [
+      "49361"
+    ],
+    "gameRefs": [
+      "file:91"
+    ]
+  }
+]

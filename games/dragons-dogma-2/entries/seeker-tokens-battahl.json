@@ -1,0 +1,1655 @@
+[
+  {
+    "id": "token-beren-home-hill",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Холм у дома детства Берена",
+      "en": "Hill west of Beren's Childhood Home"
+    },
+    "title": {
+      "ru": "Жетон искателя: Холм у дома детства Берена",
+      "en": "Seeker's Token: Hill west of Beren's Childhood Home"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Где вырос старый наставник-зверолюд — оглянись на запад.",
+      "Холм сразу к западу от дома детства Берена.",
+      "Жетон на вершине холма к западу от дома детства Берена (к югу от города-заставы)."
+    ],
+    "match": {
+      "where": [
+        "дом детства берена",
+        "дом берена",
+        "beren"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "холм"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "25504"
+    ]
+  },
+  {
+    "id": "token-chimera-den",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Над логовом химеры",
+      "en": "Above the Chimera's den"
+    },
+    "title": {
+      "ru": "Жетон искателя: Над логовом химеры",
+      "en": "Seeker's Token: Above the Chimera's den"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Там, где живёт трёхголовая тварь, — выше её головы.",
+      "Скала над логовом химеры. Там два жетона рядом.",
+      "Два жетона на скалах над логовом химеры — забирайся сверху, не спускаясь к самой химере."
+    ],
+    "match": {
+      "where": [
+        "логово химеры",
+        "химера",
+        "chimera"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "скала"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26810"
+    ]
+  },
+  {
+    "id": "token-forgotten-riftstone-nook",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Восточнее Забытого камня разлома",
+      "en": "East of the Forgotten Riftstone"
+    },
+    "title": {
+      "ru": "Жетон искателя: Восточнее Забытого камня разлома",
+      "en": "Seeker's Token: East of the Forgotten Riftstone"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "У заброшенного камня разлома есть укромный уголок.",
+      "К востоку от Забытого камня разлома, в маленькой нише.",
+      "Жетон в небольшой нише к востоку от Забытого камня разлома (Forgotten Riftstone)."
+    ],
+    "match": {
+      "where": [
+        "забытый камень разлома",
+        "forgotten riftstone"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "ниша"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26364"
+    ]
+  },
+  {
+    "id": "token-forgotten-riftstone-cliff",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Южнее Забытого камня разлома",
+      "en": "South of the Forgotten Riftstone"
+    },
+    "title": {
+      "ru": "Жетон искателя: Южнее Забытого камня разлома",
+      "en": "Seeker's Token: South of the Forgotten Riftstone"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "У того же заброшенного камня разлома — на краю.",
+      "К югу от Забытого камня разлома, вдоль обрыва.",
+      "Жетон на краю обрыва к югу от Забытого камня разлома."
+    ],
+    "match": {
+      "where": [
+        "забытый камень разлома",
+        "forgotten riftstone"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "обрыв"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26848"
+    ]
+  },
+  {
+    "id": "token-enoa-river-sw",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Река юго-западнее леса Эноа-Баттала",
+      "en": "River SW of Enoa'Battahl Forest"
+    },
+    "title": {
+      "ru": "Жетон искателя: Река юго-западнее леса Эноа-Баттала",
+      "en": "Seeker's Token: River SW of Enoa'Battahl Forest"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "В лесу Батталя у реки — на камне.",
+      "Камень у реки к юго-западу от леса Эноа-Баттала.",
+      "Жетон на камне у реки к юго-западу от леса Эноа-Баттала. Ещё один — на камне у реки к западу от леса."
+    ],
+    "match": {
+      "where": [
+        "эноа-баттал",
+        "эноа",
+        "enoa"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "река",
+        "river"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ]
+  },
+  {
+    "id": "token-enoa-pillar",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Каменный столб восточнее леса Эноа-Баттала",
+      "en": "Rock pillar east of Enoa'Battahl Forest"
+    },
+    "title": {
+      "ru": "Жетон искателя: Каменный столб восточнее леса Эноа-Баттала",
+      "en": "Seeker's Token: Rock pillar east of Enoa'Battahl Forest"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "У леса Батталя один камень стоит выше остальных.",
+      "Каменный столб к востоку от леса Эноа-Баттала.",
+      "Жетон на вершине каменного столба к востоку от леса Эноа-Баттала. Ещё один лежит на земле к югу от леса."
+    ],
+    "match": {
+      "where": [
+        "эноа-баттал",
+        "эноа",
+        "enoa"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "столб",
+        "pillar"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "3393",
+      "26819"
+    ]
+  },
+  {
+    "id": "token-dimdark-cave-nest",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "У Сумрачной пещеры, гнездо гарпий",
+      "en": "Harpy nest near Dimdark Cave"
+    },
+    "title": {
+      "ru": "Жетон искателя: У Сумрачной пещеры, гнездо гарпий",
+      "en": "Seeker's Token: Harpy nest near Dimdark Cave"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Гарпии свили гнездо под статуей.",
+      "У Сумрачной пещеры (Dimdark Cave), в гнезде гарпий под статуей.",
+      "Жетон в гнезде гарпий прямо под статуей возле Сумрачной пещеры (Dimdark Cave)."
+    ],
+    "match": {
+      "where": [
+        "сумрачная пещера",
+        "dimdark"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "гнездо",
+        "nest",
+        "статуя"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "3177"
+    ]
+  },
+  {
+    "id": "token-reverent-shrine-roof",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Крыша Благоговейного святилища",
+      "en": "Reverent Shrine roof"
+    },
+    "title": {
+      "ru": "Жетон искателя: Крыша Благоговейного святилища",
+      "en": "Seeker's Token: Reverent Shrine roof"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "У оракула высоко — над её головой.",
+      "Крыша Благоговейного святилища, лестница слева.",
+      "Жетон на самой крыше Благоговейного святилища (у оракула Луз): поднимись по лестнице с левой стороны."
+    ],
+    "match": {
+      "where": [
+        "благоговейное святилище",
+        "святилище оракула",
+        "reverent shrine",
+        "оракул"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "крыша",
+        "лестница"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "25864"
+    ]
+  },
+  {
+    "id": "token-forgotten-ruins",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Юго-восточнее Забытых руин",
+      "en": "SE of the Forgotten Ruins"
+    },
+    "title": {
+      "ru": "Жетон искателя: Юго-восточнее Забытых руин",
+      "en": "Seeker's Token: SE of the Forgotten Ruins"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "У забытых руин — рядом с сундуком на краю.",
+      "К юго-востоку от Забытых руин, край обрыва у сундука.",
+      "Жетон на краю обрыва у сундука к юго-востоку от Забытых руин."
+    ],
+    "match": {
+      "where": [
+        "забытые руины",
+        "forgotten ruins"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "сундук",
+        "обрыв"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "25863"
+    ]
+  },
+  {
+    "id": "token-tomb-al-guttos",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Гробница Аль-Гуттоса",
+      "en": "Tomb of Al'Guttos"
+    },
+    "title": {
+      "ru": "Жетон искателя: Гробница Аль-Гуттоса",
+      "en": "Seeker's Token: Tomb of Al'Guttos"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "В одной из древних гробниц Батталя — прямо на полу.",
+      "Внутри гробницы Аль-Гуттоса.",
+      "Жетон лежит на земле внутри гробницы Аль-Гуттоса (Tomb of Al'Guttos)."
+    ],
+    "match": {
+      "where": [
+        "гробница аль-гуттоса",
+        "аль-гуттос",
+        "al'guttos",
+        "guttos"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "гробница"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26539"
+    ]
+  },
+  {
+    "id": "token-tomb-am-ranna",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Гробница Ам-Ранны",
+      "en": "Tomb of Am'Ranna"
+    },
+    "title": {
+      "ru": "Жетон искателя: Гробница Ам-Ранны",
+      "en": "Seeker's Token: Tomb of Am'Ranna"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "В гробнице не верь полу.",
+      "Конец первого коридора гробницы Ам-Ранны, осторожно с ложным полом.",
+      "Жетон в конце первого коридора гробницы Ам-Ранны (Tomb of Am'Ranna). Там ложный пол — он проваливается."
+    ],
+    "match": {
+      "where": [
+        "гробница ам-ранны",
+        "ам-ранна",
+        "am'ranna",
+        "ranna"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "ложный пол",
+        "гробница"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26824"
+    ]
+  },
+  {
+    "id": "token-tomb-ja-nuwa",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Над гробницей Джа-Нувы",
+      "en": "Above the Tomb of Ja'Nuwa"
+    },
+    "title": {
+      "ru": "Жетон искателя: Над гробницей Джа-Нувы",
+      "en": "Seeker's Token: Above the Tomb of Ja'Nuwa"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Не внутри гробницы, а над ней.",
+      "Скалы прямо над гробницей Джа-Нувы.",
+      "Жетон на скалах прямо над гробницей Джа-Нувы (Tomb of Ja'Nuwa)."
+    ],
+    "match": {
+      "where": [
+        "гробница джа-нувы",
+        "джа-нува",
+        "ja'nuwa",
+        "nuwa"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26484"
+    ]
+  },
+  {
+    "id": "token-ropeway-three",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Третья станция канатной дороги",
+      "en": "Battahl Ropeway Station Three"
+    },
+    "title": {
+      "ru": "Жетон искателя: Третья станция канатной дороги",
+      "en": "Seeker's Token: Battahl Ropeway Station Three"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Канатные дороги Батталя держатся на лесах — загляни под станцию.",
+      "Третья станция канатной дороги, второй уровень лесов.",
+      "Жетон на втором уровне строительных лесов внутри третьей станции канатной дороги Батталя — спустись на подъёмнике."
+    ],
+    "match": {
+      "where": [
+        "канатная дорога",
+        "станция канатной дороги",
+        "ropeway"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "подъёмник",
+        "лифт",
+        "леса",
+        "scaffolding"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "3135"
+    ]
+  },
+  {
+    "id": "token-riftstone-straightforward",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "У камня разлома Прямоты",
+      "en": "Riftstone of the Straightforward"
+    },
+    "title": {
+      "ru": "Жетон искателя: У камня разлома Прямоты",
+      "en": "Seeker's Token: Riftstone of the Straightforward"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Рядом с камнем разлома — на камне поменьше.",
+      "Камень у камня разлома Прямоты (Riftstone of the Straightforward).",
+      "Жетон лежит на камне возле камня разлома Прямоты (Riftstone of the Straightforward)."
+    ],
+    "match": {
+      "where": [
+        "камень разлома прямоты",
+        "прямота",
+        "straightforward"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26518"
+    ]
+  },
+  {
+    "id": "token-howling-cave",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "У Воющей пещеры",
+      "en": "Near the Howling Cave"
+    },
+    "title": {
+      "ru": "Жетон искателя: У Воющей пещеры",
+      "en": "Seeker's Token: Near the Howling Cave"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "У пещеры, откуда доносится вой, — у тропы.",
+      "Камень у тропы возле Воющей пещеры.",
+      "Жетон на камне у тропы возле Воющей пещеры (Howling Cave)."
+    ],
+    "match": {
+      "where": [
+        "воющая пещера",
+        "howling cave"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "тропа"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "3386"
+    ]
+  },
+  {
+    "id": "token-crumbling-ruins",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Осыпающиеся руины",
+      "en": "Crumbling Ruins"
+    },
+    "title": {
+      "ru": "Жетон искателя: Осыпающиеся руины",
+      "en": "Seeker's Token: Crumbling Ruins"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Среди разваливающихся построек — на одной из них.",
+      "Верх одной из построек Осыпающихся руин.",
+      "Жетон наверху одной из построек в Осыпающихся руинах (Crumbling Ruins)."
+    ],
+    "match": {
+      "where": [
+        "осыпающиеся руины",
+        "crumbling ruins"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "руины"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "25565"
+    ]
+  },
+  {
+    "id": "token-stragglers-cave",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Пещера отставших",
+      "en": "Stragglers' Cave"
+    },
+    "title": {
+      "ru": "Жетон искателя: Пещера отставших",
+      "en": "Seeker's Token: Stragglers' Cave"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "В пещере разбойников — за тем, что можно разбить.",
+      "Глубокий туннель в Пещере отставших, в комнате с лестницей.",
+      "Жетон в Пещере отставших (Stragglers' Cave): глубже по туннелю, за разбиваемыми предметами, в той же комнате, где лестница."
+    ],
+    "match": {
+      "where": [
+        "пещера отставших",
+        "stragglers",
+        "туннель"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "разбить",
+        "лестница"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "3153"
+    ]
+  },
+  {
+    "id": "token-grand-riftstone-battahl",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Великий камень разлома Батталя",
+      "en": "Grand Riftstone of Battahl"
+    },
+    "title": {
+      "ru": "Жетон искателя: Великий камень разлома Батталя",
+      "en": "Seeker's Token: Grand Riftstone of Battahl"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "У главного камня разлома страны — на столбе.",
+      "Каменный столб возле Великого камня разлома Батталя.",
+      "Жетон на вершине каменного столба рядом с Великим камнем разлома Батталя."
+    ],
+    "match": {
+      "where": [
+        "великий камень разлома",
+        "grand riftstone"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "столб",
+        "pillar"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "2846"
+    ]
+  },
+  {
+    "id": "token-darkbeasts-den",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Логово тёмных зверей",
+      "en": "Darkbeasts' Den"
+    },
+    "title": {
+      "ru": "Жетон искателя: Логово тёмных зверей",
+      "en": "Seeker's Token: Darkbeasts' Den"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "В логове опасных зверей — прямо на полу.",
+      "Внутри Логова тёмных зверей.",
+      "Жетон лежит на земле внутри Логова тёмных зверей (Darkbeasts' Den)."
+    ],
+    "match": {
+      "where": [
+        "логово тёмных зверей",
+        "логово темных зверей",
+        "darkbeasts"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26568"
+    ]
+  },
+  {
+    "id": "token-bakbattahl-mural-rocks",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Бакбаттал, переулок с фреской",
+      "en": "Bakbattahl, Mural Byway rocks"
+    },
+    "title": {
+      "ru": "Жетон искателя: Бакбаттал, переулок с фреской",
+      "en": "Seeker's Token: Bakbattahl, Mural Byway rocks"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "В столице Батталя у большой фрески стоит полазить.",
+      "Скалы у фрески в переулке Mural Byway. Там рядом ещё два жетона выше.",
+      "У фрески в переулке Mural Byway в Бакбаттале: один жетон на скалах (заберись), второй очень высоко на столбах над фреской, третий на скалах почти над лавкой редких книг."
+    ],
+    "match": {
+      "where": [
+        "фреска",
+        "mural",
+        "бакбаттал"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "забраться",
+        "переулок"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26316",
+      "26325",
+      "26318"
+    ]
+  },
+  {
+    "id": "token-bakbattahl-market-cloth",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Бакбаттал, тенты над рынком",
+      "en": "Bakbattahl, cloth above the marketplace"
+    },
+    "title": {
+      "ru": "Жетон искателя: Бакбаттал, тенты над рынком",
+      "en": "Seeker's Token: Bakbattahl, cloth above the marketplace"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Над рынком столицы натянуты ткани — они держат вес.",
+      "Ткань-навес над рынком Бакбаттала.",
+      "Жетон на натянутой ткани над рынком Бакбаттала: залезь наверх и прыгай с навеса на навес."
+    ],
+    "match": {
+      "where": [
+        "рынок",
+        "marketplace",
+        "навес",
+        "ткань",
+        "cloth",
+        "бакбаттал"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "прыгать"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26308"
+    ]
+  },
+  {
+    "id": "token-bakbattahl-dye-stores",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Бакбаттал, красильни",
+      "en": "Bakbattahl, Dye Stores"
+    },
+    "title": {
+      "ru": "Жетон искателя: Бакбаттал, красильни",
+      "en": "Seeker's Token: Bakbattahl, Dye Stores"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "В квартале, где красят ткани, — в воде.",
+      "Бассейн в квартале красилен.",
+      "Жетон в бассейне с водой в квартале красилен Бакбаттала (Dye Stores)."
+    ],
+    "match": {
+      "where": [
+        "красильни",
+        "красильня",
+        "dye stores"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "бассейн",
+        "вода"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26845"
+    ]
+  },
+  {
+    "id": "token-bakbattahl-gaol",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Тюрьма Бакбаттала",
+      "en": "Bakbattahl Gaol"
+    },
+    "title": {
+      "ru": "Жетон искателя: Тюрьма Бакбаттала",
+      "en": "Seeker's Token: Bakbattahl Gaol"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "За решёткой в столице Батталя лежит не только узник.",
+      "Третья камера слева в тюрьме Бакбаттала.",
+      "Жетон в третьей камере слева в тюрьме Бакбаттала."
+    ],
+    "match": {
+      "where": [
+        "тюрьма бакбаттала",
+        "тюрьма",
+        "gaol"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "камера",
+        "cell"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "3333"
+    ]
+  },
+  {
+    "id": "token-riftstone-daybreak",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Южнее камня разлома Рассвета",
+      "en": "South of the Riftstone of Daybreak"
+    },
+    "title": {
+      "ru": "Жетон искателя: Южнее камня разлома Рассвета",
+      "en": "Seeker's Token: South of the Riftstone of Daybreak"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "У камня разлома, названного в честь утра, — на склоне.",
+      "Обрыв к югу от камня разлома Рассвета.",
+      "Жетон на склоне обрыва к югу от камня разлома Рассвета (Riftstone of Daybreak)."
+    ],
+    "match": {
+      "where": [
+        "камень разлома рассвета",
+        "рассвет",
+        "daybreak"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "2867"
+    ]
+  },
+  {
+    "id": "token-drabnir-grotto",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Севернее грота Драбнира",
+      "en": "North of Drabnir's Grotto"
+    },
+    "title": {
+      "ru": "Жетон искателя: Севернее грота Драбнира",
+      "en": "Seeker's Token: North of Drabnir's Grotto"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "У грота — на обрыве к северу.",
+      "Обрыв к северу от грота Драбнира.",
+      "Жетон на обрыве к северу от грота Драбнира (Drabnir's Grotto)."
+    ],
+    "match": {
+      "where": [
+        "грот драбнира",
+        "драбнир",
+        "drabnir"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "грот"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26224"
+    ]
+  },
+  {
+    "id": "token-dragonsbreath-tower",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Башня Драконьего дыхания",
+      "en": "Dragonsbreath Tower"
+    },
+    "title": {
+      "ru": "Жетон искателя: Башня Драконьего дыхания",
+      "en": "Seeker's Token: Dragonsbreath Tower"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "В разрушенной башне у Леса Драконьей крови два жетона.",
+      "Скалы в разрушенной части башни и 4-й этаж — на сломанной колонне.",
+      "Башня Драконьего дыхания: один жетон на скалах в её разрушенной части, второй — на 4-м этаже на сломанной колонне."
+    ],
+    "match": {
+      "where": [
+        "башня драконьего дыхания",
+        "dragonsbreath"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "колонна",
+        "этаж",
+        "башня"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "3209",
+      "3227"
+    ]
+  },
+  {
+    "id": "token-cliffside-cave",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "У Пещеры на утёсе",
+      "en": "Outside Cliffside Cave"
+    },
+    "title": {
+      "ru": "Жетон искателя: У Пещеры на утёсе",
+      "en": "Seeker's Token: Outside Cliffside Cave"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Выйдя из пещеры в скале, посмотри над дорогой.",
+      "Камень над дорогой прямо у выхода из Пещеры на утёсе.",
+      "Жетон на камне над дорогой сразу у Пещеры на утёсе (Cliffside Cave)."
+    ],
+    "match": {
+      "where": [
+        "пещера на утёсе",
+        "пещера на утесе",
+        "cliffside cave"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "3340"
+    ]
+  },
+  {
+    "id": "token-beach-wagon",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Повозка на пляже",
+      "en": "Half-submerged wagon on the beach"
+    },
+    "title": {
+      "ru": "Жетон искателя: Повозка на пляже",
+      "en": "Seeker's Token: Half-submerged wagon on the beach"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Море вынесло на берег повозку — загляни внутрь.",
+      "Наполовину затонувшая повозка на пляже.",
+      "Жетон внутри наполовину ушедшей в песок и воду повозки на пляже Батталя."
+    ],
+    "match": {
+      "where": [
+        "повозка",
+        "wagon"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "пляж",
+        "beach",
+        "берег"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "2878"
+    ]
+  },
+  {
+    "id": "token-lab-dragon-head",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Лаборатория запретной магии, у головы дракона",
+      "en": "Research Lab, by the dragon corpse"
+    },
+    "title": {
+      "ru": "Жетон искателя: Лаборатория запретной магии, у головы дракона",
+      "en": "Seeker's Token: Research Lab, by the dragon corpse"
+    },
+    "availableFrom": "flickering-shadows",
+    "hints": [
+      "В лаборатории изучают мёртвого дракона — посмотри у его головы.",
+      "Внутри Лаборатории запретной магии, рядом с головой драконьей туши.",
+      "Жетон в Лаборатории запретной магии возле головы драконьей туши. Второй — на дне ямы среди костей в хранилище отходов той же лаборатории."
+    ],
+    "match": {
+      "where": [
+        "лаборатория запретной магии",
+        "лаборатория",
+        "laboratory",
+        "research lab"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "голова",
+        "туша",
+        "кости",
+        "яма"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26847",
+      "26846"
+    ]
+  },
+  {
+    "id": "token-palace-history-chamber",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Дворец Огненосцев, зал истории",
+      "en": "Flamebearer Palace History Chamber"
+    },
+    "title": {
+      "ru": "Жетон искателя: Дворец Огненосцев, зал истории",
+      "en": "Seeker's Token: Flamebearer Palace History Chamber"
+    },
+    "availableFrom": "flickering-shadows",
+    "hints": [
+      "Во дворце, где хранят летописи, — на книгах.",
+      "Здание зала истории Дворца Огненосцев, стопка книг.",
+      "Жетон на стопке книг внутри здания зала истории Дворца Огненосцев."
+    ],
+    "match": {
+      "where": [
+        "дворец огненосцев",
+        "зал истории",
+        "flamebearer palace",
+        "history chamber"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "книги"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "2850"
+    ]
+  },
+  {
+    "id": "token-palace-audience",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Дворец Огненосцев, приёмный зал",
+      "en": "Flamebearer Palace Audience Chamber"
+    },
+    "title": {
+      "ru": "Жетон искателя: Дворец Огненосцев, приёмный зал",
+      "en": "Seeker's Token: Flamebearer Palace Audience Chamber"
+    },
+    "availableFrom": "flickering-shadows",
+    "hints": [
+      "Во дворце императрицы — у свечей и у алтаря.",
+      "Пол у свечей в приёмном зале и слева от алтаря.",
+      "Дворец Огненосцев: один жетон на полу у свечей в приёмном зале, второй на земле слева от алтаря."
+    ],
+    "match": {
+      "where": [
+        "дворец огненосцев",
+        "приёмный зал",
+        "flamebearer palace",
+        "audience chamber"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "свечи",
+        "алтарь"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "3403",
+      "3322"
+    ]
+  },
+  {
+    "id": "token-windwalker-campsite",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Лагерь южнее дома Гаутстафра",
+      "en": "Campsite south of Windwalker's Home"
+    },
+    "title": {
+      "ru": "Жетон искателя: Лагерь южнее дома Гаутстафра",
+      "en": "Seeker's Token: Campsite south of Windwalker's Home"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Над стоянкой у дома стариков-отшельников — крутой утёс.",
+      "Утёс рядом с лагерем к югу от дома Гаутстафра, подъём с запада.",
+      "Жетон на крутом утёсе у места для лагеря к югу от дома Гаутстафра (Windwalker's Home) на Вулканическом острове — забирайся с западной стороны."
+    ],
+    "match": {
+      "where": [
+        "дом гаутстафра",
+        "windwalker"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "забраться",
+        "лагерь",
+        "утёс"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26841"
+    ]
+  },
+  {
+    "id": "token-mountain-base-cave",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Пещера у подножия горы",
+      "en": "Mountain Base Cave"
+    },
+    "title": {
+      "ru": "Жетон искателя: Пещера у подножия горы",
+      "en": "Seeker's Token: Mountain Base Cave"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "В пещере под вулканом их два — один стережёт ящер.",
+      "Пещера у подножия горы: у спящего ящера и над ямой.",
+      "Пещера у подножия горы: один жетон рядом со спящим ящером, второй над ямой — заберись по упавшей колонне или перепрыгни с камней."
+    ],
+    "match": {
+      "where": [
+        "пещера у подножия горы",
+        "mountain base cave"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "ящер",
+        "колонна",
+        "яма"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26249",
+      "26246"
+    ]
+  },
+  {
+    "id": "token-volcanic-camp-cliff",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Тропа юго-западнее лагеря на острове",
+      "en": "Path SW of Volcanic Island Camp"
+    },
+    "title": {
+      "ru": "Жетон искателя: Тропа юго-западнее лагеря на острове",
+      "en": "Seeker's Token: Path SW of Volcanic Island Camp"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "У лагеря на острове вдоль обрыва идёт тропка.",
+      "Узкая тропа вдоль обрыва к юго-западу от лагеря.",
+      "Жетон на узкой тропе вдоль обрыва к юго-западу от лагеря на Вулканическом острове."
+    ],
+    "match": {
+      "where": [
+        "лагерь на вулканическом острове",
+        "volcanic island camp"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "тропа",
+        "обрыв"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "2857"
+    ]
+  },
+  {
+    "id": "token-volcanic-armory",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "За оружейной лагеря на острове",
+      "en": "Behind the Volcanic Island Armory"
+    },
+    "title": {
+      "ru": "Жетон искателя: За оружейной лагеря на острове",
+      "en": "Seeker's Token: Behind the Volcanic Island Armory"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "В лагере на острове — за лавкой с оружием.",
+      "Сразу за оружейной лагеря.",
+      "Жетон лежит на земле прямо за оружейной лавкой лагеря на Вулканическом острове."
+    ],
+    "match": {
+      "where": [
+        "оружейная",
+        "armory",
+        "лагерь на вулканическом острове"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26260"
+    ]
+  },
+  {
+    "id": "token-volcanic-camp-hill",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Холм северо-западнее лагеря на острове",
+      "en": "Hill NW of Volcanic Island Camp"
+    },
+    "title": {
+      "ru": "Жетон искателя: Холм северо-западнее лагеря на острове",
+      "en": "Seeker's Token: Hill NW of Volcanic Island Camp"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Над лагерем на острове возвышается каменистый холм.",
+      "Вершина холма к северо-западу от лагеря.",
+      "Жетон на вершине каменистого холма к северо-западу от лагеря на Вулканическом острове."
+    ],
+    "match": {
+      "where": [
+        "лагерь на вулканическом острове",
+        "volcanic island camp"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "холм",
+        "hill"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "2854"
+    ]
+  },
+  {
+    "id": "token-rift-perseverance",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "У камня разлома Упорства",
+      "en": "Near the Rift of Perseverance"
+    },
+    "title": {
+      "ru": "Жетон искателя: У камня разлома Упорства",
+      "en": "Seeker's Token: Near the Rift of Perseverance"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Севернее лагеря на острове торчит скала-игла.",
+      "Вертикальная скала у камня разлома Упорства, к северу от лагеря.",
+      "Жетон на вершине вертикальной скалы возле камня разлома Упорства (Rift of Perseverance) к северу от лагеря на Вулканическом острове."
+    ],
+    "match": {
+      "where": [
+        "камень разлома упорства",
+        "упорство",
+        "perseverance"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "скала"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26040"
+    ]
+  },
+  {
+    "id": "token-excavation-scaffolding",
+    "type": "seeker-token",
+    "region": "battahl",
+    "location": {
+      "ru": "Каменоломня, леса",
+      "en": "Excavation Site scaffolding"
+    },
+    "title": {
+      "ru": "Жетон искателя: Каменоломня, леса",
+      "en": "Seeker's Token: Excavation Site scaffolding"
+    },
+    "availableFrom": "nation-of-the-lambent-flame",
+    "hints": [
+      "Там, где всё началось, — на лесах.",
+      "Строительные леса в каменоломне.",
+      "Жетон на строительных лесах в каменоломне (Яме), где ты начинал игру."
+    ],
+    "match": {
+      "where": [
+        "каменоломня",
+        "excavation site"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "яма",
+        "леса",
+        "scaffolding"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "2824"
+    ]
+  }
+]

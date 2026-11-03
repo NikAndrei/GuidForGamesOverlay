@@ -5,15 +5,19 @@
 
 ```
 папки сейвов и мода → наблюдатель (debounce 0,7 с + опрос раз в 30 с) → адаптер игры → модель состояния
-    → правила (hints/<game>/) + записи GuidForGames → модель UI → оверлей (TCP) и отладочная страница (HTTP)
+    → правила (games/<id>/rules.json) + справочник (games/<id>/entries) → модель UI → оверлей (TCP) и отладочная страница (HTTP)
 ```
 
 ## Запуск
 
 ```bash
-cp config.example.toml config.toml   # поправить пути
-cargo run --release -p gfg-service -- config.toml
+cargo run --release -p gfg-service                    # игры и сейвы находятся в Steam сами
+cargo run --release -p gfg-service -- install-mods    # поставить моды-мосты в найденные игры
+cargo run --release -p gfg-service -- --config config.toml
 ```
+
+`config.toml` необязателен (образец — `config.example.toml`). Без него папка `games/` ищется в текущей папке,
+рядом с программой или в корне репозитория.
 
 Отладочная страница: http://127.0.0.1:7870/. Там видно, что сейчас актуально (уровни подсказок можно раскрывать),
 модель состояния каждой игры, ошибки адаптера и опечатки в правилах.
@@ -26,12 +30,14 @@ cargo test
 
 | Файл | Что делает |
 |---|---|
-| `config.rs` | `config.toml`: адреса, папка состояния, игры (`[[game]]`) |
-| `content.rs` | записи и шкала прогресса GuidForGames: папка `data/<game-id>` или файл пакета, плюс `save-map.json` |
+| `config.rs` | `config.toml` (необязательный): адреса, папки, настройки игр (`[games.<id>]`) |
+| `steam.rs` | поиск Steam (реестр, обычные места), библиотек (libraryfolders.vdf), игр (appmanifest), userdata |
+| `content.rs` | папка `games/<id>/`: game.json, entries/, save-map.json, rules.json |
+| `install.rs` | `install-mods`: копирует моды-мосты в `<игра>/reframework/autorun/` |
 | `state.rs` | общая модель состояния (`schemas/state.schema.json`) |
-| `adapter/` | адаптеры игр; `dd2.rs` — мод-мост REFramework и сейв через `dd2-save` |
+| `adapter/` | адаптеры игр; `dd2.rs` — мод-мост и сейв через `dd2-save`, `re4.rs` — мод-мост |
 | `rules.rs` | правила (`schemas/hints.schema.json`): загрузка, проверка опечаток, вычисление условий |
-| `ui.rs` | модель UI: подходящие правила по приоритету, раскрытые уровни |
+| `ui.rs` | модель UI: подсказки по приоритету правил, без сделанного и упущенного, раскрытые уровни |
 | `app.rs` | ядро: игры, обновление, раскрытие подсказок (`state/reveals.json`), рассылка модели UI |
 | `watcher.rs` | наблюдатель за папками |
 | `overlay.rs` | протокол для оверлея |
@@ -42,7 +48,7 @@ cargo test
 ## Защита от спойлеров
 
 - В модели UI есть только **раскрытые** уровни подсказок, нераскрытые до оверлея не доходят.
-- Запись GuidForGames, у которой `availableFrom` дальше текущей ступени прогресса, не показывается,
+- Запись справочника, у которой `availableFrom` дальше текущей ступени прогресса, не показывается,
   даже если правило написано с ошибкой.
 - Если прогресс неизвестен, `progressAtLeast` не выполняется, а `progressBefore` выполняется.
 
@@ -60,7 +66,7 @@ TCP `127.0.0.1:7871`, по одному JSON-объекту в строке, UTF
 - `{"cmd":"hide","item":"<id>"}` — скрыть все уровни;
 - `{"cmd":"refresh"}` — перечитать сейвы.
 
-Модель UI:
+Модель UI (`kind` — вид записи для вкладок; `missable: true` и `missableNote` — у пропускаемого):
 
 ```json
 {
@@ -70,7 +76,8 @@ TCP `127.0.0.1:7871`, по одному JSON-объекту в строке, UTF
   "updatedAt": "2026-11-03T08:06:15Z",
   "items": [
     {
-      "id": "in-dragons-wake-active",
+      "id": "mq-in-dragons-wake",
+      "kind": "quest",
       "title": { "ru": "По следам Дракона", "en": "In Dragon's Wake" },
       "location": { "ru": "Мелв → Вернворт", "en": "Melve → Vernworth" },
       "levels": 3,

@@ -1,0 +1,227 @@
+{
+  "quests": {
+    "10030": {
+      "entry": "mq-gaoled-awakening",
+      "progress": "gaoled-awakening",
+      "confirmed": true,
+      "note": "подтверждено журналом игры; завершён первым (день 0)"
+    },
+    "10050": {
+      "entry": "mq-tales-beginning",
+      "progress": "tales-beginning",
+      "confirmed": true,
+      "note": "подтверждено журналом игры; завершён утром дня 1 после отдыха"
+    },
+    "10060": {
+      "entry": "mq-in-dragons-wake",
+      "progress": "in-dragons-wake",
+      "confirmed": true,
+      "note": "подтверждено журналом игры; порядок 10060–10080 — по нумерации и времени"
+    },
+    "10070": {
+      "entry": "sq-one-eyed-interloper",
+      "confirmed": true,
+      "note": "подтверждено журналом игры; завершён одновременно с 10080 (прибытие в Вернворт)"
+    },
+    "10080": {
+      "entry": "mq-seat-of-the-sovran",
+      "progress": "seat-of-the-sovran",
+      "confirmed": true,
+      "note": "подтверждено журналом игры"
+    },
+    "10090": {
+      "entry": "mq-monster-culling",
+      "progress": "brants-tasks",
+      "confirmed": true,
+      "note": "активен в журнале: «Зачистка от чудищ»"
+    },
+    "10100": {
+      "entry": "mq-disas-plot",
+      "progress": "brants-tasks",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "10120": {
+      "entry": "mq-caged-magistrate",
+      "progress": "brants-tasks",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "10130": {
+      "entry": "sq-arisens-shadow",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20010": {
+      "entry": "sq-medicament-predicament",
+      "confirmed": true,
+      "note": "подтверждено журналом игры; завершён в день 4"
+    },
+    "20020": {
+      "entry": "sq-ordeals-of-a-new-recruit",
+      "confirmed": true,
+      "note": "подтверждено журналом игры; завершён в день 1"
+    },
+    "20030": {
+      "entry": "sq-provisioners-plight",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20040": {
+      "entry": "sq-nesting-troubles",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20050": {
+      "entry": "sq-brothers-brave-and-timid",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20060": {
+      "entry": "sq-twixt-a-rock",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20070": {
+      "entry": "sq-till-death-do-us-part",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20080": {
+      "entry": "sq-scaly-invaders",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20090": {
+      "entry": "sq-beggars-tale",
+      "confirmed": true,
+      "note": "подтверждено названием из игры (мод); раньше было перепутано с 20240"
+    },
+    "20100": {
+      "entry": "sq-tolled-to-rest",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20120": {
+      "entry": "sq-heel-of-history",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20130": {
+      "entry": "sq-saint-of-the-slums",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20140": {
+      "entry": "sq-gift-of-giving",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20150": {
+      "entry": "sq-house-of-blue-sunbright",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20190": {
+      "entry": "sq-noble-exchange",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20200": {
+      "entry": "sq-game-of-wits",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20220": {
+      "entry": "sq-nameless-village",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20230": {
+      "entry": "sq-place-to-call-home",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20240": {
+      "entry": "sq-vocation-frustration",
+      "confirmed": true,
+      "note": "подтверждено названием из игры (мод); раньше было перепутано с 20090"
+    },
+    "20250": {
+      "entry": "sq-prey-for-the-pack",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20270": {
+      "entry": "sq-sotted-sage",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20290": {
+      "entry": "sq-short-sighted-ambition",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20350": {
+      "entry": "sq-jadeite-orb",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "20480": {
+      "entry": "sq-oxcart-courier",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "30010": {
+      "entry": "sq-ornate-box",
+      "confirmed": true,
+      "note": "подтверждено: шаг сдвинулся после покупки шкатулки и подарка Свену"
+    },
+    "30020": {
+      "entry": "sq-claw-them-into-shape",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "30040": {
+      "entry": "mq-stolen-throne",
+      "progress": "palace-intrigue",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "30050": {
+      "entry": "sq-every-rose",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "30060": {
+      "entry": "sq-gift-of-the-bow",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "30080": {
+      "entry": "sq-ailing-arborheart",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "30120": {
+      "entry": "sq-dulled-steel",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "30140": {
+      "entry": "sq-welcome-to-battahl",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "30150": {
+      "entry": "sq-spellbound",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    },
+    "30160": {
+      "entry": "sq-sorcerers-appraisal",
+      "confirmed": true,
+      "note": "название из игры (мод, «Dump names»)"
+    }
+  }
+}

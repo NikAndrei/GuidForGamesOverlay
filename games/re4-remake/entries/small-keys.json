@@ -1,0 +1,825 @@
+[
+  {
+    "id": "sk-overview",
+    "type": "tip",
+    "title": {
+      "ru": "Маленькие ключи и запертые комоды",
+      "en": "Small Keys and locked drawers"
+    },
+    "availableFrom": "ch2",
+    "hints": [
+      "Запертый комод не открыть силой — для него нужен отдельный ключ, спрятанный неподалёку.",
+      "Маленьких ключей 8: пять в Деревне и три в Замке; на Острове запертых комодов нет. Любой ключ подходит к любому комоду, открывать можно в любом порядке.",
+      "Комоды отмечены на картах сокровищ от торговца, а ключи — нет. Внутри почти только сокровища на продажу (в том числе жёлтый бриллиант для инкрустации). Забери всё до точек невозврата: в Деревне — уход с Эшли к точке эвакуации (глава 6), в Замке — вход в часовую башню (глава 12)."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html"
+    ]
+  },
+  {
+    "id": "sk-key-1",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Долина, хижина с шестиугольной эмблемой",
+      "en": "Valley, hut with the hexagon emblem"
+    },
+    "title": {
+      "ru": "Маленький ключ: Долина",
+      "en": "Small Key: Valley"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "В деревню не вернуться после точки невозврата — когда в главе 6 ведёшь Эшли к точке эвакуации.",
+    "hints": [
+      "Первый ключ — там же, где ищешь эмблему для ворот.",
+      "В долине зайди в хижину, где лежит шестиугольная эмблема, через восточный вход.",
+      "Ключ лежит в открытом ящике на шкафу в маленькой комнате справа от восточного входа, у заколоченного окна. Он пригодится для комода на Заброшенной фабрике (или любого другого)."
+    ],
+    "match": {
+      "where": [
+        "долина",
+        "хижина",
+        "шестиугольная эмблема",
+        "valley",
+        "hut"
+      ],
+      "what": [
+        "маленький ключ",
+        "ключ",
+        "small key",
+        "шкаф",
+        "emblem"
+      ],
+      "how": [
+        "открыть комод",
+        "unlock"
+      ],
+      "reward": [
+        "маленький ключ",
+        "small key"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html"
+    ]
+  },
+  {
+    "id": "sk-key-2",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Усадьба деревенского старосты, 1-й этаж",
+      "en": "Village Chief's Manor, ground floor"
+    },
+    "title": {
+      "ru": "Маленький ключ: усадьба старосты",
+      "en": "Small Key: Village Chief's Manor"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "В деревню не вернуться после точки невозврата — когда в главе 6 ведёшь Эшли к точке эвакуации.",
+    "hints": [
+      "Посмотри на бумаги в доме старосты.",
+      "В усадьбе старосты иди в юго-западный угол первого этажа (сверься с картой).",
+      "Ключ лежит на стопке бумаг между диваном и окном в юго-западном углу первого этажа усадьбы старосты."
+    ],
+    "match": {
+      "where": [
+        "усадьба старосты",
+        "дом старосты",
+        "village chief's manor",
+        "manor"
+      ],
+      "what": [
+        "маленький ключ",
+        "ключ",
+        "small key",
+        "бумаги",
+        "диван",
+        "papers"
+      ],
+      "how": [
+        "открыть комод",
+        "unlock"
+      ],
+      "reward": [
+        "маленький ключ",
+        "small key"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html"
+    ]
+  },
+  {
+    "id": "sk-key-3",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Рыбная ферма, небольшая хижина",
+      "en": "Fish Farm, small hut"
+    },
+    "title": {
+      "ru": "Маленький ключ: рыбная ферма",
+      "en": "Small Key: Fish Farm"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "В деревню не вернуться после точки невозврата — когда в главе 6 ведёшь Эшли к точке эвакуации.",
+    "hints": [
+      "Пока ищешь топливо для лодки, загляни в маленькую хижину.",
+      "Ключ в западном углу рыбной фермы, южнее места, где лежит топливо для лодки.",
+      "В небольшой хижине в западном углу рыбной фермы (к югу от метки топлива для лодки) ключ лежит в ящике. Удобно сразу открыть им комод у торговца в карьере."
+    ],
+    "match": {
+      "where": [
+        "рыбная ферма",
+        "рыбопитомник",
+        "хижина",
+        "fish farm"
+      ],
+      "what": [
+        "маленький ключ",
+        "ключ",
+        "small key",
+        "топливо",
+        "fuel"
+      ],
+      "how": [
+        "открыть комод",
+        "unlock"
+      ],
+      "reward": [
+        "маленький ключ",
+        "small key"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html"
+    ]
+  },
+  {
+    "id": "sk-key-4",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Лесной алтарь (через Поселение у озера)",
+      "en": "Forest Altar (via Lakeside Settlement)"
+    },
+    "title": {
+      "ru": "Маленький ключ: Лесной алтарь",
+      "en": "Small Key: Forest Altar"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "В деревню не вернуться после точки невозврата — когда в главе 6 ведёшь Эшли к точке эвакуации.",
+    "hints": [
+      "Ключ с эмблемой откроет путь не только к сюжету.",
+      "Приплыви на лодке обратно в Поселение у озера и открой ключом с эмблемой (Insignia Key) проход на север — к Лесному алтарю.",
+      "У Лесного алтаря ключ лежит на карете в западной части площадки. Комод для него — в доме поселения, где ты нашёл Луиса."
+    ],
+    "match": {
+      "where": [
+        "лесной алтарь",
+        "поселение у озера",
+        "forest altar",
+        "lakeside settlement"
+      ],
+      "what": [
+        "маленький ключ",
+        "ключ",
+        "small key",
+        "карета",
+        "ключ с эмблемой",
+        "carriage",
+        "insignia key"
+      ],
+      "how": [
+        "открыть комод",
+        "unlock"
+      ],
+      "reward": [
+        "маленький ключ",
+        "small key"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html"
+    ]
+  },
+  {
+    "id": "sk-key-5",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Церковь",
+      "en": "Church"
+    },
+    "title": {
+      "ru": "Маленький ключ: Церковь",
+      "en": "Small Key: Church"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "В деревню не вернуться после точки невозврата — когда в главе 6 ведёшь Эшли к точке эвакуации.",
+    "hints": [
+      "Попав наконец в церковь, не спеши к выходу.",
+      "Внутри церкви подойди к кафедре и посмотри направо.",
+      "Ключ лежит справа от кафедры (алтаря), в южном углу зала церкви. Подходящий комод — в комнате с печатной машинкой, через которую ты шёл к церкви."
+    ],
+    "match": {
+      "where": [
+        "церковь",
+        "кафедра",
+        "алтарь",
+        "church"
+      ],
+      "what": [
+        "маленький ключ",
+        "ключ",
+        "small key",
+        "алтарь",
+        "altar"
+      ],
+      "how": [
+        "открыть комод",
+        "unlock"
+      ],
+      "reward": [
+        "маленький ключ",
+        "small key"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html"
+    ]
+  },
+  {
+    "id": "sk-key-6",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, Г-образный коридор после головоломки мастерской",
+      "en": "Castle, L-shaped corridor after the Bindery puzzle"
+    },
+    "title": {
+      "ru": "Маленький ключ: мастерская",
+      "en": "Small Key: Bindery"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "В замок не вернуться после входа в часовую башню (глава 12).",
+    "hints": [
+      "Когда что-то проползёт по стене — оглянись.",
+      "Решив головоломку в мастерской, выйдешь в Г-образный коридор; ищи в его южном углу.",
+      "Когда Леон дёрнется от твари на стене, поверни налево (южный угол коридора по карте): ключ лежит на ящике у окна. Вернись в комнату с запертым комодом и открой его."
+    ],
+    "match": {
+      "where": [
+        "мастерская",
+        "коридор",
+        "замок",
+        "bindery",
+        "corridor"
+      ],
+      "what": [
+        "маленький ключ",
+        "ключ",
+        "small key",
+        "тварь на стене",
+        "ящик",
+        "окно"
+      ],
+      "how": [
+        "открыть комод",
+        "unlock"
+      ],
+      "reward": [
+        "маленький ключ",
+        "small key"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html"
+    ]
+  },
+  {
+    "id": "sk-key-7",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, большой зал с доспехами",
+      "en": "Castle, great hall with suits of armor"
+    },
+    "title": {
+      "ru": "Маленький ключ: большой зал",
+      "en": "Small Key: Great Hall"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "В замок не вернуться после входа в часовую башню (глава 12).",
+    "hints": [
+      "Пока собираешь головы статуй, присмотрись к шкафам.",
+      "Во время поиска трёх голов статуй зайди в северную по карте комнату — зал с доспехами.",
+      "Ключ в шкафу в верхнем левом углу зала с доспехами — по пути к стычке с рыцарями. Если пропустил, вернись позже. Пригодится для комода в зале аудиенций."
+    ],
+    "match": {
+      "where": [
+        "большой зал",
+        "зал с доспехами",
+        "головы статуй",
+        "great hall",
+        "armor"
+      ],
+      "what": [
+        "маленький ключ",
+        "ключ",
+        "small key",
+        "шкаф",
+        "доспехи"
+      ],
+      "how": [
+        "открыть комод",
+        "unlock"
+      ],
+      "reward": [
+        "маленький ключ",
+        "small key"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html"
+    ]
+  },
+  {
+    "id": "sk-key-8",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, вагонетка к часовой башне у торговца",
+      "en": "Castle, rail cart to the Clock Tower by the merchant"
+    },
+    "title": {
+      "ru": "Маленький ключ: у вагонетки к часовой башне",
+      "en": "Small Key: by the Clock Tower rail cart"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "В замок не вернуться после входа в часовую башню (глава 12).",
+    "hints": [
+      "Последний ключ — перед поездкой к часовой башне.",
+      "Вернувшись в замок из шахт (поднявшись на лифте после боя с Краузером), найди торговца и вагонетку на рельсах к часовой башне.",
+      "Справа от вагонетки, напротив лифта, стоит небольшой портфель с ключом. Прежде чем ехать в часовую башню, открой им запертый ящик на крепостных стенах — потом в замок не вернуться."
+    ],
+    "match": {
+      "where": [
+        "вагонетка",
+        "часовая башня",
+        "лифт",
+        "торговец",
+        "clock tower",
+        "rail cart"
+      ],
+      "what": [
+        "маленький ключ",
+        "ключ",
+        "small key",
+        "портфель",
+        "чемодан",
+        "briefcase"
+      ],
+      "how": [
+        "открыть комод",
+        "unlock"
+      ],
+      "reward": [
+        "маленький ключ",
+        "small key"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html"
+    ]
+  },
+  {
+    "id": "sk-drawer-1",
+    "type": "chest",
+    "region": "village",
+    "location": {
+      "ru": "Заброшенная фабрика",
+      "en": "Abandoned Factory"
+    },
+    "title": {
+      "ru": "Запертый комод: элегантная маска",
+      "en": "Locked Drawer: Elegant Mask"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "В деревню не вернуться после точки невозврата — когда в главе 6 ведёшь Эшли к точке эвакуации.",
+    "hints": [
+      "На фабрике, где всё начиналось в долине, есть запертый комод.",
+      "Ключ подойдёт тот, что лежит в долине возле шестиугольной эмблемы.",
+      "Вернись на Заброшенную фабрику и открой маленьким ключом запертый комод — внутри элегантная маска (около 5000 песет, дороже со вставленными камнями)."
+    ],
+    "match": {
+      "where": [
+        "заброшенная фабрика",
+        "фабрика",
+        "abandoned factory",
+        "factory"
+      ],
+      "what": [
+        "запертый комод",
+        "запертый ящик",
+        "комод",
+        "шкафчик",
+        "locked drawer",
+        "drawer"
+      ],
+      "how": [
+        "маленький ключ",
+        "small key"
+      ],
+      "reward": [
+        "элегантная маска",
+        "маска",
+        "elegant mask"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ]
+  },
+  {
+    "id": "sk-drawer-2",
+    "type": "chest",
+    "region": "village",
+    "location": {
+      "ru": "Деревенская площадь, второй дом слева",
+      "en": "Village Square"
+    },
+    "title": {
+      "ru": "Запертый комод: винтажный компас",
+      "en": "Locked Drawer: Vintage Compass"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "В деревню не вернуться после точки невозврата — когда в главе 6 ведёшь Эшли к точке эвакуации.",
+    "hints": [
+      "На главной площади деревни один из домов прячет запертый ящик.",
+      "Осмотри второй дом слева на деревенской площади; ключ можно взять в усадьбе старосты.",
+      "Во втором доме слева на главной площади открой запертый ящик маленьким ключом — внутри винтажный (старинный) компас, около 8000 песет."
+    ],
+    "match": {
+      "where": [
+        "деревенская площадь",
+        "площадь",
+        "village square",
+        "square"
+      ],
+      "what": [
+        "запертый комод",
+        "запертый ящик",
+        "комод",
+        "шкафчик",
+        "locked drawer",
+        "drawer"
+      ],
+      "how": [
+        "маленький ключ",
+        "small key"
+      ],
+      "reward": [
+        "компас",
+        "винтажный компас",
+        "старинный компас",
+        "vintage compass"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ]
+  },
+  {
+    "id": "sk-drawer-3",
+    "type": "chest",
+    "region": "village",
+    "location": {
+      "ru": "Карьер, у торговца, нижний уровень у воды",
+      "en": "Quarry merchant's post, lower level"
+    },
+    "title": {
+      "ru": "Запертый комод: латунные карманные часы",
+      "en": "Locked Drawer: Brass Pocket Watch"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "В деревню не вернуться после точки невозврата — когда в главе 6 ведёшь Эшли к точке эвакуации.",
+    "hints": [
+      "Возле торговца есть сокровище, которое легко не заметить, — внизу.",
+      "Добыв топливо для лодки, вернись к торговцу в карьере и спрыгни на нижний уровень к воде.",
+      "Справа на нижнем уровне у воды стоит запертый ящик — открой маленьким ключом (например, с рыбной фермы). Внутри латунные (медные) карманные часы, около 8000 песет."
+    ],
+    "match": {
+      "where": [
+        "карьер",
+        "торговец",
+        "нижний уровень",
+        "quarry",
+        "merchant"
+      ],
+      "what": [
+        "запертый комод",
+        "запертый ящик",
+        "комод",
+        "шкафчик",
+        "locked drawer",
+        "drawer"
+      ],
+      "how": [
+        "маленький ключ",
+        "small key"
+      ],
+      "reward": [
+        "карманные часы",
+        "латунные часы",
+        "медные часы",
+        "brass pocket watch"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ]
+  },
+  {
+    "id": "sk-drawer-4",
+    "type": "chest",
+    "region": "village",
+    "location": {
+      "ru": "Поселение у озера, дом, где нашли Луиса",
+      "en": "Lakeside Settlement, house where Luis was"
+    },
+    "title": {
+      "ru": "Запертый комод: золотой слиток",
+      "en": "Locked Drawer: Gold Bar"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "В деревню не вернуться после точки невозврата — когда в главе 6 ведёшь Эшли к точке эвакуации.",
+    "hints": [
+      "В доме, где ты встретил Луиса, остался запертый шкафчик.",
+      "Возьми маленький ключ у Лесного алтаря (за дверью с эмблемой культа) и вернись в дом поселения, где нашёл Луиса; по пути нападут заражённые псы.",
+      "Открой маленьким ключом шкафчик в доме, где был Луис, — внутри большой золотой слиток (L), около 15 000 песет."
+    ],
+    "match": {
+      "where": [
+        "поселение у озера",
+        "поселение",
+        "дом луиса",
+        "lakeside settlement"
+      ],
+      "what": [
+        "запертый комод",
+        "запертый ящик",
+        "комод",
+        "шкафчик",
+        "locked drawer",
+        "drawer"
+      ],
+      "how": [
+        "маленький ключ",
+        "small key"
+      ],
+      "reward": [
+        "золотой слиток",
+        "слиток",
+        "gold bar"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ]
+  },
+  {
+    "id": "sk-drawer-5",
+    "type": "chest",
+    "region": "village",
+    "location": {
+      "ru": "Комната с печатной машинкой у церкви",
+      "en": "Typewriter room near the Church"
+    },
+    "title": {
+      "ru": "Запертый комод: жёлтый бриллиант",
+      "en": "Locked Drawer: Yellow Diamond"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "В деревню не вернуться после точки невозврата — когда в главе 6 ведёшь Эшли к точке эвакуации.",
+    "hints": [
+      "Ключ из церкви откроет комод совсем рядом.",
+      "Возьми маленький ключ справа от алтаря в церкви, выйди и вернись в комнату с печатной машинкой.",
+      "В комнате с печатной машинкой открой комод маленьким ключом — внутри жёлтый бриллиант (около 7000 песет). Выгоднее не продавать, а вставить в сокровище со слотами."
+    ],
+    "match": {
+      "where": [
+        "церковь",
+        "печатная машинка",
+        "church",
+        "typewriter"
+      ],
+      "what": [
+        "запертый комод",
+        "запертый ящик",
+        "комод",
+        "шкафчик",
+        "locked drawer",
+        "drawer"
+      ],
+      "how": [
+        "маленький ключ",
+        "small key"
+      ],
+      "reward": [
+        "жёлтый бриллиант",
+        "бриллиант",
+        "yellow diamond"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ]
+  },
+  {
+    "id": "sk-drawer-6",
+    "type": "chest",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, мастерская",
+      "en": "Castle, Bindery"
+    },
+    "title": {
+      "ru": "Запертый комод: латунные карманные часы",
+      "en": "Locked Drawer: Brass Pocket Watch"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "В замок не вернуться после входа в часовую башню (глава 12).",
+    "hints": [
+      "В мастерской с головоломкой стоит запертый комод — ключ рядом.",
+      "Реши головоломку мастерской и пройди дальше в Г-образный коридор за маленьким ключом.",
+      "С ключом из коридора (на ящике у окна) вернись в комнату и открой запертый комод — внутри латунные карманные часы, около 8000 песет."
+    ],
+    "match": {
+      "where": [
+        "мастерская",
+        "замок",
+        "bindery"
+      ],
+      "what": [
+        "запертый комод",
+        "запертый ящик",
+        "комод",
+        "шкафчик",
+        "locked drawer",
+        "drawer"
+      ],
+      "how": [
+        "маленький ключ",
+        "small key"
+      ],
+      "reward": [
+        "карманные часы",
+        "латунные часы",
+        "медные часы",
+        "brass pocket watch"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ]
+  },
+  {
+    "id": "sk-drawer-7",
+    "type": "chest",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, зал аудиенций",
+      "en": "Castle, Audience Chamber"
+    },
+    "title": {
+      "ru": "Запертый комод: золотой слиток",
+      "en": "Locked Drawer: Gold Bar"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "В замок не вернуться после входа в часовую башню (глава 12).",
+    "hints": [
+      "В зале для приёмов есть не только шкаф с кубическим замком.",
+      "Вернись в зал аудиенций (от торговца можно доехать на вагонетке) — там стоит запертый шкафчик для маленького ключа.",
+      "Открой маленьким ключом (например, из зала с доспехами) запертый шкафчик в зале аудиенций — внутри золотой слиток, около 10 000 песет."
+    ],
+    "match": {
+      "where": [
+        "зал аудиенций",
+        "зал для приёмов",
+        "audience chamber"
+      ],
+      "what": [
+        "запертый комод",
+        "запертый ящик",
+        "комод",
+        "шкафчик",
+        "locked drawer",
+        "drawer"
+      ],
+      "how": [
+        "маленький ключ",
+        "small key"
+      ],
+      "reward": [
+        "золотой слиток",
+        "слиток",
+        "gold bar"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ]
+  },
+  {
+    "id": "sk-drawer-8",
+    "type": "chest",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, крепостные стены, первая башня",
+      "en": "Castle Battlements, first tower"
+    },
+    "title": {
+      "ru": "Запертый комод: украшенный жук",
+      "en": "Locked Drawer: Ornate Beetle"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "В замок не вернуться после входа в часовую башню (глава 12).",
+    "hints": [
+      "Последний запертый ящик замка — в башне на стенах, рядом с лабиринтом.",
+      "Взяв ключ в портфеле у вагонетки к часовой башне, вернись в главный зал, выйди наружу, пройди лабиринт, в конце поверни направо и поднимись по лестнице.",
+      "На первом этаже первой башни крепостных стен открой запертый ящик — внутри украшенный (красивый) жук, около 12 000 песет. Успей до входа в часовую башню."
+    ],
+    "match": {
+      "where": [
+        "крепостные стены",
+        "башня",
+        "лабиринт",
+        "castle battlements",
+        "tower"
+      ],
+      "what": [
+        "запертый комод",
+        "запертый ящик",
+        "комод",
+        "шкафчик",
+        "locked drawer",
+        "drawer"
+      ],
+      "how": [
+        "маленький ключ",
+        "small key"
+      ],
+      "reward": [
+        "жук",
+        "украшенный жук",
+        "красивый жук",
+        "ornate beetle"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96376-kak-nayti-vse-malenkie-klyuchi-ot-zapertyh-komodov-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ]
+  }
+]

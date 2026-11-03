@@ -2,32 +2,87 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/NikAndrei/GuidForGamesOverlay/schemas/hints.schema.json",
   "title": "Правила подсказок игры",
-  "description": "Условие по модели состояния → какие подсказки актуальны. Текст подсказок берётся из записи GuidForGames (entry), а свой текст (hints) нужен, только если такой записи нет.",
+  "description": "Правила игры: условие по модели состояния → подсказки. Подсказка — одна запись справочника (entry), набор записей (select) или свой текст (title + hints).",
   "type": "object",
-  "required": ["game", "rules"],
+  "required": [
+    "game",
+    "rules"
+  ],
   "properties": {
-    "game": { "type": "string" },
+    "game": {
+      "type": "string"
+    },
     "rules": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "when"],
+        "required": [
+          "id"
+        ],
         "properties": {
-          "id": { "type": "string" },
-          "when": { "$ref": "#/$defs/condition" },
-          "entry": { "type": "string", "description": "id записи в data/<game>/entries GuidForGames" },
-          "title": { "$ref": "#/$defs/text" },
+          "id": {
+            "type": "string"
+          },
+          "when": {
+            "$ref": "#/$defs/condition",
+            "description": "нет — правило действует всегда"
+          },
+          "entry": {
+            "type": "string",
+            "description": "id записи в games/<game>/entries"
+          },
+          "title": {
+            "$ref": "#/$defs/text"
+          },
           "hints": {
             "type": "array",
             "minItems": 1,
             "maxItems": 3,
-            "items": { "type": "string" },
+            "items": {
+              "type": "string"
+            },
             "description": "намёк → подробнее → полный спойлер"
           },
-          "media": { "type": "array", "items": { "type": "string" }, "description": "скриншоты и видео (пути или URL)" },
-          "priority": { "type": "integer", "default": 0 }
+          "media": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "скриншоты и видео (пути или URL)"
+          },
+          "priority": {
+            "type": "integer",
+            "default": 0
+          },
+          "$comment": {
+            "type": "string"
+          },
+          "select": {
+            "$ref": "#/$defs/select"
+          },
+          "type": {
+            "type": "string",
+            "description": "вид своей подсказки (вкладка в оверлее); по умолчанию tip"
+          }
         },
-        "anyOf": [{ "required": ["entry"] }, { "required": ["title", "hints"] }],
+        "anyOf": [
+          {
+            "required": [
+              "entry"
+            ]
+          },
+          {
+            "required": [
+              "select"
+            ]
+          },
+          {
+            "required": [
+              "title",
+              "hints"
+            ]
+          }
+        ],
         "additionalProperties": false
       }
     }
@@ -35,34 +90,128 @@
   "$defs": {
     "text": {
       "type": "object",
-      "required": ["ru"],
-      "properties": { "ru": { "type": "string" }, "en": { "type": "string" } }
+      "required": [
+        "ru"
+      ],
+      "properties": {
+        "ru": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        }
+      }
     },
     "condition": {
       "description": "Все указанные поля должны выполняться одновременно; all/any/not — для составных условий.",
       "type": "object",
       "properties": {
-        "progressAtLeast": { "type": "string" },
-        "progressBefore": { "type": "string" },
+        "progressAtLeast": {
+          "type": "string"
+        },
+        "progressBefore": {
+          "type": "string"
+        },
         "quest": {
           "type": "object",
-          "required": ["id"],
+          "required": [
+            "id"
+          ],
           "properties": {
-            "id": { "type": "string" },
-            "status": { "enum": ["active", "done", "failed", "unavailable"] },
-            "stage": { "type": "integer" },
-            "stageAtLeast": { "type": "integer" }
+            "id": {
+              "type": "string"
+            },
+            "status": {
+              "enum": [
+                "active",
+                "done",
+                "failed",
+                "unavailable"
+              ]
+            },
+            "stage": {
+              "type": "integer"
+            },
+            "stageAtLeast": {
+              "type": "integer"
+            }
           }
         },
-        "flag": { "type": "string" },
-        "noFlag": { "type": "string" },
-        "location": { "type": "string" },
-        "hasItem": { "type": "string" },
-        "all": { "type": "array", "items": { "$ref": "#/$defs/condition" } },
-        "any": { "type": "array", "items": { "$ref": "#/$defs/condition" } },
-        "not": { "$ref": "#/$defs/condition" }
+        "flag": {
+          "type": "string"
+        },
+        "noFlag": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "hasItem": {
+          "type": "string"
+        },
+        "all": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/condition"
+          }
+        },
+        "any": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/condition"
+          }
+        },
+        "not": {
+          "$ref": "#/$defs/condition"
+        }
       },
       "additionalProperties": false
+    },
+    "select": {
+      "description": "Выбор записей справочника. Сделанные (gameRefs во флагах, выполненные квесты) и упущенные (missableAfter позади) отбрасываются автоматически.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "типы записей; пусто — любые"
+        },
+        "idPrefix": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ],
+          "description": "начало id записи: строка или список"
+        },
+        "progress": {
+          "enum": [
+            "current",
+            "reached"
+          ],
+          "description": "current — открывается на текущей ступени; reached — на текущей или раньше"
+        },
+        "quests": {
+          "enum": [
+            "tracked",
+            "active"
+          ],
+          "description": "записи квестов игры через save-map.json"
+        },
+        "missable": {
+          "type": "boolean",
+          "description": "только пропускаемые"
+        }
+      }
     }
   }
 }

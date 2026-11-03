@@ -1,9 +1,9 @@
 //! Dragon's Dogma 2 (Steam AppID 2054970).
 //!
-//! Два источника, оба из GuidForGames:
+//! Два источника:
 //! - мод-мост REFramework (`mods/dd2/guidforgames.lua`): `guidforgames_live.json` раз в 2 с
 //!   (отслеживаемый квест, область, позиция) и `guidforgames_state.json` при изменениях (журнал квестов);
-//! - сейв `win64_save/data0XXSlot.bin`, который разбирает утилита `dd2-save` (только чтение, на копии).
+//! - сейв `win64_save/data0XXSlot.bin`, который разбирает утилита `tools/dd2-save` (только чтение, на копии).
 //!
 //! Журнал квестов берётся из более свежего источника. Живые данные (позиция, отслеживаемый квест) — только от мода.
 
@@ -18,11 +18,12 @@ use anyhow::{Context, Result, bail};
 use serde::Deserialize;
 use serde_json::Value;
 
-use super::Adapter;
-use crate::config::GameConfig;
+use super::{Adapter, Paths, mtime, sibling_tool};
 use crate::content::{Content, read_json};
 use crate::state::{GameState, Position, Quest, QuestStatus, Source, time_rfc3339};
 
+/// Папка сейвов внутри userdata/<аккаунт>/2054970.
+pub const SAVE_SUB: &str = "remote/win64_save";
 pub const LIVE_FILE: &str = "guidforgames_live.json";
 pub const STATE_FILE: &str = "guidforgames_state.json";
 /// Живой файл старше этого — игра закрыта, позицию не показываем.
@@ -69,14 +70,14 @@ pub struct SaveId {
 }
 
 impl Dd2 {
-    pub fn new(cfg: &GameConfig, content: Arc<Content>, work_dir: PathBuf) -> Self {
+    pub fn new(content: Arc<Content>, paths: Paths) -> Self {
         Self {
             content,
-            save_dir: cfg.save_dir.clone(),
-            mod_dir: cfg.mod_dir.clone(),
-            save_tool: cfg.save_tool.clone(),
-            steam_id: cfg.steam_id.clone(),
-            work_dir,
+            save_dir: paths.save_dir,
+            mod_dir: paths.mod_dir,
+            save_tool: paths.save_tool.or_else(|| sibling_tool("dd2-save")),
+            steam_id: paths.steam_id,
+            work_dir: paths.work_dir,
             save_cache: Mutex::new(None),
         }
     }
@@ -146,6 +147,15 @@ impl Adapter for Dd2 {
             Some(dir) => read_mod(dir)?,
             None => None,
         };
+        if save.is_none()
+            && modded.is_none()
+            && self.save_tool.is_none()
+            && self.newest_slot().is_some()
+        {
+            bail!(
+                "сейв есть, но нет dd2-save рядом с программой (или save_tool в config.toml) и мода-моста"
+            );
+        }
         Ok(combine(&self.content, save, modded, SystemTime::now()))
     }
 }
@@ -165,10 +175,6 @@ pub struct LiveData {
     pub progressing: Vec<i64>,
     pub position: Option<Position>,
     pub location: Option<String>,
-}
-
-fn mtime(p: &Path) -> Option<SystemTime> {
-    fs::metadata(p).ok()?.modified().ok()
 }
 
 pub fn read_mod(dir: &Path) -> Result<Option<ModData>> {

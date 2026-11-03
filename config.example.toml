@@ -1,24 +1,26 @@
-# Настройки сервиса. Скопировать в config.toml (он не в git) и поправить пути.
+# Настройки сервиса — НЕОБЯЗАТЕЛЬНЫ. Без config.toml игры берутся из папки games/ рядом с программой,
+# а папки игр, модов и сейвов находятся в Steam сами. Скопируйте в config.toml и раскомментируйте нужное.
 # Относительные пути — от папки этого файла.
 
 # Отладочная страница и HTTP API.
-http = "127.0.0.1:7870"
+# http = "127.0.0.1:7870"
 # Протокол для оверлея (аддон ReShade): JSON по строкам через TCP. См. service/README.md.
-overlay = "127.0.0.1:7871"
-# Своё состояние сервиса: раскрытые подсказки, копии сейвов.
-state_dir = "state"
+# overlay = "127.0.0.1:7871"
+# Своё состояние: раскрытые подсказки, копии сейвов.
+# state_dir = "state"
+# Папка с данными игр.
+# games_dir = "games"
+# Папка Steam, если не нашлась сама (по умолчанию — из реестра Windows).
+# steam_dir = 'D:\Steam'
 
-[[game]]
-adapter = "dd2"
-# Подсказки: папка data/<game-id> из GuidForGames (с save-map.json) или файл пакета из GuidForGames-packs.
-content = "../GuidForGames/data/dragons-dogma-2"
-# Правила «состояние → подсказка».
-rules = "hints/dd2"
-# Мод-мост REFramework из GuidForGames пишет сюда guidforgames_live.json и guidforgames_state.json.
-mod_dir = 'C:\Program Files (x86)\Steam\steamapps\common\Dragons Dogma 2\reframework\data'
-# Сейвы и утилита их разбора (tools/bin/dd2-save.exe из GuidForGames). Можно не задавать, если стоит мод.
-save_dir = 'C:\Program Files (x86)\Steam\userdata\<номер аккаунта>\2054970\remote\win64_save'
-save_tool = "../GuidForGames/tools/bin/dd2-save.exe"
-# SteamID64 или номер аккаунта; если не задан — берётся из пути save_dir (userdata\<номер>).
-# steam_id = "..."
-# save_map — путь к save-map.json, если content — файл пакета (в пакете его нет).
+# Настройки отдельной игры (id — имя папки в games/).
+# [games.dragons-dogma-2]
+# enabled = true
+# game_dir = 'D:\SteamLibrary\steamapps\common\Dragons Dogma 2'
+# mod_dir = 'D:\SteamLibrary\steamapps\common\Dragons Dogma 2\reframework\data'
+# save_dir = 'C:\Program Files (x86)\Steam\userdata\<номер аккаунта>\2054970\remote\win64_save'
+# save_tool = 'dd2-save.exe'
+# steam_id = "..."      # SteamID64 или номер аккаунта, если сейв не в папке userdata\<номер>
+
+# [games.re4-remake]
+# enabled = false

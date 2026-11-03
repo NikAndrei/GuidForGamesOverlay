@@ -1,0 +1,2339 @@
+[
+  {
+    "id": "sw-tip-treasure-map",
+    "type": "tip",
+    "title": {
+      "ru": "Карта сокровищ в «Разных путях»",
+      "en": "Treasure map in Separate Ways"
+    },
+    "availableFrom": "sw1",
+    "hints": [
+      "Не трать время на прочёсывание каждого угла вслепую — есть способ проще.",
+      "Загляни в ассортимент торговца после первой встречи с ним.",
+      "Сокровища сначала не отмечены на карте. Карту сокровищ можно купить (или обменять на шпинели) у торговца — в дополнении она одна на всю кампанию и сразу подсвечивает ценности во всех локациях."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tip-charms",
+    "type": "tip",
+    "title": {
+      "ru": "Какие брелоки брать за Аду",
+      "en": "Which charms to buy as Ada"
+    },
+    "availableFrom": "sw1",
+    "hints": [
+      "Не скупай все брелоки подряд — копи на самые полезные.",
+      "Смотри на брелоки, усиливающие ближний бой, бег и крюк-кошку.",
+      "Полезнее всего: «Эмблема Иллюминадос» (25 000 песет, +20% к шансу крита в ближнем бою), «Боевик» (100 000 песет, +8% к скорости бега) и брелок «Ада» (за шпинели) — позволяет крюком выдёргивать щиты у врагов. Шпинели дают за поручения торговца; на них же меняют маленькие ключи и карту сокровищ."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tip-rocket-launcher",
+    "type": "tip",
+    "title": {
+      "ru": "Ракетница против боссов",
+      "en": "Rocket launcher against bosses"
+    },
+    "availableFrom": "sw1",
+    "hints": [
+      "Есть способ сильно сократить любой бой с боссом.",
+      "Копи песеты и загляни к торговцу перед крупной схваткой.",
+      "Выстрел из ракетницы (около 80 000 песет) мгновенно решает почти любой бой с боссом — им удобно закончить бой с Эль Гиганте, первую фазу финальной схватки с песантой и бой с Саддлером."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-quest-ch1",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Темница и ворота замка",
+      "en": "Castle dungeon and gate"
+    },
+    "title": {
+      "ru": "Глава 1: побег с Луисом и катапульты",
+      "en": "Chapter 1: escape with Luis and the catapults"
+    },
+    "availableFrom": "sw1",
+    "hints": [
+      "Начало — побег из темницы, а затем Аде предстоит разобраться с осадными машинами.",
+      "После первого тяжёлого боя осмотри зал, затем у ворот замка можно действовать скрытно — цель в башне с пушкой внизу.",
+      "Выбирайся с Луисом из темницы (по пути зелёная трава). После боя и ролика игра научит крюку-кошке. У ворот замка тихо доберись до пушки в нижней башне: на столе снайперская винтовка с патронами, выстрели по камню, чтобы приподнять пушку, и уничтожь три катапульты. Затем повтори то же самое со второй пушкой — глава закончится."
+    ],
+    "match": {
+      "where": [
+        "темница",
+        "ворота замка",
+        "башня с пушкой",
+        "dungeon",
+        "castle gate"
+      ],
+      "what": [
+        "пушка",
+        "катапульта",
+        "крюк-кошка",
+        "cannon",
+        "catapult",
+        "grapple"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-boss-pesanta-ch1",
+    "type": "boss",
+    "region": "castle",
+    "location": {
+      "ru": "Зал после темницы",
+      "en": "Hall after the dungeon"
+    },
+    "title": {
+      "ru": "Первая схватка с песантой",
+      "en": "First fight with the Pesanta"
+    },
+    "availableFrom": "sw1",
+    "hints": [
+      "Противник любит морочить голову — не все его копии настоящие.",
+      "Цель в голову, а когда появятся фантомы, пригодится граната определённого типа.",
+      "Стреляй в основном в голову. Когда появятся фантомы-иллюзии, брось световую гранату — так сэкономишь патроны. После боя обыщи зал: там патроны и песеты."
+    ],
+    "match": {
+      "where": [
+        "темница",
+        "зал",
+        "dungeon",
+        "hall"
+      ],
+      "what": [
+        "песанта",
+        "фантом",
+        "иллюзия",
+        "pesanta",
+        "phantom",
+        "illusion"
+      ],
+      "how": [
+        "световая граната",
+        "flash grenade"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch1-hairpin",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Ворота замка, верхний ярус",
+      "en": "Castle gate, upper level"
+    },
+    "title": {
+      "ru": "Элегантная заколка",
+      "en": "Elegant hairpin"
+    },
+    "availableFrom": "sw1",
+    "hints": [
+      "У ворот замка не спеши сразу вниз.",
+      "Поищи наверху, прежде чем спускаться к пушке.",
+      "В локации перед воротами замка, на верхнем уровне, стоит красный сундук с сокровищем «Элегантная заколка»."
+    ],
+    "match": {
+      "where": [
+        "ворота замка",
+        "верхний ярус",
+        "castle gate"
+      ],
+      "what": [
+        "элегантная заколка",
+        "заколка",
+        "красный сундук",
+        "hairpin"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch1-bracelet",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Внутренний двор замка, беседка",
+      "en": "Castle courtyard, gazebo"
+    },
+    "title": {
+      "ru": "Браслет",
+      "en": "Bracelet"
+    },
+    "availableFrom": "sw1",
+    "hints": [
+      "Леон в основной игре видел, как это место разносят в щепки.",
+      "Во внутреннем дворе осмотрись у беседки.",
+      "Во внутреннем дворе рядом с беседкой (той самой, которую в кампании Леона уничтожают у него на глазах) стоит сундук с браслетом."
+    ],
+    "match": {
+      "where": [
+        "внутренний двор",
+        "беседка",
+        "courtyard",
+        "gazebo"
+      ],
+      "what": [
+        "браслет",
+        "bracelet"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch1-ruby",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Перед следующей точкой зацепа",
+      "en": "Before the next grapple point"
+    },
+    "title": {
+      "ru": "Рубин",
+      "en": "Ruby"
+    },
+    "availableFrom": "sw1",
+    "hints": [
+      "Прежде чем улетать на крюке дальше, оглядись.",
+      "Небольшой сундучок стоит у точки зацепа после внутреннего двора.",
+      "Перед следующей точкой для крюка-кошки (после двора с беседкой и перед второй пушкой) найди маленький сундучок — в нём рубин."
+    ],
+    "match": {
+      "where": [
+        "точка зацепа",
+        "вторая пушка",
+        "grapple point"
+      ],
+      "what": [
+        "рубин",
+        "сундучок",
+        "ruby"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-quest-ch2",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Деревня — мост — церковь",
+      "en": "Village — bridge — church"
+    },
+    "title": {
+      "ru": "Глава 2: через деревню к церкви",
+      "en": "Chapter 2: through the village to the church"
+    },
+    "availableFrom": "sw2",
+    "hints": [
+      "Впереди толпа сельчан, мост и подъём к запертой двери с символами.",
+      "Используй мины и бочки против толпы, после моста забирайся по деревянным платформам.",
+      "Перебей жителей и спустись — ворота откроются и войдёт толпа: взрывай мины и бочки. Дальше в доме можно тихо убрать троих, у моста ещё несколько врагов. За мостом лезь по деревянным платформам (когда трескаются — не беги). Наверху реши загадку с жёлтыми символами, затем доберись до церкви — ролик завершит главу."
+    ],
+    "match": {
+      "where": [
+        "мост",
+        "деревянные платформы",
+        "церковь",
+        "bridge",
+        "church"
+      ],
+      "what": [
+        "жители",
+        "ганадо",
+        "мины",
+        "ganado",
+        "mines"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-puzzle-yellow-symbols",
+    "type": "puzzle",
+    "region": "village",
+    "location": {
+      "ru": "Дверь наверху деревянных платформ",
+      "en": "Door atop the wooden platforms"
+    },
+    "title": {
+      "ru": "Загадка с жёлтыми символами",
+      "en": "Yellow symbols puzzle"
+    },
+    "availableFrom": "sw2",
+    "hints": [
+      "Похожую загадку Леон уже решал — символы разбросаны вокруг двери.",
+      "Найди жёлтые символы и активируй их в правильном порядке: всего три шага.",
+      "Порядок по прохождению: средний левый → верхний по центру → нижний правый. (В отдельном гайде по загадкам та же последовательность начинается с верхнего по центру: верхний по центру → нижний правый → средний левый.)"
+    ],
+    "match": {
+      "where": [
+        "деревянные платформы",
+        "дверь",
+        "мост",
+        "wooden platforms"
+      ],
+      "what": [
+        "жёлтые символы",
+        "символы",
+        "yellow symbols",
+        "symbol"
+      ],
+      "how": [
+        "последовательность",
+        "порядок",
+        "order"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html",
+      "https://vgtimes.ru/guides/100983-vse-zagadki-i-golovolomki-resident-evil-4-remake-separate-ways-raznye-puti.html"
+    ]
+  },
+  {
+    "id": "sw-req-ch2-medallions",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Деревня у церкви",
+      "en": "Village near the church"
+    },
+    "title": {
+      "ru": "Поручение: синие медальоны в деревне",
+      "en": "Request: blue medallions in the village"
+    },
+    "availableFrom": "sw2",
+    "missableAfter": "sw3",
+    "missableNote": "Поручения торговца действуют только в своей главе.",
+    "hints": [
+      "После загадки с символами не спеши в открывшуюся дверь.",
+      "Используй крюк на деревянной площадке напротив — внизу видно первую мишень и листок с заданием.",
+      "Заберись крюком на деревянную площадку напротив двери: там листок с поручением, а внизу первый синий медальон. Остальные три висят неподалёку, по пути к церкви. Сбей все четыре — торговец заплатит шпинелями."
+    ],
+    "match": {
+      "where": [
+        "деревянная площадка",
+        "церковь",
+        "wooden platform",
+        "church"
+      ],
+      "what": [
+        "синий медальон",
+        "медальон",
+        "blue medallion"
+      ],
+      "how": [
+        "стрелять",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch2-ring",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Вход в деревню, после толпы",
+      "en": "Village entrance, after the horde"
+    },
+    "title": {
+      "ru": "Кольцо",
+      "en": "Ring"
+    },
+    "availableFrom": "sw2",
+    "hints": [
+      "Сразу после первой большой драки в деревне оглядись.",
+      "Там же, где ты отбивался от толпы у ворот, стоит красный сундук.",
+      "После боя с толпой у открывшихся ворот осмотри красный сундук рядом — внутри сокровище «Кольцо»."
+    ],
+    "match": {
+      "where": [
+        "ворота",
+        "вход в деревню",
+        "village gate"
+      ],
+      "what": [
+        "кольцо",
+        "красный сундук",
+        "ring"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch2-carafe",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Тропа справа от моста",
+      "en": "Path to the right of the bridge"
+    },
+    "title": {
+      "ru": "Графин",
+      "en": "Carafe"
+    },
+    "availableFrom": "sw2",
+    "hints": [
+      "Не беги сразу на мост.",
+      "Справа от моста есть тропа.",
+      "У моста (после дома с тремя врагами) сверни на тропу справа — она ведёт к сокровищу «Графин»."
+    ],
+    "match": {
+      "where": [
+        "мост",
+        "тропа",
+        "bridge",
+        "path"
+      ],
+      "what": [
+        "графин",
+        "carafe",
+        "decanter"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-boss-pesanta-ch2",
+    "type": "boss",
+    "region": "village",
+    "location": {
+      "ru": "Центральная площадь деревни",
+      "en": "Village plaza"
+    },
+    "title": {
+      "ru": "Повторный бой с песантой",
+      "en": "Pesanta rematch"
+    },
+    "availableFrom": "sw2",
+    "hints": [
+      "Старый знакомый снова прячется за иллюзиями.",
+      "Отличи настоящего врага по глазам.",
+      "На центральной площади песанта опять создаёт иллюзии — стреляй только по тому, у кого красные глаза, остальные копии не трать патроны. После победы сразу собери сокровища деревни: позже часть домов будет закрыта."
+    ],
+    "match": {
+      "where": [
+        "площадь",
+        "центральная площадь",
+        "plaza"
+      ],
+      "what": [
+        "песанта",
+        "таракан",
+        "иллюзия",
+        "pesanta",
+        "illusion"
+      ],
+      "how": [
+        "красные глаза",
+        "red eyes"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-quest-ch2-church",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Церковь и кладбище",
+      "en": "Church and graveyard"
+    },
+    "title": {
+      "ru": "Глава 2: церковь и площадь",
+      "en": "Chapter 2: church and plaza"
+    },
+    "availableFrom": "sw2",
+    "hints": [
+      "От церкви путь лежит обратно в деревню — а на площади ждёт знакомый противник.",
+      "Через кладбище вернись в деревню, у торговца закупись, затем бой на площади.",
+      "У церкви крюком заберись на крышу (рубин, сначала сбей гнездо), в подсобке патроны и порох. Через кладбище иди в деревню — с одного из зомби можно снять очки (не сокровище, но торговец хорошо платит). После торговца — бой с песантой на площади. Собери сокровища в амбаре и в доме у прохода к церкви, затем иди к дому старосты."
+    ],
+    "match": {
+      "where": [
+        "церковь",
+        "кладбище",
+        "площадь",
+        "church",
+        "graveyard"
+      ],
+      "what": [
+        "очки",
+        "песанта",
+        "glasses",
+        "pesanta"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch2-church-ruby",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Крыша церкви",
+      "en": "Church roof"
+    },
+    "title": {
+      "ru": "Рубин на крыше церкви",
+      "en": "Ruby on the church roof"
+    },
+    "availableFrom": "sw2",
+    "hints": [
+      "Посмотри вверх у церкви — там кое-что сидит.",
+      "Сначала избавься от гнезда, потом воспользуйся крюком.",
+      "У церкви выстрели по гнезду, затем крюком-кошкой поднимись на крышу — там рубин."
+    ],
+    "match": {
+      "where": [
+        "церковь",
+        "крыша церкви",
+        "church",
+        "church roof"
+      ],
+      "what": [
+        "рубин",
+        "гнездо",
+        "ruby",
+        "nest"
+      ],
+      "how": [
+        "крюк-кошка",
+        "grapple"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch2-perfume",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Амбар у площади",
+      "en": "Barn by the plaza"
+    },
+    "title": {
+      "ru": "Флакон для духов",
+      "en": "Perfume bottle"
+    },
+    "availableFrom": "sw2",
+    "missableAfter": "sw3",
+    "missableNote": "После ухода к дому старосты часть домов деревни закрывается.",
+    "hints": [
+      "В кампании Леона сюда попадали с помощью Эшли.",
+      "В амбар у площади можно попасть крюком-кошкой.",
+      "После боя на площади зайди в амбар через точку для крюка (где Леон подсаживал Эшли). Внутри большой сундук с флаконом для духов. Успей до похода к дому старосты."
+    ],
+    "match": {
+      "where": [
+        "амбар",
+        "площадь",
+        "barn",
+        "plaza"
+      ],
+      "what": [
+        "флакон для духов",
+        "флакон",
+        "духи",
+        "perfume"
+      ],
+      "how": [
+        "крюк-кошка",
+        "grapple"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch2-house-ruby",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Дом справа от прохода к церкви",
+      "en": "House right of the church path"
+    },
+    "title": {
+      "ru": "Рубин в спальне",
+      "en": "Ruby in the bedroom"
+    },
+    "availableFrom": "sw2",
+    "missableAfter": "sw3",
+    "missableNote": "После ухода к дому старосты часть домов деревни закрывается.",
+    "hints": [
+      "Один из домов у площади стоит обыскать целиком.",
+      "Дом справа от прохода к церкви, загляни в спальню.",
+      "В доме справа от прохода к церкви в спальне стоит сундучок с рубином. Забери до ухода к дому старосты."
+    ],
+    "match": {
+      "where": [
+        "дом у прохода к церкви",
+        "спальня",
+        "bedroom"
+      ],
+      "what": [
+        "рубин",
+        "сундучок",
+        "ruby"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-quest-ch3",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Дом старосты",
+      "en": "Chief's house"
+    },
+    "title": {
+      "ru": "Глава 3: дом старосты и следы Луиса",
+      "en": "Chapter 3: chief's house and Luis's trail"
+    },
+    "availableFrom": "sw3",
+    "hints": [
+      "В доме старосты нужен ключ, а дальше — по следам Луиса.",
+      "Ключ от шкафчика спрятан в одной из картин гостиной; в подвале соседнего здания поищи пачку сигарет.",
+      "Влезь в дом старосты через окно. Запертый шкафчик открывается ключом из картины в гостиной; в коридоре граната, на первом этаже зелёная трава, часы-сокровище и яйцо, в уборной красная трава. Документы — в ящике на втором этаже. Убеги от жителей, у торговца возьми поручение и войди в здание: на столе арбалет, в подвале по следам Луиса найди пачку сигарет и поверни её — узнаешь частоту связи. Отбейся от двух бензопильщиков, закрой вентиль у выхода."
+    ],
+    "match": {
+      "where": [
+        "дом старосты",
+        "гостиная",
+        "подвал",
+        "chief's house"
+      ],
+      "what": [
+        "картина",
+        "пачка сигарет",
+        "частота",
+        "бензопила",
+        "painting",
+        "cigarettes",
+        "chainsaw"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-req-ch3-jacket",
+    "type": "quest",
+    "region": "village",
+    "location": {
+      "ru": "Здание за торговцем",
+      "en": "Building past the merchant"
+    },
+    "title": {
+      "ru": "Поручение: человек в куртке Леона",
+      "en": "Request: the man in Leon's jacket"
+    },
+    "availableFrom": "sw3",
+    "missableAfter": "sw4",
+    "missableNote": "Поручения торговца действуют только в своей главе.",
+    "hints": [
+      "Среди врагов в здании есть кто-то в очень знакомой одежде.",
+      "Листок с поручением висит справа от входа в здание за торговцем.",
+      "Возьми листок справа от входа в здание (после встречи с торговцем). Внутри найди врага в куртке Леона, убей его и принеси добычу торговцу."
+    ],
+    "match": {
+      "where": [
+        "здание",
+        "вход",
+        "building"
+      ],
+      "what": [
+        "куртка леона",
+        "куртка",
+        "leon's jacket",
+        "jacket"
+      ],
+      "how": [
+        "убить",
+        "kill"
+      ],
+      "reward": [
+        "шпинель",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch3-watch",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Дом старосты, первый этаж",
+      "en": "Chief's house, ground floor"
+    },
+    "title": {
+      "ru": "Дорогие часы",
+      "en": "Expensive watch"
+    },
+    "availableFrom": "sw3",
+    "hints": [
+      "Дом старосты стоит обыскать сверху донизу.",
+      "Спустись на первый этаж дома.",
+      "На первом этаже дома старосты лежит сокровище «Дорогие часы» (рядом зелёная трава и куриное яйцо)."
+    ],
+    "match": {
+      "where": [
+        "дом старосты",
+        "первый этаж",
+        "chief's house"
+      ],
+      "what": [
+        "дорогие часы",
+        "часы",
+        "watch"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch3-emerald",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Тупик слева от торговца",
+      "en": "Dead end left of the merchant"
+    },
+    "title": {
+      "ru": "Изумруд",
+      "en": "Emerald"
+    },
+    "availableFrom": "sw3",
+    "hints": [
+      "Рядом с торговцем есть закуток, о котором легко забыть.",
+      "Сверни в проход слева от торговца и дойди до конца.",
+      "От торговца беги в проход слева до тупика — там клетка с изумрудом."
+    ],
+    "match": {
+      "where": [
+        "тупик",
+        "проход слева от торговца",
+        "dead end"
+      ],
+      "what": [
+        "изумруд",
+        "клетка",
+        "emerald",
+        "cage"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch3-red-beryl",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Чёрный ход дома старосты",
+      "en": "Chief's house back door"
+    },
+    "title": {
+      "ru": "Красный берилл",
+      "en": "Red Beryl"
+    },
+    "availableFrom": "sw3",
+    "hints": [
+      "Когда вернёшься в дом старосты, выходи не тем путём, каким пришёл.",
+      "Спустись на первый этаж и выйди через чёрный ход.",
+      "Вернувшись после ролика в дом старосты, спустись вниз и выйди через черный ход — там красный берилл."
+    ],
+    "match": {
+      "where": [
+        "дом старосты",
+        "чёрный ход",
+        "черный ход",
+        "back door"
+      ],
+      "what": [
+        "красный берилл",
+        "берилл",
+        "red beryl"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch3-gold-bangle",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Одноэтажный дом слева от площади",
+      "en": "One-storey house left of the square"
+    },
+    "title": {
+      "ru": "Золотой браслет",
+      "en": "Gold bangle"
+    },
+    "availableFrom": "sw3",
+    "hints": [
+      "На пути к мельнице попадётся запертый шкафчик.",
+      "Нужен маленький ключ от торговца; шкафчик в одноэтажном доме слева от площади.",
+      "Купи у торговца маленький ключ и открой шкафчик в одноэтажном доме с левой стороны площади по пути к мельнице — внутри золотой браслет. Там же лежит золотое яйцо (его сразу можно продать)."
+    ],
+    "match": {
+      "where": [
+        "одноэтажный дом",
+        "площадь",
+        "путь к мельнице",
+        "square"
+      ],
+      "what": [
+        "золотой браслет",
+        "шкафчик",
+        "маленький ключ",
+        "small key",
+        "bangle"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch3-pearl",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Мельница, ветряк",
+      "en": "Windmill sails"
+    },
+    "title": {
+      "ru": "Жемчужное ожерелье",
+      "en": "Pearl necklace"
+    },
+    "availableFrom": "sw3",
+    "hints": [
+      "На мельнице посмотри на то, что вращается.",
+      "Клетка висит на лопастях ветряка.",
+      "На мельнице жемчужное ожерелье висит в клетке на ветряке — сбей её выстрелом."
+    ],
+    "match": {
+      "where": [
+        "мельница",
+        "ветряк",
+        "windmill"
+      ],
+      "what": [
+        "жемчужное ожерелье",
+        "ожерелье",
+        "клетка",
+        "pearl"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch3-yellow-diamond",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Мельница, деревянная балка",
+      "en": "Windmill, wooden beam"
+    },
+    "title": {
+      "ru": "Жёлтый алмаз",
+      "en": "Yellow Diamond"
+    },
+    "availableFrom": "sw3",
+    "hints": [
+      "На мельнице есть второе сокровище, повыше.",
+      "Осмотри деревянные балки на самом здании мельницы.",
+      "Жёлтый алмаз лежит на деревянной балке на здании мельницы."
+    ],
+    "match": {
+      "where": [
+        "мельница",
+        "балка",
+        "windmill",
+        "beam"
+      ],
+      "what": [
+        "жёлтый алмаз",
+        "желтый алмаз",
+        "yellow diamond"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-boss-el-gigante",
+    "type": "boss",
+    "region": "village",
+    "location": {
+      "ru": "Мост у мельницы",
+      "en": "Bridge by the windmill"
+    },
+    "title": {
+      "ru": "Эль Гиганте",
+      "en": "El Gigante"
+    },
+    "availableFrom": "sw3",
+    "hints": [
+      "Гигант ждёт сразу за мостом — подготовься заранее.",
+      "Не залезай сразу на центральное здание; ищи момент, когда покажется паразит.",
+      "Быстрее всего — ракетница (80 000 песет). Иначе стреляй в голову, а когда из спины вылезет паразит — бей по нему. С начала боя лучше кружить вокруг гиганта, а не забираться на центральное здание."
+    ],
+    "match": {
+      "where": [
+        "мост",
+        "мельница",
+        "bridge",
+        "windmill"
+      ],
+      "what": [
+        "эль гиганте",
+        "гигант",
+        "паразит",
+        "el gigante",
+        "giant"
+      ],
+      "how": [
+        "ракетница",
+        "rocket launcher"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-quest-ch4",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Крыло замка",
+      "en": "Castle wing"
+    },
+    "title": {
+      "ru": "Глава 4: три ингредиента для Луиса",
+      "en": "Chapter 4: three ingredients for Luis"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "Луису нужны три ингредиента — путь к ним прегражден загадками.",
+      "Литографские пластины, щиты, бутылочки на постаментах, лабиринт и сканер — всё по очереди.",
+      "Иди за Луисом, перебей фанатиков и войди за ним в горящую комнату. Дальше линейный путь: в соседнем крыле собери литографские пластины (на диване у запертой двери и на столе у торговца) и реши загадку, потом загадку со щитами — первый ингредиент. Во дворе — мишени-колокола, затем коридоры рыцарей с серебряной и золотой бутылочками, лабиринт с фанатиками и комната со сканером, где лежит последний ингредиент."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "горящая комната",
+        "castle"
+      ],
+      "what": [
+        "ингредиент",
+        "луис",
+        "ingredient",
+        "luis"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-puzzle-lithographs",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Соседнее крыло замка",
+      "en": "Neighbouring castle wing"
+    },
+    "title": {
+      "ru": "Головоломка с литографскими пластинами",
+      "en": "Lithograph plates puzzle"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "Как у Леона, только с отличием: одну пластину можно перевернуть.",
+      "Пластины лежат на диване у запертой двери и на столе в комнате с торговцем. Зонт при переворачивании становится веером.",
+      "Левую пластину с зонтом переверни (выйдет веер) и поставь наверх; верхнюю с зонтом — вправо; правую — вниз; оставшуюся — на место первой, влево."
+    ],
+    "match": {
+      "where": [
+        "крыло замка",
+        "диван",
+        "комната с торговцем",
+        "castle wing"
+      ],
+      "what": [
+        "литографская пластина",
+        "пластина",
+        "зонт",
+        "веер",
+        "lithograph",
+        "plate",
+        "umbrella",
+        "fan"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html",
+      "https://vgtimes.ru/guides/100983-vse-zagadki-i-golovolomki-resident-evil-4-remake-separate-ways-raznye-puti.html"
+    ]
+  },
+  {
+    "id": "sw-puzzle-shields",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Комната со щитами на стене",
+      "en": "Room with wall shields"
+    },
+    "title": {
+      "ru": "Загадка со щитами",
+      "en": "Shields puzzle"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "Подсказка висит на противоположной стене — щиты нужно поразить в определённом порядке.",
+      "Записка-подсказка появляется при взаимодействии с рычагом в той же комнате. Нужно три выстрела.",
+      "Стреляй по щитам: левый нижний → правый верхний → правый нижний. Откроется ящик шкафа с красными чернилами (первый ингредиент)."
+    ],
+    "match": {
+      "where": [
+        "комната со щитами",
+        "shields room"
+      ],
+      "what": [
+        "щит",
+        "рычаг",
+        "красные чернила",
+        "shield",
+        "red ink"
+      ],
+      "how": [
+        "стрелять",
+        "shoot"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html",
+      "https://vgtimes.ru/guides/100983-vse-zagadki-i-golovolomki-resident-evil-4-remake-separate-ways-raznye-puti.html"
+    ]
+  },
+  {
+    "id": "sw-puzzle-bells",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Помещение с массивными воротами",
+      "en": "Room with massive gates"
+    },
+    "title": {
+      "ru": "Головоломка с колоколами",
+      "en": "Bells puzzle"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "Колокола помечены животными — стреляй по группам одинаковых.",
+      "Порядок групп: первый колокол, змеи, птицы, морские коньки, снова змеи. Часть мишеней прячется за решёткой.",
+      "Ударь (или выстрели) по первому колоколу слева от ворот. Когда ворота откроются — по змеям справа и слева. Найди три колокола с птицами (один за решёткой) и забери красный фонарь — проход закроется и полезут шипы. Тогда: птица слева + две за решёткой, затем морские коньки (одна мишень за решёткой слева), и наконец колокола со змеями; выбирайся крюком-кошкой."
+    ],
+    "match": {
+      "where": [
+        "массивные ворота",
+        "решётка",
+        "gates"
+      ],
+      "what": [
+        "колокол",
+        "змея",
+        "птица",
+        "морской конёк",
+        "красный фонарь",
+        "bell",
+        "snake",
+        "bird",
+        "seahorse",
+        "red lantern"
+      ],
+      "how": [
+        "стрелять",
+        "shoot"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/100983-vse-zagadki-i-golovolomki-resident-evil-4-remake-separate-ways-raznye-puti.html"
+    ]
+  },
+  {
+    "id": "sw-puzzle-bottles",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Коридоры с рыцарями",
+      "en": "Knight corridors"
+    },
+    "title": {
+      "ru": "Серебряная и золотая бутылочки",
+      "en": "Silver and gold bottles"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "Двери в коридорах реагируют на то, что стоит на постаменте.",
+      "Меняй бутылочки местами: берёшь одну — ставишь другую.",
+      "В тупике коридора с рыцарями возьми серебряную бутылочку (нападут паразиты-рыцари: стреляй по паразиту, ударом сбей шлем, добей). В следующем коридоре поставь серебряную и возьми золотую. Дальше: забери серебряную, поставь золотую; в следующем коридоре снова возьми золотую и поставь серебряную — путь открыт."
+    ],
+    "match": {
+      "where": [
+        "коридор с рыцарями",
+        "knight corridor"
+      ],
+      "what": [
+        "серебряная бутылочка",
+        "золотая бутылочка",
+        "бутылочка",
+        "рыцарь",
+        "silver bottle",
+        "gold bottle",
+        "knight"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch4-compass",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Тупик коридора с рыцарями",
+      "en": "Knight corridor dead end"
+    },
+    "title": {
+      "ru": "Старинный компас",
+      "en": "Antique compass"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "В коридоре с доспехами сначала загляни в тупик.",
+      "Красный сундук стоит там же, где серебряная бутылочка.",
+      "В тупике коридора с рыцарями открой красный сундук — старинный компас. Там же серебряная бутылочка."
+    ],
+    "match": {
+      "where": [
+        "коридор с рыцарями",
+        "тупик",
+        "knight corridor"
+      ],
+      "what": [
+        "старинный компас",
+        "компас",
+        "compass"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch4-alexandrite",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Комната с рыцарями-паразитами",
+      "en": "Room with parasite knights"
+    },
+    "title": {
+      "ru": "Александрит",
+      "en": "Alexandrite"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "После боя с рыцарями и арбалетчиками не уходи сразу.",
+      "Загляни за стену в той же комнате.",
+      "В комнате, где сражаешься с рыцарями-паразитами и двумя арбалетчиками, за стеной лежит александрит."
+    ],
+    "match": {
+      "where": [
+        "комната с рыцарями",
+        "арбалетчики",
+        "knights room"
+      ],
+      "what": [
+        "александрит",
+        "alexandrite"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch4-necklace",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Коридор с запертым шкафчиком",
+      "en": "Corridor with locked cabinet"
+    },
+    "title": {
+      "ru": "Вычурное ожерелье",
+      "en": "Ornate necklace"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "Запертый шкафчик в коридоре с бутылочками стоит потом вернуться и открыть.",
+      "Купи маленький ключ у торговца за шпинели — их роняют рыцари.",
+      "Маленький ключ (за шпинели) открывает шкафчик в коридоре, где ставишь серебряную бутылочку. Внутри вычурное ожерелье."
+    ],
+    "match": {
+      "where": [
+        "коридор",
+        "knight corridor"
+      ],
+      "what": [
+        "вычурное ожерелье",
+        "шкафчик",
+        "маленький ключ",
+        "small key",
+        "necklace"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch4-velvet",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Беседка во дворе",
+      "en": "Courtyard gazebo"
+    },
+    "title": {
+      "ru": "Бархатистый самоцвет",
+      "en": "Velvet Blue"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "Когда выйдешь на улицу, проверь укрытия во дворе.",
+      "Загляни в беседку.",
+      "На улице после коридоров с рыцарями в беседке лежит бархатистый самоцвет. Рядом можно наловить окуней."
+    ],
+    "match": {
+      "where": [
+        "беседка",
+        "двор",
+        "gazebo"
+      ],
+      "what": [
+        "бархатистый самоцвет",
+        "самоцвет",
+        "velvet blue",
+        "окунь"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch4-red-beryl",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Тупик во дворе",
+      "en": "Courtyard dead end"
+    },
+    "title": {
+      "ru": "Красный берилл",
+      "en": "Red Beryl"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "На улице есть ещё одна ценность в стороне от пути.",
+      "Проверь тупики на улице рядом с беседкой.",
+      "В той же уличной зоне, что и беседка, в тупике спрятан красный берилл."
+    ],
+    "match": {
+      "where": [
+        "тупик",
+        "двор",
+        "беседка",
+        "dead end"
+      ],
+      "what": [
+        "красный берилл",
+        "берилл",
+        "red beryl"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch4-butterfly-lamp",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Лабиринт",
+      "en": "Hedge maze"
+    },
+    "title": {
+      "ru": "Светильник с бабочками",
+      "en": "Butterfly lamp"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "После стычки в лабиринте осмотри его закоулки.",
+      "Сокровище лежит в одном из тупиков лабиринта.",
+      "Расправься с фанатиками в лабиринте (предводителя догоняй крюком, иначе он превратит врагов в зомби с паразитами), затем в тупике найди светильник с бабочками."
+    ],
+    "match": {
+      "where": [
+        "лабиринт",
+        "maze",
+        "labyrinth"
+      ],
+      "what": [
+        "светильник с бабочками",
+        "светильник",
+        "бабочки",
+        "butterfly lamp"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-req-ch4-medallions",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Двор и стены замка",
+      "en": "Castle courtyard and walls"
+    },
+    "title": {
+      "ru": "Поручение: синие медальоны во дворе",
+      "en": "Request: blue medallions in the courtyard"
+    },
+    "availableFrom": "sw4",
+    "missableAfter": "sw5",
+    "missableNote": "Поручения торговца действуют только в своей главе.",
+    "hints": [
+      "Во дворе замка снова развешаны синие мишени.",
+      "Ищи их по пути от лабиринта к стенам замка.",
+      "Найди и сбей все синие медальоны во дворе замка (на пути к стенам), затем получи награду у торговца. Гайд показывает их места только на скриншотах."
+    ],
+    "match": {
+      "where": [
+        "двор",
+        "стены замка",
+        "лабиринт",
+        "courtyard",
+        "castle walls"
+      ],
+      "what": [
+        "синий медальон",
+        "медальон",
+        "blue medallion"
+      ],
+      "how": [
+        "стрелять",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch4-walls-ruby",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Стены замка, нижний уровень",
+      "en": "Castle walls, lowest level"
+    },
+    "title": {
+      "ru": "Рубин за стеной",
+      "en": "Ruby behind the wall"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "У стен замка спустись как можно ниже.",
+      "Посмотри за стену справа.",
+      "Дойдя до стен замка, спустись на самый нижний уровень и загляни за стену справа — там сундук с рубином."
+    ],
+    "match": {
+      "where": [
+        "стены замка",
+        "нижний уровень",
+        "castle walls"
+      ],
+      "what": [
+        "рубин",
+        "ruby"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch4-hourglass",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Стены замка, противоположная сторона",
+      "en": "Castle walls, opposite side"
+    },
+    "title": {
+      "ru": "Золотые песочные часы",
+      "en": "Gold hourglass"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "У стен замка что-то лежит на другой стороне — но путь туда закрыт.",
+      "Сначала нужно переключить рычаг луны.",
+      "Активируй рычаг луны и пройди на противоположную сторону у стен замка — там золотые песочные часы."
+    ],
+    "match": {
+      "where": [
+        "стены замка",
+        "противоположная сторона",
+        "castle walls"
+      ],
+      "what": [
+        "золотые песочные часы",
+        "песочные часы",
+        "рычаг луны",
+        "hourglass",
+        "moon lever"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch4-yellow-diamond",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Решётка с навесным замком",
+      "en": "Padlocked gate"
+    },
+    "title": {
+      "ru": "Жёлтый алмаз",
+      "en": "Yellow Diamond"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "Рядом с запертой решёткой у стен замка стоит что-то ценное.",
+      "Ищи решётку с навесным замком.",
+      "Прямо перед решёткой, запертой на навесной замок (у стен замка), стоит сундучок с жёлтым алмазом."
+    ],
+    "match": {
+      "where": [
+        "решётка",
+        "навесной замок",
+        "стены замка",
+        "padlock"
+      ],
+      "what": [
+        "жёлтый алмаз",
+        "желтый алмаз",
+        "yellow diamond"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-puzzle-scanner",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Комната с энтомологической коллекцией",
+      "en": "Insect collection room"
+    },
+    "title": {
+      "ru": "Шкафчик с бабочкой: код по сканеру",
+      "en": "Butterfly cabinet: scanner code"
+    },
+    "availableFrom": "sw4",
+    "hints": [
+      "Код к шкафчику оставил след — разгляди его сканером.",
+      "Нужно три символа; следы указывают, какие нажимали.",
+      "Комбинация замка: жук → череп → ящерица. В шкафчике синяя бабочка — последний ингредиент."
+    ],
+    "match": {
+      "where": [
+        "энтомологическая коллекция",
+        "комната с насекомыми",
+        "insect room"
+      ],
+      "what": [
+        "шкафчик",
+        "сканер",
+        "синяя бабочка",
+        "жук",
+        "череп",
+        "ящерица",
+        "scanner",
+        "blue butterfly",
+        "beetle",
+        "skull",
+        "lizard"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html",
+      "https://vgtimes.ru/guides/100983-vse-zagadki-i-golovolomki-resident-evil-4-remake-separate-ways-raznye-puti.html"
+    ]
+  },
+  {
+    "id": "sw-quest-ch5",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Водоотвод и каналы замка",
+      "en": "Castle drain and canals"
+    },
+    "title": {
+      "ru": "Глава 5: спуск воды и выход из замка",
+      "en": "Chapter 5: drain the water and leave the castle"
+    },
+    "availableFrom": "sw5",
+    "hints": [
+      "Идёшь по следам Луиса — переключатели и вода в каналах на пути.",
+      "Ставь рычаги на знаки солнца и луны, дойди до вентиля и спусти воду; дальше арена с прикованным монстром.",
+      "Выйди из башни, переключай рычаги на нужные знаки солнца и луны. Через водоотвод спустись в шахту, дойди до вентиля (там торговец и поручение про рыбу) и спусти воду. В канале под водой прячутся насекомые — смотри на зелёные глаза. В большом зале — бой с Гаррадором, затем двухфазный бой с песантой. У выхода из замка открывай ворота рычагом, не трать время на всех зомби; у торговца возьми следующее поручение."
+    ],
+    "match": {
+      "where": [
+        "башня",
+        "водоотвод",
+        "шахта",
+        "канал",
+        "вентиль",
+        "drain",
+        "canal",
+        "valve"
+      ],
+      "what": [
+        "рычаг солнца",
+        "рычаг луны",
+        "вода",
+        "sun lever",
+        "moon lever",
+        "water"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch5-pearl-bracelet",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Над башней",
+      "en": "Above the tower"
+    },
+    "title": {
+      "ru": "Жемчужный браслет",
+      "en": "Pearl bracelet"
+    },
+    "availableFrom": "sw5",
+    "hints": [
+      "Глава начинается — и уже рядом есть сокровище.",
+      "Выйдя из башни, заберись наверх.",
+      "Выйди из башни наружу и поднимись наверх — сундук с жемчужным браслетом."
+    ],
+    "match": {
+      "where": [
+        "башня",
+        "наверху",
+        "tower"
+      ],
+      "what": [
+        "жемчужный браслет",
+        "браслет",
+        "pearl bracelet"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch5-crown",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Первая большая комната",
+      "en": "First large room"
+    },
+    "title": {
+      "ru": "Элегантная корона",
+      "en": "Elegant crown"
+    },
+    "availableFrom": "sw5",
+    "hints": [
+      "Это сокровище со вставками — не продавай его сразу.",
+      "В первой большой комнате на пути по следам Луиса сверни направо.",
+      "В первой большой комнате сверни направо — сундук с элегантной короной. Не продавай: если вставить пять разноцветных самоцветов, торговец даст за неё около 100 000."
+    ],
+    "match": {
+      "where": [
+        "первая большая комната",
+        "large room"
+      ],
+      "what": [
+        "элегантная корона",
+        "корона",
+        "crown"
+      ],
+      "how": [
+        "самоцветы",
+        "gems"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch5-velvet",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Шахта, сломанная лестница",
+      "en": "Mine, broken ladder"
+    },
+    "title": {
+      "ru": "Бархатистый самоцвет",
+      "en": "Velvet Blue"
+    },
+    "availableFrom": "sw5",
+    "hints": [
+      "Спустившись в шахту, поищи путь наверх.",
+      "Поднимись по сломанной лестнице.",
+      "После спуска в шахту через водоотвод поднимись по сломанной лестнице — на вершине бархатистый самоцвет."
+    ],
+    "match": {
+      "where": [
+        "шахта",
+        "сломанная лестница",
+        "водоотвод",
+        "mine"
+      ],
+      "what": [
+        "бархатистый самоцвет",
+        "самоцвет",
+        "velvet blue"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch5-alexandrite",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Каналы, наверху лестницы",
+      "en": "Canals, top of the ladder"
+    },
+    "title": {
+      "ru": "Александрит",
+      "en": "Alexandrite"
+    },
+    "availableFrom": "sw5",
+    "hints": [
+      "Когда вода спущена, не беги сразу к цели — вернись немного назад.",
+      "Поднимись по лестнице у осушенного канала.",
+      "Спустив воду, вернись и поднимись по лестнице — красный сундук с александритом."
+    ],
+    "match": {
+      "where": [
+        "канал",
+        "лестница",
+        "осушенный канал",
+        "canal"
+      ],
+      "what": [
+        "александрит",
+        "красный сундук",
+        "alexandrite"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch5-gold-bar",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Каналы, наверху лестницы",
+      "en": "Canals, top of the ladder"
+    },
+    "title": {
+      "ru": "Золотой слиток",
+      "en": "Gold bar"
+    },
+    "availableFrom": "sw5",
+    "hints": [
+      "Рядом с красным сундуком у каналов есть ещё и запертый шкафчик.",
+      "Нужен маленький ключ.",
+      "Там же, где красный сундук с александритом (наверху лестницы у каналов), стоит запертый шкафчик — маленьким ключом открой его и забери золотой слиток."
+    ],
+    "match": {
+      "where": [
+        "канал",
+        "лестница",
+        "canal"
+      ],
+      "what": [
+        "золотой слиток",
+        "шкафчик",
+        "маленький ключ",
+        "gold bar",
+        "small key"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-req-ch5-fish",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Каналы замка",
+      "en": "Castle canals"
+    },
+    "title": {
+      "ru": "Поручение: гигантская рыба",
+      "en": "Request: giant fish"
+    },
+    "availableFrom": "sw5",
+    "missableAfter": "sw6",
+    "missableNote": "Поручения торговца действуют только в своей главе.",
+    "hints": [
+      "Торговец у вентиля хочет крупный улов.",
+      "Рыба плавает в одном из каналов по пути к основной цели.",
+      "Возьми поручение у торговца рядом с вентилем. Гигантская рыба плавает в одном из каналов по дороге к цели — поймай её и сдай торговцу."
+    ],
+    "match": {
+      "where": [
+        "канал",
+        "вентиль",
+        "canal",
+        "valve"
+      ],
+      "what": [
+        "гигантская рыба",
+        "рыба",
+        "giant fish",
+        "fish"
+      ],
+      "how": [
+        "поймать",
+        "catch"
+      ],
+      "reward": [
+        "шпинель",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-boss-garrador",
+    "type": "boss",
+    "region": "castle",
+    "location": {
+      "ru": "Просторный зал",
+      "en": "Large hall"
+    },
+    "title": {
+      "ru": "Гаррадор",
+      "en": "Garrador"
+    },
+    "availableFrom": "sw5",
+    "hints": [
+      "Слепой противник пока на цепи — это твой шанс.",
+      "Возьми снайперскую винтовку, лучше с биосенсорным прицелом.",
+      "Пока Гаррадор прикован, сделай несколько выстрелов из снайперки (желательно с биосенсорным прицелом). Затем появляются обычные враги — пусть отвлекают слепого, а ты добивай его."
+    ],
+    "match": {
+      "where": [
+        "зал",
+        "арена",
+        "hall"
+      ],
+      "what": [
+        "гаррадор",
+        "слепой",
+        "garrador"
+      ],
+      "how": [
+        "снайперская винтовка",
+        "биосенсорный прицел",
+        "sniper",
+        "biosensor scope"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-boss-pesanta-final",
+    "type": "boss",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, перед выходом",
+      "en": "Castle, before the exit"
+    },
+    "title": {
+      "ru": "Песанта: финальная схватка",
+      "en": "Pesanta: final fight"
+    },
+    "availableFrom": "sw5",
+    "hints": [
+      "Преследователь Ады выходит на решающий бой — и в нём два этапа.",
+      "Первый этап проще всего закрыть ракетницей; во втором следи за глазом и мелкими насекомыми.",
+      "Купи хотя бы одну ракетницу — она сбережёт патроны для второй фазы. Во второй фазе уклоняйся, стреляй в глаз, когда монстр вылезает из-под земли, быстро отстреливай появляющихся насекомых и держись подальше от его бомб."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "арена",
+        "castle"
+      ],
+      "what": [
+        "песанта",
+        "глаз",
+        "насекомые",
+        "бомбы",
+        "pesanta",
+        "eye"
+      ],
+      "how": [
+        "ракетница",
+        "rocket launcher"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-req-ch5-pest-control",
+    "type": "quest",
+    "region": "castle",
+    "location": {
+      "ru": "Туннели после выхода из замка",
+      "en": "Tunnels after leaving the castle"
+    },
+    "title": {
+      "ru": "Поручение: Гроза насекомых",
+      "en": "Request: Pest control"
+    },
+    "availableFrom": "sw5",
+    "missableAfter": "sw6",
+    "missableNote": "Провалится, если использовать крюк-кошку до убийства всех трёх новистадоров.",
+    "hints": [
+      "В туннелях кто-то прячется на стенах и потолке.",
+      "Смотри наверх в туннелях; третий сидит у входа в пещеру.",
+      "Возьми поручение у торговца у выхода из замка. После рычага подъёмников в туннелях смотри наверх — там два замаскированных новистадора, третий на стене слева перед входом в пещеру. Убей всех троих ДО того, как воспользуешься крюком-кошкой, иначе задание провалится."
+    ],
+    "match": {
+      "where": [
+        "туннели",
+        "пещера",
+        "подъёмник",
+        "tunnels",
+        "cave"
+      ],
+      "what": [
+        "новистадор",
+        "замаскированный",
+        "novistador"
+      ],
+      "how": [
+        "стрелять",
+        "shoot"
+      ],
+      "reward": [
+        "шпинель",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-quest-ch6",
+    "type": "quest",
+    "region": "island",
+    "location": {
+      "ru": "Остров, лаборатории",
+      "en": "Island labs"
+    },
+    "title": {
+      "ru": "Глава 6: блок питания и фуникулёр",
+      "en": "Chapter 6: power unit and cable car"
+    },
+    "availableFrom": "sw6",
+    "hints": [
+      "Чтобы уехать дальше, нужен источник энергии из холодного места.",
+      "Блок питания лежит в холодильнике лаборатории; вставь его у ворот к фуникулёру.",
+      "Перебей врагов, осмотри кабинку на возвышенности и иди в комнату с янтарём. На улице дождись подъёмника и перемахни крюком через забор (мини-боссы, один с ручным пулемётом). В лаборатории в холодильнике возьми блок питания, вернись коротким путём, вставь его в разъём у ворот и садись в фуникулёр — по дороге отстреливайся от стрелков и гранатомётчиков. Дальше — дзоты с пулемётчиками: обойди их и взорви бочки внутри."
+    ],
+    "match": {
+      "where": [
+        "комната с янтарём",
+        "лаборатория",
+        "фуникулёр",
+        "lab",
+        "cable car"
+      ],
+      "what": [
+        "блок питания",
+        "холодильник",
+        "регенератор",
+        "power unit",
+        "regenerator"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch6-crystal-ore",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Комната с янтарём",
+      "en": "Amber room"
+    },
+    "title": {
+      "ru": "Кристаллическая руда",
+      "en": "Crystal ore"
+    },
+    "availableFrom": "sw6",
+    "hints": [
+      "В начале главы зайди в комнату с необычным камнем.",
+      "Сундук стоит в комнате с янтарём.",
+      "В комнате с янтарём (после кабинки на возвышенности) открой сундук — кристаллическая руда. Затем приготовься к нападению моряков."
+    ],
+    "match": {
+      "where": [
+        "комната с янтарём",
+        "янтарь",
+        "amber room"
+      ],
+      "what": [
+        "кристаллическая руда",
+        "руда",
+        "crystal ore"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch6-golden-lynx",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Коридор лаборатории",
+      "en": "Lab corridor"
+    },
+    "title": {
+      "ru": "Золотая рысь",
+      "en": "Golden Lynx"
+    },
+    "availableFrom": "sw6",
+    "hints": [
+      "Возвращаясь с блоком питания, не спеши.",
+      "В коридоре держись правой стороны.",
+      "Забрав блок питания из холодильника, по пути назад в коридоре держись правой стороны — там сундук с золотой рысью."
+    ],
+    "match": {
+      "where": [
+        "коридор",
+        "лаборатория",
+        "lab corridor"
+      ],
+      "what": [
+        "золотая рысь",
+        "рысь",
+        "golden lynx"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch6-gold-bar",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Конец коридора с регенераторами",
+      "en": "End of the regenerator corridor"
+    },
+    "title": {
+      "ru": "Золотой брусок",
+      "en": "Gold bar"
+    },
+    "availableFrom": "sw6",
+    "hints": [
+      "В конце коридора с регенераторами стоит запертый ящик.",
+      "Нужен маленький ключ — локация закольцована, можно вернуться после торговца.",
+      "После регенераторов в конце коридора запертый ящик с золотым бруском. Если ключа нет, купи у торговца и вернись — путь закольцован."
+    ],
+    "match": {
+      "where": [
+        "коридор",
+        "регенераторы",
+        "corridor"
+      ],
+      "what": [
+        "золотой брусок",
+        "запертый ящик",
+        "маленький ключ",
+        "gold bar",
+        "small key"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-req-ch6-bugs",
+    "type": "quest",
+    "region": "island",
+    "location": {
+      "ru": "Лаборатории острова",
+      "en": "Island labs"
+    },
+    "title": {
+      "ru": "Поручение: Великолепные жуки",
+      "en": "Request: Magnificent beetles"
+    },
+    "availableFrom": "sw6",
+    "missableAfter": "sw7",
+    "missableNote": "Поручения торговца действуют только в своей главе.",
+    "hints": [
+      "Жуки сидят не на стенах, а внутри особых врагов.",
+      "Нужен биосенсорный прицел — жуки внутри регенераторов.",
+      "В первой лаборатории с моряками найди регенератора, через биосенсорный прицел уничтожь паразитов — с трупа выпадет первый жук. Второй — у регенератора в комнате на верхнем этаже. Сдай жуков торговцу."
+    ],
+    "match": {
+      "where": [
+        "лаборатория",
+        "верхний этаж",
+        "lab"
+      ],
+      "what": [
+        "жук",
+        "регенератор",
+        "beetle",
+        "regenerator"
+      ],
+      "how": [
+        "биосенсорный прицел",
+        "biosensor scope"
+      ],
+      "reward": [
+        "шпинель",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-req-ch6-pest-control-2",
+    "type": "quest",
+    "region": "island",
+    "location": {
+      "ru": "Зона с дзотами",
+      "en": "Area with bunkers"
+    },
+    "title": {
+      "ru": "Поручение: Гроза насекомых 2",
+      "en": "Request: Pest control 2"
+    },
+    "availableFrom": "sw6",
+    "missableAfter": "sw7",
+    "missableNote": "Поручения торговца действуют только в своей главе.",
+    "hints": [
+      "После фуникулёра в зоне с пулемётчиками снова прячутся замаскированные насекомые.",
+      "Их трое; удобнее всего искать с биосенсорным прицелом.",
+      "В локации после фуникулёра (много врагов и пулемётчики в дзотах) найди и убей трёх крупных замаскированных насекомых — проще всего через биосенсорный прицел."
+    ],
+    "match": {
+      "where": [
+        "дзоты",
+        "фуникулёр",
+        "bunker"
+      ],
+      "what": [
+        "насекомые",
+        "новистадор",
+        "замаскированный",
+        "novistador"
+      ],
+      "how": [
+        "биосенсорный прицел",
+        "biosensor scope"
+      ],
+      "reward": [
+        "шпинель",
+        "spinel"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-puzzle-lab-codes",
+    "type": "puzzle",
+    "region": "island",
+    "location": {
+      "ru": "Лаборатория",
+      "en": "Laboratory"
+    },
+    "title": {
+      "ru": "Коды панелей в лаборатории",
+      "en": "Lab panel codes"
+    },
+    "availableFrom": "sw6",
+    "hints": [
+      "В финальной лаборатории главы трижды понадобится цифровой код.",
+      "Первая панель открывает встречу с подопытным, вторая — дверь после канализации, третья — после лазеров.",
+      "Коды: первая панель — 148 (выпустит медлительного подопытного: закрой вентиль и протиснись в ворота), дверь после канализации — 237, панель после лазеров — 430. В конце главы QTE с лазерами."
+    ],
+    "match": {
+      "where": [
+        "лаборатория",
+        "канализация",
+        "lab",
+        "sewer"
+      ],
+      "what": [
+        "код",
+        "панель",
+        "лазеры",
+        "code",
+        "panel",
+        "laser"
+      ],
+      "reward": [
+        "148",
+        "237",
+        "430"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-tr-ch6-ornate-necklace",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Комната за дверью с кодом 237",
+      "en": "Room behind the 237 door"
+    },
+    "title": {
+      "ru": "Вычурное ожерелье",
+      "en": "Ornate necklace"
+    },
+    "availableFrom": "sw6",
+    "hints": [
+      "После канализации у двери с кодовым замком есть награда.",
+      "Введи код 237 и разберись с охраной.",
+      "Выбравшись из канализации, открой дверь кодом 237, убей единственного моряка и забери вычурное ожерелье. В самой канализации тоже не пропусти сокровище."
+    ],
+    "match": {
+      "where": [
+        "канализация",
+        "дверь с кодом",
+        "sewer"
+      ],
+      "what": [
+        "вычурное ожерелье",
+        "ожерелье",
+        "моряк",
+        "ornate necklace"
+      ],
+      "reward": [
+        "237"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-boss-saddler",
+    "type": "boss",
+    "region": "island",
+    "location": {
+      "ru": "Святилище",
+      "en": "Sanctuary"
+    },
+    "title": {
+      "ru": "Лорд Саддлер",
+      "en": "Lord Saddler"
+    },
+    "availableFrom": "sw7",
+    "hints": [
+      "Главный злодей ждёт в святилище — лучше прийти с тяжёлой артиллерией.",
+      "Купи у торговца ракетницу заранее.",
+      "Беги в святилище. Одного выстрела из ракетницы достаточно, чтобы завершить бой с Саддлером."
+    ],
+    "match": {
+      "where": [
+        "святилище",
+        "sanctuary"
+      ],
+      "what": [
+        "саддлер",
+        "лорд саддлер",
+        "saddler"
+      ],
+      "how": [
+        "ракетница",
+        "rocket launcher"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  },
+  {
+    "id": "sw-quest-ch7",
+    "type": "quest",
+    "region": "island",
+    "location": {
+      "ru": "Остров, платформа с лифтом",
+      "en": "Island, elevator platform"
+    },
+    "title": {
+      "ru": "Глава 7: гранатомёт для Леона",
+      "en": "Chapter 7: a launcher for Leon"
+    },
+    "availableFrom": "sw7",
+    "hints": [
+      "Финал на время — не задерживайся на врагах.",
+      "Доберись до гранатомёта; на платформе мешает щупальце и моряки.",
+      "После боя с Саддлером иди вперёд. Когда запустится таймер, обходи врагов и беги к гранатомёту. Убери щупальце, закрывающее точку для крюка, затем перебей всех моряков на платформе — иначе лифт не запустится (около трёх минут). Брось гранатомёт Леону — финальная сцена."
+    ],
+    "match": {
+      "where": [
+        "платформа",
+        "лифт",
+        "platform",
+        "elevator"
+      ],
+      "what": [
+        "гранатомёт",
+        "щупальце",
+        "таймер",
+        "launcher",
+        "tentacle"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/101179-prohozhdenie-resident-evil-4-remake-separate-ways-dva-puti-vse-sokrovischa-i-porucheniya-torgovca.html"
+    ]
+  }
+]

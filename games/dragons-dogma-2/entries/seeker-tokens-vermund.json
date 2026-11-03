@@ -1,0 +1,1564 @@
+[
+  {
+    "id": "token-melve-river",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Мелв, берег реки",
+      "en": "Melve, river shore"
+    },
+    "title": {
+      "ru": "Жетон искателя: Мелв, берег реки",
+      "en": "Seeker's Token: Melve, river shore"
+    },
+    "availableFrom": "in-dragons-wake",
+    "hints": [
+      "Рядом с первой деревней, у воды.",
+      "Берег реки сразу за границей Мелва.",
+      "Жетон лежит на берегу реки сразу за пределами деревни Мелв."
+    ],
+    "match": {
+      "where": [
+        "мелв",
+        "melve",
+        "берег",
+        "река"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26124"
+    ]
+  },
+  {
+    "id": "token-dracanward",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Башня Драканвард",
+      "en": "Dracanward tower"
+    },
+    "title": {
+      "ru": "Жетон искателя: Башня Драканвард",
+      "en": "Seeker's Token: Dracanward tower"
+    },
+    "availableFrom": "in-dragons-wake",
+    "hints": [
+      "Там, где стоит баллиста, высоко.",
+      "Верх башни Драканвард, площадка с баллистой.",
+      "Жетон на вершине башни Драканвард — на площадке с баллистой."
+    ],
+    "match": {
+      "where": [
+        "драканвард",
+        "dracanward",
+        "башня",
+        "баллиста",
+        "ballista"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "25871"
+    ]
+  },
+  {
+    "id": "token-mt-alles-waterfall",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Подножие горы Аллес, водопад",
+      "en": "Base of Mt. Alles, waterfall"
+    },
+    "title": {
+      "ru": "Жетон искателя: Подножие горы Аллес, водопад",
+      "en": "Seeker's Token: Base of Mt. Alles, waterfall"
+    },
+    "availableFrom": "in-dragons-wake",
+    "hints": [
+      "На севере Вермунда, где шумит вода.",
+      "У края возле водопада у подножия горы Аллес.",
+      "Жетон лежит на краю у водопада в Северном Вермунде, у подножия горы Аллес."
+    ],
+    "match": {
+      "where": [
+        "гора аллес",
+        "аллес",
+        "mt alles",
+        "alles",
+        "водопад",
+        "waterfall"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ]
+  },
+  {
+    "id": "token-waterfall-cave-barrels",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Пещера у водопада, 2-й этаж",
+      "en": "Waterfall Cave 2F"
+    },
+    "title": {
+      "ru": "Жетон искателя: Пещера у водопада, 2-й этаж",
+      "en": "Seeker's Token: Waterfall Cave 2F"
+    },
+    "availableFrom": "in-dragons-wake",
+    "hints": [
+      "В пещере у водопада — за тем, что легко разбить.",
+      "Второй этаж пещеры, где спускаешься по лестнице после боя с умертвием.",
+      "Waterfall Cave, 2-й этаж: после боя с умертвием (Wight) спустись по лестнице — жетон за разбиваемыми бочками."
+    ],
+    "match": {
+      "where": [
+        "пещера у водопада",
+        "waterfall cave",
+        "бочки",
+        "barrels"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "разбить",
+        "лестница"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ]
+  },
+  {
+    "id": "token-waterfall-cave-wall",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Пещера у водопада, 2-й этаж",
+      "en": "Waterfall Cave 2F"
+    },
+    "title": {
+      "ru": "Жетон искателя: Пещера у водопада, 2-й этаж",
+      "en": "Seeker's Token: Waterfall Cave 2F"
+    },
+    "availableFrom": "in-dragons-wake",
+    "hints": [
+      "В той же пещере есть проход, которого не видно.",
+      "До боя с умертвием — разрушаемая стена и узкий проход к синему свету.",
+      "Waterfall Cave, 2-й этаж: перед боем с умертвием пробей стену — за узким проходом в зоне с синим светом лежит жетон."
+    ],
+    "match": {
+      "where": [
+        "пещера у водопада",
+        "waterfall cave",
+        "стена",
+        "wall",
+        "синий свет"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "пробить",
+        "сломать"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ]
+  },
+  {
+    "id": "token-gathering-chest",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Сборище зверей, север",
+      "en": "North of Gathering of Beasts"
+    },
+    "title": {
+      "ru": "Жетон искателя: Сборище зверей, север",
+      "en": "Seeker's Token: North of Gathering of Beasts"
+    },
+    "availableFrom": "in-dragons-wake",
+    "hints": [
+      "Там, где гарпии и циклоп, — в уголке.",
+      "Чуть севернее Сборища зверей, рядом с сундуком.",
+      "Жетон в углу возле сундука к северу от Сборища зверей."
+    ],
+    "match": {
+      "where": [
+        "сборище зверей",
+        "gathering of beasts",
+        "угол"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26602"
+    ]
+  },
+  {
+    "id": "token-gathering-pillar",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Сборище зверей, восток",
+      "en": "East of Gathering of Beasts"
+    },
+    "title": {
+      "ru": "Жетон искателя: Сборище зверей, восток",
+      "en": "Seeker's Token: East of Gathering of Beasts"
+    },
+    "availableFrom": "in-dragons-wake",
+    "hints": [
+      "У Сборища зверей смотри вверх.",
+      "Каменный столб к востоку от Сборища зверей.",
+      "Жетон на вершине каменного столба сразу к востоку от Сборища зверей."
+    ],
+    "match": {
+      "where": [
+        "сборище зверей",
+        "gathering of beasts",
+        "столб",
+        "pillar"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26601"
+    ]
+  },
+  {
+    "id": "token-arbor-kough-inn",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Священная беседка, гостиница Коф",
+      "en": "Sacred Arbor, Kough's Inn"
+    },
+    "title": {
+      "ru": "Жетон искателя: Священная беседка, гостиница Коф",
+      "en": "Seeker's Token: Sacred Arbor, Kough's Inn"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "У эльфов гостей встречают не только словом.",
+      "Гостиница Коф: конструкция на четырёх столбах, где стоит эльфийка.",
+      "В гостинице Коф в Священной беседке жетон лежит наверху конструкции на четырёх столбах, где стоит эльфийка-хозяйка, — сразу у входа."
+    ],
+    "match": {
+      "where": [
+        "гостиница коф",
+        "коф",
+        "kough",
+        "священная беседка",
+        "священная роща",
+        "sacred arbor"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "столбы"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "25427"
+    ]
+  },
+  {
+    "id": "token-arbor-apothecary",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Священная беседка, над аптекой Эльдарта",
+      "en": "Sacred Arbor, above Eldart's Apothecary"
+    },
+    "title": {
+      "ru": "Жетон искателя: Священная беседка, над аптекой Эльдарта",
+      "en": "Seeker's Token: Sacred Arbor, above Eldart's Apothecary"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "В эльфийском поселении — над лавкой лекаря.",
+      "Обрыв над аптекой Эльдарта.",
+      "Жетон на скале над аптекой Эльдарта в Священной беседке."
+    ],
+    "match": {
+      "where": [
+        "аптека эльдарта",
+        "эльдарт",
+        "eldart",
+        "священная беседка",
+        "священная роща",
+        "sacred arbor"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "обрыв",
+        "скала"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "2882"
+    ]
+  },
+  {
+    "id": "token-arboreal-ruins-stairs",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Древесные руины",
+      "en": "Arboreal Ruins"
+    },
+    "title": {
+      "ru": "Жетон искателя: Древесные руины",
+      "en": "Seeker's Token: Arboreal Ruins"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Руины в лесу эльфов — наверх по разрушенному.",
+      "Разрушенная лестница и прыжки по платформам.",
+      "В Древесных руинах поднимись по разрушенной лестнице и перепрыгивай по платформам до жетона."
+    ],
+    "match": {
+      "where": [
+        "древесные руины",
+        "arboreal ruins",
+        "лестница",
+        "платформы"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "прыгать"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26336"
+    ]
+  },
+  {
+    "id": "token-arboreal-ruins-lake",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "К северо-востоку от Древесных руин",
+      "en": "NE of Arboreal Ruins"
+    },
+    "title": {
+      "ru": "Жетон искателя: К северо-востоку от Древесных руин",
+      "en": "Seeker's Token: NE of Arboreal Ruins"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Недалеко от лесных руин есть озеро.",
+      "К северо-востоку от Древесных руин, у озера.",
+      "Жетон у озера к северо-востоку от Древесных руин."
+    ],
+    "match": {
+      "where": [
+        "древесные руины",
+        "arboreal ruins",
+        "озеро",
+        "lake"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "25414"
+    ]
+  },
+  {
+    "id": "token-trevo-cliff",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Рудник Трево, восточный обрыв",
+      "en": "Trevo Mine, eastern cliff"
+    },
+    "title": {
+      "ru": "Жетон искателя: Рудник Трево, восточный обрыв",
+      "en": "Seeker's Token: Trevo Mine, eastern cliff"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Возле гоблинского рудника, не внутри.",
+      "Восточный обрыв у входа в рудник Трево.",
+      "Жетон на восточном обрыве рядом со входом в рудник Трево."
+    ],
+    "match": {
+      "where": [
+        "рудник трево",
+        "трево",
+        "trevo"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "обрыв",
+        "вход"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26527"
+    ]
+  },
+  {
+    "id": "token-abandoned-village-roof",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Заброшенная деревня",
+      "en": "Abandoned Village"
+    },
+    "title": {
+      "ru": "Жетон искателя: Заброшенная деревня",
+      "en": "Seeker's Token: Abandoned Village"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Покинутые дома — смотри на крыши.",
+      "Одна из крыш в Заброшенной деревне (к северу от рудника Трево).",
+      "Жетон на одной из крыш Заброшенной деревни."
+    ],
+    "match": {
+      "where": [
+        "заброшенная деревня",
+        "abandoned village"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "крыша"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26540"
+    ]
+  },
+  {
+    "id": "token-harve-boat",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Берег к западу от Северных руин Харва",
+      "en": "West of Northern Harve Ruins"
+    },
+    "title": {
+      "ru": "Жетон искателя: Берег к западу от Северных руин Харва",
+      "en": "Seeker's Token: West of Northern Harve Ruins"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Море кое-что выбросило на берег.",
+      "Берег к западу от Северных руин Харва.",
+      "Жетон рядом с выброшенной на берег лодкой к западу от Северных руин Харва."
+    ],
+    "match": {
+      "where": [
+        "руины харва",
+        "харв",
+        "harve",
+        "лодка",
+        "boat"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "берег"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26615"
+    ]
+  },
+  {
+    "id": "token-old-lighthouse",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Старый маяк",
+      "en": "Old Lighthouse"
+    },
+    "title": {
+      "ru": "Жетон искателя: Старый маяк",
+      "en": "Seeker's Token: Old Lighthouse"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Выше всех на побережье.",
+      "Верх Старого маяка — придётся прыгнуть через угол.",
+      "Поднимись на самый верх Старого маяка, иди вдоль края и перепрыгни через угол — там жетон."
+    ],
+    "match": {
+      "where": [
+        "старый маяк",
+        "маяк",
+        "lighthouse"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "прыгнуть"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26542"
+    ]
+  },
+  {
+    "id": "token-theodracus-dock",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Мост Теодракуса Второго",
+      "en": "Bridge of Theodracus the Second"
+    },
+    "title": {
+      "ru": "Жетон искателя: Мост Теодракуса Второго",
+      "en": "Seeker's Token: Bridge of Theodracus the Second"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "У большого моста есть причал.",
+      "Конец причала к северо-востоку от моста Теодракуса Второго.",
+      "Жетон в конце причала к северо-востоку от моста Теодракуса Второго. Рядом, на крыше хижины, — ещё один."
+    ],
+    "match": {
+      "where": [
+        "мост теодракуса",
+        "теодракус",
+        "theodracus",
+        "причал",
+        "dock"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26389"
+    ]
+  },
+  {
+    "id": "token-theodracus-shack",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Мост Теодракуса Второго, хижина",
+      "en": "Bridge of Theodracus the Second, shack"
+    },
+    "title": {
+      "ru": "Жетон искателя: Мост Теодракуса Второго, хижина",
+      "en": "Seeker's Token: Bridge of Theodracus the Second, shack"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "У большого моста — на крыше.",
+      "Хижина к северо-востоку от моста Теодракуса Второго.",
+      "Жетон на крыше хижины к северо-востоку от моста Теодракуса Второго."
+    ],
+    "match": {
+      "where": [
+        "мост теодракуса",
+        "теодракус",
+        "theodracus",
+        "хижина",
+        "shack"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "крыша"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26612"
+    ]
+  },
+  {
+    "id": "token-vernworth-bridge-tower",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, башня моста",
+      "en": "Vernworth, bridge tower"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, башня моста",
+      "en": "Seeker's Token: Vernworth, bridge tower"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "В столице жетонов много. Первый — на подходе к городу, высоко.",
+      "Башня на мосту Вернворта.",
+      "Жетон на верху башни моста в Вернворте."
+    ],
+    "match": {
+      "where": [
+        "вернворт",
+        "vernworth",
+        "башня моста",
+        "bridge tower",
+        "мост"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26386"
+    ]
+  },
+  {
+    "id": "token-vernworth-clovis",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, у цирюльни Кловиса",
+      "en": "Vernworth, near Clovis's Barberie"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, у цирюльни Кловиса",
+      "en": "Seeker's Token: Vernworth, near Clovis's Barberie"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "В столице, у ног статуи.",
+      "Статуя к северо-западу от цирюльни Кловиса.",
+      "Жетон у подножия статуи к северо-западу от цирюльни Кловиса в Вернворте."
+    ],
+    "match": {
+      "where": [
+        "цирюльня",
+        "кловис",
+        "clovis",
+        "barberie",
+        "статуя"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26381"
+    ]
+  },
+  {
+    "id": "token-vernworth-grand-riftstone",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, крыши Великого камня разлома",
+      "en": "Vernworth, Grand Riftstone roofs"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, крыши Великого камня разлома",
+      "en": "Seeker's Token: Vernworth, Grand Riftstone roofs"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Над зданием, где нанимают пешек, — рядом с сундуками.",
+      "Крыши здания Великого камня разлома Вермунда; наверх — по лестницам.",
+      "Поднимись по лестницам на крыши здания Великого камня разлома Вермунда и пробеги по ним — жетон в окружении трёх сундуков."
+    ],
+    "match": {
+      "where": [
+        "великий камень разлома",
+        "камень разлома",
+        "grand riftstone",
+        "riftstone"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "крыша",
+        "лестница"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "25882"
+    ]
+  },
+  {
+    "id": "token-vernworth-fountain",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, фонтан",
+      "en": "Vernworth Fountain"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, фонтан",
+      "en": "Seeker's Token: Vernworth Fountain"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "В центре столицы — загляни в воду.",
+      "Фонтан Вернворта.",
+      "Жетон лежит в воде фонтана Вернворта."
+    ],
+    "match": {
+      "where": [
+        "фонтан вернворта",
+        "фонтан",
+        "fountain"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "вода"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26379"
+    ]
+  },
+  {
+    "id": "token-vernworth-townsend",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, у поместья Таунсенда",
+      "en": "Vernworth, west of Townsend's Estate"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, у поместья Таунсенда",
+      "en": "Seeker's Token: Vernworth, west of Townsend's Estate"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Второй фонтан в городе — не в воде, а наверху.",
+      "Фонтан к западу от поместья Таунсенда.",
+      "Жетон на верху фонтана к западу от поместья Таунсенда."
+    ],
+    "match": {
+      "where": [
+        "поместье таунсенда",
+        "таунсенд",
+        "townsend"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "фонтан"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26378"
+    ]
+  },
+  {
+    "id": "token-vernworth-charnel",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, над склепом",
+      "en": "Vernworth, above the Charnel House"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, над склепом",
+      "en": "Seeker's Token: Vernworth, above the Charnel House"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Там, где лежат мертвецы города, есть дыра.",
+      "Над склепом Вермунда (Charnel House): дыра перед последним гробом с двумя жаровнями.",
+      "В склепе Вермунда перед последним гробом с двумя жаровнями — большая дыра. Спрыгни в неё — внизу жетон."
+    ],
+    "match": {
+      "where": [
+        "склеп",
+        "charnel",
+        "морг",
+        "гроб",
+        "жаровни"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "спрыгнуть",
+        "дыра"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "24880"
+    ]
+  },
+  {
+    "id": "token-vernworth-vaults",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, хранилища «Милостивой длани»",
+      "en": "Vernworth, Gracious Hand's Vaults"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, хранилища «Милостивой длани»",
+      "en": "Seeker's Token: Vernworth, Gracious Hand's Vaults"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Под трущобами столицы есть тайное место.",
+      "Хранилища «Милостивой длани» (открываются в квесте «На задворках истории»).",
+      "Жетон внутри хранилищ «Милостивой длани» под трущобами Вернворта — за бочками и ящиками сразу за проломом в стене."
+    ],
+    "match": {
+      "where": [
+        "милостивая длань",
+        "хранилище",
+        "gracious hand",
+        "vaults",
+        "трущобы"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "24974"
+    ]
+  },
+  {
+    "id": "token-vernworth-baldwin",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, поместье Болдуина",
+      "en": "Vernworth, Baldwin's Estate"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, поместье Болдуина",
+      "en": "Seeker's Token: Vernworth, Baldwin's Estate"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Крыша богатого дома в столице.",
+      "Поместье Болдуина — прыгай с верхнего уровня.",
+      "Жетон на крыше поместья Болдуина; спрыгни на неё с верхнего уровня."
+    ],
+    "match": {
+      "where": [
+        "поместье болдуина",
+        "болдуин",
+        "baldwin"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "крыша",
+        "прыгнуть"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26467"
+    ]
+  },
+  {
+    "id": "token-vernworth-sewers",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, канализация",
+      "en": "Vernworth sewers"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, канализация",
+      "en": "Seeker's Token: Vernworth sewers"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Под городом, где течёт грязная вода.",
+      "Одна из канализаций Вернворта.",
+      "Жетон в одной из канализаций Вернворта (на вики — со скриншотом)."
+    ],
+    "match": {
+      "where": [
+        "канализация",
+        "сток",
+        "sewer",
+        "вернворт"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "25727"
+    ]
+  },
+  {
+    "id": "token-vernworth-rose-chateau",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, «Усадьба роз»",
+      "en": "Vernworth, Rose Chateau Bordelrie"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, «Усадьба роз»",
+      "en": "Seeker's Token: Vernworth, Rose Chateau Bordelrie"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Крыша известного заведения — путь через трубу.",
+      "Крыша «Усадьбы роз», доступ через дымоход.",
+      "Жетон на крыше борделя «Усадьба роз» — забирайся через дымоход."
+    ],
+    "match": {
+      "where": [
+        "усадьба роз",
+        "розовое шато",
+        "бордель",
+        "rose chateau",
+        "дымоход",
+        "труба"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "2881"
+    ]
+  },
+  {
+    "id": "token-vernworth-hall-roof",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, крыша Вернвортского зала",
+      "en": "Vernworth Hall roof"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, крыша Вернвортского зала",
+      "en": "Seeker's Token: Vernworth Hall roof"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Над залом маскарадов.",
+      "Западная сторона крыши Вернвортского зала.",
+      "Жетон на западной стороне крыши Вернвортского зала."
+    ],
+    "match": {
+      "where": [
+        "вернвортский зал",
+        "зал маскарадов",
+        "vernworth hall"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "крыша"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "2880"
+    ]
+  },
+  {
+    "id": "token-vernworth-east-wall",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, восточная стена",
+      "en": "Vernworth, eastern wall"
+    },
+    "title": {
+      "ru": "Жетон искателя: Вернворт, восточная стена",
+      "en": "Seeker's Token: Vernworth, eastern wall"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Городская стена — по ней можно ходить.",
+      "Зубцы восточной стены Вернворта.",
+      "Жетон на зубцах восточной стены Вернворта."
+    ],
+    "match": {
+      "where": [
+        "восточная стена",
+        "стена",
+        "eastern wall",
+        "зубцы",
+        "battlement"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26828"
+    ]
+  },
+  {
+    "id": "token-old-noble-manor",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Старая усадьба знати",
+      "en": "Old Noble Manor"
+    },
+    "title": {
+      "ru": "Жетон искателя: Старая усадьба знати",
+      "en": "Seeker's Token: Old Noble Manor"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "В заброшенной усадьбе — наверху.",
+      "Второй этаж Старой усадьбы знати.",
+      "Жетон на втором этаже Старой усадьбы знати. Ещё один — на уступе над водой к юго-западу от неё."
+    ],
+    "match": {
+      "where": [
+        "старая усадьба",
+        "усадьба",
+        "old noble manor",
+        "manor"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "второй этаж"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26580",
+      "26579"
+    ]
+  },
+  {
+    "id": "token-coastal-cavern",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Прибрежная пещера",
+      "en": "Coastal Cavern"
+    },
+    "title": {
+      "ru": "Жетон искателя: Прибрежная пещера",
+      "en": "Seeker's Token: Coastal Cavern"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "В пещере у моря — рядом с сундуком.",
+      "Внутри Прибрежной пещеры, на земле.",
+      "Жетон на земле внутри Прибрежной пещеры, рядом с сундуком."
+    ],
+    "match": {
+      "where": [
+        "прибрежная пещера",
+        "coastal cavern"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26499"
+    ]
+  },
+  {
+    "id": "token-twilight-cave-pool",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Сумеречная пещера",
+      "en": "Twilight Cave"
+    },
+    "title": {
+      "ru": "Жетон искателя: Сумеречная пещера",
+      "en": "Seeker's Token: Twilight Cave"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "В пещере — в маленькой луже.",
+      "Небольшой водоём внутри Сумеречной пещеры. Там же есть гнездо гарпий с ещё одним жетоном.",
+      "Жетон в небольшом водоёме внутри Сумеречной пещеры. Второй — в гнезде гарпий там же, третий — под разрушаемым валуном на уступе снаружи."
+    ],
+    "match": {
+      "where": [
+        "сумеречная пещера",
+        "twilight cave",
+        "лужа",
+        "водоём",
+        "гнездо"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26574",
+      "26572",
+      "26573"
+    ]
+  },
+  {
+    "id": "token-guerco-cavern",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Пещера Гверко",
+      "en": "Guerco Cavern"
+    },
+    "title": {
+      "ru": "Жетон искателя: Пещера Гверко",
+      "en": "Seeker's Token: Guerco Cavern"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "В пещере — среди обломков, похожих на тело.",
+      "Первый зал пещеры Гверко: спустись вниз и ищи в обломках голема.",
+      "В пещере Гверко спрыгни вниз в первом зале — жетон среди обломков, похожих на разрушенного голема. Второй — дальше, у двух мостов: спрыгни справа, на камне у груды камней."
+    ],
+    "match": {
+      "where": [
+        "пещера гверко",
+        "гверко",
+        "guerco",
+        "голем",
+        "golem"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "25291",
+      "25290"
+    ]
+  },
+  {
+    "id": "token-illdoer",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Место упокоения злодеев",
+      "en": "Illdoer's Resting Place"
+    },
+    "title": {
+      "ru": "Жетон искателя: Место упокоения злодеев",
+      "en": "Seeker's Token: Illdoer's Resting Place"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Мрачное место с виселицей.",
+      "Лужи перед виселицей, слева, у висящей клетки.",
+      "В Месте упокоения злодеев жетон в лужах перед виселицей и слева от неё, рядом с подвешенной клеткой."
+    ],
+    "match": {
+      "where": [
+        "место упокоения злодеев",
+        "illdoer",
+        "виселица",
+        "gallows",
+        "клетка"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": []
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26706"
+    ]
+  },
+  {
+    "id": "token-abandoned-home-well",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Заброшенный дом",
+      "en": "Abandoned Home"
+    },
+    "title": {
+      "ru": "Жетон искателя: Заброшенный дом",
+      "en": "Seeker's Token: Abandoned Home"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Одинокий дом с колодцем — смотри наверх.",
+      "Крыша Заброшенного дома рядом с колодцем.",
+      "Жетон на крыше Заброшенного дома рядом с колодцем."
+    ],
+    "match": {
+      "where": [
+        "заброшенный дом",
+        "abandoned home",
+        "колодец",
+        "well"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "крыша"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26785"
+    ]
+  },
+  {
+    "id": "token-worldsend-cavern",
+    "type": "seeker-token",
+    "region": "vermund",
+    "location": {
+      "ru": "Пещера Края света, 1-й этаж",
+      "en": "Worldsend Cavern 1F"
+    },
+    "title": {
+      "ru": "Жетон искателя: Пещера Края света, 1-й этаж",
+      "en": "Seeker's Token: Worldsend Cavern 1F"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "В пещере у края мира — путь за валуном.",
+      "Сразу после входа разбей валун.",
+      "Worldsend Cavern, 1-й этаж: вскоре после входа разбей валун — открывшийся путь ведёт к платформе с сундуком и жетоном."
+    ],
+    "match": {
+      "where": [
+        "пещера края света",
+        "край света",
+        "worldsend"
+      ],
+      "what": [
+        "жетон искателя",
+        "жетон",
+        "токен",
+        "seeker's token",
+        "seeker token",
+        "token"
+      ],
+      "how": [
+        "валун",
+        "разбить"
+      ]
+    },
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Seeker%27s+Tokens"
+    ],
+    "mapMarkers": [
+      "26748"
+    ]
+  }
+]

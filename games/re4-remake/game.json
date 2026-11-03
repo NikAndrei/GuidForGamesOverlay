@@ -1,0 +1,244 @@
+{
+  "id": "re4-remake",
+  "title": {
+    "ru": "Resident Evil 4 (ремейк)",
+    "en": "Resident Evil 4 (Remake)"
+  },
+  "adapter": "re4",
+  "steamAppId": 2050650,
+  "regions": [
+    {
+      "id": "village",
+      "name": {
+        "ru": "Деревня",
+        "en": "The Village"
+      }
+    },
+    {
+      "id": "castle",
+      "name": {
+        "ru": "Замок",
+        "en": "The Castle"
+      }
+    },
+    {
+      "id": "island",
+      "name": {
+        "ru": "Остров",
+        "en": "The Island"
+      }
+    }
+  ],
+  "progress": [
+    {
+      "id": "ch1",
+      "name": {
+        "ru": "Глава 1",
+        "en": "Chapter 1"
+      },
+      "description": "Кампания Леона. Деревня."
+    },
+    {
+      "id": "ch2",
+      "name": {
+        "ru": "Глава 2",
+        "en": "Chapter 2"
+      },
+      "description": "Кампания Леона. Деревня."
+    },
+    {
+      "id": "ch3",
+      "name": {
+        "ru": "Глава 3",
+        "en": "Chapter 3"
+      },
+      "description": "Кампания Леона. Деревня."
+    },
+    {
+      "id": "ch4",
+      "name": {
+        "ru": "Глава 4",
+        "en": "Chapter 4"
+      },
+      "description": "Кампания Леона. Деревня."
+    },
+    {
+      "id": "ch5",
+      "name": {
+        "ru": "Глава 5",
+        "en": "Chapter 5"
+      },
+      "description": "Кампания Леона. Деревня."
+    },
+    {
+      "id": "ch6",
+      "name": {
+        "ru": "Глава 6",
+        "en": "Chapter 6"
+      },
+      "description": "Кампания Леона. Деревня."
+    },
+    {
+      "id": "ch7",
+      "name": {
+        "ru": "Глава 7",
+        "en": "Chapter 7"
+      },
+      "description": "Кампания Леона. Замок."
+    },
+    {
+      "id": "ch8",
+      "name": {
+        "ru": "Глава 8",
+        "en": "Chapter 8"
+      },
+      "description": "Кампания Леона. Замок."
+    },
+    {
+      "id": "ch9",
+      "name": {
+        "ru": "Глава 9",
+        "en": "Chapter 9"
+      },
+      "description": "Кампания Леона. Замок."
+    },
+    {
+      "id": "ch10",
+      "name": {
+        "ru": "Глава 10",
+        "en": "Chapter 10"
+      },
+      "description": "Кампания Леона. Замок."
+    },
+    {
+      "id": "ch11",
+      "name": {
+        "ru": "Глава 11",
+        "en": "Chapter 11"
+      },
+      "description": "Кампания Леона. Замок."
+    },
+    {
+      "id": "ch12",
+      "name": {
+        "ru": "Глава 12",
+        "en": "Chapter 12"
+      },
+      "description": "Кампания Леона. Замок."
+    },
+    {
+      "id": "ch13",
+      "name": {
+        "ru": "Глава 13",
+        "en": "Chapter 13"
+      },
+      "description": "Кампания Леона. Остров."
+    },
+    {
+      "id": "ch14",
+      "name": {
+        "ru": "Глава 14",
+        "en": "Chapter 14"
+      },
+      "description": "Кампания Леона. Остров."
+    },
+    {
+      "id": "ch15",
+      "name": {
+        "ru": "Глава 15",
+        "en": "Chapter 15"
+      },
+      "description": "Кампания Леона. Остров."
+    },
+    {
+      "id": "ch16",
+      "name": {
+        "ru": "Глава 16",
+        "en": "Chapter 16"
+      },
+      "description": "Кампания Леона. Остров."
+    },
+    {
+      "id": "sw1",
+      "name": {
+        "ru": "Разные пути: глава 1",
+        "en": "Separate Ways: Chapter 1"
+      },
+      "description": "Дополнение «Разные пути» — кампания Ады Вонг. Начинай, когда пройдёшь основную игру."
+    },
+    {
+      "id": "sw2",
+      "name": {
+        "ru": "Разные пути: глава 2",
+        "en": "Separate Ways: Chapter 2"
+      },
+      "description": "Дополнение «Разные пути» — кампания Ады Вонг. Начинай, когда пройдёшь основную игру."
+    },
+    {
+      "id": "sw3",
+      "name": {
+        "ru": "Разные пути: глава 3",
+        "en": "Separate Ways: Chapter 3"
+      },
+      "description": "Дополнение «Разные пути» — кампания Ады Вонг. Начинай, когда пройдёшь основную игру."
+    },
+    {
+      "id": "sw4",
+      "name": {
+        "ru": "Разные пути: глава 4",
+        "en": "Separate Ways: Chapter 4"
+      },
+      "description": "Дополнение «Разные пути» — кампания Ады Вонг. Начинай, когда пройдёшь основную игру."
+    },
+    {
+      "id": "sw5",
+      "name": {
+        "ru": "Разные пути: глава 5",
+        "en": "Separate Ways: Chapter 5"
+      },
+      "description": "Дополнение «Разные пути» — кампания Ады Вонг. Начинай, когда пройдёшь основную игру."
+    },
+    {
+      "id": "sw6",
+      "name": {
+        "ru": "Разные пути: глава 6",
+        "en": "Separate Ways: Chapter 6"
+      },
+      "description": "Дополнение «Разные пути» — кампания Ады Вонг. Начинай, когда пройдёшь основную игру."
+    },
+    {
+      "id": "sw7",
+      "name": {
+        "ru": "Разные пути: глава 7",
+        "en": "Separate Ways: Chapter 7"
+      },
+      "description": "Дополнение «Разные пути» — кампания Ады Вонг. Начинай, когда пройдёшь основную игру."
+    },
+    {
+      "id": "completed",
+      "name": {
+        "ru": "Всё пройдено",
+        "en": "All completed"
+      },
+      "description": "Основная игра и «Разные пути» пройдены."
+    }
+  ],
+  "genericWords": [
+    "леон",
+    "эшли",
+    "ада",
+    "торговец",
+    "сокровище",
+    "глава"
+  ],
+  "links": [
+    {
+      "title": "vgtimes: прохождение Resident Evil 4 (2023)",
+      "url": "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html"
+    },
+    {
+      "title": "guides4gamers: интерактивные карты RE4 Remake",
+      "url": "https://guides4gamers.com/resident-evil-4-remake/maps/"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": "dragons-dogma-2",
+  "title": {
+    "ru": "Dragon's Dogma 2",
+    "en": "Dragon's Dogma 2"
+  },
+  "adapter": "dd2",
+  "steamAppId": 2054970,
+  "regions": [
+    {
+      "id": "vermund",
+      "name": {
+        "ru": "Вермунд",
+        "en": "Vermund"
+      }
+    },
+    {
+      "id": "battahl",
+      "name": {
+        "ru": "Батталь",
+        "en": "Battahl"
+      }
+    },
+    {
+      "id": "norgan",
+      "name": {
+        "ru": "Норган",
+        "en": "Norgan (Dark Arisen)"
+      }
+    },
+    {
+      "id": "unmoored",
+      "name": {
+        "ru": "Неизбранный мир",
+        "en": "Unmoored World"
+      }
+    }
+  ],
+  "progress": [
+    {
+      "id": "gaoled-awakening",
+      "name": {
+        "ru": "Пробуждение в темнице",
+        "en": "Gaoled Awakening"
+      },
+      "description": "Самое начало: каменоломня, обучение."
+    },
+    {
+      "id": "tales-beginning",
+      "name": {
+        "ru": "История начинается",
+        "en": "Tale's Beginning"
+      },
+      "description": "Очнулся у водопада, идёшь с солдатом Джастином на заставу.",
+      "achievementName": "First Taste of Freedom"
+    },
+    {
+      "id": "in-dragons-wake",
+      "name": {
+        "ru": "По следам Дракона",
+        "en": "In Dragon's Wake"
+      },
+      "description": "Отдохнул на заставе, путь лежит в деревню Мелв.",
+      "achievementName": "Arisen"
+    },
+    {
+      "id": "seat-of-the-sovran",
+      "name": {
+        "ru": "Трон Владыки",
+        "en": "Seat of the Sovran"
+      },
+      "description": "Добрался до столицы — Вернворта.",
+      "achievementName": "Seat of the Proxy"
+    },
+    {
+      "id": "brants-tasks",
+      "name": {
+        "ru": "Поручения капитана Бранта",
+        "en": "Monster Culling / Disa's Plot / The Caged Magistrate"
+      },
+      "description": "Капитан Брант дал задания: зачистка от чудищ, интриги Дисы, заключённый законник."
+    },
+    {
+      "id": "palace-intrigue",
+      "name": {
+        "ru": "Дворцовые интриги",
+        "en": "The Stolen Throne / An Unsettling Encounter"
+      },
+      "description": "После зачистки от чудищ: маскарад и подозрительный министр."
+    },
+    {
+      "id": "feast-of-deception",
+      "name": {
+        "ru": "Феерия обмана",
+        "en": "Feast of Deception"
+      },
+      "description": "Приглашение на коронацию. Перед этим квестом закрой побочные задания Вермунда!"
+    },
+    {
+      "id": "nation-of-the-lambent-flame",
+      "name": {
+        "ru": "Народ Пылающего пламени",
+        "en": "Nation of the Lambent Flame"
+      },
+      "description": "Путь в Батталь.",
+      "achievementName": "Across the Border"
+    },
+    {
+      "id": "flickering-shadows",
+      "name": {
+        "ru": "Смутные тени",
+        "en": "Flickering Shadows"
+      }
+    },
+    {
+      "id": "convergence",
+      "name": {
+        "ru": "Слияние",
+        "en": "Convergence"
+      }
+    },
+    {
+      "id": "a-new-godsway",
+      "name": {
+        "ru": "Новый Глас повелителя",
+        "en": "A New Godsway"
+      }
+    },
+    {
+      "id": "the-guardian-gigantus",
+      "name": {
+        "ru": "Гигантский страж",
+        "en": "The Guardian Gigantus"
+      },
+      "achievementName": "Back Where It All Began"
+    },
+    {
+      "id": "legacy",
+      "name": {
+        "ru": "Наследие",
+        "en": "Legacy"
+      }
+    },
+    {
+      "id": "after-legacy",
+      "name": {
+        "ru": "После «Наследия»",
+        "en": "After Legacy"
+      },
+      "achievementName": "Dragon’s Dogma 2"
+    }
+  ],
+  "map": {
+    "world": {
+      "minX": -4096,
+      "maxX": 4096,
+      "minZ": -4096,
+      "maxZ": 4096
+    },
+    "northIs": "-z"
+  },
+  "genericWords": [
+    "пешка",
+    "pawn",
+    "гоблин",
+    "goblin",
+    "бандит",
+    "bandit",
+    "жетон",
+    "token",
+    "вернворт",
+    "vernworth",
+    "бакбаттал",
+    "bakbattahl"
+  ],
+  "links": [
+    {
+      "title": "Fextralife Wiki",
+      "url": "https://dragonsdogma2.wiki.fextralife.com/"
+    },
+    {
+      "title": "Fextralife — интерактивная карта",
+      "url": "https://dragonsdogma2.wiki.fextralife.com/Interactive+Map"
+    },
+    {
+      "title": "MapMaster — интерактивная карта",
+      "url": "https://mapmaster.io/"
+    },
+    {
+      "title": "GamerGuides — карты",
+      "url": "https://www.gamerguides.com/dragons-dogma-2/maps"
+    },
+    {
+      "title": "MapGenie — интерактивная карта мира",
+      "url": "https://mapgenie.io/dragons-dogma-2/maps/world"
+    },
+    {
+      "title": "IGN — интерактивная карта",
+      "url": "https://www.ign.com/maps/dragons-dogma-2/world"
+    },
+    {
+      "title": "VGTimes — гайды на русском",
+      "url": "https://vgtimes.ru/guides/106167-prohozhdenie-dragons-dogma-2-vse-osnovnye-kvesty.html"
+    }
+  ]
+}

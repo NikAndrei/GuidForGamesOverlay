@@ -1,0 +1,5371 @@
+[
+  {
+    "id": "tr-v-velvet-1",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Деревня, крыша дома у площади",
+      "en": "Village, rooftop by the square"
+    },
+    "title": {
+      "ru": "Бархатистый самоцвет №1",
+      "en": "Velvet Blue #1"
+    },
+    "availableFrom": "ch1",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Первая же драгоценность главы прячется выше, чем ты обычно смотришь.",
+      "На главной площади деревни зайди в открытый дом и поднимись на второй этаж — выход дальше через окно.",
+      "В доме на главной площади после сцены поднимись наверх (там дробовик и граната), вылезь в окно справа и иди вправо по крыше до тупика — там лежит Бархатистый самоцвет."
+    ],
+    "match": {
+      "where": [
+        "деревня",
+        "площадь",
+        "крыша",
+        "дом",
+        "village",
+        "square",
+        "roof"
+      ],
+      "what": [
+        "бархатистый самоцвет",
+        "самоцвет",
+        "velvet blue",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "47963"
+    ]
+  },
+  {
+    "id": "tr-v-ruby-1",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Деревня, дальнее здание за площадью",
+      "en": "Village, far building past the square"
+    },
+    "title": {
+      "ru": "Рубин №1",
+      "en": "Ruby #1"
+    },
+    "availableFrom": "ch1",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "После большой драки с жителями загляни в постройки по пути дальше.",
+      "От площади иди по дороге налево и проверь дальнее здание по левой стороне.",
+      "Отбившись от толпы жителей, ступай по дороге налево и зайди в дальнее здание слева — внутри лежит Рубин. Его потом можно вставить в Графин, чтобы тот подорожал."
+    ],
+    "match": {
+      "where": [
+        "деревня",
+        "дорога",
+        "здание",
+        "дом",
+        "village",
+        "building"
+      ],
+      "what": [
+        "рубин",
+        "ruby",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "47960"
+    ]
+  },
+  {
+    "id": "tr-v-pendant-1",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Ферма, ветряная мельница",
+      "en": "Farm, windmill"
+    },
+    "title": {
+      "ru": "Жемчужное ожерелье №1",
+      "en": "Pearl Pendant #1"
+    },
+    "availableFrom": "ch1",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "На ферме что-то крутится вместе с лопастями.",
+      "Присмотрись к маленькой ветряной мельнице с металлическими лопастями.",
+      "На лопастях мельницы на ферме закреплена клетка — сбей её выстрелом и получишь Жемчужное ожерелье. Не стреляй, когда клетка над колодцем: ожерелье упадёт в воду и станет «грязным» — торговец даст за него меньше."
+    ],
+    "match": {
+      "where": [
+        "ферма",
+        "мельница",
+        "ветряк",
+        "farm",
+        "windmill"
+      ],
+      "what": [
+        "жемчужное ожерелье",
+        "ожерелье",
+        "pearl pendant",
+        "pendant",
+        "грязное ожерелье",
+        "dirty pearl pendant",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ]
+  },
+  {
+    "id": "tr-v-flagon",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Ферма, дом у запертых ворот",
+      "en": "Farm, house by the locked gate"
+    },
+    "title": {
+      "ru": "Графин",
+      "en": "Flagon"
+    },
+    "availableFrom": "ch1",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Возле запертых ворот фермы есть дом, где стоит пройти наверх.",
+      "Войди в дверь справа от запертых ворот, обезвредь растяжку и поднимись на второй этаж мимо жерновов.",
+      "В доме справа от запертых ворот сними растяжку, поднимись на второй этаж, обойди жернова и выйди на балкон; спрыгни вниз к красному сундуку — в нём Графин. В него вставляются драгоценные камни, повышая цену."
+    ],
+    "match": {
+      "where": [
+        "ферма",
+        "ворота",
+        "жернова",
+        "балкон",
+        "farm",
+        "gate",
+        "balcony"
+      ],
+      "what": [
+        "графин",
+        "flagon",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "47996"
+    ]
+  },
+  {
+    "id": "tr-v-ruby-2",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Ферма, амбар",
+      "en": "Farm, barn"
+    },
+    "title": {
+      "ru": "Рубин №2",
+      "en": "Ruby #2"
+    },
+    "availableFrom": "ch1",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Рядом с Графином в постройках фермы есть ещё один камень.",
+      "Загляни в амбар фермы и проверь мебель.",
+      "После Графина зайди в амбар и открой выдвижной ящик стола — внутри Рубин."
+    ],
+    "match": {
+      "where": [
+        "ферма",
+        "амбар",
+        "сарай",
+        "farm",
+        "barn"
+      ],
+      "what": [
+        "рубин",
+        "ruby",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "ящик стола",
+        "drawer",
+        "desk"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "47984"
+    ]
+  },
+  {
+    "id": "tr-v-sapphire-1",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Долина, заброшенная фабрика",
+      "en": "Valley, abandoned factory"
+    },
+    "title": {
+      "ru": "Сапфир №1",
+      "en": "Sapphire #1"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "На заброшенной фабрике загляни туда, где обычно горит огонь.",
+      "Поднимись наверх, к первому врагу, — рядом стоят две печи.",
+      "На заброшенной фабрике поднимись наверх; слева от первого противника две печи — открой дверцу дальней, внутри Сапфир."
+    ],
+    "match": {
+      "where": [
+        "долина",
+        "фабрика",
+        "печь",
+        "valley",
+        "factory",
+        "furnace"
+      ],
+      "what": [
+        "сапфир",
+        "sapphire",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48395"
+    ]
+  },
+  {
+    "id": "tr-v-ruby-3",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Долина, возвышенность у входа",
+      "en": "Valley, high ground by the entrance"
+    },
+    "title": {
+      "ru": "Рубин №3",
+      "en": "Ruby #3"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "После первой встречи с торговцем впереди большая открытая зона — осмотри её края.",
+      "Расправься с врагами на большой поляне и иди налево от входа, на возвышенность.",
+      "На большой открытой территории после торговца перебей врагов, поверни влево от входа и поднимись на возвышенность — там красный сундук с Рубином."
+    ],
+    "match": {
+      "where": [
+        "долина",
+        "возвышенность",
+        "valley"
+      ],
+      "what": [
+        "рубин",
+        "ruby",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48060"
+    ]
+  },
+  {
+    "id": "tr-v-mask",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Долина, заброшенная фабрика",
+      "en": "Valley, abandoned factory"
+    },
+    "title": {
+      "ru": "Элегантная маска",
+      "en": "Elegant Mask"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Пока ищешь шестигранную эмблему, найдёшь маленький ключ — он пригодится там, где ты уже был.",
+      "Маленький ключ лежит в здании справа от главного входа; запертый комод — на заброшенной фабрике.",
+      "Во время поисков шестигранной эмблемы возьми маленький ключ в здании справа от главного входа, вернись на заброшенную фабрику и открой им запертый комод — внутри Элегантная маска."
+    ],
+    "match": {
+      "where": [
+        "долина",
+        "фабрика",
+        "комод",
+        "valley",
+        "factory"
+      ],
+      "what": [
+        "элегантная маска",
+        "маска",
+        "elegant mask",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "маленький ключ",
+        "запертый ящик",
+        "комод",
+        "small key",
+        "locked drawer"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48038"
+    ],
+    "gameRefs": [
+      "item:122400000"
+    ]
+  },
+  {
+    "id": "tr-v-sapphire-2",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Долина, лаз у лестницы за воротами",
+      "en": "Valley, crawlspace by the stairs past the gate"
+    },
+    "title": {
+      "ru": "Сапфир №2",
+      "en": "Sapphire #2"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Открыв ворота шестигранной эмблемой, не беги сразу вперёд.",
+      "За воротами осмотри узкий лаз слева от лестницы.",
+      "Открой ворота шестигранной эмблемой, убей жителей и пролезь в лаз слева от лестницы — сразу за ним красный сундук с Сапфиром."
+    ],
+    "match": {
+      "where": [
+        "долина",
+        "ворота",
+        "лаз",
+        "лестница",
+        "valley",
+        "gate",
+        "crawlspace"
+      ],
+      "what": [
+        "сапфир",
+        "sapphire",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48071"
+    ]
+  },
+  {
+    "id": "tr-v-pendant-2",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Долина, колодец",
+      "en": "Valley, well"
+    },
+    "title": {
+      "ru": "Жемчужное ожерелье №2",
+      "en": "Pearl Pendant #2"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "У колодца опять висит что-то ценное — и опять есть риск уронить его в воду.",
+      "Поднимись по лестнице и дойди до колодца; сперва разберись с его крышкой.",
+      "У колодца за лестницей висит клетка-фонарь. Сначала выстрели в деревянную палку, держащую крышку колодца, чтобы его закрыть, потом сбей клетку — получишь чистое Жемчужное ожерелье, а не грязное."
+    ],
+    "match": {
+      "where": [
+        "долина",
+        "колодец",
+        "фонарь",
+        "valley",
+        "well"
+      ],
+      "what": [
+        "жемчужное ожерелье",
+        "ожерелье",
+        "pearl pendant",
+        "pendant",
+        "грязное ожерелье",
+        "dirty pearl pendant",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ]
+  },
+  {
+    "id": "tr-v-sapphire-3",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Долина, у колодца",
+      "en": "Valley, near the well"
+    },
+    "title": {
+      "ru": "Сапфир №3",
+      "en": "Sapphire #3"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Рядом с колодцем с ожерельем стоит посмотреть ещё и вверх.",
+      "Стоя у колодца, подними камеру — ищи небольшую клетку.",
+      "Там же, у колодца, наверху висит маленькая клетка — сбей её выстрелом, выпадет Сапфир. Сразу после этого появится враг с бензопилой."
+    ],
+    "match": {
+      "where": [
+        "долина",
+        "колодец",
+        "valley",
+        "well"
+      ],
+      "what": [
+        "сапфир",
+        "sapphire",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48083"
+    ]
+  },
+  {
+    "id": "tr-v-ruby-4",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Долина, дом старосты",
+      "en": "Valley, village chief's manor"
+    },
+    "title": {
+      "ru": "Рубин №4",
+      "en": "Ruby #4"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В доме деревенского старосты есть стол, который стоит обыскать.",
+      "Обойди дом старосты, чтобы найти открытую дверь, и пройди внутрь.",
+      "Обойди дом старосты к открытой двери, пройди вперёд и открой выдвижной ящик стола справа — там Рубин."
+    ],
+    "match": {
+      "where": [
+        "долина",
+        "дом старосты",
+        "староста",
+        "valley",
+        "chief's manor",
+        "chief"
+      ],
+      "what": [
+        "рубин",
+        "ruby",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "ящик стола",
+        "drawer",
+        "desk"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48299"
+    ]
+  },
+  {
+    "id": "tr-v-compass",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Деревня, второй дом слева от площади",
+      "en": "Village, second house on the left of the square"
+    },
+    "title": {
+      "ru": "Старинный компас",
+      "en": "Vintage Compass"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Ключ из дома старосты открывает тайник в уже знакомом месте.",
+      "Вернись на главную площадь деревни и зайди во второй дом слева.",
+      "На главной площади во втором доме слева стоит запертый ящик — открой его маленьким ключом из дома старосты и забери Старинный компас."
+    ],
+    "match": {
+      "where": [
+        "деревня",
+        "площадь",
+        "дом",
+        "village",
+        "square",
+        "house"
+      ],
+      "what": [
+        "старинный компас",
+        "компас",
+        "vintage compass",
+        "compass",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "маленький ключ",
+        "запертый ящик",
+        "комод",
+        "small key",
+        "locked drawer"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "47948"
+    ]
+  },
+  {
+    "id": "tr-v-velvet-2",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Деревня, ратуша",
+      "en": "Village, town hall"
+    },
+    "title": {
+      "ru": "Бархатистый самоцвет №2",
+      "en": "Velvet Blue #2"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В ратуше над длинным столом есть на что посмотреть.",
+      "Подними глаза в большой комнате ратуши.",
+      "В большой комнате ратуши под потолком над длинным столом висит клетка — сбей её, выпадет Бархатистый самоцвет."
+    ],
+    "match": {
+      "where": [
+        "деревня",
+        "ратуша",
+        "стол",
+        "village",
+        "town hall"
+      ],
+      "what": [
+        "бархатистый самоцвет",
+        "самоцвет",
+        "velvet blue",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48294"
+    ]
+  },
+  {
+    "id": "tr-v-headdress-1",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Деревня, у церкви",
+      "en": "Village, by the church"
+    },
+    "title": {
+      "ru": "Элегантная заколка №1",
+      "en": "Elegant Headdress #1"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Обойди церковь кругом.",
+      "Красный сундук стоит возле лестницы у церкви.",
+      "Обойди здание церкви: справа от лестницы стоит красный сундук с Элегантной заколкой."
+    ],
+    "match": {
+      "where": [
+        "деревня",
+        "церковь",
+        "лестница",
+        "village",
+        "church"
+      ],
+      "what": [
+        "элегантная заколка",
+        "заколка",
+        "elegant headdress",
+        "headdress",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48132"
+    ]
+  },
+  {
+    "id": "tr-v-ruby-5",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Карьер",
+      "en": "Quarry"
+    },
+    "title": {
+      "ru": "Рубин №5",
+      "en": "Ruby #5"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В карьере есть что сбить — и медальон, и не только.",
+      "Войдя в карьер, посмотри наверх, ближе к правой стороне.",
+      "В карьере вдалеке на лесах висит синий медальон, а ближе справа — клетка; сбей её выстрелом, чтобы получить Рубин."
+    ],
+    "match": {
+      "where": [
+        "карьер",
+        "леса",
+        "quarry",
+        "scaffolding"
+      ],
+      "what": [
+        "рубин",
+        "ruby",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48150"
+    ]
+  },
+  {
+    "id": "tr-v-pipe-1",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Рыбопитомник",
+      "en": "Fish farm"
+    },
+    "title": {
+      "ru": "Старая курительная трубка №1",
+      "en": "Antique Pipe #1"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В рыбопитомнике кое-что спрятано за деревянным забором.",
+      "Дойди до второй платформы и поднимись на неё.",
+      "В рыбопитомнике поднимись на вторую платформу и посмотри за деревянный забор — там клетка; сбей её, выпадет Старая курительная трубка."
+    ],
+    "match": {
+      "where": [
+        "рыбопитомник",
+        "платформа",
+        "забор",
+        "fish farm",
+        "platform"
+      ],
+      "what": [
+        "курительная трубка",
+        "трубка",
+        "antique pipe",
+        "pipe",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48295"
+    ]
+  },
+  {
+    "id": "tr-v-watch",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, нижний уровень у торговца",
+      "en": "Lake, lower level by the merchant"
+    },
+    "title": {
+      "ru": "Медные карманные часы",
+      "en": "Brass Pocket Watch"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Достав топливо для лодки, не торопись переплывать озеро.",
+      "Маленький ключ можно подобрать в рыбопитомнике; запертый ящик — внизу у воды возле торговца.",
+      "Добыв топливо для лодки, вернись к торговцу и спрыгни на нижний уровень к воде: справа запертый ящик — открой его маленьким ключом из рыбопитомника, внутри Медные карманные часы."
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "торговец",
+        "вода",
+        "причал",
+        "lake",
+        "merchant",
+        "dock"
+      ],
+      "what": [
+        "карманные часы",
+        "медные часы",
+        "brass pocket watch",
+        "pocket watch",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "маленький ключ",
+        "запертый ящик",
+        "комод",
+        "small key",
+        "locked drawer"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48160"
+    ]
+  },
+  {
+    "id": "tr-v-alex-1",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, затонувший корабль",
+      "en": "Lake, shipwreck"
+    },
+    "title": {
+      "ru": "Александрит №1",
+      "en": "Alexandrite #1"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Посреди озера кое-что торчит из воды.",
+      "Сядь в лодку и плыви к центру озера, к полузатопленному кораблю.",
+      "После битвы с гигантской рыбой плыви на лодке к разрушенному кораблю в центре озера и открой там красный сундук — внутри Александрит."
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "корабль",
+        "затонувший корабль",
+        "лодка",
+        "lake",
+        "shipwreck",
+        "boat"
+      ],
+      "what": [
+        "александрит",
+        "alexandrite",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48260"
+    ]
+  },
+  {
+    "id": "tr-v-red9",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, затонувший корабль",
+      "en": "Lake, shipwreck"
+    },
+    "title": {
+      "ru": "Red9",
+      "en": "Red9"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch5",
+    "missableNote": "По гайду другим способом пистолет не получить: забери в главе 4, пока доступно озеро.",
+    "hints": [
+      "На остове корабля посреди озера есть кое-что ценнее камня.",
+      "Причаль к полузатопленному кораблю и пройди дальше красного сундука.",
+      "На полузатопленном корабле в центре озера за красным сундуком стоит синий кейс с позолотой — в нём пистолет Red9 (засчитывается как сокровище). Другим способом его потом не получить."
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "корабль",
+        "затонувший корабль",
+        "лодка",
+        "lake",
+        "shipwreck",
+        "boat"
+      ],
+      "what": [
+        "red9",
+        "red 9",
+        "ред9",
+        "red9",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest",
+        "кейс",
+        "case"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/",
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ],
+    "mapMarkers": [
+      "48392"
+    ]
+  },
+  {
+    "id": "tr-v-splendid",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, западный берег, святилище",
+      "en": "Lake, west shore wayshrine"
+    },
+    "title": {
+      "ru": "Роскошный браслет",
+      "en": "Splendid Bangle"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Пещера с алтарём после рыбы даёт ключ, который открывает маленькие придорожные тайники.",
+      "Возьми ключ от старой часовни (Old Wayshrine Key) и плыви на запад, к берегу.",
+      "После босса-рыбы пройди пещеру с алтарём и забери ключ от старой часовни, затем плыви на лодке на запад до берега — там дорожное святилище; открой его, внутри Роскошный браслет."
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "западный берег",
+        "берег",
+        "lake",
+        "west"
+      ],
+      "what": [
+        "роскошный браслет",
+        "браслет",
+        "splendid bangle",
+        "bangle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "святилище",
+        "алтарь",
+        "ключ от святилища",
+        "wayshrine",
+        "old wayshrine key"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48279"
+    ]
+  },
+  {
+    "id": "tr-v-alex-2",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, у западного святилища",
+      "en": "Lake, by the west wayshrine"
+    },
+    "title": {
+      "ru": "Александрит №2",
+      "en": "Alexandrite #2"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Около западного святилища на озере стоит поднять голову.",
+      "Встань лицом к святилищу и посмотри вправо-вверх, на деревянную балку.",
+      "Стоя лицом к дорожному святилищу на западном берегу, поверни камеру вправо и вверх: на деревянной балке висит клетка — сбей её выстрелом, выпадет Александрит. (Её можно сбить ещё в главе 3 с лесов карьера, но подобрать камень — только приплыв на лодке.)"
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "святилище",
+        "балка",
+        "lake",
+        "wayshrine",
+        "beam"
+      ],
+      "what": [
+        "александрит",
+        "alexandrite",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48278"
+    ]
+  },
+  {
+    "id": "tr-v-velvet-3",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, большая пещера с символами",
+      "en": "Lake, large cave with symbol puzzle"
+    },
+    "title": {
+      "ru": "Бархатистый самоцвет №3",
+      "en": "Velvet Blue #3"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В большой пещере с головоломкой символов спрятан камень наверху.",
+      "Обходи пещеру по правой стороне, первую лестницу справа пропусти; ищи фонарь и деревянный помост.",
+      "В большой пещере с загадкой символов дверь слева заперта — обойди справа, мимо первой лестницы. В следующем проходе у фонаря и деревянного помоста подними камеру: там клетка с Бархатистым самоцветом, сбей её."
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "пещера",
+        "помост",
+        "lake",
+        "cave"
+      ],
+      "what": [
+        "бархатистый самоцвет",
+        "самоцвет",
+        "velvet blue",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48229"
+    ]
+  },
+  {
+    "id": "tr-v-ruby-6",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, малая восточная пещера",
+      "en": "Lake, small eastern cave"
+    },
+    "title": {
+      "ru": "Рубин №6",
+      "en": "Ruby #6"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В маленькой пещере на востоке награда ждёт после головоломки.",
+      "Реши головоломку в малой пещере и поднимись по лестнице.",
+      "Плыви на восток к маленькой пещере, реши там головоломку, поднимись по лестнице и сбей клетку — выпадет Рубин."
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "пещера",
+        "восток",
+        "лестница",
+        "lake",
+        "cave",
+        "east"
+      ],
+      "what": [
+        "рубин",
+        "ruby",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48420"
+    ]
+  },
+  {
+    "id": "tr-v-pearlbangle",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Поселение у озера, святилище",
+      "en": "Lakeside settlement wayshrine"
+    },
+    "title": {
+      "ru": "Жемчужный браслет",
+      "en": "Pearl Bangle"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Ключ от часовни пригодится и в поселении у озера.",
+      "Перед продолжением сюжета загляни в Поселение у озера и найди там дорожный алтарь.",
+      "В Поселении у озера стоит дорожное святилище — открой его ключом от старой часовни и забери Жемчужный браслет."
+    ],
+    "match": {
+      "where": [
+        "поселение у озера",
+        "поселение",
+        "lakeside settlement",
+        "settlement"
+      ],
+      "what": [
+        "жемчужный браслет",
+        "браслет",
+        "pearl bangle",
+        "bangle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "святилище",
+        "алтарь",
+        "ключ от святилища",
+        "wayshrine",
+        "old wayshrine key"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48026"
+    ]
+  },
+  {
+    "id": "tr-v-beetle-rh",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Поселение у озера, деревья у причала",
+      "en": "Lakeside settlement, trees by the pier"
+    },
+    "title": {
+      "ru": "Жук-носорог",
+      "en": "Rhinoceros Beetle"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В поселении у озера на деревьях сидит дорогой гость.",
+      "От причала иди налево и осмотри деревья за зданием.",
+      "Причалив к поселению, сверни налево и обойди здание: на одном из деревьев сидит Жук-носорог — его можно продать торговцу за 10 000 песет. (В общий список сокровищ на карте не входит.)"
+    ],
+    "match": {
+      "where": [
+        "поселение у озера",
+        "поселение",
+        "причал",
+        "дерево",
+        "lakeside settlement",
+        "pier",
+        "tree"
+      ],
+      "what": [
+        "жук-носорог",
+        "жук носорог",
+        "жук",
+        "rhinoceros beetle",
+        "beetle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ]
+  },
+  {
+    "id": "tr-v-goldbar",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Поселение у озера, дом, где был Луис",
+      "en": "Lakeside settlement, house where Luis was"
+    },
+    "title": {
+      "ru": "Золотой слиток",
+      "en": "Gold Bar"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "За дверью с символом культа лежит ключ к тайнику в знакомом доме.",
+      "Отопри дверь с эмблемой культа в поселении, поднимись по лестнице за маленьким ключом.",
+      "В Поселении у озера открой дверь с символом культа, заберись по лестнице и возьми маленький ключ. Вернись (по пути нападут заражённые псы) в дом, где нашёл Луиса, и отопри шкафчик — внутри Золотой слиток."
+    ],
+    "match": {
+      "where": [
+        "поселение у озера",
+        "поселение",
+        "дом",
+        "луис",
+        "lakeside settlement",
+        "luis"
+      ],
+      "what": [
+        "золотой слиток",
+        "слиток",
+        "gold bar",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "маленький ключ",
+        "запертый ящик",
+        "комод",
+        "small key",
+        "locked drawer"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48027"
+    ]
+  },
+  {
+    "id": "tr-v-ring",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Поселение у озера, подвал дома",
+      "en": "Lakeside settlement, house basement"
+    },
+    "title": {
+      "ru": "Кольцо с красным камнем",
+      "en": "Red Gemstone Ring"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Там, где ты впервые нашёл Луиса, кое-что осталось.",
+      "В том же доме пройди вперёд и спустись в подвал.",
+      "В доме, где был Луис, спрыгни в подвал: на месте, где он лежал, подбери Кольцо с красным камнем (рядом дневник)."
+    ],
+    "match": {
+      "where": [
+        "поселение у озера",
+        "поселение",
+        "подвал",
+        "луис",
+        "lakeside settlement",
+        "basement"
+      ],
+      "what": [
+        "кольцо",
+        "кольцо с красным камнем",
+        "red gemstone ring",
+        "ring",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48391"
+    ],
+    "gameRefs": [
+      "item:120817600"
+    ]
+  },
+  {
+    "id": "tr-v-idol",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, причал с шестигранной загадкой",
+      "en": "Lake, pier with the hexagon puzzle"
+    },
+    "title": {
+      "ru": "Порочный идол",
+      "en": "Depraved Idol"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "На озере разбросаны шестигранные детали — собери их все.",
+      "Когда найдёшь все шестигранные детали, реши загадку на причале.",
+      "Собери все шестигранные детали на озере и реши загадку на причале — получишь Порочный идол. Подсказка по поворотам: на обычной сложности — левая сторона, затем верхняя; на хардкоре — левая дважды, затем верхняя."
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "причал",
+        "lake",
+        "pier",
+        "dock"
+      ],
+      "what": [
+        "порочный идол",
+        "подарочный идол",
+        "идол",
+        "depraved idol",
+        "idol",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "головоломка",
+        "шестигранник",
+        "puzzle",
+        "hexagon"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48424"
+    ]
+  },
+  {
+    "id": "tr-v-lamp",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Перед входом в карьер, святилище",
+      "en": "Wayshrine before the quarry entrance"
+    },
+    "title": {
+      "ru": "Светильник с бабочками",
+      "en": "Butterfly Lamp"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Получив ключ от церкви, стоит вернуться к знакомому придорожному тайнику.",
+      "Иди обратно к торговцу и дальше к карьеру — святилище стоит перед входом.",
+      "С ключом от церкви возвращайся к торговцу и к карьеру: перед входом в карьер стоит дорожное святилище — открой его ключом от старой часовни, внутри Светильник с бабочками."
+    ],
+    "match": {
+      "where": [
+        "карьер",
+        "торговец",
+        "quarry",
+        "merchant"
+      ],
+      "what": [
+        "светильник с бабочками",
+        "светильник",
+        "лампа",
+        "butterfly lamp",
+        "lamp",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "святилище",
+        "алтарь",
+        "ключ от святилища",
+        "wayshrine",
+        "old wayshrine key"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48151"
+    ]
+  },
+  {
+    "id": "tr-v-velvet-4",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Карьер, загон Эль Гиганте",
+      "en": "Quarry, El Gigante's pen"
+    },
+    "title": {
+      "ru": "Бархатистый самоцвет №4",
+      "en": "Velvet Blue #4"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "После драки с гигантом загляни туда, где его держали.",
+      "Осмотри загон Эль Гиганте у карьера.",
+      "Победив Эль Гиганте по пути через карьер к церкви, обыщи его загон — там лежит Бархатистый самоцвет."
+    ],
+    "match": {
+      "where": [
+        "карьер",
+        "загон",
+        "эль гиганте",
+        "гигант",
+        "quarry",
+        "el gigante",
+        "pen"
+      ],
+      "what": [
+        "бархатистый самоцвет",
+        "самоцвет",
+        "velvet blue",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48256"
+    ]
+  },
+  {
+    "id": "tr-v-yd-1",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Церковь → комната с печатной машинкой",
+      "en": "Church, then the typewriter room"
+    },
+    "title": {
+      "ru": "Жёлтый алмаз №1",
+      "en": "Yellow Diamond #1"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В церкви есть маленький ключ, а комод для него — у ближайшего сохранения.",
+      "Возьми ключ справа от алтаря в церкви и вернись в комнату с печатной машинкой.",
+      "Открой церковь ключом, справа от алтаря подбери маленький ключ, выйди и вернись в комнату с печатной машинкой — открой там комод, внутри Жёлтый алмаз."
+    ],
+    "match": {
+      "where": [
+        "церковь",
+        "алтарь",
+        "печатная машинка",
+        "church",
+        "typewriter"
+      ],
+      "what": [
+        "жёлтый алмаз",
+        "желтый алмаз",
+        "алмаз",
+        "yellow diamond",
+        "diamond",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "маленький ключ",
+        "запертый ящик",
+        "комод",
+        "small key",
+        "locked drawer"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48402"
+    ]
+  },
+  {
+    "id": "tr-v-yd-2",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Церковь, комната Эшли",
+      "en": "Church, Ashley's room"
+    },
+    "title": {
+      "ru": "Жёлтый алмаз №2",
+      "en": "Yellow Diamond #2"
+    },
+    "availableFrom": "ch5",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В начале главы не спеши уходить из церкви.",
+      "Вернись в комнату, где ты нашёл Эшли.",
+      "В начале главы 5 зайди в комнату, где была Эшли: там висит клетка — сбей её, выпадет Жёлтый алмаз."
+    ],
+    "match": {
+      "where": [
+        "церковь",
+        "комната эшли",
+        "church"
+      ],
+      "what": [
+        "жёлтый алмаз",
+        "желтый алмаз",
+        "алмаз",
+        "yellow diamond",
+        "diamond",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48403"
+    ]
+  },
+  {
+    "id": "tr-v-elbangle",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Деревня, первый дом слева от площади",
+      "en": "Village, first house on the left of the square"
+    },
+    "title": {
+      "ru": "Элегантный браслет",
+      "en": "Elegant Bangle"
+    },
+    "availableFrom": "ch5",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "С Эшли откроется дом на площади, куда раньше было не попасть.",
+      "Иди через ратушу на главную площадь — нужен первый дом слева.",
+      "На главной площади деревни (через ратушу) подойди к первому дому слева и подсади Эшли, чтобы она открыла ворота; внутри Элегантный браслет."
+    ],
+    "match": {
+      "where": [
+        "деревня",
+        "площадь",
+        "ратуша",
+        "дом",
+        "ворота",
+        "village",
+        "square",
+        "house"
+      ],
+      "what": [
+        "элегантный браслет",
+        "браслет",
+        "elegant bangle",
+        "bangle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48296"
+    ]
+  },
+  {
+    "id": "tr-v-pipe-2",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Ферма, святилище",
+      "en": "Farm wayshrine"
+    },
+    "title": {
+      "ru": "Старая курительная трубка №2",
+      "en": "Antique Pipe #2"
+    },
+    "availableFrom": "ch5",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Ключ от часовни снова нужен — на этот раз на ферме.",
+      "Дойди до фермы и найди там дорожное святилище.",
+      "На ферме открой дорожное святилище ключом от старой часовни — внутри Старая курительная трубка."
+    ],
+    "match": {
+      "where": [
+        "ферма",
+        "farm"
+      ],
+      "what": [
+        "курительная трубка",
+        "трубка",
+        "antique pipe",
+        "pipe",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "святилище",
+        "алтарь",
+        "ключ от святилища",
+        "wayshrine",
+        "old wayshrine key"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "47988"
+    ]
+  },
+  {
+    "id": "tr-v-camera",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Дом старосты, чердак",
+      "en": "Chief's manor attic"
+    },
+    "title": {
+      "ru": "Старинная фотокамера",
+      "en": "Antique Camera"
+    },
+    "availableFrom": "ch5",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В доме старосты есть потайной ход наверх, и одному туда не забраться.",
+      "На втором этаже дома старосты осмотри картину — за ней рычаг.",
+      "В доме старосты на втором этаже осмотри картину и потяни рычаг, опускающий часть лестницы; подсади Эшли наверх. В конце чердака лежит Старинная фотокамера."
+    ],
+    "match": {
+      "where": [
+        "дом старосты",
+        "староста",
+        "чердак",
+        "картина",
+        "chief's manor",
+        "attic"
+      ],
+      "what": [
+        "старинная фотокамера",
+        "фотокамера",
+        "фотоаппарат",
+        "antique camera",
+        "camera",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48447"
+    ],
+    "gameRefs": [
+      "item:120860800"
+    ]
+  },
+  {
+    "id": "tr-v-yd-3",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Длинная зона после торговца",
+      "en": "Long area after the merchant"
+    },
+    "title": {
+      "ru": "Жёлтый алмаз №3",
+      "en": "Yellow Diamond #3"
+    },
+    "availableFrom": "ch6",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В начале главы 6 сундук стоит на возвышении.",
+      "Пройдя длинную локацию после торговца, вернись к лестнице слева от входа.",
+      "В начале главы после торговца зачисти длинную зону, затем поднимись по лестнице слева от входа — там красный сундук с Жёлтым алмазом."
+    ],
+    "match": {
+      "where": [
+        "лестница",
+        "торговец",
+        "скотобойня",
+        "merchant"
+      ],
+      "what": [
+        "жёлтый алмаз",
+        "желтый алмаз",
+        "алмаз",
+        "yellow diamond",
+        "diamond",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48311"
+    ]
+  },
+  {
+    "id": "tr-v-chalice",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Одинокое здание в следующей зоне",
+      "en": "Lone building in the next area"
+    },
+    "title": {
+      "ru": "Чаша искупления",
+      "en": "Chalice of Atonement"
+    },
+    "availableFrom": "ch6",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "В следующей зоне стоит единственная постройка — и её охраняют.",
+      "Зайди в единственное здание слева.",
+      "Перейдя в следующую локацию, войди в единственное здание слева, убей врага внутри и открой сундук — в нём Чаша искупления."
+    ],
+    "match": {
+      "where": [
+        "здание",
+        "скотобойня",
+        "building"
+      ],
+      "what": [
+        "чаша искупления",
+        "чаша",
+        "chalice of atonement",
+        "chalice",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48327"
+    ],
+    "gameRefs": [
+      "item:122411200"
+    ]
+  },
+  {
+    "id": "tr-v-headdress-2",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Святилище у здания со шкафом для Эшли",
+      "en": "Wayshrine near the building with Ashley's hiding locker"
+    },
+    "title": {
+      "ru": "Элегантная заколка №2",
+      "en": "Elegant Headdress #2"
+    },
+    "availableFrom": "ch6",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Последнее дорожное святилище — недалеко от места, где можно спрятать Эшли.",
+      "Дойдя до шкафчика для Эшли, выйди из здания в дверь слева.",
+      "От шкафчика, где прячется Эшли, выйди в левую дверь — рядом последнее дорожное святилище; открой ключом от старой часовни и забери Элегантную заколку."
+    ],
+    "match": {
+      "where": [
+        "шкафчик",
+        "шкаф",
+        "здание",
+        "locker"
+      ],
+      "what": [
+        "элегантная заколка",
+        "заколка",
+        "elegant headdress",
+        "headdress",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "святилище",
+        "алтарь",
+        "ключ от святилища",
+        "wayshrine",
+        "old wayshrine key"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48350"
+    ]
+  },
+  {
+    "id": "tr-v-emerald",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Дорога к замку, одинокое дерево",
+      "en": "Road to the castle, lone tree"
+    },
+    "title": {
+      "ru": "Изумруд",
+      "en": "Emerald"
+    },
+    "availableFrom": "ch6",
+    "missableAfter": "ch7",
+    "missableNote": "Из замка в деревню не вернуться: забери до перехода к главе 7.",
+    "hints": [
+      "Последнее сокровище деревни — по дороге к замку.",
+      "После боя в амбаре иди к башне замка и смотри на единственное дерево.",
+      "После босса в амбаре выйди на дорогу к башне замка: на единственном дереве висит клетка — сбей её, выпадет Изумруд. Если собрал всё раньше, получишь достижение «Разбойник» (Bandit)."
+    ],
+    "match": {
+      "where": [
+        "дорога к замку",
+        "дерево",
+        "амбар",
+        "замок",
+        "road",
+        "tree",
+        "castle"
+      ],
+      "what": [
+        "изумруд",
+        "emerald",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ],
+    "mapMarkers": [
+      "48381"
+    ]
+  },
+  {
+    "id": "tr-c-compass",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, за зданием торговца",
+      "en": "Castle, behind the merchant's building"
+    },
+    "title": {
+      "ru": "Старинный компас",
+      "en": "Vintage Compass"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "В замке сокровище начинается прямо у торговца.",
+      "Обойди здание торговца и разбей жёлтые бочки.",
+      "Обойди здание с торговцем, разбей две жёлтые бочки — за ними красный сундук со Старинным компасом."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "торговец",
+        "бочки",
+        "castle",
+        "merchant",
+        "barrels"
+      ],
+      "what": [
+        "старинный компас",
+        "компас",
+        "vintage compass",
+        "compass",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48465"
+    ]
+  },
+  {
+    "id": "tr-c-elbangle",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, стены с пушкой",
+      "en": "Castle, walls with the cannon"
+    },
+    "title": {
+      "ru": "Элегантный браслет",
+      "en": "Elegant Bangle"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Пробираясь между катапультами, не пропусти сундук у двери наверху.",
+      "Дойдя до решётки с обрывом, спрыгни и подними пушку на верхний уровень.",
+      "Пройди под обстрелом катапульт до решётки с обрывом, спрыгни, подними пушку наверх, поднимись по лестнице к двери — слева от неё красный сундук с Элегантным браслетом."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "пушка",
+        "катапульты",
+        "обрыв",
+        "castle",
+        "cannon",
+        "catapult"
+      ],
+      "what": [
+        "элегантный браслет",
+        "браслет",
+        "elegant bangle",
+        "bangle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48479"
+    ]
+  },
+  {
+    "id": "tr-c-perfume-1",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Зал для приёмов, за запертой дверью",
+      "en": "Audience Chamber, behind the locked gate"
+    },
+    "title": {
+      "ru": "Изящный флакон для духов №1",
+      "en": "Elegant Perfume Bottle #1"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "В зале после встречи с Салазаром сокровищ много, но сразу доступна лишь часть.",
+      "Попроси Эшли перебраться на другую сторону и открыть запертую дверь.",
+      "После сцены с Салазаром отправь Эшли открыть запертую дверь, войди и сверни направо до тупика — там красный сундук с Изящным флаконом для духов."
+    ],
+    "match": {
+      "where": [
+        "зал для приёмов",
+        "большой зал",
+        "салазар",
+        "audience chamber",
+        "hall"
+      ],
+      "what": [
+        "флакон для духов",
+        "флакон",
+        "духи",
+        "elegant perfume bottle",
+        "perfume bottle",
+        "perfume",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48505"
+    ]
+  },
+  {
+    "id": "tr-c-ruby-1",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Зал для приёмов, за щелью в стене",
+      "en": "Audience Chamber, past the gap in the wall"
+    },
+    "title": {
+      "ru": "Рубин №1",
+      "en": "Ruby #1"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Протиснувшись сквозь стену, оглянись.",
+      "После щели в стене поверни камеру влево.",
+      "Протиснись через щель в стене и посмотри влево — там клетка; сбей её, выпадет Рубин."
+    ],
+    "match": {
+      "where": [
+        "зал для приёмов",
+        "щель",
+        "стена",
+        "audience chamber",
+        "gap"
+      ],
+      "what": [
+        "рубин",
+        "ruby",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48507"
+    ]
+  },
+  {
+    "id": "tr-c-spinel",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, за решёткой после слепого монстра",
+      "en": "Castle, behind the grate after the Garrador"
+    },
+    "title": {
+      "ru": "Шпинель",
+      "en": "Spinel"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Слепой противник оставляет ключ — он открывает путь к камню.",
+      "Открой ключом решётку и поднимись по лестнице; ищи на шкафах.",
+      "После боя со слепым монстром возьми ключ, открой решётку и поднимись по лестнице — Шпинель лежит на одном из шкафов. Справа рядом — заводной смотритель."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "решётка",
+        "шкаф",
+        "гаррадор",
+        "слепой",
+        "castle",
+        "grate",
+        "garrador"
+      ],
+      "what": [
+        "шпинель",
+        "spinel",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48527"
+    ]
+  },
+  {
+    "id": "tr-c-goldbangle",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, коридор после загадки с мечами",
+      "en": "Castle, corridor after the four swords puzzle"
+    },
+    "title": {
+      "ru": "Золотой браслет",
+      "en": "Gold Bangle"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Решив загадку с четырьмя мечами, ты сразу наткнёшься на награду.",
+      "Красный сундук стоит в коридоре сразу после головоломки.",
+      "После головоломки с четырьмя мечами в коридоре стоит красный сундук — в нём Золотой браслет."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "коридор",
+        "мечи",
+        "castle",
+        "corridor",
+        "swords"
+      ],
+      "what": [
+        "золотой браслет",
+        "браслет",
+        "gold bangle",
+        "bangle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48538"
+    ]
+  },
+  {
+    "id": "tr-c-hourglass-1",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Зал для приёмов, через люстру",
+      "en": "Audience Chamber, via the chandelier"
+    },
+    "title": {
+      "ru": "Золотые песочные часы №1",
+      "en": "Golden Hourglass #1"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Вернувшись в большой зал, используй люстру, чтобы попасть туда, куда раньше было нельзя.",
+      "Сначала сбрось лестницу в тупике справа, затем перепрыгни по люстре.",
+      "В большом зале добеги до тупика справа и опусти лестницу, чтобы можно было вернуться. Затем перепрыгни по люстре на другую сторону и спустись к красному сундуку — в нём Золотые песочные часы."
+    ],
+    "match": {
+      "where": [
+        "зал для приёмов",
+        "большой зал",
+        "люстра",
+        "галерея",
+        "audience chamber",
+        "chandelier",
+        "gallery"
+      ],
+      "what": [
+        "песочные часы",
+        "золотые песочные часы",
+        "golden hourglass",
+        "hourglass",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48542"
+    ]
+  },
+  {
+    "id": "tr-c-mirror-1",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, здание за торговцем",
+      "en": "Castle, building past the merchant"
+    },
+    "title": {
+      "ru": "Зеркало (жемчуг и рубины) №1",
+      "en": "Mirror with Pearls & Rubies #1"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Вожак в красном охранял не просто так.",
+      "Поднимись от торговца по лестнице в здание и одолей толпу врагов.",
+      "От торговца поднимись в здание, перебей врагов — на месте, где стоял культист в красном, будет сундук с Зеркалом с жемчугом и рубинами."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "торговец",
+        "культист",
+        "castle",
+        "merchant"
+      ],
+      "what": [
+        "зеркало",
+        "зеркало (жемчуг и рубины)",
+        "mirror with pearls",
+        "mirror",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48602"
+    ]
+  },
+  {
+    "id": "tr-c-clock-1",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, комната встречи с Адой",
+      "en": "Castle, room where you meet Ada"
+    },
+    "title": {
+      "ru": "Дорогостоящие часы №1",
+      "en": "Extravagant Clock #1"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "После встречи с Адой не уходи из комнаты сразу.",
+      "С алым фонарём иди дальше единственным путём до сцены с Адой Вонг.",
+      "Найдя алый фонарь, иди к встрече с Адой; после сцены обыщи комнату — там красный сундук с Дорогостоящими часами."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "ада",
+        "алый фонарь",
+        "castle",
+        "ada"
+      ],
+      "what": [
+        "дорогостоящие часы",
+        "часы",
+        "extravagant clock",
+        "clock",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48608"
+    ]
+  },
+  {
+    "id": "tr-c-watch",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, комната с тварью на стене",
+      "en": "Castle, room with the wall-crawler"
+    },
+    "title": {
+      "ru": "Медные карманные часы",
+      "en": "Brass Pocket Watch"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Маленький ключ лежит в той же комнате, что и тварь, бегущая по стене.",
+      "После головоломки иди вперёд до твари на стене и поверни налево.",
+      "Продолжай после головоломки до комнаты, где по стене пробегает тварь; слева подбери маленький ключ и открой им запертый комод в этой комнате — внутри Медные карманные часы."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "комната",
+        "castle"
+      ],
+      "what": [
+        "карманные часы",
+        "медные часы",
+        "brass pocket watch",
+        "pocket watch",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "маленький ключ",
+        "запертый ящик",
+        "комод",
+        "small key",
+        "locked drawer"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ]
+  },
+  {
+    "id": "tr-c-ornneck",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Башня с рычагами Солнца и Луны",
+      "en": "Tower with the Sun and Moon levers"
+    },
+    "title": {
+      "ru": "Вычурное ожерелье",
+      "en": "Ornate Necklace"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Иногда награда — за рычагом, который не стоит трогать.",
+      "В длинном коридоре переключи дальний рычаг, поднимись по доскам и НЕ трогай следующий рычаг слева.",
+      "В башне с рычагами Солнца и Луны пройди в длинный коридор, переключи дальний рычаг, открыв решётку, поднимись по доскам. Рычаг слева не трогай: пройди вперёд мимо двух врагов, поверни налево и спрыгни вниз — решётка Луны останется открытой, а за ней сундук с Вычурным ожерельем."
+    ],
+    "match": {
+      "where": [
+        "башня",
+        "солнце",
+        "луна",
+        "рычаг",
+        "tower",
+        "sun",
+        "moon",
+        "lever"
+      ],
+      "what": [
+        "вычурное ожерелье",
+        "ожерелье",
+        "ornate necklace",
+        "necklace",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48638"
+    ]
+  },
+  {
+    "id": "tr-c-emerald-1",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, соседняя башня",
+      "en": "Castle, neighbouring tower"
+    },
+    "title": {
+      "ru": "Изумруд №1",
+      "en": "Emerald #1"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "После сцены с гигантом на крыше не следуй подсказанному пути.",
+      "Спрыгивай с крыши башни не слева, а справа, и иди к следующей башне.",
+      "На крыше башни после сцены с гигантом спрыгни справа (а не налево, куда ведёт путь), доберись до соседней башни и открой красный сундук — там Изумруд и заводной смотритель."
+    ],
+    "match": {
+      "where": [
+        "башня",
+        "крыша",
+        "гигант",
+        "tower",
+        "roof"
+      ],
+      "what": [
+        "изумруд",
+        "emerald",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48641"
+    ]
+  },
+  {
+    "id": "tr-c-ruby-2",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, нижний уровень у башни",
+      "en": "Castle, lowest level by the tower"
+    },
+    "title": {
+      "ru": "Рубин №2",
+      "en": "Ruby #2"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "От башни путь налево ведёт вниз — к камню, который нужно увидеть, обернувшись.",
+      "Спрыгни влево от прежней башни в комнату с рычагом, активируй его и прыгни ещё ниже.",
+      "Вернись к прежней башне, иди налево, спрыгни в комнатку с рычагом, переключи его и спустись ещё ниже. Обернись и посмотри вверх — там клетка с Рубином, сбей её."
+    ],
+    "match": {
+      "where": [
+        "башня",
+        "рычаг",
+        "нижний уровень",
+        "tower",
+        "lever"
+      ],
+      "what": [
+        "рубин",
+        "ruby",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48663"
+    ]
+  },
+  {
+    "id": "tr-c-chess",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Лабиринт, восточная часть",
+      "en": "Hedge maze, east side"
+    },
+    "title": {
+      "ru": "Стильная шахматная доска",
+      "en": "Elegant Chessboard"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Воссоединившись с Эшли, обойди лабиринт полностью.",
+      "Ищи небольшое помещение в дальней восточной части лабиринта.",
+      "В лабиринте, в его дальней восточной части, есть небольшая комнатка с сундуком — в нём Стильная шахматная доска."
+    ],
+    "match": {
+      "where": [
+        "лабиринт",
+        "восток",
+        "maze",
+        "east"
+      ],
+      "what": [
+        "шахматная доска",
+        "шахматы",
+        "elegant chessboard",
+        "chessboard",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48703"
+    ],
+    "gameRefs": [
+      "item:120827200"
+    ]
+  },
+  {
+    "id": "tr-c-idol",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Здание поиска алого фонаря, запертая комната",
+      "en": "Scarlet lantern building, locked room"
+    },
+    "title": {
+      "ru": "Порочный идол",
+      "en": "Depraved Idol"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "С Эшли откроется комната, куда одному было не попасть.",
+      "После рычагов в лабиринте вернись к торговцу, поднимись в здание, где искал алый фонарь.",
+      "Активировав рычаги в лабиринте, вернись к торговцу, поднимись в здание поиска алого фонаря и попроси Эшли открыть запертую комнату — внутри Порочный идол. Будь готов: нападёт рыцарь-мутант."
+    ],
+    "match": {
+      "where": [
+        "торговец",
+        "алый фонарь",
+        "запертая комната",
+        "merchant",
+        "locked room"
+      ],
+      "what": [
+        "порочный идол",
+        "подарочный идол",
+        "идол",
+        "depraved idol",
+        "idol",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "связка ключей",
+        "эшли",
+        "bunch of keys"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48691"
+    ]
+  },
+  {
+    "id": "tr-c-alex-1",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Лабиринт, большой зал со статуями",
+      "en": "Hedge maze, hall with statues"
+    },
+    "title": {
+      "ru": "Александрит №1",
+      "en": "Alexandrite #1"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Одна из статуй что-то держит в руках.",
+      "Вернись в лабиринт и зайди в большой зал.",
+      "В большом зале лабиринта у одной из статуй в руках клетка — сбей её, выпадет Александрит."
+    ],
+    "match": {
+      "where": [
+        "лабиринт",
+        "зал",
+        "статуя",
+        "maze",
+        "statue"
+      ],
+      "what": [
+        "александрит",
+        "alexandrite",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48709"
+    ]
+  },
+  {
+    "id": "tr-c-lamp",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, комната торговца",
+      "en": "Castle, merchant's room"
+    },
+    "title": {
+      "ru": "Светильник с бабочками",
+      "en": "Butterfly Lamp"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Кубическое устройство из коридора после головы льва открывает особые шкафчики.",
+      "Получив кубическое устройство (красный сундук в коридоре после головы льва), иди в комнату торговца.",
+      "Возьми Кубическое устройство в красном сундуке в коридоре после головы льва и боя с рыцарями. Вернись в комнату торговца и вставь его в шкафчик, правильно повернув куб, — получишь Светильник с бабочками."
+    ],
+    "match": {
+      "where": [
+        "торговец",
+        "комната торговца",
+        "шкафчик",
+        "merchant"
+      ],
+      "what": [
+        "светильник с бабочками",
+        "светильник",
+        "лампа",
+        "butterfly lamp",
+        "lamp",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "кубическое устройство",
+        "куб",
+        "cubic device",
+        "square lock box"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48770"
+    ]
+  },
+  {
+    "id": "tr-c-yd-1",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Галерея, под мостом",
+      "en": "Gallery, under the footbridge"
+    },
+    "title": {
+      "ru": "Жёлтый алмаз №1",
+      "en": "Yellow Diamond #1"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Подняв мост в галерее, загляни под него.",
+      "Не иди сразу по мосту — осмотри стол прямо под ним.",
+      "В галерее перебей врагов и подними мост, затем осмотри стол под мостом — там сундук с Жёлтым алмазом."
+    ],
+    "match": {
+      "where": [
+        "галерея",
+        "мост",
+        "стол",
+        "gallery",
+        "footbridge",
+        "bridge"
+      ],
+      "what": [
+        "жёлтый алмаз",
+        "желтый алмаз",
+        "алмаз",
+        "yellow diamond",
+        "diamond",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48738"
+    ]
+  },
+  {
+    "id": "tr-c-justitia",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Зал для приёмов",
+      "en": "Audience Chamber"
+    },
+    "title": {
+      "ru": "Статуэтка Юстиции",
+      "en": "Justitia Statue"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Собрав три головы, вернись в знакомый большой зал.",
+      "От торговца вагонетка везёт обратно в зал для приёмов — там тайник для кубического устройства.",
+      "Получив головы Льва, Змеи и Козла, не вставляй их сразу: вернись к торговцу, сядь в вагонетку до зала для приёмов и открой тайник Кубическим устройством — внутри Статуэтка Юстиции."
+    ],
+    "match": {
+      "where": [
+        "зал для приёмов",
+        "вагонетка",
+        "audience chamber",
+        "minecart"
+      ],
+      "what": [
+        "статуэтка юстиции",
+        "юстиция",
+        "статуэтка",
+        "justitia statue",
+        "justitia",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "кубическое устройство",
+        "куб",
+        "cubic device",
+        "square lock box"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48771"
+    ],
+    "gameRefs": [
+      "item:120848000"
+    ]
+  },
+  {
+    "id": "tr-c-goldbar-1",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Зал для приёмов",
+      "en": "Audience Chamber"
+    },
+    "title": {
+      "ru": "Золотой слиток №1",
+      "en": "Gold Bar #1"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "В большом зале есть и шкафчик под маленький ключ.",
+      "Ключ мог попасться в предыдущей локации; запертый шкафчик — в зале для приёмов.",
+      "В зале для приёмов есть запертый шкафчик — открой его маленьким ключом, найденным ранее, и забери Золотой слиток."
+    ],
+    "match": {
+      "where": [
+        "зал для приёмов",
+        "шкафчик",
+        "audience chamber"
+      ],
+      "what": [
+        "золотой слиток",
+        "слиток",
+        "gold bar",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "маленький ключ",
+        "запертый ящик",
+        "комод",
+        "small key",
+        "locked drawer"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48772"
+    ]
+  },
+  {
+    "id": "tr-c-perfume-2",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Библиотека (эпизод за Эшли)",
+      "en": "Library (Ashley segment)"
+    },
+    "title": {
+      "ru": "Изящный флакон для духов №2",
+      "en": "Elegant Perfume Bottle #2"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch10",
+    "missableNote": "Эпизод за Эшли: если не забрать сокровище сейчас, вернуться в это прохождение нельзя.",
+    "hints": [
+      "Играя за Эшли, сундуки открываются ключами из связки.",
+      "В библиотеке после связки ключей ищи лаз под книжной полкой.",
+      "За Эшли: поставь фонарь на стойку в библиотеке, опусти лестницу и возьми Связку ключей. Затем спустись и проползи через лаз под книжной полкой к сундуку (второй ключ слева) — там Изящный флакон для духов. Рыцарей можно ослепить фонарём."
+    ],
+    "match": {
+      "where": [
+        "библиотека",
+        "книжная полка",
+        "лаз",
+        "library",
+        "bookshelf"
+      ],
+      "what": [
+        "флакон для духов",
+        "флакон",
+        "духи",
+        "elegant perfume bottle",
+        "perfume bottle",
+        "perfume",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "связка ключей",
+        "эшли",
+        "bunch of keys",
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48776"
+    ]
+  },
+  {
+    "id": "tr-c-sapphire-1",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Библиотека, у лифта (эпизод за Эшли)",
+      "en": "Library near the lift (Ashley segment)"
+    },
+    "title": {
+      "ru": "Сапфир №1",
+      "en": "Sapphire #1"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch10",
+    "missableNote": "Эпизод за Эшли: если не забрать сокровище сейчас, вернуться в это прохождение нельзя.",
+    "hints": [
+      "Второй сундук Эшли — среди полок после лифта.",
+      "Спустись на лифте; когда Эшли увидит Леона через решётку, сверни налево.",
+      "После лифта, когда Эшли увидит Леона сквозь решётку, поверни налево — между книжными полками сундук (четвёртый ключ слева) с Сапфиром."
+    ],
+    "match": {
+      "where": [
+        "библиотека",
+        "лифт",
+        "книжные полки",
+        "library",
+        "elevator",
+        "lift"
+      ],
+      "what": [
+        "сапфир",
+        "sapphire",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "связка ключей",
+        "эшли",
+        "bunch of keys",
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48806"
+    ]
+  },
+  {
+    "id": "tr-c-emerald-2",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Комната с гонгами (эпизод за Эшли)",
+      "en": "Gong room (Ashley segment)"
+    },
+    "title": {
+      "ru": "Изумруд №2",
+      "en": "Emerald #2"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch10",
+    "missableNote": "Эпизод за Эшли: если не забрать сокровище сейчас, вернуться в это прохождение нельзя.",
+    "hints": [
+      "Третий сундук Эшли — сразу после комнаты с гонгами.",
+      "Позвони во все гонги, пройди в коридор и посмотри за ширмами справа.",
+      "Спустившись на втором лифте, позвони в гонги в любом порядке — решётка откроется. В коридоре за ней справа за ширмами сундук (первый ключ слева) с Изумрудом. Рыцари, войдя в комнату, сразу замирают."
+    ],
+    "match": {
+      "where": [
+        "гонг",
+        "гонги",
+        "ширма",
+        "gong",
+        "screen"
+      ],
+      "what": [
+        "изумруд",
+        "emerald",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "связка ключей",
+        "эшли",
+        "bunch of keys",
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48799"
+    ]
+  },
+  {
+    "id": "tr-c-cqbr",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Библиотека, тайник напротив связки ключей",
+      "en": "Library, lock box opposite the key table"
+    },
+    "title": {
+      "ru": "Штурмовая винтовка CQBR",
+      "en": "CQBR Assault Rifle"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "В библиотеке есть тайник, который откроется кубу, — и там оружие.",
+      "Иди туда, где Эшли нашла связку ключей; тайник — на противоположной стене.",
+      "В библиотеке напротив стола со связкой ключей запертый тайник (углубление у картины) — вставь Кубическое устройство в нужном положении. В первом прохождении там Штурмовая винтовка CQBR (засчитывается как сокровище), в Новой игре+ — золотой слиток. Не забудь в начале главы подобрать сокровища Эшли у открывшейся двери."
+    ],
+    "match": {
+      "where": [
+        "библиотека",
+        "картина",
+        "library",
+        "painting"
+      ],
+      "what": [
+        "cqbr",
+        "штурмовая винтовка",
+        "винтовка",
+        "assault rifle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "кубическое устройство",
+        "куб",
+        "cubic device",
+        "square lock box"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/",
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ],
+    "mapMarkers": [
+      "48811"
+    ]
+  },
+  {
+    "id": "tr-c-lynx",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Библиотека, верхний этаж",
+      "en": "Library, upper floor"
+    },
+    "title": {
+      "ru": "Золотая рысь",
+      "en": "Golden Lynx"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Ещё один кубический тайник — выше библиотеки.",
+      "Поднимись туда, где Эшли нашла записку о времени на часах.",
+      "Из библиотеки поднимись по лестнице к месту, где за Эшли была записка о правильном времени: там шкафчик под Кубическое устройство — внутри Золотая рысь."
+    ],
+    "match": {
+      "where": [
+        "библиотека",
+        "лестница",
+        "часы",
+        "library",
+        "upper floor"
+      ],
+      "what": [
+        "золотая рысь",
+        "рысь",
+        "golden lynx",
+        "lynx",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "кубическое устройство",
+        "куб",
+        "cubic device",
+        "square lock box"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48803"
+    ]
+  },
+  {
+    "id": "tr-c-ruby-3",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Тронный зал, у упавшей люстры",
+      "en": "Throne room, by the fallen chandelier"
+    },
+    "title": {
+      "ru": "Рубин №3",
+      "en": "Ruby #3"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Внизу тронного зала под завалами что-то блестит.",
+      "Спустись к упавшей люстре и ищи под обломками стены.",
+      "В тронном зале спустись вниз к упавшей люстре — под обломками стены висит клетка; сбей её, выпадет Рубин."
+    ],
+    "match": {
+      "where": [
+        "тронный зал",
+        "люстра",
+        "обломки",
+        "throne room",
+        "chandelier"
+      ],
+      "what": [
+        "рубин",
+        "ruby",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48825"
+    ]
+  },
+  {
+    "id": "tr-c-ornbeetle-1",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Тронный зал, за большой лестницей",
+      "en": "Throne room, behind the grand staircase"
+    },
+    "title": {
+      "ru": "Красивый жук №1",
+      "en": "Ornate Beetle #1"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Обойди большую лестницу и дойди до самого тупика.",
+      "Сундук стоит за вертикальной лестницей слева от главной.",
+      "Обойди большую лестницу слева до тупика — за вертикальной лестницей красный сундук с Красивым жуком."
+    ],
+    "match": {
+      "where": [
+        "тронный зал",
+        "лестница",
+        "throne room",
+        "staircase"
+      ],
+      "what": [
+        "красивый жук",
+        "жук",
+        "ornate beetle",
+        "beetle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48829"
+    ]
+  },
+  {
+    "id": "tr-c-crown",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Подземелье, каменное здание",
+      "en": "Dungeon, stone building"
+    },
+    "title": {
+      "ru": "Элегантная корона",
+      "en": "Elegant Crown"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Провалившись в подземелье, дойди до конца области.",
+      "Ищи каменное здание и тело внутри.",
+      "После сцены с Рамоном и Эшли Леон окажется в подземелье — дойди до каменного здания в конце области: слева от трупа лежит Элегантная корона. В неё вставляются камни: например, 2 Жёлтых алмаза + 3 Красных берилла дают больше 100 000 песет (для достижения)."
+    ],
+    "match": {
+      "where": [
+        "подземелье",
+        "каменное здание",
+        "труп",
+        "dungeon"
+      ],
+      "what": [
+        "элегантная корона",
+        "корона",
+        "elegant crown",
+        "crown",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48861"
+    ]
+  },
+  {
+    "id": "tr-c-beryl",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Подземелье, туннель за дырой в стене",
+      "en": "Dungeon, tunnel past the hole in the wall"
+    },
+    "title": {
+      "ru": "Красный берилл",
+      "en": "Red Beryl"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Рядом с короной есть проход дальше, а в нём — камень под потолком.",
+      "Пролезь в дыру в стене, поднимись по лестнице и иди по туннелю.",
+      "От короны протиснись в дыру в стене, поднимись по лестнице и в туннеле загляни в закуток слева — на потолке клетка; сбей её, получишь Красный берилл."
+    ],
+    "match": {
+      "where": [
+        "подземелье",
+        "туннель",
+        "дыра",
+        "dungeon",
+        "tunnel"
+      ],
+      "what": [
+        "красный берилл",
+        "берилл",
+        "red beryl",
+        "beryl",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48866"
+    ]
+  },
+  {
+    "id": "tr-c-yd-2",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Подземелье, рядом с боем с правой рукой Рамона",
+      "en": "Dungeon, near the Ramon's right hand fight"
+    },
+    "title": {
+      "ru": "Жёлтый алмаз №2",
+      "en": "Yellow Diamond #2"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "В подземелье рядом с крупным боем есть красный сундук.",
+      "Ищи его до или после схватки с правой рукой Рамона.",
+      "В подземелье до или после боя с правой рукой Рамона найди красный сундук — в нём Жёлтый алмаз."
+    ],
+    "match": {
+      "where": [
+        "подземелье",
+        "правая рука",
+        "dungeon",
+        "right hand"
+      ],
+      "what": [
+        "жёлтый алмаз",
+        "желтый алмаз",
+        "алмаз",
+        "yellow diamond",
+        "diamond",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48890"
+    ]
+  },
+  {
+    "id": "tr-c-sapphire-2",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Шахта, большая штольня",
+      "en": "Mines, large shaft"
+    },
+    "title": {
+      "ru": "Сапфир №2",
+      "en": "Sapphire #2"
+    },
+    "availableFrom": "ch11",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "В штольне с двумя лестницами камень висит на балке.",
+      "Поднимись по первой лестнице справа.",
+      "После тира и торговца дойди до большой штольни, поднимись по первой лестнице справа и выстрели в металлическую клетку на балке — выпадет Сапфир."
+    ],
+    "match": {
+      "where": [
+        "шахта",
+        "штольня",
+        "балка",
+        "mine",
+        "mines",
+        "shaft"
+      ],
+      "what": [
+        "сапфир",
+        "sapphire",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48913"
+    ]
+  },
+  {
+    "id": "tr-c-hourglass-2",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Шахта, закуток у моста",
+      "en": "Mines, nook by the bridge"
+    },
+    "title": {
+      "ru": "Золотые песочные часы №2",
+      "en": "Golden Hourglass #2"
+    },
+    "availableFrom": "ch11",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Возвращаясь с динамитом, не прыгай вниз сразу.",
+      "Опустив мост и взяв динамит, осмотри закуток слева на обратном пути.",
+      "Опусти мост, возьми динамит и иди обратно, не спрыгивая вниз: в закутке слева красный сундук с Золотыми песочными часами."
+    ],
+    "match": {
+      "where": [
+        "шахта",
+        "мост",
+        "динамит",
+        "mine",
+        "mines",
+        "bridge"
+      ],
+      "what": [
+        "песочные часы",
+        "золотые песочные часы",
+        "golden hourglass",
+        "hourglass",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48914"
+    ]
+  },
+  {
+    "id": "tr-c-flagon",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Шахта, здание после вагонетки",
+      "en": "Mines, building after the minecart ride"
+    },
+    "title": {
+      "ru": "Графин",
+      "en": "Flagon"
+    },
+    "availableFrom": "ch11",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "После первой поездки на вагонетке — здание с балконом.",
+      "Поднимись по лестнице здания и зачисти врагов.",
+      "После первой поездки на вагонетке поднимись по лестнице в небольшом здании — на балконе сундук с Графином, рядом заводной смотритель."
+    ],
+    "match": {
+      "where": [
+        "шахта",
+        "вагонетка",
+        "балкон",
+        "mine",
+        "mines",
+        "minecart",
+        "balcony"
+      ],
+      "what": [
+        "графин",
+        "flagon",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48933"
+    ]
+  },
+  {
+    "id": "tr-c-goldbarl",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Шахта, туннель с бочкой",
+      "en": "Mines, tunnel with a fuel barrel"
+    },
+    "title": {
+      "ru": "Золотой слиток (Б)",
+      "en": "Gold Bar (L)"
+    },
+    "availableFrom": "ch11",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Взрывная бочка открывает потайной проход.",
+      "После поручения про входы в улей в длинном туннеле дойди до развилки.",
+      "После поручения торговца по уничтожению входов в улей пройди длинный туннель до развилки, выстрели в бочку с горючим — откроется проход с сундуком, в нём Золотой слиток (большой)."
+    ],
+    "match": {
+      "where": [
+        "шахта",
+        "туннель",
+        "развилка",
+        "бочка",
+        "mine",
+        "mines",
+        "tunnel",
+        "barrel"
+      ],
+      "what": [
+        "золотой слиток",
+        "слиток",
+        "gold bar",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48947"
+    ]
+  },
+  {
+    "id": "tr-c-egg",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Тронный зал, кубический тайник",
+      "en": "Throne room, cube lock box"
+    },
+    "title": {
+      "ru": "Золотое куриное яйцо",
+      "en": "Gold Chicken Egg"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Вернувшись наверх, загляни в тронный зал — там остался тайник для куба.",
+      "Ищи в тронном зале запертый шкаф под кубическое устройство.",
+      "В тронном зале (откуда Леон спустился в подземелье) открой шкаф Кубическим устройством — внутри Золотое куриное яйцо. Оно нужно для поручения «Позор семьи Салазаров»; если не делаешь его — можно продать."
+    ],
+    "match": {
+      "where": [
+        "тронный зал",
+        "шкаф",
+        "throne room"
+      ],
+      "what": [
+        "золотое яйцо",
+        "куриное яйцо",
+        "яйцо",
+        "gold chicken egg",
+        "golden egg",
+        "egg",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "кубическое устройство",
+        "куб",
+        "cubic device",
+        "square lock box"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48972"
+    ]
+  },
+  {
+    "id": "tr-c-ornbeetle-2",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Лабиринт, первая башня, нижний этаж",
+      "en": "Hedge maze, first tower, ground floor"
+    },
+    "title": {
+      "ru": "Красивый жук №2",
+      "en": "Ornate Beetle #2"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Последний маленький ключ лежит у лифта после Краузера.",
+      "Возьми ключ в чемоданчике напротив лифта и вернись через лабиринт к башне.",
+      "Возьми маленький ключ в чемоданчике напротив лифта, на котором Леон поднялся после боя с Краузером. Иди в главный зал, на улицу, через лабиринт и в конце направо вверх по лестнице — на нижнем этаже первой башни запертый ящик с Красивым жуком."
+    ],
+    "match": {
+      "where": [
+        "лабиринт",
+        "башня",
+        "лифт",
+        "краузер",
+        "maze",
+        "tower"
+      ],
+      "what": [
+        "красивый жук",
+        "жук",
+        "ornate beetle",
+        "beetle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "маленький ключ",
+        "запертый ящик",
+        "комод",
+        "small key",
+        "locked drawer"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48669"
+    ]
+  },
+  {
+    "id": "tr-c-goldbar-2",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Часовая башня, низ",
+      "en": "Clock tower, bottom"
+    },
+    "title": {
+      "ru": "Золотой слиток №2",
+      "en": "Gold Bar #2"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "В часовой башне не беги сразу наверх.",
+      "После врагов сверху поверни налево и загляни за деревянное ограждение.",
+      "В часовой башне после сцены и врагов с верхних этажей поверни налево и посмотри за деревянное ограждение — там сундук с Золотым слитком."
+    ],
+    "match": {
+      "where": [
+        "часовая башня",
+        "ограждение",
+        "clock tower"
+      ],
+      "what": [
+        "золотой слиток",
+        "слиток",
+        "gold bar",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48980"
+    ]
+  },
+  {
+    "id": "tr-c-alex-2",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Часовая башня, у завала",
+      "en": "Clock tower, by the rubble"
+    },
+    "title": {
+      "ru": "Александрит №2",
+      "en": "Alexandrite #2"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "За огнедышащей статуей перед завалом что-то висит.",
+      "Поднимись, разбей голову статуи, извергающую огонь, и дойди до завала.",
+      "В часовой башне поднимись, уничтожь огнедышащую голову статуи и дойди до завала — прямо перед ним на потолке клетка с Александритом."
+    ],
+    "match": {
+      "where": [
+        "часовая башня",
+        "завал",
+        "статуя",
+        "clock tower",
+        "rubble"
+      ],
+      "what": [
+        "александрит",
+        "alexandrite",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48985"
+    ]
+  },
+  {
+    "id": "tr-c-mirror-2",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Вершина часовой башни",
+      "en": "Top of the clock tower"
+    },
+    "title": {
+      "ru": "Зеркало (жемчуг и рубины) №2",
+      "en": "Mirror with Pearls & Rubies #2"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "На вершине башни сундук прячется в тени.",
+      "Убей врага с шипастыми шарами и иди к сломанным перилам.",
+      "На вершине часовой башни расправься с врагом, катящим шипастые шары; за сломанными перилами у бочек в тени сундук с Зеркалом с жемчугом и рубинами."
+    ],
+    "match": {
+      "where": [
+        "часовая башня",
+        "перила",
+        "вершина",
+        "clock tower",
+        "railing"
+      ],
+      "what": [
+        "зеркало",
+        "зеркало (жемчуг и рубины)",
+        "mirror with pearls",
+        "mirror",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48999"
+    ]
+  },
+  {
+    "id": "tr-c-clock-2",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Часовая башня, у лифта",
+      "en": "Clock tower, by the lift"
+    },
+    "title": {
+      "ru": "Дорогостоящие часы №2",
+      "en": "Extravagant Clock #2"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Рядом с рычагом есть путь к лифту — и сундук на платформе.",
+      "Спустись по лестнице справа от рычага к лифту.",
+      "Справа от рычага лестница ведёт к лифту: прыгни на платформу и поверни налево — там сундук с Дорогостоящими часами."
+    ],
+    "match": {
+      "where": [
+        "часовая башня",
+        "лифт",
+        "рычаг",
+        "clock tower",
+        "elevator",
+        "lift"
+      ],
+      "what": [
+        "дорогостоящие часы",
+        "часы",
+        "extravagant clock",
+        "clock",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "48997"
+    ]
+  },
+  {
+    "id": "tr-c-yd-3",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Часовая башня, перед шаткими досками",
+      "en": "Clock tower, before the rickety planks"
+    },
+    "title": {
+      "ru": "Жёлтый алмаз №3",
+      "en": "Yellow Diamond #3"
+    },
+    "availableFrom": "ch12",
+    "missableAfter": "ch13",
+    "missableNote": "С острова в замок не вернуться: забери до перехода к главе 13.",
+    "hints": [
+      "Последнее сокровище замка — перед шаткими досками.",
+      "После лифта остановись, не ступая на доски, и ищи клетку.",
+      "После поездки на лифте перед хлипкими деревянными досками сбей железную клетку — выпадет Жёлтый алмаз. Если собрал всё в замке, шахте и башне, получишь достижение «Грабитель» (Burglar)."
+    ],
+    "match": {
+      "where": [
+        "часовая башня",
+        "доски",
+        "clock tower",
+        "planks"
+      ],
+      "what": [
+        "жёлтый алмаз",
+        "желтый алмаз",
+        "алмаз",
+        "yellow diamond",
+        "diamond",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-castle/"
+    ],
+    "mapMarkers": [
+      "49000"
+    ]
+  },
+  {
+    "id": "tr-i-pearlbangle",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Остров, верфь",
+      "en": "Island, docks"
+    },
+    "title": {
+      "ru": "Жемчужный браслет",
+      "en": "Pearl Bangle"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "На верфи не стоит идти под огонь второй турели напрямик.",
+      "Обойди вторую турель через здание справа.",
+      "На верфи обойди вторую турель через здание справа — прямо на дороге стоит сундук с Жемчужным браслетом."
+    ],
+    "match": {
+      "where": [
+        "верфь",
+        "турель",
+        "пирс",
+        "docks",
+        "turret"
+      ],
+      "what": [
+        "жемчужный браслет",
+        "браслет",
+        "pearl bangle",
+        "bangle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49030"
+    ]
+  },
+  {
+    "id": "tr-i-lynx",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Остров, пещера за взорванными камнями",
+      "en": "Island, cave behind blasted rocks"
+    },
+    "title": {
+      "ru": "Золотая рысь",
+      "en": "Golden Lynx"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "В тупике пещеры есть бочка, которая взрывает дорогу к сокровищу.",
+      "После загадки с турелями поднимись в здание и пройди в пещеру до тупика.",
+      "После головоломки с турелями войди в здание, поднимись по лестнице к постройке, ведущей в пещеру. В тупике выстрели в бочку с горючим — откроется сундук с Золотой рысью (на верхнем уровне пещеры)."
+    ],
+    "match": {
+      "where": [
+        "пещера",
+        "турели",
+        "cave"
+      ],
+      "what": [
+        "золотая рысь",
+        "рысь",
+        "golden lynx",
+        "lynx",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49046"
+    ]
+  },
+  {
+    "id": "tr-i-crown",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Остров, большие ворота",
+      "en": "Island, large gate"
+    },
+    "title": {
+      "ru": "Элегантная корона",
+      "en": "Elegant Crown"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "У огромных ворот не только заводной смотритель.",
+      "Ищи справа от грузовика и зелёного погрузчика.",
+      "Спустись к большим воротам: справа от грузовика и зелёного погрузчика стоит сундук с Элегантной короной."
+    ],
+    "match": {
+      "where": [
+        "ворота",
+        "грузовик",
+        "погрузчик",
+        "gate",
+        "truck",
+        "forklift"
+      ],
+      "what": [
+        "элегантная корона",
+        "корона",
+        "elegant crown",
+        "crown",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49052"
+    ]
+  },
+  {
+    "id": "tr-i-velvet-1",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Остров, здание на платформе у ворот",
+      "en": "Island, building on the platform by the gate"
+    },
+    "title": {
+      "ru": "Бархатистый самоцвет №1",
+      "en": "Velvet Blue #1"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Слева от ворот единственная дверь — осторожно, перед ней мина.",
+      "Обезвредь мину и войди; смотри на ящиках справа в первой комнате.",
+      "От больших ворот иди на платформу слева, разряди мину у единственной двери и войди: в первой комнате на ящиках справа кейс с Бархатистым самоцветом."
+    ],
+    "match": {
+      "where": [
+        "ворота",
+        "платформа",
+        "мина",
+        "ящики",
+        "gate",
+        "platform"
+      ],
+      "what": [
+        "бархатистый самоцвет",
+        "самоцвет",
+        "velvet blue",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "кейс",
+        "case"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49054"
+    ]
+  },
+  {
+    "id": "tr-i-velvet-2",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Остров, хозяйственный блок",
+      "en": "Island, utility block"
+    },
+    "title": {
+      "ru": "Бархатистый самоцвет №2",
+      "en": "Velvet Blue #2"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Увидев Эшли сквозь решётку, продолжай обыскивать помещения.",
+      "Иди по хозяйственному блоку до предпоследней комнаты.",
+      "Когда Леон увидит Эшли через решётку, спрыгни вниз, поднимись по лестнице в дальнем конце и пройди хозблок до предпоследней комнаты — в закутке на газовой плите кейс с Бархатистым самоцветом."
+    ],
+    "match": {
+      "where": [
+        "хозяйственный блок",
+        "плита",
+        "кухня",
+        "решётка",
+        "stove",
+        "kitchen"
+      ],
+      "what": [
+        "бархатистый самоцвет",
+        "самоцвет",
+        "velvet blue",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "кейс",
+        "case"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49073"
+    ]
+  },
+  {
+    "id": "tr-i-beryl-1",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Секционная, комната у панели",
+      "en": "Autopsy room, room by the puzzle panel"
+    },
+    "title": {
+      "ru": "Красный берилл №1",
+      "en": "Red Beryl #1"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "В Секционной сокровище за стеклом, но сначала нужно питание.",
+      "Включи рубильник в дальнем левом корпусе, затем осмотри комнату слева от панели с головоломкой.",
+      "В Секционной найди рубильник в дальнем левом корпусе, включи его и зайди в комнату слева от панели с головоломкой — разбей стеклянные дверцы шкафа и возьми Красный берилл."
+    ],
+    "match": {
+      "where": [
+        "секционная",
+        "рубильник",
+        "шкаф",
+        "autopsy",
+        "breaker"
+      ],
+      "what": [
+        "красный берилл",
+        "берилл",
+        "red beryl",
+        "beryl",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49082"
+    ]
+  },
+  {
+    "id": "tr-i-ingot-1",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Секционная, комната за большой дверью",
+      "en": "Autopsy room, room past the big door"
+    },
+    "title": {
+      "ru": "Золотой брусок №1",
+      "en": "Gold Ingot #1"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Комната с этим сокровищем сначала закрыта.",
+      "Реши головоломку у большой двери справа и возьми ключ-карту 1-го уровня.",
+      "В Секционной реши головоломку у большой двери справа. Когда возьмёшь ключ-карту 1-го уровня, вылезет монстр — убей его; после этого откроется доступ к Золотому бруску в соседней комнате."
+    ],
+    "match": {
+      "where": [
+        "секционная",
+        "ключ-карта",
+        "большая дверь",
+        "autopsy",
+        "keycard"
+      ],
+      "what": [
+        "золотой брусок",
+        "брусок",
+        "gold ingot",
+        "ingot",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49089"
+    ]
+  },
+  {
+    "id": "tr-i-le5",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Морозильник",
+      "en": "Freezer"
+    },
+    "title": {
+      "ru": "LE 5",
+      "en": "LE 5"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Оружие, которое считается сокровищем, — за второй электрической загадкой.",
+      "Взяв ключ-карту, снова переключи рубильник на крыло с Морозильником.",
+      "После ключ-карты 1-го уровня переключи рубильник, чтобы запитать крыло с Морозильником, и реши головоломку на запертой двери — внутри пистолет-пулемёт LE 5 (засчитывается как сокровище)."
+    ],
+    "match": {
+      "where": [
+        "морозильник",
+        "секционная",
+        "рубильник",
+        "freezer",
+        "autopsy"
+      ],
+      "what": [
+        "le 5",
+        "le5",
+        "пистолет-пулемёт",
+        "пистолет пулемет",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "головоломка",
+        "шестигранник",
+        "puzzle",
+        "hexagon",
+        "кейс",
+        "case"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/",
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ],
+    "mapMarkers": [
+      "49092"
+    ]
+  },
+  {
+    "id": "tr-i-bioscope",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Лаборатория с колбами регенераторов",
+      "en": "Lab with the Regenerator tanks"
+    },
+    "title": {
+      "ru": "Биосенсорный прицел",
+      "en": "Biosensor Scope"
+    },
+    "availableFrom": "ch13",
+    "missableNote": "Если разбить колбы раньше, придётся драться с регенераторами без прицела.",
+    "hints": [
+      "В лаборатории с колбами торопливость дорого обойдётся.",
+      "Не стреляй по колбам с регенераторами — сначала загляни в подсобку.",
+      "В лаборатории с четырьмя колбами регенераторов не разбивай их, а пройди в подсобку и возьми кейс на столе — Биосенсорный прицел (засчитывается как сокровище), помогает видеть паразитов регенераторов."
+    ],
+    "match": {
+      "where": [
+        "лаборатория",
+        "колбы",
+        "подсобка",
+        "регенератор",
+        "lab",
+        "regenerator"
+      ],
+      "what": [
+        "биосенсорный прицел",
+        "прицел",
+        "biosensor scope",
+        "scope",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "кейс",
+        "case"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49105"
+    ]
+  },
+  {
+    "id": "tr-i-ore-1",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Комната, где нашли Эшли",
+      "en": "Room where Ashley was found"
+    },
+    "title": {
+      "ru": "Кристаллическая руда №1",
+      "en": "Crystal Ore #1"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Начало главы 14 — сразу оглядись.",
+      "Ищи в дальнем углу комнаты, где нашёл Эшли.",
+      "В начале главы в комнате, где была Эшли, в дальнем углу на тележке лежит Кристаллическая руда."
+    ],
+    "match": {
+      "where": [
+        "комната эшли",
+        "тележка",
+        "cart"
+      ],
+      "what": [
+        "кристаллическая руда",
+        "руда",
+        "crystal ore",
+        "ore",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49115"
+    ]
+  },
+  {
+    "id": "tr-i-alex",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Остров, у лестницы после выхода из здания",
+      "en": "Island, by the stairs outside"
+    },
+    "title": {
+      "ru": "Александрит",
+      "en": "Alexandrite"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Выйдя из здания, оглянись и посмотри вверх.",
+      "Дойди до лестницы и развернись.",
+      "Выйдя из здания, пройди к лестнице, обернись и подними камеру: справа висит железная клетка с Александритом (левее — синий медальон)."
+    ],
+    "match": {
+      "where": [
+        "лестница",
+        "медальон",
+        "stairs"
+      ],
+      "what": [
+        "александрит",
+        "alexandrite",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49137"
+    ]
+  },
+  {
+    "id": "tr-i-goldbangle",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Грузовой склад",
+      "en": "Cargo depot"
+    },
+    "title": {
+      "ru": "Золотой браслет",
+      "en": "Gold Bangle"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "На складе стоит порыться в мусоре.",
+      "Спустившись на территорию грузового склада, проверь мусорные контейнеры.",
+      "На грузовом складе открой первый мусорный контейнер слева (нижний уровень) — в нём Золотой браслет."
+    ],
+    "match": {
+      "where": [
+        "грузовой склад",
+        "склад",
+        "мусорный контейнер",
+        "контейнер",
+        "cargo",
+        "dumpster"
+      ],
+      "what": [
+        "золотой браслет",
+        "браслет",
+        "gold bangle",
+        "bangle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49135"
+    ]
+  },
+  {
+    "id": "tr-i-velvet-3",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Здание после склада",
+      "en": "Building after the depot"
+    },
+    "title": {
+      "ru": "Бархатистый самоцвет №3",
+      "en": "Velvet Blue #3"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "В следующем здании камень висит в конце комнаты.",
+      "Пройди до конца комнаты и посмотри вверх.",
+      "В здании после склада перебей врагов, дойди до конца комнаты и сбей клетку под потолком — выпадет Бархатистый самоцвет."
+    ],
+    "match": {
+      "where": [
+        "здание",
+        "склад",
+        "building"
+      ],
+      "what": [
+        "бархатистый самоцвет",
+        "самоцвет",
+        "velvet blue",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49146"
+    ]
+  },
+  {
+    "id": "tr-i-emerald",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Канализация",
+      "en": "Sewers"
+    },
+    "title": {
+      "ru": "Изумруд",
+      "en": "Emerald"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "В канализации стоит покопаться в куче мусора.",
+      "Спустившись, осмотри дальний угол помещения.",
+      "В канализации спрыгни вниз и проверь кучу мусора в дальнем углу — там Изумруд."
+    ],
+    "match": {
+      "where": [
+        "канализация",
+        "мусор",
+        "sewer",
+        "sewers"
+      ],
+      "what": [
+        "изумруд",
+        "emerald",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49149"
+    ]
+  },
+  {
+    "id": "tr-i-ornneck",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Пультовая за металлическим мостом",
+      "en": "Control room past the metal bridge"
+    },
+    "title": {
+      "ru": "Вычурное ожерелье",
+      "en": "Ornate Necklace"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Когда Эшли поднимет мост, загляни в комнату с пультом.",
+      "Пройди по металлическому мосту в следующую комнату.",
+      "Там, где Эшли поднимает для Леона мост, перейди металлический мост — в следующей комнате на пульте управления у окна кейс с Вычурным ожерельем."
+    ],
+    "match": {
+      "where": [
+        "мост",
+        "пульт",
+        "пульт управления",
+        "bridge",
+        "control room"
+      ],
+      "what": [
+        "вычурное ожерелье",
+        "ожерелье",
+        "ornate necklace",
+        "necklace",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "кейс",
+        "case"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49161"
+    ]
+  },
+  {
+    "id": "tr-i-ore-2",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Хранилище янтаря",
+      "en": "Amber storage"
+    },
+    "title": {
+      "ru": "Кристаллическая руда №2",
+      "en": "Crystal Ore #2"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Перед огромным куском янтаря обыщи всё помещение.",
+      "Не трогай сразу минерал — осмотри ангар.",
+      "В Хранилище янтаря не спеши взаимодействовать с большим куском минерала: обыщи ангар — среди ценностей и дневника найдёшь Кристаллическую руду."
+    ],
+    "match": {
+      "where": [
+        "хранилище янтаря",
+        "янтарь",
+        "ангар",
+        "amber"
+      ],
+      "what": [
+        "кристаллическая руда",
+        "руда",
+        "crystal ore",
+        "ore",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49190"
+    ]
+  },
+  {
+    "id": "tr-i-goldbarl",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Палатка за большими воротами",
+      "en": "Tent past the large gate"
+    },
+    "title": {
+      "ru": "Золотой слиток (Б)",
+      "en": "Gold Bar (L)"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "После сцены с Саддлером держись левой стороны.",
+      "Пройди большие ворота и ищи палатку слева.",
+      "После сцены с Саддлером и Эшли пройди большие ворота по левой стороне — в палатке слева Золотой слиток (большой); справа на высоте заводной смотритель."
+    ],
+    "match": {
+      "where": [
+        "палатка",
+        "ворота",
+        "саддлер",
+        "tent",
+        "gate"
+      ],
+      "what": [
+        "золотой слиток",
+        "слиток",
+        "gold bar",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49202"
+    ]
+  },
+  {
+    "id": "tr-i-beryl-2",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Крепость, у здания в начале главы",
+      "en": "Fortress, building at the chapter start"
+    },
+    "title": {
+      "ru": "Красный берилл №2",
+      "en": "Red Beryl #2"
+    },
+    "availableFrom": "ch15",
+    "hints": [
+      "После первой большой волны врагов с вертолётом осмотрись.",
+      "Обойди здание по левой стороне.",
+      "В начале главы 15 после боя с толпой и вертолётом обойди здание слева — там металлическая клетка; сбей её, выпадет Красный берилл."
+    ],
+    "match": {
+      "where": [
+        "крепость",
+        "вертолёт",
+        "здание",
+        "fortress",
+        "helicopter"
+      ],
+      "what": [
+        "красный берилл",
+        "берилл",
+        "red beryl",
+        "beryl",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49264"
+    ]
+  },
+  {
+    "id": "tr-i-velvet-4",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Крепость, у вышки пулемётчика",
+      "en": "Fortress, by the machine-gun tower"
+    },
+    "title": {
+      "ru": "Бархатистый самоцвет №4",
+      "en": "Velvet Blue #4"
+    },
+    "availableFrom": "ch15",
+    "hints": [
+      "Дождись, пока напарник снесёт вышку, — и смотри вверх.",
+      "Поднимись по лестнице в конце тропы.",
+      "От клетки с бериллом иди вперёд, дождись, пока напарник уничтожит башню пулемётчика, поднимись по лестнице в конце тропы и сбей клетку наверху — Бархатистый самоцвет."
+    ],
+    "match": {
+      "where": [
+        "крепость",
+        "вышка",
+        "пулемётчик",
+        "fortress",
+        "tower"
+      ],
+      "what": [
+        "бархатистый самоцвет",
+        "самоцвет",
+        "velvet blue",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49269"
+    ]
+  },
+  {
+    "id": "tr-i-staff",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Пещера за каменной аркой",
+      "en": "Cave beyond the stone arch"
+    },
+    "title": {
+      "ru": "Королевский посох",
+      "en": "Staff of Royalty"
+    },
+    "availableFrom": "ch15",
+    "hints": [
+      "После крушения вертолёта стоит вернуться назад.",
+      "Найди спуск в пещеру за большой каменной аркой.",
+      "Когда вертолёт Майка собьют и ты займёшься поручением с медальонами, вернись назад: за большой каменной аркой спуск в пещеру — иди вперёд до синего кейса с позолотой, в нём Королевский посох."
+    ],
+    "match": {
+      "where": [
+        "пещера",
+        "арка",
+        "медальоны",
+        "cave",
+        "arch"
+      ],
+      "what": [
+        "королевский посох",
+        "посох",
+        "staff of royalty",
+        "staff",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "кейс",
+        "case"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49296"
+    ],
+    "gameRefs": [
+      "item:120828800"
+    ]
+  },
+  {
+    "id": "tr-i-splendid",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Подсобка за двойной дверью",
+      "en": "Storeroom past the double door"
+    },
+    "title": {
+      "ru": "Роскошный браслет",
+      "en": "Splendid Bangle"
+    },
+    "availableFrom": "ch15",
+    "hints": [
+      "За дверью с объявлением торговца ждёт регенератор — и сундук дальше.",
+      "Пройди в двойную дверь, одолей регенератора и проверь подсобку следующей комнаты.",
+      "Пройди двойную дверь (слева от неё объявление торговца), убей регенератора, в следующей комнате загляни в подсобку — справа сундук с Роскошным браслетом, на балке заводной смотритель."
+    ],
+    "match": {
+      "where": [
+        "подсобка",
+        "двойная дверь",
+        "регенератор",
+        "storeroom",
+        "double door"
+      ],
+      "what": [
+        "роскошный браслет",
+        "браслет",
+        "splendid bangle",
+        "bangle",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49308"
+    ]
+  },
+  {
+    "id": "tr-i-velvet-5",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Большой ангар",
+      "en": "Large hangar"
+    },
+    "title": {
+      "ru": "Бархатистый самоцвет №5",
+      "en": "Velvet Blue #5"
+    },
+    "availableFrom": "ch16",
+    "hints": [
+      "После удаления паразита Эшли поможет забраться выше.",
+      "Попроси Эшли спустить лестницу в большом ангаре и поднимись.",
+      "После удаления паразита попроси Эшли спустить лестницу в большом ангаре, заберись наверх и посмотри правее — на потолке клетка с Бархатистым самоцветом."
+    ],
+    "match": {
+      "where": [
+        "ангар",
+        "лестница",
+        "hangar"
+      ],
+      "what": [
+        "бархатистый самоцвет",
+        "самоцвет",
+        "velvet blue",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "клетка",
+        "сбить",
+        "выстрел",
+        "cage",
+        "shoot"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49355"
+    ]
+  },
+  {
+    "id": "tr-i-pendant-il",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Святилище, за колонной",
+      "en": "Sanctuary, behind the pillar"
+    },
+    "title": {
+      "ru": "Кулон «Илюминадос»",
+      "en": "Iluminados Pendant"
+    },
+    "availableFrom": "ch16",
+    "hints": [
+      "В святилище основной путь не единственный.",
+      "Пролезь под каменной колонной слева от центра зала.",
+      "В святилище перебей замаскированных насекомых в центре зала, присядь и проползи под каменной колонной слева. У алтаря убей двух жуков и осмотри стелу — там Кулон «Иллюминадос»."
+    ],
+    "match": {
+      "where": [
+        "святилище",
+        "колонна",
+        "стела",
+        "алтарь",
+        "sanctuary",
+        "pillar"
+      ],
+      "what": [
+        "кулон",
+        "кулон иллюминадос",
+        "иллюминадос",
+        "iluminados pendant",
+        "pendant",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "подобрать",
+        "pick up"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49362"
+    ],
+    "gameRefs": [
+      "item:120820800"
+    ]
+  },
+  {
+    "id": "tr-i-ingot-2",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Проход за святилищем, у торговца",
+      "en": "Passage past the sanctuary, by the merchant"
+    },
+    "title": {
+      "ru": "Золотой брусок №2",
+      "en": "Gold Ingot #2"
+    },
+    "availableFrom": "ch16",
+    "hints": [
+      "Последнее сокровище игры почти невозможно пропустить.",
+      "Беги вперёд от святилища к фиолетовому факелу торговца.",
+      "Сразу за святилищем в проходе фиолетовый факел торговца — напротив стоит сундук с Золотым бруском. Если всё на острове собрано, получишь достижение «Расхититель» (Raider)."
+    ],
+    "match": {
+      "where": [
+        "святилище",
+        "торговец",
+        "факел",
+        "sanctuary",
+        "merchant",
+        "torch"
+      ],
+      "what": [
+        "золотой брусок",
+        "брусок",
+        "gold ingot",
+        "ingot",
+        "сокровище",
+        "treasure"
+      ],
+      "how": [
+        "сундук",
+        "красный сундук",
+        "chest"
+      ],
+      "reward": []
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-island/"
+    ],
+    "mapMarkers": [
+      "49364"
+    ]
+  }
+]
