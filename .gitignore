@@ -22,3 +22,6 @@ dist/
 Thumbs.db
 .vs/
 .vscode/
+
+# Локальные настройки сервиса
+config.toml

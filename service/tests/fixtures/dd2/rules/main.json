@@ -1,0 +1,14 @@
+{
+  "game": "dragons-dogma-2",
+  "rules": [
+    { "id": "tales", "when": { "quest": { "id": "10050", "status": "active" } }, "entry": "mq-tales-beginning", "priority": 5 },
+    { "id": "wake", "when": { "quest": { "id": "10060", "status": "active" } }, "entry": "mq-in-dragons-wake", "priority": 10 },
+    { "id": "sovran-wrong", "when": { "progressAtLeast": "gaoled-awakening" }, "entry": "mq-seat-of-the-sovran" },
+    {
+      "id": "own-text",
+      "when": { "all": [{ "progressAtLeast": "tales-beginning" }, { "not": { "quest": { "id": "10070", "status": "done" } } }] },
+      "title": { "ru": "Своя подсказка" },
+      "hints": ["Свой намёк", "Свой ответ"]
+    }
+  ]
+}

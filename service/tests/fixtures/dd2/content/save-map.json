@@ -1,0 +1,8 @@
+{
+  "quests": {
+    "10030": { "entry": "mq-gaoled-awakening", "progress": "gaoled-awakening" },
+    "10050": { "entry": "mq-tales-beginning", "progress": "tales-beginning" },
+    "10060": { "entry": "mq-in-dragons-wake", "progress": "in-dragons-wake" },
+    "10080": { "entry": "mq-seat-of-the-sovran", "progress": "seat-of-the-sovran" }
+  }
+}
