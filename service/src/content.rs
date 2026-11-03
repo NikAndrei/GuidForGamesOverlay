@@ -58,6 +58,8 @@ struct GameFile {
     adapter: Option<String>,
     #[serde(default)]
     steam_app_id: Option<u32>,
+    #[serde(default)]
+    exe: Vec<String>,
 }
 
 /// Сопоставление номеров из игры с записями и ступенями (`save-map.json`).
@@ -86,6 +88,8 @@ pub struct Content {
     pub title: Name,
     pub adapter: Option<String>,
     pub steam_app_id: Option<u32>,
+    /// Имена exe игры: по ним оверлей сообщает, в какой игре он запущен.
+    pub exe: Vec<String>,
     /// Ступени прогресса по порядку сюжета.
     pub progress: Vec<String>,
     pub entries: HashMap<String, Entry>,
@@ -121,6 +125,7 @@ impl Content {
             title: game.title,
             adapter: game.adapter,
             steam_app_id: game.steam_app_id,
+            exe: game.exe,
             progress: game.progress.into_iter().map(|p| p.id).collect(),
             entries: by_id,
             save_map,

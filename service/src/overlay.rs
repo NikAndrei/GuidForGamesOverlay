@@ -6,7 +6,8 @@
 //! Клиент → сервис:
 //!   `{"cmd":"reveal","item":"<id>"}` — раскрыть следующий уровень;
 //!   `{"cmd":"hide","item":"<id>"}` — скрыть все уровни;
-//!   `{"cmd":"refresh"}` — перечитать сейвы.
+//!   `{"cmd":"refresh"}` — перечитать сейвы;
+//!   `{"cmd":"game","exe":"DD2.exe"}` — в какой игре запущен оверлей (подсказки — по ней).
 //! Ответ на команду — `{"type":"error","message":"…"}` при ошибке; успех виден по новой модели UI.
 
 use std::net::SocketAddr;
@@ -27,6 +28,7 @@ pub enum Command {
     Reveal { item: String },
     Hide { item: String },
     Refresh,
+    Game { exe: String },
 }
 
 pub async fn serve(app: App, addr: SocketAddr) -> Result<()> {
@@ -88,6 +90,10 @@ pub async fn handle(app: &App, line: &str) -> Result<(), String> {
             app.refresh_all().await;
             Ok(())
         }
+        Command::Game { exe } => app
+            .set_game_by_exe(&exe)
+            .map(|_| ())
+            .ok_or(format!("игра {exe} не поддерживается")),
     }
 }
 

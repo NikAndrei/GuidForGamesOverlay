@@ -6,6 +6,9 @@
   },
   "adapter": "dd2",
   "steamAppId": 2054970,
+  "exe": [
+    "DD2.exe"
+  ],
   "regions": [
     {
       "id": "vermund",

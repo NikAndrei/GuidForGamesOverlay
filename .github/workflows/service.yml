@@ -2,7 +2,7 @@ name: service
 
 on:
   push:
-    paths: ["service/**", "games/**", "mods/**", "tools/**", "Cargo.*", ".github/workflows/service.yml"]
+    paths: ["service/**", "games/**", "mods/**", "tools/**", "overlay/**", "Cargo.*", ".github/workflows/service.yml"]
   pull_request:
   workflow_dispatch:
 
@@ -16,19 +16,47 @@ jobs:
       - run: cargo clippy -p gfg-service --all-targets -- -D warnings
       - run: cargo test -p gfg-service
 
-  # Готовый архив для Windows: сервис, dd2-save, данные игр, моды.
+  # Ядро аддона ReShade: тесты и предпросмотр окна на настоящем ImGui (его проверки ловят ошибки вызовов).
+  addon-core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cmake -S overlay/reshade-addon -B build-addon -DCMAKE_BUILD_TYPE=Debug -DGFG_BUILD_PREVIEW=ON
+      - run: cmake --build build-addon -j4
+      - run: ctest --test-dir build-addon --output-on-failure
+      - name: Предпросмотр окна
+        run: |
+          cat > ui.json <<'JSON'
+          {"game":"re4-remake","title":{"ru":"Resident Evil 4 (ремейк)","en":"Resident Evil 4"},"source":"mod",
+           "items":[{"id":"a","kind":"quest","title":{"ru":"Найти ключ","en":"Find the key"},"levels":3,"revealed":2,
+                     "hints":["Намёк","Подробнее"],"sources":["https://example.com"]},
+                    {"id":"b","kind":"secret","title":{"ru":"Сокровище"},"levels":1,"revealed":0,"hints":[],"missable":true}]}
+          JSON
+          sudo apt-get install -y -q fonts-dejavu-core > /dev/null
+          font=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
+          build-addon/gfg_ui_preview ui.json preview.ppm "$font" open,down,confirm,up,right,left,back
+      - uses: actions/upload-artifact@v4
+        with:
+          name: addon-preview
+          path: preview.ppm
+
+  # Готовый архив для Windows: сервис, dd2-save, аддон ReShade, данные игр, моды.
   package:
     runs-on: windows-latest
-    needs: test
+    needs: [test, addon-core]
     steps:
       - uses: actions/checkout@v4
       - uses: Swatinem/rust-cache@v2
       - run: cargo build --release
+      - run: cmake -S overlay/reshade-addon -B build-addon -A x64 -DGFG_BUILD_TESTS=ON
+      - run: cmake --build build-addon --config Release
+      - run: ctest --test-dir build-addon -C Release --output-on-failure
       - shell: pwsh
         run: |
           $out = "gfg-overlay"
           New-Item -ItemType Directory $out | Out-Null
           Copy-Item target/release/gfg-service.exe, target/release/dd2-save.exe, config.example.toml, README.md $out
+          Copy-Item build-addon/Release/guidforgames.addon64 $out
           Copy-Item -Recurse games, mods $out
       - uses: actions/upload-artifact@v4
         with:

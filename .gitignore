@@ -11,6 +11,7 @@ state/
 
 # Сборка
 build/
+build-*/
 out/
 target/
 node_modules/
