@@ -1,0 +1,15 @@
+name: service
+
+on:
+  push:
+    paths: ["service/**", "hints/**", "Cargo.*", ".github/workflows/service.yml"]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cargo fmt --check
+      - run: cargo clippy --all-targets -- -D warnings
+      - run: cargo test
