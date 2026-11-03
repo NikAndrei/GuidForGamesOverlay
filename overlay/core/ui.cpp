@@ -164,7 +164,7 @@ void draw_help_window(UiView& v) {
         }
         muted(v.nav.detail ? "A / Enter — раскрыть дальше · Y / Del — скрыть · B / Esc — к списку"
                            : "A / Enter — открыть · ↑↓ — выбор · LB RB / ←→ — вкладки · B / Esc — закрыть");
-        muted("Контроллер в это время слышит и игра — лучше открывать справку на паузе.");
+        if (!v.note.empty()) muted(v.note.c_str());
     }
     ImGui::End();
     if (!open) v.nav.open = false;

@@ -16,18 +16,19 @@
 
 ## Быстрый старт (Windows)
 
-1. Скачать архив `gfg-overlay-windows` из GitHub Actions (или собрать: `cargo build --release` и аддон — см.
-   `overlay/reshade-addon/README.md`).
+1. Скачать архив `gfg-overlay-windows` из GitHub Actions (или собрать: `cargo build --release` и `overlay/` — см.
+   `overlay/README.md`).
 2. Поставить в игру [REFramework](https://github.com/praydog/REFramework), затем мод-мост:
    ```bash
    gfg-service install-mods
    ```
 3. Поставить в игру [ReShade](https://reshade.me) с поддержкой аддонов и положить `guidforgames.addon64` рядом с exe игры.
+   Если ReShade нельзя (античит, конфликт оверлеев), запустить вместо этого `gfg-window.exe` — прозрачное окно поверх игры.
 4. Запустить сервис (отладочная страница — http://127.0.0.1:7870/):
    ```bash
    gfg-service
    ```
-5. В игре: **Shift+F1** или удерживать **View + R3** на контроллере. Подробнее — `overlay/README.md`.
+5. В игре: **Shift+F1** или удерживать **View + R3** на контроллере. Подробнее — [`overlay/README.md`](overlay/README.md).
 
 Игры, их сейвы и папки модов сервис находит в Steam сам. `config.toml` нужен, только если что-то не нашлось
 (образец — `config.example.toml`).
@@ -46,7 +47,7 @@ games/<game-id>/         данные игры: game.json, entries/ (справ�
 mods/<game>/             моды-мосты REFramework (Lua): читают состояние игры и пишут JSON
 tools/dd2-save/          чтение сейва Dragon's Dogma 2 (Rust)
 schemas/                 JSON Schema: модель состояния, правила
-overlay/reshade-addon/   основной показ: аддон ReShade (C++) с окном на ImGui
-window/                  запасной показ: прозрачное окно поверх игры
+overlay/                 показ (C++): общее окно справки на ImGui (core/), аддон ReShade (reshade-addon/) —
+                         основной путь, прозрачное окно поверх игры (window/) — запасной
 docs/                    записка и план
 ```

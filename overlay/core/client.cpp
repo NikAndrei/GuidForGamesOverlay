@@ -51,6 +51,11 @@ void Client::send(std::string line) {
     if (outbox_.size() < 64) outbox_.push_back(std::move(line));
 }
 
+void Client::set_hello(std::string hello) {
+    std::lock_guard lock(mutex_);
+    hello_ = std::move(hello);
+}
+
 UiModel Client::model(uint64_t* version) const {
     std::lock_guard lock(mutex_);
     if (version) *version = version_;

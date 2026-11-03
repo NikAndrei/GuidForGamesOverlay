@@ -286,6 +286,7 @@ void on_overlay(reshade::api::effect_runtime* rt) {
     view.connected = g.client->connected();
     view.error = g.client->last_error();
     view.font_note = g.font_note;
+    view.note = "Контроллер в это время слышит и игра — лучше открывать справку на паузе.";
     view.scroll_to_selected = &g.scroll_to_selected;
     view.send = [](const std::string& cmd) {
         if (g.client) g.client->send(cmd);

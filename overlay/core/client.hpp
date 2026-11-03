@@ -26,6 +26,8 @@ public:
     void stop();  // ждёт завершения потока
 
     void send(std::string line);
+    // Заменить команду, которая уходит после каждого подключения.
+    void set_hello(std::string hello);
 
     bool connected() const { return connected_; }
     // Последняя модель и её номер (растёт с каждой новой моделью).

@@ -16,14 +16,14 @@ jobs:
       - run: cargo clippy -p gfg-service --all-targets -- -D warnings
       - run: cargo test -p gfg-service
 
-  # Ядро аддона ReShade: тесты и предпросмотр окна на настоящем ImGui (его проверки ловят ошибки вызовов).
+  # Ядро оверлея: тесты и предпросмотр окна на настоящем ImGui (его проверки ловят ошибки вызовов).
   addon-core:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: cmake -S overlay/reshade-addon -B build-addon -DCMAKE_BUILD_TYPE=Debug -DGFG_BUILD_PREVIEW=ON
-      - run: cmake --build build-addon -j4
-      - run: ctest --test-dir build-addon --output-on-failure
+      - run: cmake -S overlay -B build-overlay -DCMAKE_BUILD_TYPE=Debug -DGFG_BUILD_PREVIEW=ON
+      - run: cmake --build build-overlay -j4
+      - run: ctest --test-dir build-overlay --output-on-failure
       - name: Предпросмотр окна
         run: |
           cat > ui.json <<'JSON'
@@ -34,13 +34,13 @@ jobs:
           JSON
           sudo apt-get install -y -q fonts-dejavu-core > /dev/null
           font=/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf
-          build-addon/gfg_ui_preview ui.json preview.ppm "$font" open,down,confirm,up,right,left,back
+          build-overlay/gfg_ui_preview ui.json preview.ppm "$font" open,down,confirm,up,right,left,back
       - uses: actions/upload-artifact@v4
         with:
           name: addon-preview
           path: preview.ppm
 
-  # Готовый архив для Windows: сервис, dd2-save, аддон ReShade, данные игр, моды.
+  # Готовый архив для Windows: сервис, dd2-save, аддон ReShade, прозрачное окно, данные игр, моды.
   package:
     runs-on: windows-latest
     needs: [test, addon-core]
@@ -48,15 +48,15 @@ jobs:
       - uses: actions/checkout@v4
       - uses: Swatinem/rust-cache@v2
       - run: cargo build --release
-      - run: cmake -S overlay/reshade-addon -B build-addon -A x64 -DGFG_BUILD_TESTS=ON
-      - run: cmake --build build-addon --config Release
-      - run: ctest --test-dir build-addon -C Release --output-on-failure
+      - run: cmake -S overlay -B build-overlay -A x64 -DGFG_BUILD_TESTS=ON
+      - run: cmake --build build-overlay --config Release
+      - run: ctest --test-dir build-overlay -C Release --output-on-failure
       - shell: pwsh
         run: |
           $out = "gfg-overlay"
           New-Item -ItemType Directory $out | Out-Null
           Copy-Item target/release/gfg-service.exe, target/release/dd2-save.exe, config.example.toml, README.md $out
-          Copy-Item build-addon/Release/guidforgames.addon64 $out
+          Copy-Item build-overlay/Release/guidforgames.addon64, build-overlay/Release/gfg-window.exe, overlay/window/gfg-window.example.ini $out
           Copy-Item -Recurse games, mods $out
       - uses: actions/upload-artifact@v4
         with:
