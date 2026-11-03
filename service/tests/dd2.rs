@@ -25,7 +25,9 @@ fn content() -> Content {
 fn fresh_mod() -> tempfile::TempDir {
     let dir = tempfile::tempdir().unwrap();
     for f in ["guidforgames_live.json", "guidforgames_state.json"] {
-        fs::copy(fixtures().join("dd2-mod").join(f), dir.path().join(f)).unwrap();
+        // Не fs::copy: на Windows он сохраняет время изменения, и файл выглядел бы устаревшим.
+        let text = fs::read(fixtures().join("dd2-mod").join(f)).unwrap();
+        fs::write(dir.path().join(f), text).unwrap();
     }
     dir
 }
