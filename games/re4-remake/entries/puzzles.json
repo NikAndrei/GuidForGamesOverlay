@@ -1,0 +1,1280 @@
+[
+  {
+    "id": "pz-windmill-wooden-cog",
+    "type": "puzzle",
+    "region": "village",
+    "location": {
+      "ru": "Ферма, мельница",
+      "en": "Farm, Windmill"
+    },
+    "title": {
+      "ru": "Механизм мельницы и деревянная шестерня",
+      "en": "Windmill Workings (Wooden Cog)"
+    },
+    "availableFrom": "ch1",
+    "hints": [
+      "Решётку под аркой поднимает механизм мельницы, но в нём не хватает одной детали.",
+      "Механизм — на втором этаже мельницы. Недостающая деталь лежит внизу, в соседнем запертом здании: пройди по балкону и залезь в окно.",
+      "Обезвредь мину на стене справа от арки, поднимись к механизму, пройди налево по балкону до конца и через окно попади в закрытое здание (слева на балконе — сундук с «Графином»). На первом этаже, после стычки с селянами, подбери деревянную шестерню (там же в ящике на столе — рубин). Вставь её в механизм и дёрни рычаг — решётка поднимется."
+    ],
+    "match": {
+      "where": [
+        "мельница",
+        "ферма",
+        "арка",
+        "windmill",
+        "farm"
+      ],
+      "what": [
+        "шестерня",
+        "деревянная шестерня",
+        "механизм мельницы",
+        "решетка",
+        "wooden cog",
+        "windmill workings"
+      ],
+      "how": [
+        "рычаг",
+        "окно",
+        "балкон"
+      ],
+      "reward": [
+        "графин",
+        "рубин"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-valley-hexagonal-emblem",
+    "type": "puzzle",
+    "region": "village",
+    "location": {
+      "ru": "Заброшенная фабрика у Долины (дверь возле торговца)",
+      "en": "Abandoned Factory gate near the Valley"
+    },
+    "title": {
+      "ru": "Шестигранная эмблема на воротах",
+      "en": "Hexagonal Emblem (Hexagon-shaped Slot)"
+    },
+    "availableFrom": "ch2",
+    "hints": [
+      "Замок на двери возле торговца — гнездо в форме шестиугольника с птицей. Деталь к нему придётся добыть в Долине, а потом правильно сориентировать.",
+      "Шестигранная эмблема лежит на крыше дома справа в Долине (вход заперт — обойди справа и влезь в окно, наверх ведёт лестница). Вставляя её, сверяйся с рисунком в гнезде: птица на эмблеме должна быть зеркальным отражением орла на замке.",
+      "Принеси эмблему к двери слева от торговца и вращай/переворачивай её, пока орёл не станет зеркальной копией изображения в гнезде (кончики крыльев вверх). Подсказка — небольшая выемка на обратной стороне эмблемы. Если встала верно, эмблема превратится в ручку и ворота откроются. В Долине заодно забери маленький ключ (в доме) и сундук с рубином."
+    ],
+    "match": {
+      "where": [
+        "долина",
+        "фабрика",
+        "торговец",
+        "valley",
+        "factory"
+      ],
+      "what": [
+        "шестигранная эмблема",
+        "эмблема",
+        "орел",
+        "печать с птицей",
+        "hexagonal emblem",
+        "hexagon-shaped slot"
+      ],
+      "how": [
+        "повернуть",
+        "перевернуть",
+        "зеркально",
+        "rotate",
+        "flip"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://vandal.elespanol.com/en/resident-evil-4-remake/resident-evil-4-remake-all-puzzles-and-solutions.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-chief-manor-padlock",
+    "type": "puzzle",
+    "region": "village",
+    "location": {
+      "ru": "Дом старосты, первый этаж",
+      "en": "Chief's Manor, ground floor"
+    },
+    "title": {
+      "ru": "Кодовый замок с символами в доме старосты",
+      "en": "Chief's Manor combination lock"
+    },
+    "availableFrom": "ch2",
+    "hints": [
+      "Шкаф на первом этаже закрыт замком из трёх символов. Комбинация описана где-то в самом доме.",
+      "Поднимись на второй этаж и прочитай книгу в коридоре — в ней порядок символов.",
+      "Выставь слева направо: Урожай (колосья) — Свинья — Ребёнок. Внутри — Хрустальный шарик (Crystal Marble) для двери на втором этаже."
+    ],
+    "match": {
+      "where": [
+        "дом старосты",
+        "староста",
+        "chief's manor",
+        "manor"
+      ],
+      "what": [
+        "кодовый замок",
+        "навесной замок",
+        "шкаф",
+        "символы",
+        "padlock",
+        "combination lock"
+      ],
+      "how": [
+        "урожай",
+        "свинья",
+        "ребенок",
+        "книга",
+        "wheat",
+        "pig",
+        "baby"
+      ],
+      "reward": [
+        "хрустальный шарик",
+        "crystal marble"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://vandal.elespanol.com/en/resident-evil-4-remake/resident-evil-4-remake-all-puzzles-and-solutions.html"
+    ]
+  },
+  {
+    "id": "pz-chief-manor-crystal-marble",
+    "type": "puzzle",
+    "region": "village",
+    "location": {
+      "ru": "Дом старосты, второй этаж",
+      "en": "Chief's Manor, upper floor"
+    },
+    "title": {
+      "ru": "Дверь с круглым гнездом (Хрустальный шарик)",
+      "en": "Door with Round Slot (Crystal Marble)"
+    },
+    "availableFrom": "ch2",
+    "hints": [
+      "Дверь на втором этаже ждёт круглый предмет, а внутри него есть подвижный рисунок.",
+      "Вставь Хрустальный шарик из шкафа с кодовым замком и вращай его, глядя на узор на фоне за ним.",
+      "Поворачивай шарик, пока пузырьки внутри не сложатся точно в символ, нарисованный позади. Дверь откроется; на столе в комнате — Ключ с символом (Insignia Key), он нужен в главе 3 для ворот и ратуши."
+    ],
+    "match": {
+      "where": [
+        "дом старосты",
+        "второй этаж",
+        "chief's manor"
+      ],
+      "what": [
+        "хрустальный шарик",
+        "шарик",
+        "сфера",
+        "круглое гнездо",
+        "пузырьки",
+        "crystal marble",
+        "round slot"
+      ],
+      "how": [
+        "вращать",
+        "повернуть",
+        "rotate"
+      ],
+      "reward": [
+        "ключ с символом",
+        "insignia key"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-lake-hexagon-pedestal",
+    "type": "puzzle",
+    "region": "village",
+    "location": {
+      "ru": "Причал у озера (где стоит лодка), нижний ярус",
+      "en": "Lake boat dock, lower level"
+    },
+    "title": {
+      "ru": "Головоломка с шестигранными деталями",
+      "en": "Hexagon-shaped Puzzle (Stone Pedestal)"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "С главы 7 в деревню не вернуться — собери детали и реши головоломку до конца главы 6.",
+    "hints": [
+      "На каменном постаменте у причала с лодкой не хватает трёх шестигранных деталей. Их разбросали по округе — собери все, потом сложи цельную картинку.",
+      "Деталь A — в красном сундуке напротив торговца у озера (глава 3). Деталь B — в Рыбопитомнике: в конце спрыгни с деревянной платформы и загляни под неё (рядом синий медальон). Деталь C — в сундуке справа внутри маленькой пещеры, после загадки с символами (глава 4). Крутить можно только верхнюю, левую и правую секции.",
+      "Лёгкая/обычная сложность: левая секция ×1, затем верхняя ×1. Хардкор/Профессионал: правая ×2, левая ×2, верхняя ×1 (повороты делай с исходного положения; если запутался — выйди и начни заново). Награда — сокровище «Порочный идол» (Depraved Idol)."
+    ],
+    "match": {
+      "where": [
+        "причал",
+        "лодка",
+        "озеро",
+        "постамент",
+        "lake",
+        "dock"
+      ],
+      "what": [
+        "шестигранная деталь",
+        "шестигранник",
+        "шестигранные детали",
+        "hexagon piece",
+        "hexagon-shaped puzzle",
+        "stone pedestal"
+      ],
+      "how": [
+        "повернуть левую",
+        "повернуть верхнюю",
+        "спрыгнуть с платформы",
+        "spin left",
+        "spin top"
+      ],
+      "reward": [
+        "порочный идол",
+        "подарочный идол",
+        "depraved idol"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/treasures-the-village/"
+    ]
+  },
+  {
+    "id": "pz-small-cave-blasphemer-head",
+    "type": "puzzle",
+    "region": "village",
+    "location": {
+      "ru": "Малая пещера, северо-восток озера",
+      "en": "Small cave shrine, northeast of the lake"
+    },
+    "title": {
+      "ru": "Каменный помост с символами: Голова богохульника",
+      "en": "Stone Dais: Blasphemer's Head"
+    },
+    "availableFrom": "ch4",
+    "hints": [
+      "У двери постройки — пульт с восемью символами, нажать нужно три. Ответ нарисован прямо в пещере.",
+      "Ищи жёлтые символы, намалёванные краской на стенах и досках вокруг. Некоторые собираются только с правильной точки: если половинка символа на доске, а половинка на скале — отойди назад, чтобы увидеть рисунок целиком (встань на помост у пульта).",
+      "Нажми три кнопки: крайнюю левую (на «9 часов»), нижнюю левую и нижнюю правую (правее самой нижней). Порядок нажатия не важен; ответ фиксированный. Внутри — Голова богохульника (Blasphemer's Head), справа сундук с шестигранной деталью C, выше по лестнице — клетка с рубином."
+    ],
+    "match": {
+      "where": [
+        "малая пещера",
+        "пещера",
+        "северо-восток",
+        "озеро",
+        "small cave",
+        "lake cave"
+      ],
+      "what": [
+        "голова богохульника",
+        "символы",
+        "пульт",
+        "каменный помост",
+        "blasphemer's head",
+        "stone dais"
+      ],
+      "how": [
+        "желтые символы",
+        "три кнопки",
+        "symbols"
+      ],
+      "reward": [
+        "шестигранная деталь c",
+        "hexagon piece c",
+        "рубин"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://www.pcgamer.com/resident-evil-4-remake-cave-puzzle/",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-large-cave-apostate-head",
+    "type": "puzzle",
+    "region": "village",
+    "location": {
+      "ru": "Большая пещера у озера (первый причал справа)",
+      "en": "Large cave shrine on the lake"
+    },
+    "title": {
+      "ru": "Каменный помост с символами: Голова еретика",
+      "en": "Stone Dais: Apostate's Head"
+    },
+    "availableFrom": "ch4",
+    "hints": [
+      "Ещё один пульт с восемью символами — такой же, как в малой пещере, но ответ здесь свой.",
+      "Пришвартуйся у пещеры, пробейся через селян с динамитом, на развилке иди нижним путём до конца и поднимись по лестнице. Жёлтые символы снова нарисованы на стенах вокруг постройки.",
+      "Нажми три кнопки: самую нижнюю (на «6 часов»), верхнюю левую и верхнюю правую. Порядок не важен. Получишь Голову еретика (Apostate's Head). Решётка слева у входа открывается изнутри — короткий путь к лодке. По пути — клетка с бархатистым самоцветом под потолком."
+    ],
+    "match": {
+      "where": [
+        "большая пещера",
+        "пещера",
+        "озеро",
+        "large cave",
+        "lake cave"
+      ],
+      "what": [
+        "голова еретика",
+        "символы",
+        "пульт",
+        "каменный помост",
+        "apostate's head",
+        "stone dais"
+      ],
+      "how": [
+        "желтые символы",
+        "три кнопки",
+        "symbols"
+      ],
+      "reward": [
+        "бархатистый самоцвет",
+        "velvet blue"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://www.pcgamer.com/resident-evil-4-remake-cave-puzzle/",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-mural-cave-church-insignia",
+    "type": "puzzle",
+    "region": "village",
+    "location": {
+      "ru": "Пещера с фреской (алтарь с каменными ладонями)",
+      "en": "Mural Cave altar"
+    },
+    "title": {
+      "ru": "Каменные ладони и церковная эмблема",
+      "en": "Church Key puzzle (Church Insignia)"
+    },
+    "availableFrom": "ch4",
+    "hints": [
+      "Алтарь с большой печатью держат две пустые каменные ладони — на них что-то кладут.",
+      "Нужны две каменные головы; их места отмечены на карте озера — две пещеры с пультами символов.",
+      "Добудь Голову богохульника (малая пещера) и Голову еретика (большая пещера), вернись в пещеру с фреской (решётка у причала открывается с обратной стороны) и положи по голове на каждую ладонь. Получишь Церковную эмблему (Church Insignia) — ею открываются ворота церкви. Учти: на обратном пути в пещере снова появятся враги."
+    ],
+    "match": {
+      "where": [
+        "пещера с фреской",
+        "алтарь",
+        "mural cave"
+      ],
+      "what": [
+        "каменные ладони",
+        "каменные головы",
+        "церковная эмблема",
+        "church insignia",
+        "stone hands"
+      ],
+      "how": [
+        "положить головы"
+      ],
+      "reward": [
+        "церковная эмблема",
+        "ключ от церкви",
+        "church insignia"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-church-pulpit-dials",
+    "type": "puzzle",
+    "region": "village",
+    "location": {
+      "ru": "Церковь, алтарь",
+      "en": "Church, pulpit"
+    },
+    "title": {
+      "ru": "Цветные диски у алтаря церкви",
+      "en": "Pulpit dial puzzle (Blue Dial)"
+    },
+    "availableFrom": "ch4",
+    "hints": [
+      "Механизм у алтаря управляет цветными стёклами витража — нужно сложить из них картинку. Одной ручки не хватает.",
+      "Синяя ручка регулятора лежит в шкафу в конце правой части зала. Рычаг слева от алтаря в стене открывает панель. Перед этим можно взять маленький ключ со стола справа от алтаря и открыть комод в комнате с печатной машинкой (жёлтый алмаз).",
+      "Вставь синюю ручку и крути красный, синий и зелёный диски: каждый двигает свой цветной фрагмент. Добейся цельного изображения на окне, где цветные части не перекрывают друг друга. После этого слева откроется проход наверх к Эшли."
+    ],
+    "match": {
+      "where": [
+        "церковь",
+        "алтарь",
+        "church",
+        "pulpit"
+      ],
+      "what": [
+        "синяя ручка",
+        "ручка регулятора",
+        "диски",
+        "витраж",
+        "blue dial",
+        "dial"
+      ],
+      "how": [
+        "красный",
+        "синий",
+        "зеленый",
+        "рычаг",
+        "rotate"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-castle-cannon-ch7",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Крепостная стена замка, башня с пушкой",
+      "en": "Castle ramparts, cannon tower"
+    },
+    "title": {
+      "ru": "Пушка против катапульт",
+      "en": "Cannon (raise the platform)"
+    },
+    "availableFrom": "ch7",
+    "hints": [
+      "Катапульты не дают пройти по стене. Ответить им можно из пушки — но сначала её надо поднять.",
+      "Спрыгни вниз в круглой башне: рядом с пушкой висит тяжёлый противовес, помеченный жёлтой краской.",
+      "Выстрели в противовес (каменную клетку) на нижнем уровне — платформа с пушкой поднимется. Вернись наверх обходным путём (по дороге — элегантный браслет), сядь за пушку, разбей катапульты, а затем дальние ворота замка."
+    ],
+    "match": {
+      "where": [
+        "крепостная стена",
+        "башня",
+        "замок",
+        "ramparts",
+        "castle"
+      ],
+      "what": [
+        "пушка",
+        "противовес",
+        "катапульта",
+        "cannon",
+        "counterweight",
+        "catapult"
+      ],
+      "how": [
+        "выстрелить в противовес",
+        "желтая краска"
+      ],
+      "reward": [
+        "элегантный браслет"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-castle-four-swords",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Сокровищница замка (после подземелья)",
+      "en": "Castle treasury"
+    },
+    "title": {
+      "ru": "Картины рыцарей и четыре меча",
+      "en": "Four Images Puzzle (Bloodied Sword)"
+    },
+    "availableFrom": "ch7",
+    "hints": [
+      "На стене четыре картины с рыцарями, мечей пока три. Четвёртый заперт за решёткой с изображениями животных.",
+      "Слева у решётки висит шнурок — дёрни его, и загорится один из символов. Остальные животные — на маленьких гонгах за решёткой; в них можно стрелять. Будь осторожен с лишним гонгом.",
+      "Дёрни шнурок (загорится олень), затем выстрели в гонги с орлом и змеёй. В морского конька НЕ стреляй — иначе ворота не откроются. Забери Окровавленный меч и расставь мечи по картинам слева направо: Железный — Золотой — Окровавленный — Ржавый (правильный меч встаёт со щелчком)."
+    ],
+    "match": {
+      "where": [
+        "сокровищница",
+        "замок",
+        "подземелье",
+        "treasury",
+        "castle"
+      ],
+      "what": [
+        "мечи",
+        "картины",
+        "окровавленный меч",
+        "железный меч",
+        "золотой меч",
+        "ржавый меч",
+        "гонг",
+        "bloodied sword",
+        "four images"
+      ],
+      "how": [
+        "шнурок",
+        "орел",
+        "змея",
+        "олень",
+        "морской конек",
+        "eagle",
+        "serpent"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-castle-crimson-lantern",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Замок, зал с алтарём Плаги",
+      "en": "Castle, Crimson Lantern statue"
+    },
+    "title": {
+      "ru": "Статуя с алым фонарём",
+      "en": "Crimson Lantern Statue"
+    },
+    "availableFrom": "ch8",
+    "hints": [
+      "Одна из статуй в зале держит пустую руку — дверь откроется, когда в ней будет нужный предмет.",
+      "Фонарь носит призыватель в соседнем зале (спрыгни с балкона слева). Удобно уронить на сектантов люстру — механизм на втором этаже справа.",
+      "Убей призывателя и забери Алый фонарь (на втором этаже там же — сундук с зеркалом с жемчугом и рубинами). Вернись и вставь фонарь в руку статуи слева — откроется проход дальше."
+    ],
+    "match": {
+      "where": [
+        "замок",
+        "алтарь",
+        "зал",
+        "castle"
+      ],
+      "what": [
+        "алый фонарь",
+        "статуя",
+        "призыватель",
+        "crimson lantern",
+        "statue"
+      ],
+      "how": [
+        "люстра",
+        "в руку статуи"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ],
+    "mapMarkers": [
+      "48604"
+    ]
+  },
+  {
+    "id": "pz-bindery-lithographic-stones",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Переплётная мастерская",
+      "en": "Bindery"
+    },
+    "title": {
+      "ru": "Литографские камни на двери",
+      "en": "Lithographic Door Puzzle"
+    },
+    "availableFrom": "ch8",
+    "hints": [
+      "Дверь с четырьмя гнёздами: у каждого камня две стороны с картинками. Важно совпадение и рисунка, и формы рамки.",
+      "Найди камни B, C и D в этой же комнате: на шкафу слева от двери-головоломки, в стеклянной витрине напротив (разбей стекло) и справа от двери, через которую вошёл. Один камень уже стоит в двери. Рамки бывают квадратные и шестиугольные; символы — шлем, доспех, меч, щит.",
+      "Расклад (по гайдам для обычной сложности): слева — шлем в шестиугольной рамке, сверху — щит в квадратной, справа — меч в квадратной, снизу — доспех в шестиугольной. Переворачивай камни на нужную сторону, ориентируйся на значки, а не на буквы. На Хардкоре/Профессионале камни лежат в других местах — сверяйся с рамками на самой двери. В комнате ещё сундук с часами у камина и запертая тумба (ключ — в следующей комнате, внутри медные карманные часы)."
+    ],
+    "match": {
+      "where": [
+        "переплетная мастерская",
+        "переплетная",
+        "bindery",
+        "castle"
+      ],
+      "what": [
+        "литографский камень",
+        "литографские пластины",
+        "камень b",
+        "камень c",
+        "камень d",
+        "lithographic stone",
+        "lithographic door"
+      ],
+      "how": [
+        "шлем",
+        "щит",
+        "меч",
+        "доспех",
+        "helmet",
+        "shield",
+        "sword",
+        "armor"
+      ],
+      "reward": [
+        "медные карманные часы"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://www.videogameschronicle.com/guide/re4-remake-lithographic-stone-puzzle-guide/",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-castle-sun-moon-tower",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Башня с переключателями солнца и луны",
+      "en": "Castle tower with sun and moon doors"
+    },
+    "title": {
+      "ru": "Двери солнца и луны",
+      "en": "Sun and Moon door switches"
+    },
+    "availableFrom": "ch8",
+    "hints": [
+      "Рычаги в башне меняют местами открытые двери со знаками солнца и луны. Лишний рычаг загонит тебя в тупик.",
+      "Сначала ничего не трогай: поднимись по лестнице слева, спрыгни через дыру вниз и пройди в уже открытую дверь солнца. Рычаги дёргай только там, где без них дальше не пройти.",
+      "Первый рычаг пропусти → лестница слева на 2-й этаж → спрыгни в дыру → дверь солнца → спрыгни с уступа, убей сектанта у закрытой двери → по узкому коридору в круглую комнату, рычаг справа — дёрни → поднимись в открывшуюся дверь → рычаг слева пропусти, прыгай в дыру в полу → направо в коридор (сундук с вычурным ожерельем) → вверх по лестницам, последний рычаг не трогай → выход наверх к великану."
+    ],
+    "match": {
+      "where": [
+        "башня",
+        "замок",
+        "tower",
+        "castle"
+      ],
+      "what": [
+        "переключатели",
+        "рычаг",
+        "дверь солнца",
+        "дверь луны",
+        "sun door",
+        "moon door",
+        "switch"
+      ],
+      "how": [
+        "солнце",
+        "луна",
+        "дыра в полу"
+      ],
+      "reward": [
+        "вычурное ожерелье"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html"
+    ]
+  },
+  {
+    "id": "pz-castle-cannon-ch8",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Крепостная стена, последняя башня с пушкой",
+      "en": "Ramparts, last cannon tower"
+    },
+    "title": {
+      "ru": "Пушка против великана",
+      "en": "Cannon (two counterweights)"
+    },
+    "availableFrom": "ch8",
+    "hints": [
+      "Великана, кидающего камни, не убить из обычного оружия — нужна пушка в дальней башне, но она опущена.",
+      "Пробирайся по стене, отстреливая противовесы мостов и решёток. В башне с пушкой ищи ещё два противовеса — на разных этажах.",
+      "Поднимись по внешней лестнице на средний этаж и войди в последнюю башню. Выстрели в противовес на этом этаже и во второй — этажом выше; пушка поднимется на вершину. Сбей ей великана в пропасть, затем поверни ствол левее и разбей ворота, преграждающие путь."
+    ],
+    "match": {
+      "where": [
+        "крепостная стена",
+        "башня",
+        "ramparts",
+        "tower"
+      ],
+      "what": [
+        "пушка",
+        "противовес",
+        "великан",
+        "гигант",
+        "cannon",
+        "counterweight",
+        "el gigante"
+      ],
+      "how": [
+        "два противовеса",
+        "средний этаж"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-hedge-maze-flags",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Лабиринт из живой изгороди",
+      "en": "Hedge Maze"
+    },
+    "title": {
+      "ru": "Три флага в лабиринте",
+      "en": "Hedge maze flag levers"
+    },
+    "availableFrom": "ch9",
+    "hints": [
+      "Выход из лабиринта откроется, когда поднимутся три флага. Каждый поднимается рычагом на своей башне.",
+      "Пользуйся картой — она показывает весь лабиринт. Первая башня с лестницей — прямо у центральной лестницы на выход, справа. Одна из дверей откроется только если Эшли будет держать рычаг.",
+      "1) Башня справа от выходной лестницы — дёрни рычаг. 2) Иди налево от центра к клетке с псами, затем к статуе с бассейном (за ней в комнатке — Стильная шахматная доска); дальше лестница на вторую башню. 3) Через решётчатую дверь до конца, мимо второй клетки псов, к рычагу — поручи Эшли держать его, а сам поднимись на третью башню. После третьего флага культисты бросятся к Эшли — спрыгни с уступа слева и отбей её. Потом подсади Эшли у запертой двери, откуда пришли враги: там сундук с Порочным идолом (позже недоступен)."
+    ],
+    "match": {
+      "where": [
+        "лабиринт",
+        "живая изгородь",
+        "hedge maze",
+        "maze"
+      ],
+      "what": [
+        "флаг",
+        "рычаг",
+        "башня",
+        "flag",
+        "lever"
+      ],
+      "how": [
+        "эшли держит рычаг",
+        "три флага"
+      ],
+      "reward": [
+        "стильная шахматная доска",
+        "порочный идол",
+        "depraved idol"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html"
+    ]
+  },
+  {
+    "id": "pz-dining-hall-serpent-head",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Обеденный зал замка",
+      "en": "Dining Hall"
+    },
+    "title": {
+      "ru": "Обеденный зал: звонок и голова змеи",
+      "en": "Dining Hall bell (Serpent Head)"
+    },
+    "availableFrom": "ch9",
+    "hints": [
+      "Голова змеи заперта в клетке. Чтобы её открыть, Леон и Эшли должны занять «правильные» места за столами и позвонить в колокольчик.",
+      "Подсказка — портреты короля и королевы в конце зала: сравни, как сервированы тарелки (приборы, бокалы, булочка, бутылка) с тем, что на картинах.",
+      "Стоя лицом к портретам: Эшли — первый стол, крайнее правое (дальнее) место (сложенная салфетка, слева ложка и вилка с блюдцем, справа два ножа и бокал). Леон — второй стол, крайнее левое (дальнее) место (слева ложка, две вилки и булочка, справа три ножа, бокал и бутылка). Позвони в настольный звонок и забери Голову змеи."
+    ],
+    "match": {
+      "where": [
+        "обеденный зал",
+        "столовая",
+        "dining hall"
+      ],
+      "what": [
+        "голова змеи",
+        "змеиная голова",
+        "звонок",
+        "колокольчик",
+        "serpent head",
+        "bell"
+      ],
+      "how": [
+        "сесть",
+        "стул",
+        "портреты",
+        "король",
+        "королева"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html"
+    ]
+  },
+  {
+    "id": "pz-headless-statue",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Зал со статуями (у торговца)",
+      "en": "Hall of statues"
+    },
+    "title": {
+      "ru": "Безголовая статуя: три головы",
+      "en": "Headless Statue Puzzle"
+    },
+    "availableFrom": "ch9",
+    "hints": [
+      "У статуи в коридоре нет голов — их три, и все спрятаны в разных крыльях этого этажа.",
+      "Голова змеи — в обеденном зале, голова козы — в галерее на втором этаже (за мостом), голова льва — в зале с рыцарскими доспехами напротив галереи.",
+      "Змея: загадка со стульями и звонком в обеденном зале. Коза: в галерее мост опустят враги и призыватель — убей жреца наверху (золотая лестница в дальнем конце), дёрни рычаг, подними мост и забери голову (под мостом сундук с жёлтым алмазом). Лев: спрыгни к статуе льва; после взятия головы оживут доспехи — сбей шлем и стреляй в паразита, затем потяни хвосты лошадей. Вставь все три головы в статую — дальше кат-сцена."
+    ],
+    "match": {
+      "where": [
+        "зал со статуями",
+        "коридор",
+        "галерея",
+        "hall of statues"
+      ],
+      "what": [
+        "безголовая статуя",
+        "голова козы",
+        "голова льва",
+        "голова змеи",
+        "goat head",
+        "lion head",
+        "serpent head",
+        "headless statue"
+      ],
+      "how": [
+        "мост",
+        "доспехи",
+        "хвосты лошадей"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ],
+    "mapMarkers": [
+      "48717"
+    ]
+  },
+  {
+    "id": "pz-ashley-grandfather-clocks",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Библиотека замка (за Эшли)",
+      "en": "Castle library (Ashley)"
+    },
+    "title": {
+      "ru": "Напольные часы",
+      "en": "Grandfather Clocks"
+    },
+    "availableFrom": "ch9",
+    "hints": [
+      "Стрелки больших часов можно двигать — они открывают проходы, если выставить «правильное» время.",
+      "Время записано в наспех написанной записке (Hastily Written Note) на столе в дальнем конце комнаты, куда ведёт лифт (открывается ключом из связки).",
+      "Выставь на обоих часах (у решётки с Леоном и во второй комнате у входа в библиотеку): 11:04 на лёгкой/обычной сложности, 7:00 на Хардкоре/Профессионале. Вторые часы спускают к лифту в склеп."
+    ],
+    "match": {
+      "where": [
+        "библиотека",
+        "замок",
+        "library",
+        "castle"
+      ],
+      "what": [
+        "часы",
+        "напольные часы",
+        "стрелки",
+        "grandfather clock",
+        "clock"
+      ],
+      "how": [
+        "11:04",
+        "7:00",
+        "записка",
+        "hastily written note"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-ashley-mausoleum-lanterns",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Склеп (усыпальница) замка",
+      "en": "Mausoleum"
+    },
+    "title": {
+      "ru": "Фонари в склепе",
+      "en": "Mausoleum Lantern Puzzle"
+    },
+    "availableFrom": "ch9",
+    "hints": [
+      "Каждый фонарь отбрасывает на стену свой силуэт. Над постаментами нарисовано, какой силуэт где должен быть.",
+      "Сначала ударь в 4 гонга в зале с доспехами (с каждым ударом оживает больше рыцарей) и беги в открывшуюся дверь. Фонарь в руке можно менять на фонарь с любого постамента. За ширмой справа — сундук с изумрудом (первый ключ из связки).",
+      "Встань лицом к усыпальнице: слева — полумесяц, сзади (по центру) — полная луна, справа — звезда. Фонарь Эшли — это полнолуние, его ставь на задний постамент. Награда — фамильный герб Салазаров (Salazar Family Insignia); после этого синий свет гаснет и доспехи погонятся за тобой — беги к щитовому гнезду в комнате у решётки Леона."
+    ],
+    "match": {
+      "where": [
+        "склеп",
+        "усыпальница",
+        "mausoleum",
+        "crypt"
+      ],
+      "what": [
+        "фонарь",
+        "лампа",
+        "постамент",
+        "герб салазаров",
+        "lantern",
+        "salazar family insignia"
+      ],
+      "how": [
+        "полумесяц",
+        "полная луна",
+        "звезда",
+        "гонг",
+        "moon",
+        "star"
+      ],
+      "reward": [
+        "фамильный герб",
+        "изумруд"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://game8.co/games/Resident-Evil-4-Remake/archives/408806",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ]
+  },
+  {
+    "id": "pz-unicorn-statues",
+    "type": "puzzle",
+    "region": "castle",
+    "location": {
+      "ru": "Зал перед тронным залом",
+      "en": "Room before the Throne Room"
+    },
+    "title": {
+      "ru": "Статуи единорогов",
+      "en": "Unicorn Statues Puzzle"
+    },
+    "availableFrom": "ch10",
+    "hints": [
+      "У статуй впереди не хватает рогов — их носят здешние монстры.",
+      "В зале два Гаррадора и сектанты. Гаррадоры слепы: звони в колокольчики по углам, чтобы они врезались в стену, и бей паразита на спине.",
+      "Убей обоих Гаррадоров и подбери с них 2 рога единорога. Вставь по рогу в голову каждой статуи — проход откроется."
+    ],
+    "match": {
+      "where": [
+        "тронный зал",
+        "замок",
+        "throne room",
+        "castle"
+      ],
+      "what": [
+        "рог единорога",
+        "статуи единорогов",
+        "гаррадор",
+        "unicorn horn",
+        "unicorn statues",
+        "garrador"
+      ],
+      "how": [
+        "колокольчик",
+        "bell"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ],
+    "mapMarkers": [
+      "48857"
+    ]
+  },
+  {
+    "id": "pz-island-laser-turrets",
+    "type": "puzzle",
+    "region": "island",
+    "location": {
+      "ru": "Остров, лагерь у пещеры и верфь",
+      "en": "Island camp and shipyard"
+    },
+    "title": {
+      "ru": "Лазерные турели",
+      "en": "Laser turrets"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Красный лазер турелей убивает мгновенно — но турели можно разворачивать, освобождая себе путь.",
+      "Для прохода нужно повернуть три турели; две центральные — по желанию, ради припасов и сокровища.",
+      "1) Пройди вглубь пещеры за торговцем, поднимись на уступ слева, до тупика — сдвинь турель. 2) В лагере (при тревоге придёт громила с пулемётом) зайди в здание, поднимись на второй этаж и поверни турель; в углу за стеной, куда она смотрела, — сундук с жемчужным браслетом. 3) Дальше путь преграждает ещё одна турель у лестницы — сдвинь её. Если идёшь напрямик, через здание справа к последней турели, затем вернись и пролезь в окно здания справа."
+    ],
+    "match": {
+      "where": [
+        "остров",
+        "пещера",
+        "лагерь",
+        "верфь",
+        "island",
+        "camp"
+      ],
+      "what": [
+        "турель",
+        "лазер",
+        "переключатель",
+        "turret",
+        "laser"
+      ],
+      "how": [
+        "повернуть турель",
+        "окно"
+      ],
+      "reward": [
+        "жемчужный браслет",
+        "красная трава"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html"
+    ]
+  },
+  {
+    "id": "pz-island-dissection-terminal",
+    "type": "puzzle",
+    "region": "island",
+    "location": {
+      "ru": "Комплекс на острове, Секционная",
+      "en": "Island facility, Dissection"
+    },
+    "title": {
+      "ru": "Электронный замок в Секционной",
+      "en": "Terminal Puzzle (Dissection)"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Терминал — головоломка с питанием: нужно провести ток так, чтобы загорелись все значки-молнии. Ответ зависит от сложности.",
+      "Сначала переключи питание рубильником (силовой переключатель) в соседней комнате на Секционную. На терминале есть ползунок с позициями: на каждой позиции поворачиваешь свой участок схемы (от внешнего к внутреннему), последняя позиция — подтверждение.",
+      "Число поворотов по участкам: лёгкая/обычная — 3, 2; Хардкор/Профессионал — 3, 2, 2. Затем сдвинь ползунок до конца и подтверди. За дверью — ключ-карта 1-го уровня; на выходе ждёт регенерирующий монстр — убегай."
+    ],
+    "match": {
+      "where": [
+        "секционная",
+        "комплекс",
+        "лаборатория",
+        "dissection",
+        "facility"
+      ],
+      "what": [
+        "терминал",
+        "электронный замок",
+        "ключ-карта",
+        "питание",
+        "terminal",
+        "power puzzle",
+        "keycard"
+      ],
+      "how": [
+        "рубильник",
+        "повороты",
+        "молнии"
+      ],
+      "reward": [
+        "ключ-карта 1 уровня",
+        "keycard"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://www.shacknews.com/article/134811/dissection-room-power-puzzle-resident-evil-4",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2960950041",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ],
+    "mapMarkers": [
+      "49085"
+    ]
+  },
+  {
+    "id": "pz-island-freezer-terminal",
+    "type": "puzzle",
+    "region": "island",
+    "location": {
+      "ru": "Комплекс на острове, Морозильник",
+      "en": "Island facility, Freezer"
+    },
+    "title": {
+      "ru": "Электронный замок в Морозильнике (LE 5)",
+      "en": "Terminal Puzzle (Freezer)"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "В Морозильнике справа от компьютера для ключ-карты стоит ещё один необязательный терминал — за ним ценное оружие.",
+      "Принцип тот же, что в Секционной, но участков четыре: ползунок переводишь по позициям и на каждой поворачиваешь участок схемы, пока счётчик не покажет все молнии (5/5). Питание в Морозильник подаётся тем же переключателем.",
+      "Число поворотов по участкам: лёгкая/обычная — 2, 2, 3, 3; Хардкор/Профессионал — 3, 1, 3, 3. Затем подтверди на последней позиции. Внутри — пистолет-пулемёт LE 5."
+    ],
+    "match": {
+      "where": [
+        "морозильник",
+        "морозилка",
+        "комплекс",
+        "freezer",
+        "facility"
+      ],
+      "what": [
+        "терминал",
+        "электронный замок",
+        "питание",
+        "terminal",
+        "power puzzle"
+      ],
+      "how": [
+        "повороты",
+        "молнии"
+      ],
+      "reward": [
+        "le 5",
+        "le5",
+        "пистолет-пулемет"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://gameluster.com/resident-evil-4-remake-freezer-power-puzzle-solve-guide/",
+      "https://www.shacknews.com/article/134812/freezer-room-power-puzzle-resident-evil-4",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ],
+    "mapMarkers": [
+      "49091"
+    ]
+  },
+  {
+    "id": "pz-island-waste-disposal-terminal",
+    "type": "puzzle",
+    "region": "island",
+    "location": {
+      "ru": "Комплекс на острове, Мусоропереработка",
+      "en": "Island facility, Waste Disposal"
+    },
+    "title": {
+      "ru": "Электронный замок в Мусоропереработке",
+      "en": "Terminal Puzzle (Waste Disposal)"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "По пути с Эшли попадётся терминал без питания — к нему придётся вернуться.",
+      "Дойди до панели в конце коридора (за разведённым мостом, который Эшли сводит вентилем) и переключи питание рычагом — враги нападут на Эшли, защищай её. Принцип терминала тот же, что в Секционной: ползунок по позициям, поворачиваешь участки схемы.",
+      "Число поворотов по участкам: лёгкая/обычная — 3, 3, 3, 2; Хардкор/Профессионал — 2, 1, 0, 2 (третий участок не трогай). Затем подтверди на последней позиции — путь откроется."
+    ],
+    "match": {
+      "where": [
+        "мусоропереработка",
+        "комплекс",
+        "waste disposal",
+        "facility"
+      ],
+      "what": [
+        "терминал",
+        "электронный замок",
+        "питание",
+        "terminal",
+        "power puzzle"
+      ],
+      "how": [
+        "рубильник",
+        "повороты",
+        "мост",
+        "вентиль"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96425-kak-reshit-vse-zagadki-i-golovolomki-v-resident-evil-4.html",
+      "https://www.shacknews.com/article/134813/waste-disposal-power-puzzle-resident-evil-4",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2960950041",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/puzzles/"
+    ],
+    "mapMarkers": [
+      "49167"
+    ]
+  },
+  {
+    "id": "pz-old-wayshrine-key",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Выход из пещеры с фреской",
+      "en": "Outside the Mural Cave"
+    },
+    "title": {
+      "ru": "Ключ от старой часовни",
+      "en": "Old Wayshrine Key"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Все святилища — в деревне; после главы 6 туда не вернуться. Сам ключ можно продать, когда откроешь все пять.",
+    "hints": [
+      "Небольшие деревянные часовни-сундуки по деревне не открыть маленьким ключом — для них есть особый многоразовый ключ.",
+      "Он лежит совсем рядом с пещерой, где начинается глава 4: в маленьком придорожном святилище у выхода.",
+      "Выйдя из пещеры с фреской, поверни направо — в ящике/святилище лежит Ключ от старой часовни. Он открывает все 5 дорожных святилищ: на ферме (Старинная трубка), в поселении у озера (Жемчужный браслет), у карьера (Лампа с бабочкой), в пещере Западного озера (Великолепный браслет) и на чекпоинте с сёстрами-бензопилами (Элегантный головной убор)."
+    ],
+    "match": {
+      "where": [
+        "пещера с фреской",
+        "озеро",
+        "mural cave"
+      ],
+      "what": [
+        "ключ от старой часовни",
+        "ключ от святилища",
+        "старая часовня",
+        "old wayshrine key",
+        "wayshrine"
+      ],
+      "how": [
+        "направо от выхода"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96412-kak-otkryt-vse-svyatilischa-v-resident-evil-4-gde-nayti-klyuch-ot-staroy-chasovni.html",
+      "https://vgtimes.ru/guides/96457-prohozhdenie-resident-evil-4-2023-vse-bossy-sokrovischa-oruzhie-i-golovolomki-obnovlyaetsya.html"
+    ],
+    "mapMarkers": [
+      "48213"
+    ]
+  }
+]

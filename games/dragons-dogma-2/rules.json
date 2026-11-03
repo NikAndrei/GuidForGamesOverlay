@@ -1,0 +1,40 @@
+{
+  "$schema": "../../schemas/hints.schema.json",
+  "game": "dragons-dogma-2",
+  "rules": [
+    {
+      "id": "tracked",
+      "$comment": "Квест, который игрок отслеживает (по моду-мосту)",
+      "select": { "quests": "tracked" },
+      "priority": 100
+    },
+    {
+      "id": "active",
+      "$comment": "Все начатые квесты из журнала",
+      "select": { "quests": "active" },
+      "priority": 50
+    },
+    {
+      "id": "missable",
+      "$comment": "Пропускаемое, что ещё можно успеть",
+      "select": { "missable": true, "progress": "reached" },
+      "priority": 40
+    },
+    {
+      "id": "new-quests",
+      "$comment": "Квесты, которые открываются на текущей ступени",
+      "select": { "types": ["quest"], "progress": "current" },
+      "priority": 20
+    },
+    {
+      "id": "secrets-here",
+      "select": { "types": ["secret", "puzzle", "chest"], "progress": "current" },
+      "priority": 10
+    },
+    {
+      "id": "tips-here",
+      "select": { "types": ["tip"], "progress": "current" },
+      "priority": 5
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "dragons-dogma-2",
+  "title": {
+    "ru": "Dragon's Dogma 2",
+    "en": "Dragon's Dogma 2"
+  },
+  "adapter": "dd2",
+  "steamAppId": 2054970,
+  "regions": [
+    {
+      "id": "vermund",
+      "name": {
+        "ru": "Вермунд",
+        "en": "Vermund"
+      }
+    }
+  ],
+  "progress": [
+    {
+      "id": "gaoled-awakening",
+      "name": {
+        "ru": "Пробуждение в темнице",
+        "en": "Gaoled Awakening"
+      }
+    },
+    {
+      "id": "tales-beginning",
+      "name": {
+        "ru": "История начинается",
+        "en": "Tale's Beginning"
+      }
+    },
+    {
+      "id": "in-dragons-wake",
+      "name": {
+        "ru": "По следам Дракона",
+        "en": "In Dragon's Wake"
+      }
+    },
+    {
+      "id": "seat-of-the-sovran",
+      "name": {
+        "ru": "Трон Владыки",
+        "en": "Seat of the Sovran"
+      }
+    }
+  ]
+}

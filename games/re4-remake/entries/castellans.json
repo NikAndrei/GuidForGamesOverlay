@@ -1,0 +1,993 @@
+[
+  {
+    "id": "cc-overview",
+    "type": "tip",
+    "title": {
+      "ru": "Заводные смотрители: как искать",
+      "en": "Clockwork Castellans: how to find them"
+    },
+    "availableFrom": "ch1",
+    "hints": [
+      "В каждой главе где-то прячется маленькая заводная кукла — её стоит сломать.",
+      "Всего 16 заводных смотрителей, по одному на главу. Рядом с куклой слышно характерное механическое тиканье; с включёнными субтитрами для звуков на экране появится подпись о механическом звуке.",
+      "Смотрителя достаточно разбить выстрелом (или ножом, если дотянешься). Прогресс виден в меню «Результаты». За первого дают достижение «Revolt Against the Revolting», за всех 16 — «Revolution Wind-up» и Идеальный нож (Primal Knife) с бесконечной прочностью. Найденные куклы сохраняются в «Новой игре +», так что пропущенных можно добрать позже."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ]
+  },
+  {
+    "id": "cc-ch1",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Поселение у озера",
+      "en": "Lakeside Settlement"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 1",
+      "en": "Clockwork Castellan (Chapter 1)"
+    },
+    "availableFrom": "ch1",
+    "missableAfter": "ch7",
+    "missableNote": "Деревню нельзя посетить снова после точки невозврата (глава 6, уход с Эшли к точке эвакуации). Пропущенных можно добрать в «Новой игре +» — сбитые смотрители там засчитываются.",
+    "hints": [
+      "Первая кукла попадается ещё до того, как игра объяснит, что это такое.",
+      "В Поселении у озера загляни в заброшенный дом на юго-западной стороне и посмотри наверх.",
+      "Смотритель сидит на балках под разрушенной крышей заброшенного дома в юго-западной части Поселения у озера; в дом можно забраться через окно. Сбей выстрелом. Записку о смотрителях дадут только в главе 2, поэтому его легко пропустить, — но в поселение вернёшься и в главе 4."
+    ],
+    "match": {
+      "where": [
+        "поселение у озера",
+        "поселение",
+        "заброшенный дом",
+        "крыша",
+        "lakeside settlement"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "балки",
+        "rafters"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "48019"
+    ],
+    "gameRefs": [
+      "castellan:1"
+    ]
+  },
+  {
+    "id": "cc-ch2",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Долина (по пути от фабрики к усадьбе старосты)",
+      "en": "Valley (Abandoned Factory → Village Chief's Manor)"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 2",
+      "en": "Clockwork Castellan (Chapter 2)"
+    },
+    "availableFrom": "ch2",
+    "missableAfter": "ch7",
+    "missableNote": "Деревню нельзя посетить снова после точки невозврата (глава 6, уход с Эшли к точке эвакуации). Пропущенных можно добрать в «Новой игре +» — сбитые смотрители там засчитываются.",
+    "hints": [
+      "Записка о смотрителях лежит рядом с самой куклой.",
+      "Выйдя с Заброшенной фабрики и расчистив долину, пройди за большие ворота и осмотри небольшую постройку слева.",
+      "За массивными воротами пройди мимо жёлтой бочки и поверни налево — в небольшом здании кукла стоит в углу, а на столе там же лежит записка о заводных смотрителях. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "долина",
+        "заброшенная фабрика",
+        "фабрика",
+        "ворота",
+        "жёлтая бочка",
+        "valley",
+        "abandoned factory"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "записка",
+        "note"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "48076"
+    ],
+    "gameRefs": [
+      "castellan:2"
+    ]
+  },
+  {
+    "id": "cc-ch3",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Карьер, торговец у подъёмника к тиру",
+      "en": "Quarry, merchant by the shooting range lift"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 3",
+      "en": "Clockwork Castellan (Chapter 3)"
+    },
+    "availableFrom": "ch3",
+    "missableAfter": "ch7",
+    "missableNote": "Деревню нельзя посетить снова после точки невозврата (глава 6, уход с Эшли к точке эвакуации). Пропущенных можно добрать в «Новой игре +» — сбитые смотрители там засчитываются.",
+    "hints": [
+      "Кукла прячется у воды, недалеко от торговца.",
+      "У торговца в Карьере (там, где лифт к первому тиру) спустись с лестницы слева от него к причалу.",
+      "Спрыгни с лестницы слева от торговца, иди по причалу направо до тупика — смотритель стоит на стопке ящиков, его видно в щель между ящиками и навесом. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "карьер",
+        "торговец",
+        "причал",
+        "тир",
+        "quarry",
+        "merchant",
+        "pier"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "ящики",
+        "crates"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "48203"
+    ],
+    "gameRefs": [
+      "castellan:3"
+    ]
+  },
+  {
+    "id": "cc-ch4",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Лесной алтарь (за дверью с эмблемой у поселения)",
+      "en": "Forest Altar"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 4",
+      "en": "Clockwork Castellan (Chapter 4)"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch7",
+    "missableNote": "Деревню нельзя посетить снова после точки невозврата (глава 6, уход с Эшли к точке эвакуации). Пропущенных можно добрать в «Новой игре +» — сбитые смотрители там засчитываются.",
+    "hints": [
+      "Вернись туда, где нашёл первую куклу: теперь там открывается новый путь.",
+      "Понадобится Ключ с эмблемой (Insignia Key): он открывает решётку у дорожного святилища в Поселении у озера, путь ведёт к Лесному алтарю.",
+      "Открой ключом с эмблемой культа дверь рядом с дорожным святилищем в Поселении у озера, зайди в комнату справа и поднимись по единственной лестнице. В дальнем конце небольшой площадки, за деревянным забором, стоит смотритель. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "поселение у озера",
+        "лесной алтарь",
+        "дорожное святилище",
+        "решётка",
+        "forest altar",
+        "lakeside settlement"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "ключ с эмблемой",
+        "insignia key",
+        "забор"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "48413"
+    ],
+    "gameRefs": [
+      "castellan:4"
+    ]
+  },
+  {
+    "id": "cc-ch5",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Усадьба деревенского старосты, чердак",
+      "en": "Village Chief's Manor, attic"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 5",
+      "en": "Clockwork Castellan (Chapter 5)"
+    },
+    "availableFrom": "ch5",
+    "missableAfter": "ch7",
+    "missableNote": "Деревню нельзя посетить снова после точки невозврата (глава 6, уход с Эшли к точке эвакуации). Пропущенных можно добрать в «Новой игре +» — сбитые смотрители там засчитываются.",
+    "hints": [
+      "Загляни за картину в доме старосты.",
+      "На втором этаже усадьбы старосты за картиной спрятан рычаг, открывающий проход на чердак.",
+      "От площади иди на юг к усадьбе старосты, поднимись на второй этаж: в единственной комнате за картиной есть рычаг — потяни, откроется лаз на чердак. Там много припасов и смотритель. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "усадьба старосты",
+        "дом старосты",
+        "чердак",
+        "village chief's manor",
+        "manor",
+        "attic"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "картина",
+        "рычаг",
+        "painting",
+        "lever"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "48442"
+    ],
+    "gameRefs": [
+      "castellan:5"
+    ]
+  },
+  {
+    "id": "cc-ch6",
+    "type": "secret",
+    "region": "village",
+    "location": {
+      "ru": "Карьер, у большого костра (по пути к КПП)",
+      "en": "Quarry bonfire (on the way to the Checkpoint)"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 6",
+      "en": "Clockwork Castellan (Chapter 6)"
+    },
+    "availableFrom": "ch6",
+    "missableAfter": "ch7",
+    "missableNote": "Деревню нельзя посетить снова после точки невозврата (глава 6, уход с Эшли к точке эвакуации). Пропущенных можно добрать в «Новой игре +» — сбитые смотрители там засчитываются.",
+    "hints": [
+      "При побеге из деревни посмотри на самый яркий огонь вокруг.",
+      "Дойдя до карьера по пути к КПП, обрати внимание на большой костёр на противоположной стороне (справа по ходу).",
+      "Кукла стоит прямо перед большим костром на дальней стороне карьера — справа, когда идёшь к КПП. Сбей выстрелом, пока не ушёл из деревни."
+    ],
+    "match": {
+      "where": [
+        "карьер",
+        "кпп",
+        "контрольно-пропускной пункт",
+        "побег",
+        "quarry",
+        "checkpoint"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "костёр",
+        "bonfire"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "48332"
+    ],
+    "gameRefs": [
+      "castellan:6"
+    ]
+  },
+  {
+    "id": "cc-ch7",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Сокровищница (после ключа подземелья)",
+      "en": "Treasury (after the dungeon key)"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 7",
+      "en": "Clockwork Castellan (Chapter 7)"
+    },
+    "availableFrom": "ch7",
+    "missableAfter": "ch13",
+    "missableNote": "В замок не вернуться после входа в часовую башню (глава 12). Пропущенных можно добрать в «Новой игре +» — сбитые смотрители там засчитываются.",
+    "hints": [
+      "Посмотри на верхние полки в комнате со стеллажами.",
+      "После того как найдёшь и используешь ключ в подземелье замка, ты поднимешься в комнату со стеллажами.",
+      "В комнате со стеллажами смотритель стоит на одной из верхних полок, между ящиками. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "сокровищница",
+        "подземелье",
+        "стеллажи",
+        "treasury",
+        "dungeon"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "полка",
+        "стеллаж",
+        "rack",
+        "shelf"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "48528"
+    ],
+    "gameRefs": [
+      "castellan:7"
+    ]
+  },
+  {
+    "id": "cc-ch8",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Стена замка, северо-западная башня",
+      "en": "Castle walls, northwest tower"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 8",
+      "en": "Clockwork Castellan (Chapter 8)"
+    },
+    "availableFrom": "ch8",
+    "missableAfter": "ch13",
+    "missableNote": "В замок не вернуться после входа в часовую башню (глава 12). Пропущенных можно добрать в «Новой игре +» — сбитые смотрители там засчитываются.",
+    "hints": [
+      "Кукла ждёт там же, где появится великан.",
+      "Ищи на северо-западной башне крепостной стены — туда можно попасть во время боя с Эль Гиганте или после победы над ним.",
+      "После сцены с великаном на крыше башни спрыгни не налево (по основному пути), а направо и дойди до соседней, северо-западной башни: там красный сундук и смотритель. Можно добраться и после победы над Эль Гиганте, когда опустишь сюжетные ворота. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "стена замка",
+        "крепостная стена",
+        "северо-западная башня",
+        "башня",
+        "castle walls",
+        "tower"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "эль гиганте",
+        "великан",
+        "el gigante"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html"
+    ],
+    "mapMarkers": [
+      "48650"
+    ],
+    "gameRefs": [
+      "castellan:8"
+    ]
+  },
+  {
+    "id": "cc-ch9",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Внутренний двор, лабиринт",
+      "en": "Courtyard, hedge maze"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 9",
+      "en": "Clockwork Castellan (Chapter 9)"
+    },
+    "availableFrom": "ch9",
+    "missableAfter": "ch13",
+    "missableNote": "В замок не вернуться после входа в часовую башню (глава 12). Пропущенных можно добрать в «Новой игре +» — сбитые смотрители там засчитываются.",
+    "hints": [
+      "Кукла прячется в живой изгороди — низко, у самой земли.",
+      "Спустись по лестнице во внутренний двор и иди вдоль левого края лабиринта из живой изгороди.",
+      "Смотритель лежит на земле в углу под лестницей, за деревянными досками, у левой стороны лабиринта. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "внутренний двор",
+        "лабиринт",
+        "живая изгородь",
+        "courtyard",
+        "hedge maze"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "доски",
+        "boards"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "48701"
+    ],
+    "gameRefs": [
+      "castellan:9"
+    ]
+  },
+  {
+    "id": "cc-ch10",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Канализация, напротив торговца",
+      "en": "Sewers, across from the merchant"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 10",
+      "en": "Clockwork Castellan (Chapter 10)"
+    },
+    "availableFrom": "ch10",
+    "missableAfter": "ch13",
+    "missableNote": "В замок не вернуться после входа в часовую башню (глава 12). Пропущенных можно добрать в «Новой игре +» — сбитые смотрители там засчитываются.",
+    "hints": [
+      "Посмотри наверх возле торговца.",
+      "В канализации напротив комнаты с торговцем есть решётка.",
+      "За решёткой напротив комнаты торговца в канализации смотритель выглядывает из-под потолка. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "канализация",
+        "торговец",
+        "решётка",
+        "sewers",
+        "sewer",
+        "merchant"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "потолок",
+        "ceiling"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "48867"
+    ],
+    "gameRefs": [
+      "castellan:10"
+    ]
+  },
+  {
+    "id": "cc-ch11",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Шахта, металлическое здание после вагонетки",
+      "en": "Mines, metal building after the minecart"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 11",
+      "en": "Clockwork Castellan (Chapter 11)"
+    },
+    "availableFrom": "ch11",
+    "missableAfter": "ch13",
+    "missableNote": "В замок не вернуться после входа в часовую башню (глава 12). Пропущенных можно добрать в «Новой игре +» — сбитые смотрители там засчитываются.",
+    "hints": [
+      "Посмотри над дверями.",
+      "Когда первая вагонетка остановится, поднимись по лестнице в металлическое здание.",
+      "В металлическом здании после первой поездки на вагонетке смотритель сидит над одной из дверей (на этаже с балконом, где стоит сундук с графином). Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "шахта",
+        "шахты",
+        "металлическое здание",
+        "mines",
+        "mine"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "вагонетка",
+        "дверь",
+        "minecart",
+        "door"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/",
+      "https://vgtimes.ru/guides/96426-kak-nayti-vse-sokrovischa-v-resident-evil-4.html"
+    ],
+    "mapMarkers": [
+      "48934"
+    ],
+    "gameRefs": [
+      "castellan:11"
+    ]
+  },
+  {
+    "id": "cc-ch12",
+    "type": "secret",
+    "region": "castle",
+    "location": {
+      "ru": "Часовая башня",
+      "en": "Clock Tower"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 12",
+      "en": "Clockwork Castellan (Chapter 12)"
+    },
+    "availableFrom": "ch12",
+    "hints": [
+      "Кукла ждёт в конце поездки по рельсам.",
+      "Доедь на вагонетке-фуникулёре от торговца до часовой башни и осмотри северо-западную часть.",
+      "В часовой башне смотритель стоит на деревянных ящиках в северо-западной части. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "часовая башня",
+        "башня",
+        "clock tower"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "ящики",
+        "фуникулёр",
+        "crates"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "48981"
+    ],
+    "gameRefs": [
+      "castellan:12"
+    ]
+  },
+  {
+    "id": "cc-ch13",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Пристань",
+      "en": "Wharf"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 13",
+      "en": "Clockwork Castellan (Chapter 13)"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Загляни под машину.",
+      "На открытой площадке пристани с множеством красных контейнеров ищи красный грузовик.",
+      "Смотритель стоит под прицепом красного грузовика на площадке с красными контейнерами. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "пристань",
+        "контейнеры",
+        "wharf",
+        "docks",
+        "containers"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "грузовик",
+        "прицеп",
+        "truck",
+        "trailer"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "49051"
+    ],
+    "gameRefs": [
+      "castellan:13"
+    ]
+  },
+  {
+    "id": "cc-ch14",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Лагерная стоянка, генераторная",
+      "en": "Campground, generator room"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 14",
+      "en": "Clockwork Castellan (Chapter 14)"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Кукла рядом с источником электричества для лагеря.",
+      "Нужна генераторная, питающая лагерную стоянку; после сцены в хранилище янтаря выйди через автоматические железные двери.",
+      "Выйдя через железные автоматические двери после сцены в хранилище янтаря, сразу поверни направо — смотритель стоит на одном из шкафчиков в генераторной. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "лагерная стоянка",
+        "лагерь",
+        "генераторная",
+        "хранилище янтаря",
+        "campground",
+        "generator"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "шкафчик",
+        "locker"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "49195"
+    ],
+    "gameRefs": [
+      "castellan:14"
+    ]
+  },
+  {
+    "id": "cc-ch15",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Хранилище образцов",
+      "en": "Specimen storage"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 15",
+      "en": "Clockwork Castellan (Chapter 15)"
+    },
+    "availableFrom": "ch15",
+    "hints": [
+      "Посмотри на балки там, где висят чёрные мешки.",
+      "В большом здании с чёрными мешками иди по отметке сокровища на карте к маленькой комнате с сундуком.",
+      "В небольшом помещении с сундуком на столе подними взгляд: смотритель притаился на балках под потолком. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "хранилище образцов",
+        "хранилище",
+        "чёрные мешки",
+        "specimen"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "балки",
+        "сундук",
+        "beams"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "49309"
+    ],
+    "gameRefs": [
+      "castellan:15"
+    ]
+  },
+  {
+    "id": "cc-ch16",
+    "type": "secret",
+    "region": "island",
+    "location": {
+      "ru": "Подземный проход (побег после финального боя)",
+      "en": "Underground passage (escape after the final boss)"
+    },
+    "title": {
+      "ru": "Заводной смотритель — глава 16",
+      "en": "Clockwork Castellan (Chapter 16)"
+    },
+    "availableFrom": "ch16",
+    "missableAfter": "completed",
+    "missableNote": "Доступен только во время побега с таймером после финального боя; если пропустил — только в «Новой игре +».",
+    "hints": [
+      "Последняя кукла — в самый напряжённый момент игры, не отвлекайся только на таймер.",
+      "После финального боя запустится двухминутный таймер побега — осмотрись в той же комнате.",
+      "Сразу после битвы с Саддлером, когда пойдёт двухминутный таймер, поверни правее в той же комнате: смотритель за зелёным подъёмником. Сбей выстрелом."
+    ],
+    "match": {
+      "where": [
+        "подземный проход",
+        "подъёмник",
+        "саддлер",
+        "underground passage",
+        "saddler"
+      ],
+      "what": [
+        "заводной смотритель",
+        "смотритель",
+        "кастелян",
+        "кукла",
+        "статуэтка",
+        "clockwork castellan",
+        "castellan",
+        "таймер",
+        "timer"
+      ],
+      "how": [
+        "выстрел",
+        "сбить",
+        "shoot"
+      ],
+      "reward": [
+        "идеальный нож",
+        "primal knife"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96456-gde-nayti-vseh-kukol-v-resident-evil-4-mestonahozhdenie-16-zavodnyh-smotriteley.html",
+      "https://guides4gamers.com/resident-evil-4-remake/pois/clockwork-castellans/"
+    ],
+    "mapMarkers": [
+      "49386"
+    ],
+    "gameRefs": [
+      "castellan:16"
+    ]
+  }
+]

@@ -2,14 +2,35 @@ name: service
 
 on:
   push:
-    paths: ["service/**", "hints/**", "Cargo.*", ".github/workflows/service.yml"]
+    paths: ["service/**", "games/**", "mods/**", "tools/**", "Cargo.*", ".github/workflows/service.yml"]
   pull_request:
+  workflow_dispatch:
 
 jobs:
   test:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: Swatinem/rust-cache@v2
       - run: cargo fmt --check
-      - run: cargo clippy --all-targets -- -D warnings
-      - run: cargo test
+      - run: cargo clippy -p gfg-service --all-targets -- -D warnings
+      - run: cargo test -p gfg-service
+
+  # Готовый архив для Windows: сервис, dd2-save, данные игр, моды.
+  package:
+    runs-on: windows-latest
+    needs: test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo build --release
+      - shell: pwsh
+        run: |
+          $out = "gfg-overlay"
+          New-Item -ItemType Directory $out | Out-Null
+          Copy-Item target/release/gfg-service.exe, target/release/dd2-save.exe, config.example.toml, README.md $out
+          Copy-Item -Recurse games, mods $out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gfg-overlay-windows
+          path: gfg-overlay

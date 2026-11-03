@@ -1,0 +1,252 @@
+[
+  {
+    "id": "puzzle-sphinx-01-eyes",
+    "type": "puzzle",
+    "region": "vermund",
+    "location": {
+      "ru": "Горное святилище",
+      "en": "Mountain Shrine"
+    },
+    "title": {
+      "ru": "Загадка Сфинкса №1: Глаза",
+      "en": "Sphinx Riddle #1: The Riddle of Eyes"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Глаза лгут: самое ценное в пещере выглядит невзрачно.",
+      "Сундук над входной дверью пещеры (путь наверх слева, если стоять лицом к двери).",
+      "Принеси «Запечатывающий фиал» (Sealing Phial) из сундука над дверью пещеры — не трать его! Награда: камень пробуждения."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits"
+    ],
+    "mapMarkers": [
+      "26811"
+    ]
+  },
+  {
+    "id": "puzzle-sphinx-02-madness",
+    "type": "puzzle",
+    "region": "vermund",
+    "location": {
+      "ru": "Горное святилище",
+      "en": "Mountain Shrine"
+    },
+    "title": {
+      "ru": "Загадка Сфинкса №2: Безумие",
+      "en": "Sphinx Riddle #2: The Riddle of Madness"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Принеси того, кого любишь больше всех.",
+      "Подойдёт персонаж, с которым у тебя роман. Самый простой вариант — основная пешка.",
+      "Положи основную пешку на постамент — Сфинкс примет. Можно принести возлюбленного NPC (например, в Запечатывающем фиале). Двух влюблённых не приводи — подерутся насмерть. Награда: порткристалл."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits"
+    ],
+    "mapMarkers": [
+      "2814"
+    ]
+  },
+  {
+    "id": "puzzle-sphinx-03-wisdom",
+    "type": "puzzle",
+    "region": "vermund",
+    "location": {
+      "ru": "Горное святилище",
+      "en": "Mountain Shrine"
+    },
+    "title": {
+      "ru": "Загадка Сфинкса №3: Мудрость",
+      "en": "Sphinx Riddle #3: The Riddle of Wisdom"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Сфинкс ищет своего «родителя». Ищи не в мире, а в Разломе.",
+      "Пешка с прозвищем SphinxFather / SphinxMother / SphinxParent.",
+      "У камня разлома: «Связанные камни разлома» → «Камень разлома Содружества» — найми пешку SphinxFather/Mother/Parent и приведи. Награда: 1200 RC."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits"
+    ],
+    "mapMarkers": [
+      "2819"
+    ]
+  },
+  {
+    "id": "puzzle-sphinx-04-conviction",
+    "type": "puzzle",
+    "region": "vermund",
+    "location": {
+      "ru": "Горное святилище",
+      "en": "Mountain Shrine"
+    },
+    "title": {
+      "ru": "Загадка Сфинкса №4: Убеждённость",
+      "en": "Sphinx Riddle #4: The Riddle of Conviction"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Отдай самое дорогое — бояться нечего.",
+      "Сфинкс вернёт отданное в двойном размере.",
+      "Отдай любую вещь — Сфинкс её удвоит. Выгодно: порткристалл или Жадеитовая сфера (для «Охоты за Жадеитовой сферой»)."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits"
+    ],
+    "mapMarkers": [
+      "2820"
+    ]
+  },
+  {
+    "id": "puzzle-sphinx-05-rumination",
+    "type": "puzzle",
+    "region": "vermund",
+    "location": {
+      "ru": "Горное святилище",
+      "en": "Mountain Shrine"
+    },
+    "title": {
+      "ru": "Загадка Сфинкса №5: Размышление",
+      "en": "Sphinx Riddle #5: The Riddle of Rumination"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Вспомни, где нашёл свой первый жетон искателя.",
+      "Вернись на то место — там появится новый предмет. На это 7 дней.",
+      "На месте первого жетона лежит «Жетон находчика» (Finder's Token). Если первый жетон взят прямо перед загадкой — сначала отдохни. Принеси Сфинксу за 7 дней: 3 камня переноса. В обычной игре первый жетон часто — на крыше кузницы Пограничной заставы."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits"
+    ],
+    "mapMarkers": [
+      "3146"
+    ]
+  },
+  {
+    "id": "puzzle-sphinx-06-reunion",
+    "type": "puzzle",
+    "region": "vermund",
+    "location": {
+      "ru": "Пограничное святилище",
+      "en": "Frontier Shrine"
+    },
+    "title": {
+      "ru": "Загадка Сфинкса №6: Встреча",
+      "en": "Sphinx Riddle #6: The Riddle of Reunion"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Просто найди Сфинкса снова.",
+      "Пограничное святилище: иди вдоль реки под городом-заставой на запад.",
+      "Загадка решается сама, когда находишь Сфинкса во втором месте. Сундук слева — 100 000 золотых."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits"
+    ],
+    "mapMarkers": [
+      "26877"
+    ]
+  },
+  {
+    "id": "puzzle-sphinx-07-recollection",
+    "type": "puzzle",
+    "region": "vermund",
+    "location": {
+      "ru": "Пограничное святилище",
+      "en": "Frontier Shrine"
+    },
+    "title": {
+      "ru": "Загадка Сфинкса №7: Воспоминание",
+      "en": "Sphinx Riddle #7: The Riddle of Recollection"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Сколько загадок уже было? Ответь статуями.",
+      "Считай все загаданные загадки, включая неудачные. Подсказка — число светящихся «глаз» на крыльях Сфинкса.",
+      "Поставь к помосту перед Сфинксом столько статуй, сколько загадок он уже загадал, — сверься с числом светящихся глаз на его крыльях. Порядок загадок 7–10 бывает разным. Награда: «Стрела небытия» (Unmaking Arrow)."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits"
+    ],
+    "mapMarkers": [
+      "26878"
+    ]
+  },
+  {
+    "id": "puzzle-sphinx-08-contest",
+    "type": "puzzle",
+    "region": "vermund",
+    "location": {
+      "ru": "Пограничное святилище",
+      "en": "Frontier Shrine"
+    },
+    "title": {
+      "ru": "Загадка Сфинкса №8: Состязание",
+      "en": "Sphinx Riddle #8: The Riddle of Contest"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Бой, в котором твои удары ничего не стоят. Есть путь короче.",
+      "Кольцо насмешки делает весь урон равным 1. Рядом обрыв.",
+      "Подними противника и сбрось с обрыва. Награда: кольцо стремления (Ring of Ambition)."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits"
+    ],
+    "mapMarkers": [
+      "26880"
+    ]
+  },
+  {
+    "id": "puzzle-sphinx-09-futility",
+    "type": "puzzle",
+    "region": "vermund",
+    "location": {
+      "ru": "Пограничное святилище",
+      "en": "Frontier Shrine"
+    },
+    "title": {
+      "ru": "Загадка Сфинкса №9: Тщетность",
+      "en": "Sphinx Riddle #9: The Riddle of Futility"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Хрупкую амфору нужно доставить в Батталь целой.",
+      "Получатель у фрески со Сфинксом на Тропе фрески (Mural Byway). Повозка разобьёт амфору; камень переноса с ней не работает.",
+      "Донеси амфору до Тропы фрески, ни разу не получив удар (нужен доступ в Батталь). На вики описан обходной путь через камень переноса (NPC на плече переносится вместе с тобой) — подробности по ссылке-источнику. Надёжнее сохраниться заранее. Награда: кольцо «Вечные узы» (Eternal Bond)."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits"
+    ],
+    "mapMarkers": [
+      "26879"
+    ]
+  },
+  {
+    "id": "puzzle-sphinx-10-differentiation",
+    "type": "puzzle",
+    "region": "vermund",
+    "location": {
+      "ru": "Пограничное святилище",
+      "en": "Frontier Shrine"
+    },
+    "title": {
+      "ru": "Загадка Сфинкса №10: Различие",
+      "en": "Sphinx Riddle #10: The Riddle of Differentiation"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Найди человека, у которого есть почти точная копия.",
+      "Данте и Вергилий — оба в городе-заставе, по разные стороны границы.",
+      "Данте — прямые волосы, шрам вниз от правой брови (вермундская сторона города-заставы). Вергилий — кудрявый, больше шрамов у правого глаза (баттальская сторона). Принеси нужного (можно бездыханным — потом оживи). Сохранись заранее. Награда: «Причудливая греза» (Whimsical Daydream)."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits"
+    ],
+    "mapMarkers": [
+      "26881"
+    ]
+  }
+]

@@ -14,18 +14,20 @@ use gfg_service::ui::{self, Reveals};
 use tokio::io::{AsyncBufReadExt, AsyncWriteExt, BufReader};
 
 fn fixtures() -> PathBuf {
-    Path::new(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures/dd2")
+    Path::new(env!("CARGO_MANIFEST_DIR")).join("tests/fixtures")
 }
 
 fn content() -> Content {
-    Content::load(&fixtures().join("content"), None).unwrap()
+    Content::load(&fixtures().join("games/dragons-dogma-2")).unwrap()
 }
 
 /// Копия файлов мода во временной папке: время изменения — «сейчас», как у работающей игры.
 fn fresh_mod() -> tempfile::TempDir {
     let dir = tempfile::tempdir().unwrap();
     for f in ["guidforgames_live.json", "guidforgames_state.json"] {
-        fs::copy(fixtures().join("mod").join(f), dir.path().join(f)).unwrap();
+        // Не fs::copy: на Windows он сохраняет время изменения, и файл выглядел бы устаревшим.
+        let text = fs::read(fixtures().join("dd2-mod").join(f)).unwrap();
+        fs::write(dir.path().join(f), text).unwrap();
     }
     dir
 }
@@ -35,9 +37,10 @@ fn content_and_rules_load() {
     let c = content();
     assert_eq!(c.game_id, "dragons-dogma-2");
     assert_eq!(c.progress.len(), 4);
-    assert_eq!(c.entries.len(), 3);
-    let r = rules::load(&fixtures().join("rules"), &c.game_id).unwrap();
-    assert_eq!(r.len(), 4);
+    assert_eq!(c.entries.len(), 4);
+    assert_eq!(c.adapter.as_deref(), Some("dd2"));
+    let r = rules::load(&c.rules_path(), &c.game_id).unwrap();
+    assert_eq!(r.len(), 6);
     assert!(rules::check(&r, &c).is_empty());
 }
 
@@ -75,16 +78,20 @@ fn mod_state_to_ui() {
     // Статус 0 (не начат) в модель не попадает.
     assert!(st.quest("20010").is_none());
 
-    let rules = rules::load(&fixtures().join("rules"), &c.game_id).unwrap();
+    let rules = rules::load(&c.rules_path(), &c.game_id).unwrap();
     let mut reveals = Reveals::default();
     let model = ui::build(&st, &c, &rules, &reveals);
     let ids: Vec<_> = model.items.iter().map(|i| i.id.as_str()).collect();
-    // wake — приоритет 10; tales выполнен; sovran скрыт по availableFrom записи.
-    assert_eq!(ids, ["wake", "own-text"]);
+    // Отслеживаемый квест (приоритет 100) один раз, хотя его выбирает и правило wake;
+    // tales выполнен; sovran скрыт по availableFrom записи.
+    assert_eq!(ids, ["mq-in-dragons-wake", "sq-missable", "own-text"]);
     assert!(model.items.iter().all(|i| i.hints.is_empty()));
     assert_eq!(model.items[0].levels, 3);
+    assert_eq!(model.items[0].kind, "quest");
+    assert!(model.items[1].missable);
+    assert_eq!(model.items[2].kind, "tip");
 
-    reveals.set(&st.game, "wake", 2);
+    reveals.set(&st.game, "mq-in-dragons-wake", 2);
     let model = ui::build(&st, &c, &rules, &reveals);
     assert_eq!(model.items[0].hints, ["Намёк 2", "Подробнее 2"]);
 }
@@ -154,14 +161,14 @@ async fn overlay_protocol_end_to_end() {
     let mod_dir = fresh_mod();
     let fx = fixtures();
     let cfg_text = format!(
-        "http = \"127.0.0.1:0\"\noverlay = \"127.0.0.1:0\"\n\n[[game]]\nadapter = \"dd2\"\ncontent = {:?}\nrules = {:?}\nmod_dir = {:?}\n",
-        fx.join("content"),
-        fx.join("rules"),
+        "games_dir = {:?}\nsteam_dir = {:?}\n\n[games.dragons-dogma-2]\nmod_dir = {:?}\n\n[games.re4-remake]\nenabled = false\n",
+        fx.join("games"),
+        dir.path(),
         mod_dir.path()
     );
     let cfg_path = dir.path().join("config.toml");
     fs::write(&cfg_path, cfg_text).unwrap();
-    let cfg = Config::load(&cfg_path).unwrap();
+    let cfg = Config::load(Some(&cfg_path)).unwrap();
     let app = App::new(&cfg).unwrap();
     app.refresh_all().await;
 
@@ -182,10 +189,10 @@ async fn overlay_protocol_end_to_end() {
     };
     assert_eq!(next().await["type"], "hello");
     let ui = next().await;
-    assert_eq!(ui["ui"]["items"][0]["id"], "wake");
+    assert_eq!(ui["ui"]["items"][0]["id"], "mq-in-dragons-wake");
     assert_eq!(ui["ui"]["items"][0]["revealed"], 0);
 
-    w.write_all(b"{\"cmd\":\"reveal\",\"item\":\"wake\"}\n")
+    w.write_all(b"{\"cmd\":\"reveal\",\"item\":\"mq-in-dragons-wake\"}\n")
         .await
         .unwrap();
     let ui = next().await;
@@ -198,5 +205,5 @@ async fn overlay_protocol_end_to_end() {
 
     // Раскрытое сохраняется на диск.
     let saved = fs::read_to_string(dir.path().join("state/reveals.json")).unwrap();
-    assert!(saved.contains("\"wake\": 1"));
+    assert!(saved.contains("\"mq-in-dragons-wake\": 1"));
 }

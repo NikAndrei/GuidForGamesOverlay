@@ -1,3 +1,7 @@
 [workspace]
-members = ["service"]
+members = ["service", "tools/dd2-save"]
 resolver = "3"
+
+[profile.release]
+strip = true
+lto = true

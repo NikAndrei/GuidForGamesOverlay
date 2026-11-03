@@ -1,0 +1,73 @@
+[
+  {
+    "id": "mq-tales-beginning",
+    "type": "quest",
+    "region": "vermund",
+    "title": {
+      "ru": "История начинается",
+      "en": "Tale's Beginning"
+    },
+    "availableFrom": "tales-beginning",
+    "hints": [
+      "Намёк 1",
+      "Подробнее 1",
+      "Ответ 1"
+    ],
+    "sources": [
+      "https://example.com/1"
+    ]
+  },
+  {
+    "id": "mq-in-dragons-wake",
+    "type": "quest",
+    "region": "vermund",
+    "title": {
+      "ru": "По следам Дракона",
+      "en": "In Dragon's Wake"
+    },
+    "availableFrom": "in-dragons-wake",
+    "hints": [
+      "Намёк 2",
+      "Подробнее 2",
+      "Ответ 2"
+    ],
+    "sources": [
+      "https://example.com/2"
+    ]
+  },
+  {
+    "id": "mq-seat-of-the-sovran",
+    "type": "quest",
+    "region": "vermund",
+    "title": {
+      "ru": "Трон Владыки",
+      "en": "Seat of the Sovran"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Спойлер из будущего"
+    ],
+    "sources": [
+      "https://example.com/3"
+    ]
+  },
+  {
+    "id": "sq-missable",
+    "type": "quest",
+    "region": "vermund",
+    "title": {
+      "ru": "Пропускаемый",
+      "en": "Missable"
+    },
+    "availableFrom": "tales-beginning",
+    "missableAfter": "seat-of-the-sovran",
+    "missableNote": "До прихода в столицу",
+    "hints": [
+      "М1",
+      "М2"
+    ],
+    "sources": [
+      "https://example.com/4"
+    ]
+  }
+]

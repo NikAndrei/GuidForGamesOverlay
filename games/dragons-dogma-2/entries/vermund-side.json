@@ -1,0 +1,300 @@
+[
+  {
+    "id": "sq-ordeals-of-a-new-recruit",
+    "type": "quest",
+    "region": "vermund",
+    "location": {
+      "ru": "Пограничная застава → подножие горы Аллес",
+      "en": "Borderwatch Outpost → Base of Mt. Alles"
+    },
+    "title": {
+      "ru": "Испытание новобранца",
+      "en": "Ordeals of a New Recruit"
+    },
+    "availableFrom": "in-dragons-wake",
+    "missableNote": "ограничено по времени — иди сразу",
+    "hints": [
+      "Новобранца отправили туда, где поют гарпии. Медлить нельзя.",
+      "Квест даёт Филл у главных ворот заставы. Новобранец Аккардо — по дороге, справа от тропы, где высокие деревья.",
+      "Возьми квест у Филла и сразу выходи за ворота — Аккардо может погибнуть, если тянуть время. Его атакуют три гарпии: сбивай их дальними атаками, упавших добивай. Затем вернись к Филлу. Если Аккардо выживет — до 1000 золотых и 400 опыта."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Ordeals+of+a+New+Recruit",
+      "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html"
+    ],
+    "timeLimited": true,
+    "mapMarkers": [
+      "24868"
+    ]
+  },
+  {
+    "id": "sq-brothers-brave-and-timid",
+    "type": "quest",
+    "region": "vermund",
+    "location": {
+      "ru": "Мелв",
+      "en": "Melve"
+    },
+    "title": {
+      "ru": "Братские робость и отвага",
+      "en": "Brothers Brave and Timid"
+    },
+    "availableFrom": "in-dragons-wake",
+    "missableNote": "возьми до ухода из Мелва в столицу",
+    "hints": [
+      "Один брат ушёл за травами, другой боится идти один. Помоги — и получишь кое-что очень полезное в дорогу.",
+      "Ян стоит у таверны Тристана в Мелве. Когда Грегор у ворот спросит, готов ли ты идти в столицу, — откажись, сначала квест.",
+      "Иди за Яном за мост и направо в гору. У костра на привале подбери набор для стоянки (Modest Camping Kit) у скального уступа — это первый набор в игре. Норберта окружили примерно пять волков. Проводи братьев обратно в Мелв (можно в обход разрушаемого моста). Награда: 400 опыта, 1500 золотых, домотканая накидка. Квест зависит от времени."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Brothers+Brave+and+Timid",
+      "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html"
+    ],
+    "missableAfter": "seat-of-the-sovran",
+    "mapMarkers": [
+      "24872"
+    ]
+  },
+  {
+    "id": "sq-medicament-predicament",
+    "type": "quest",
+    "region": "vermund",
+    "location": {
+      "ru": "Мелв, аптека Рунне",
+      "en": "Melve, Runne's Apothecary"
+    },
+    "title": {
+      "ru": "Лекарственное дело",
+      "en": "Medicament Predicament"
+    },
+    "availableFrom": "in-dragons-wake",
+    "hints": [
+      "Девочке-аптекарю не хватает денег на одно лекарство. Его можно не только купить.",
+      "Нужен «фруктовый укрепитель» (Fruit Roborant): купить в аптеке Рунне или сделать самому.",
+      "Флора у аптеки Рунне просит фруктовый укрепитель: купи за 600 золотых или смешай сушёный фрукт + зеленуху (Greenwarish) либо сушёный фрукт + утреннюю росу (Morningtide). Позже найди Флору у лавки Ауриола в Вернворте — она подарит книгу «Том хирурга» (специализация для пешки), а Ауриол даст скидки. Награда: 100 золотых, кольцо ликования, 500 опыта."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Medicament+Predicament",
+      "https://dragonsdogma2.wiki.fextralife.com/The+Ornate+Box",
+      "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html"
+    ],
+    "mapMarkers": [
+      "24871"
+    ]
+  },
+  {
+    "id": "sq-nesting-troubles",
+    "type": "quest",
+    "region": "vermund",
+    "location": {
+      "ru": "Мелв, северо-западный край",
+      "en": "Melve, northwest edge"
+    },
+    "title": {
+      "ru": "Гнездо неприятностей",
+      "en": "Nesting Troubles"
+    },
+    "availableFrom": "in-dragons-wake",
+    "missableNote": "возьми до первого поручения Бранта",
+    "hints": [
+      "Ящеры устроили гнездо у берега рядом с Мелвом. Его можно подорвать и отравить — сверху.",
+      "Задание даёт Леннарт. Бочки со взрывчаткой и банка яда — у северо-западного края Мелва, гнездо видно с обрыва.",
+      "Поговори с Леннартом. Брось взрывные бочки с обрыва в гнездо ящеров, отстреливай вылезших (у тебя высота). Доложи Леннарту, затем брось банку яда (лежит за северо-западными воротами). Банка одна! Сохранись перед броском — промах меняет исход. Бочку можно бросить и с берега через реку. Награда: 400 опыта, 1250 золотых, Экстракт отваги."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Nesting+Troubles",
+      "https://dragonsdogma2.wiki.fextralife.com/Main+Quests",
+      "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html"
+    ],
+    "missableAfter": "brants-tasks",
+    "mapMarkers": [
+      "24881"
+    ]
+  },
+  {
+    "id": "sq-vocation-frustration",
+    "type": "quest",
+    "region": "vermund",
+    "location": {
+      "ru": "Гильдия призваний Вернворта → рудник Трево",
+      "en": "Vernworth Vocation Guild → Trevo Mine"
+    },
+    "title": {
+      "ru": "Отчаянные поиски призвания",
+      "en": "Vocation Frustration"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "missableAfter": "feast-of-deception",
+    "hints": [
+      "Некоторые призвания недоступны — для них нет оружия. Найди, куда делся груз.",
+      "Глава гильдии Клаус пошлёт к оружейнику Родерику, тот — в логово гоблинов в руднике Трево к западу (удобно совместить с «Зачисткой от чудищ»).",
+      "Поговори с Клаусом, затем с Родериком (лавка слева от статуи дракона, если идти от гостиницы Шакира). В руднике Трево: двуручный меч — в большом чёрном сундуке в широком зале перед деревянной дверью; архипосох — в верхнем правом углу дальнего уровня, где проход сужается. Отнеси оружие Клаусу: откроются воин и чародей, 7500 золотых."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Vocation+Frustration",
+      "https://dragonsdogma2.wiki.fextralife.com/Monster+Culling"
+    ],
+    "mapMarkers": [
+      "24873"
+    ]
+  },
+  {
+    "id": "sq-ornate-box",
+    "type": "quest",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, лавка Ауриола",
+      "en": "Vernworth, Auriol's shop"
+    },
+    "title": {
+      "ru": "Расписная шкатулка",
+      "en": "The Ornate Box"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "missableNote": "возьми до сдачи «Интриг Дисы»",
+    "hints": [
+      "Юноша на рынке спорит с торговцем — ему не хватает денег. Щедрость окупится.",
+      "Купи шкатулку у Ауриола сам и отдай юноше (он у лестницы рядом с лавкой Родерика), а не одалживай деньги.",
+      "Купи «Расписную шкатулку» за 800 золотых и подари Свену. Через 2+ дня Свен будет сидеть у фонтана с драконом в центре Вернворта — приходи к нему четыре дня подряд, каждый раз он даёт подарок (среди них — придворная одежда для маскарада и камень переноса на третий день). Если просто одолжить деньги — вернёт лишь 500 золотых. Если придворную одежду упустил — она лежит в покоях Свена или гостевых покоях замка."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/The+Ornate+Box",
+      "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html"
+    ],
+    "missableAfter": "palace-intrigue",
+    "mapMarkers": [
+      "24878"
+    ]
+  },
+  {
+    "id": "sq-heel-of-history",
+    "type": "quest",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, трущобы, «Милостивая длань»",
+      "en": "Vernworth Slums, The Gracious Hand"
+    },
+    "title": {
+      "ru": "На задворках истории",
+      "en": "The Heel of History"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "В трущобах кормят сирот. Помоги им — и один мальчик приведёт к тайне под городом.",
+      "Дважды отдай еду Кендрику у здания «Милостивой длани» (возле руин старой башни), затем расспроси детей о пропавшем Малькольме.",
+      "Пожертвуй Кендрику два раза — квест откроется (по Fextralife — еду оба раза, по VGTimes — еду и 1000 золотых). Девочка Эйми внутри большого здания подскажет, Кендрик покажет лаз. Спустись в хранилища «Милостивой длани», на развилке иди прямо — там Малькольм и тайный архив. Это место нужно для «Заключённого законника». После квеста Кендрик даст «Том логиста», Малькольм — «Том собирателя» (специализации пешек). Награда: 3000 золотых, 1200 опыта. В хранилище сразу за проломом в стене, за бочками, лежит жетон искателя."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/The+Heel+of+History",
+      "https://dragonsdogma2.wiki.fextralife.com/The+Caged+Magistrate",
+      "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html"
+    ],
+    "mapMarkers": [
+      "24958"
+    ]
+  },
+  {
+    "id": "sq-place-to-call-home",
+    "type": "quest",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт, у таверны «Падающая звезда»",
+      "en": "Vernworth, The Stardrop Inn"
+    },
+    "title": {
+      "ru": "Дом, милый дом",
+      "en": "A Place to Call Home"
+    },
+    "availableFrom": "seat-of-the-sovran",
+    "hints": [
+      "Женщина у таверны уезжает и ищет, кто присмотрит за домом. Это шанс получить своё жильё.",
+      "Милдред стоит у входа в «Падающую звезду». Пожить у неё нужно неделю.",
+      "Поговори с Милдред, приходи в её дом и отдохни в кровати «до утра» 8 раз подряд. Вернувшись, она предложит продать дом за 20 000 золотых (можно накопить и прийти позже). Свой дом — бесплатный сон и сундук хранилища в столице."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Place+to+Call+Home",
+      "https://dragonsdogma2.wiki.fextralife.com/Day_and_Night_Cycle"
+    ],
+    "mapMarkers": [
+      "24957"
+    ]
+  },
+  {
+    "id": "sq-arisens-shadow",
+    "type": "quest",
+    "region": "vermund",
+    "location": {
+      "ru": "Вернворт",
+      "en": "Vernworth"
+    },
+    "title": {
+      "ru": "Тень Восставшего",
+      "en": "The Arisen's Shadow"
+    },
+    "availableFrom": "brants-tasks",
+    "hints": [
+      "Пешки заметят, что за тобой следят. Догони преследователя.",
+      "Человек в капюшоне с инструментами на поясе. Ты бегаешь чуть быстрее; останавливай его захватом, а не ударами.",
+      "Догони шпиона (это Бермудо) и схвати захватом — не атакуй — он попробует откупиться. Выбор: отпустить за взятку (1000 опыта, 5000 золотых) или схватить и через пару дней поговорить с Брантом (1000 опыта, 4000 золотых). Выбор меняет реплики в «Феерии обмана». Квест зависит от времени."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/The+Arisen%27s+Shadow",
+      "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html"
+    ],
+    "mapMarkers": [
+      "25486"
+    ]
+  },
+  {
+    "id": "sq-magisterial-amenity",
+    "type": "quest",
+    "region": "vermund",
+    "location": {
+      "ru": "Хранилища «Милостивой длани» → Вернвортский зал",
+      "en": "Gracious Hand's Vaults → Vernworth Hall"
+    },
+    "title": {
+      "ru": "Любезность для законника",
+      "en": "A Magisterial Amenity"
+    },
+    "availableFrom": "brants-tasks",
+    "hints": [
+      "Магистрату в новом убежище нечем читать. Его вещь конфисковали.",
+      "Через несколько дней после «Заключённого законника» навести Валдара. Очки — в кладовой зала маскарадов.",
+      "Навести Валдара в хранилищах «Милостивой длани» спустя пару дней. Иди в Вернвортский зал (Королевский квартал, юго-запад) — стражник пустит и без маскарада. Слева в конце зала маленькая комната со свечами у входа: «Изысканные очки» на полке сразу слева. Верни Валдару: 900 опыта и гримуар «Зимняя тропа»."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/A+Magisterial+Amenity",
+      "https://vgtimes.ru/guides/106168-prohozhdenie-dopolnitelnyh-kvestov-dragons-dogma-2.html"
+    ],
+    "mapMarkers": [
+      "24982"
+    ]
+  },
+  {
+    "id": "sq-readvent-of-calamity",
+    "type": "quest",
+    "region": "vermund",
+    "location": {
+      "ru": "Мелв",
+      "en": "Melve"
+    },
+    "title": {
+      "ru": "Возвращение бедствия",
+      "en": "Readvent of Calamity"
+    },
+    "availableFrom": "brants-tasks",
+    "missableAfter": "feast-of-deception",
+    "hints": [
+      "Мелву снова не повезёт. Загляни туда через несколько дней после первых поручений Бранта.",
+      "Квест начнётся сам, когда вернёшься в Мелв (например, на повозке из Вернворта) после «Зачистки от чудищ» и пары дней ожидания.",
+      "На Мелв нападёт дракон — помоги отбить его (бей по красным наростам на ногах и шее, сбитого — по голове). Лучше не добивать: по данным вики, это может осложнить получение мастерского навыка от Сигурда. Потом навещай Мелв время от времени; когда Улрика пропадёт, Леннарт попросит её найти — она в деревне Харв. Вернись к Леннарту. Награда: 4500 золотых."
+    ],
+    "sources": [
+      "https://dragonsdogma2.wiki.fextralife.com/Readvent+of+Calamity"
+    ],
+    "mapMarkers": [
+      "25488"
+    ]
+  }
+]

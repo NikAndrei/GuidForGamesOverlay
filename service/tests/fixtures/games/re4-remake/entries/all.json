@@ -1,0 +1,10 @@
+[
+  { "id": "wv-ch2", "type": "quest", "title": { "ru": "Глава 2", "en": "Chapter 2" }, "availableFrom": "ch2",
+    "hints": ["Иди к ферме", "Подробнее", "Ответ"], "sources": ["https://example.com"], "gameRefs": ["chapter:2"] },
+  { "id": "tr-ring", "type": "secret", "title": { "ru": "Кольцо", "en": "Ring" }, "availableFrom": "ch2",
+    "missableAfter": "ch3", "hints": ["Под мостом"], "sources": ["https://example.com"], "gameRefs": ["item:123"] },
+  { "id": "file-note", "type": "file", "title": { "ru": "Записка", "en": "Note" }, "availableFrom": "ch2",
+    "hints": ["На столе"], "sources": ["https://example.com"], "gameRefs": ["file:7"] },
+  { "id": "wv-ch1", "type": "quest", "title": { "ru": "Глава 1", "en": "Chapter 1" }, "availableFrom": "ch1",
+    "hints": ["Начало"], "sources": ["https://example.com"], "gameRefs": ["chapter:1"] }
+]

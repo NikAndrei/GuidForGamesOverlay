@@ -1,0 +1,12 @@
+{
+  "id": "re4-remake",
+  "title": { "ru": "Resident Evil 4 (ремейк)", "en": "Resident Evil 4 (Remake)" },
+  "adapter": "re4",
+  "steamAppId": 2050650,
+  "regions": [{ "id": "village", "name": { "ru": "Деревня", "en": "The Village" } }],
+  "progress": [
+    { "id": "ch1", "name": { "ru": "Глава 1", "en": "Chapter 1" } },
+    { "id": "ch2", "name": { "ru": "Глава 2", "en": "Chapter 2" } },
+    { "id": "ch3", "name": { "ru": "Глава 3", "en": "Chapter 3" } }
+  ]
+}

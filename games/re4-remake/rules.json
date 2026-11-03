@@ -1,0 +1,74 @@
+{
+  "$schema": "../../schemas/hints.schema.json",
+  "game": "re4-remake",
+  "rules": [
+    {
+      "id": "chapter-walkthrough",
+      "$comment": "Прохождение и боссы текущей (самой дальней) главы",
+      "select": {
+        "types": [
+          "quest",
+          "boss"
+        ],
+        "idPrefix": [
+          "wv-",
+          "wc-",
+          "wi-"
+        ],
+        "progress": "current"
+      },
+      "priority": 30
+    },
+    {
+      "id": "chapter-puzzles",
+      "select": {
+        "types": [
+          "puzzle"
+        ],
+        "progress": "current"
+      },
+      "priority": 25
+    },
+    {
+      "id": "chapter-requests",
+      "$comment": "Поручения торговца, которые открываются в этой главе",
+      "select": {
+        "idPrefix": "req-",
+        "progress": "current"
+      },
+      "priority": 22
+    },
+    {
+      "id": "missable",
+      "$comment": "Пропускаемое из пройденных глав, что ещё можно успеть (сокровища, поручения)",
+      "select": {
+        "missable": true,
+        "progress": "reached"
+      },
+      "priority": 20
+    },
+    {
+      "id": "chapter-collectibles",
+      "$comment": "Сокровища, кастеляны, ключи и документы главы; собранное отмечает мод",
+      "select": {
+        "types": [
+          "secret",
+          "chest",
+          "file"
+        ],
+        "progress": "current"
+      },
+      "priority": 10
+    },
+    {
+      "id": "chapter-tips",
+      "select": {
+        "types": [
+          "tip"
+        ],
+        "progress": "current"
+      },
+      "priority": 5
+    }
+  ]
+}

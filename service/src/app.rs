@@ -7,11 +7,12 @@ use anyhow::{Context, Result};
 use serde::Serialize;
 use tokio::sync::watch;
 
-use crate::adapter::{self, Adapter};
+use crate::adapter::{self, Adapter, Paths};
 use crate::config::{Config, GameConfig};
-use crate::content::Content;
+use crate::content::{self, Content};
 use crate::rules::{self, Rule};
 use crate::state::{GameState, now_rfc3339};
+use crate::steam;
 use crate::ui::{self, Reveals, UiModel};
 
 pub struct Game {
@@ -19,6 +20,7 @@ pub struct Game {
     pub content: Arc<Content>,
     pub rules: Vec<Rule>,
     pub adapter: Arc<dyn Adapter>,
+    pub paths: Paths,
     pub problems: Vec<String>,
     pub state: Option<GameState>,
     pub error: Option<String>,
@@ -41,6 +43,8 @@ pub struct App {
 #[serde(rename_all = "camelCase")]
 pub struct GameStatus {
     pub id: String,
+    pub title: String,
+    pub paths: Paths,
     pub watch: Vec<PathBuf>,
     pub rules: usize,
     pub problems: Vec<String>,
@@ -51,12 +55,15 @@ pub struct GameStatus {
 
 impl App {
     pub fn new(cfg: &Config) -> Result<Self> {
-        let games = cfg
-            .games
-            .iter()
-            .map(|g| load_game(g, cfg))
-            .collect::<Result<Vec<_>>>()?;
-        let reveals_file = cfg.state_dir.join("reveals.json");
+        let steam_roots = steam::roots(cfg.steam_dir.as_deref());
+        let mut games = Vec::new();
+        for dir in content::discover(cfg.games_dir())? {
+            games.extend(load_game(&dir, cfg, &steam_roots)?);
+        }
+        if games.is_empty() {
+            anyhow::bail!("нет игр в {}", cfg.games_dir().display());
+        }
+        let reveals_file = cfg.state_dir().join("reveals.json");
         let reveals = std::fs::read_to_string(&reveals_file)
             .ok()
             .and_then(|t| serde_json::from_str(&t).ok())
@@ -98,6 +105,8 @@ impl App {
             .iter()
             .map(|g| GameStatus {
                 id: g.id.clone(),
+                title: g.content.title.ru.clone(),
+                paths: g.paths.clone(),
                 watch: g.adapter.watch_paths(),
                 rules: g.rules.len(),
                 problems: g.problems.clone(),
@@ -200,31 +209,65 @@ impl App {
     }
 }
 
-fn load_game(g: &GameConfig, cfg: &Config) -> Result<Game> {
-    let content = Arc::new(
-        Content::load(&g.content, g.save_map.as_deref())
-            .with_context(|| format!("контент {}", g.content.display()))?,
+fn load_game(dir: &std::path::Path, cfg: &Config, steam_roots: &[PathBuf]) -> Result<Option<Game>> {
+    let content = Arc::new(Content::load(dir).with_context(|| format!("игра {}", dir.display()))?);
+    let game_cfg = cfg
+        .games
+        .get(&content.game_id)
+        .cloned()
+        .unwrap_or_else(|| GameConfig {
+            enabled: true,
+            ..Default::default()
+        });
+    if !game_cfg.enabled {
+        return Ok(None);
+    }
+    let rules_path = content.rules_path();
+    let rules = if rules_path.exists() {
+        rules::load(&rules_path, &content.game_id)?
+    } else {
+        Vec::new()
+    };
+    let mut problems = rules::check(&rules, &content);
+    if rules.is_empty() {
+        problems.push("нет правил (rules.json)".into());
+    }
+    let adapter_name = content.adapter.clone().unwrap_or_default();
+    let paths = Paths::resolve(
+        &content,
+        &game_cfg,
+        steam_roots,
+        adapter::save_sub(&adapter_name),
+        cfg.state_dir().join("work").join(&content.game_id),
     );
-    let rules = rules::load(&g.rules, &content.game_id)?;
-    let problems = rules::check(&rules, &content);
+    let adapter = adapter::create(&adapter_name, content.clone(), paths.clone())
+        .with_context(|| format!("игра {}", content.game_id))?;
     for p in &problems {
         eprintln!("[{}] {p}", content.game_id);
     }
-    let adapter = adapter::create(
-        g,
-        content.clone(),
-        cfg.state_dir.join("work").join(&content.game_id),
-    )?;
-    Ok(Game {
+    eprintln!(
+        "[{}] игра: {}, мод: {}, сейвы: {}",
+        content.game_id,
+        show(&paths.game_dir),
+        show(&paths.mod_dir),
+        show(&paths.save_dir)
+    );
+    Ok(Some(Game {
         id: content.game_id.clone(),
         content,
         rules,
         adapter,
+        paths,
         problems,
         state: None,
         error: None,
         checked_at: None,
-    })
+    }))
+}
+
+fn show(p: &Option<PathBuf>) -> String {
+    p.as_ref()
+        .map_or("не найдено".into(), |p| p.display().to_string())
 }
 
 fn save_reveals(path: &std::path::Path, reveals: &Reveals) -> Result<()> {

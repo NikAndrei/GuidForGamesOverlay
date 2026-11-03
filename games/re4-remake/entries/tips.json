@@ -1,0 +1,825 @@
+[
+  {
+    "id": "tip-parry",
+    "type": "tip",
+    "title": {
+      "ru": "Парирование ножом",
+      "en": "Knife parry"
+    },
+    "hints": [
+      "Удар в ближнем бою можно не только пережить, но и наказать.",
+      "Нажми удар ножом в самый последний момент перед вражеской атакой.",
+      "Своевременное нажатие кнопки ножа парирует удар: враг ошеломлён и на пару секунд беззащитен — добей его. Блок и уклонение тоже спасают от урона, но враг тут же атакует снова, поэтому учись именно парировать. Помни, что у ножа есть прочность."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-headshot-crit",
+    "type": "tip",
+    "title": {
+      "ru": "Критический выстрел в голову",
+      "en": "Headshot critical hits"
+    },
+    "hints": [
+      "Терпение при прицеливании окупается уроном.",
+      "Остановись, наведи прицел на лицо врага и подожди, пока перекрестье сожмётся.",
+      "Если стоять на месте и держать прицел на голове пару секунд, перекрестье заметно сужается — выстрел в этот момент с высокой вероятностью наносит критический урон."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-save-ammo",
+    "type": "tip",
+    "title": {
+      "ru": "Экономия патронов",
+      "en": "Conserving ammo"
+    },
+    "hints": [
+      "Не каждая драка обязательна, а некоторые враги сами себе вредят.",
+      "Избегай лишних стычек и стреляй по рукам с метательным оружием.",
+      "Без нужды в бой не ввязывайся. Если дерёшься — целься в руку, которой враг держит снаряд: факел подожжёт его самого, а коктейль Молотова взорвётся у него в руках. Базовым пистолетом лучше бить по конечностям и не затягивать стычки."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html",
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-stop-mutation",
+    "type": "tip",
+    "title": {
+      "ru": "Добивай упавших до мутации",
+      "en": "Finish off downed enemies before they mutate"
+    },
+    "hints": [
+      "Если поверженный враг ничего не выронил — рано расслабляться.",
+      "Корчащегося на земле противника можно добить, пока он не встал.",
+      "Когда враг упал, извивается и из него не выпала добыча — скоро он поднимется заметно сильнее (паразит). Подбеги и ударь ножом в шею, пока он лежит: мутация прервётся, и противник умрёт окончательно."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-flashbang",
+    "type": "tip",
+    "title": {
+      "ru": "Светошумовые гранаты против паразитов",
+      "en": "Flash grenades vs. parasites"
+    },
+    "hints": [
+      "У этой гранаты есть особая жертва.",
+      "Береги «флэшки» для групп и для мутировавших врагов.",
+      "Светошумовая граната ослепляет толпу, давая время на рукопашные удары, а крестьян с выросшим вместо головы паразитом убивает сразу. Тратить её на одиночек обычно не стоит."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-chainsaw-first",
+    "type": "tip",
+    "title": {
+      "ru": "Бензопильщик — цель номер один",
+      "en": "Kill the chainsaw man first"
+    },
+    "availableFrom": "ch1",
+    "hints": [
+      "Самый опасный враг деревни не всегда выглядит грозно.",
+      "При появлении врага с бензопилой переключись на него в первую очередь.",
+      "Противник с бензопилой — один из самых опасных на раннем этапе, даже с учётом парирования. Убирай его раньше остальных крестьян, потом занимайся толпой."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-stealth",
+    "type": "tip",
+    "title": {
+      "ru": "Скрытные убийства",
+      "en": "Stealth kills"
+    },
+    "hints": [
+      "Не каждого врага нужно встречать в лоб.",
+      "Подкрадывайся к ничего не подозревающим противникам сзади.",
+      "Всю игру скрытно не пройти, но на отдельных участках можно подойти к врагу со спины и убить его ножом одним приёмом. Это экономит патроны и время."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-protect-ashley",
+    "type": "tip",
+    "title": {
+      "ru": "Не давай утащить Эшли",
+      "en": "Don't let enemies carry Ashley off"
+    },
+    "availableFrom": "ch5",
+    "hints": [
+      "Твоя подопечная — тоже условие проигрыша.",
+      "Следи за врагами, которые подбираются к Эшли.",
+      "Если Эшли унесут за пределы локации — игра окончена. Отстреливай похитителей издалека; светошумовая граната заставляет врага выронить её. В опасных местах можно приказать Эшли спрятаться (например, в шкафчике)."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html",
+      "https://vgtimes.ru/guides/96920-sekrety-bystrogo-prohozhdeniya-resident-evil-4-kak-poluchit-rang-s-i-propustit-chast-igry.html"
+    ]
+  },
+  {
+    "id": "tip-crows",
+    "type": "tip",
+    "title": {
+      "ru": "Стреляй по воронам",
+      "en": "Shoot the crows"
+    },
+    "availableFrom": "ch1",
+    "hints": [
+      "Птицы в деревне — это ходячие кошельки.",
+      "Подстрели ворон дешёвым оружием.",
+      "За каждую убитую ворону выпадают деньги. Бей их из базового пистолета или светошумовой гранатой, если их в запасе много."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-herbs",
+    "type": "tip",
+    "title": {
+      "ru": "Смешивай травы",
+      "en": "Mix herbs"
+    },
+    "hints": [
+      "Зелёная трава в одиночку — слабое лечение.",
+      "Комбинируй зелёную траву с красной или жёлтой.",
+      "Зелёная + красная — гораздо более сильное лечение. Зелёная + жёлтая — повышает максимальный запас здоровья. Отдельно зелёную используй только в крайнем случае."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-first-run-achievements",
+    "type": "tip",
+    "title": {
+      "ru": "Сложные достижения — на потом",
+      "en": "Leave hard achievements for later"
+    },
+    "hints": [
+      "Первое прохождение — для знакомства, а не для челленджей.",
+      "Отложи ачивки с ограничениями до «Новой игры+».",
+      "Достижения вроде «без аптечек», «без торговца» или «только пистолет и нож» лучше получать при повторных прохождениях. В первый раз изучай локации и повадки врагов."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-treasures",
+    "type": "tip",
+    "title": {
+      "ru": "Охота за сокровищами",
+      "en": "Treasure hunting"
+    },
+    "hints": [
+      "Самые большие деньги в игре не выпадают из врагов.",
+      "Купи у торговца карты сокровищ и обыщи отмеченные точки — включая то, что над головой.",
+      "Карты с местами сокровищ продаёт торговец. Продажа ценностей даёт много песет на улучшения. Если пришёл на отметку и ничего не видишь — посмотри наверх: сокровище очень часто находится где-то вверху."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-combine-gems",
+    "type": "tip",
+    "title": {
+      "ru": "Вставляй камни в сокровища",
+      "en": "Combine gems with treasures"
+    },
+    "hints": [
+      "Драгоценный камень сам по себе стоит меньше, чем кажется.",
+      "Не продавай камни отдельно — ищи сокровища с гнёздами.",
+      "Зелёные, жёлтые и красные камни выгоднее вставить в составные ценности (например, в корону): итоговая цена вырастает в несколько раз по сравнению с продажей по отдельности."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-merchant-requests",
+    "type": "tip",
+    "title": {
+      "ru": "Поручения торговца и шпинели",
+      "en": "Merchant requests and spinels"
+    },
+    "availableFrom": "ch2",
+    "hints": [
+      "Торговец не только продаёт — он ещё и платит за работу.",
+      "Читай синие листки рядом с его лавкой.",
+      "Синие записки у торговца — это поручения (сбить синие медальоны, убить особого врага и т. п.). Награда — шпинели. На них в отдельной вкладке меняют уникальные вещи: жёлтую траву (+максимум здоровья), пистолет «Каратель», «Матильду», прицелы, приклады и купоны на особое улучшение."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-shooting-range",
+    "type": "tip",
+    "title": {
+      "ru": "Тир и брелоки",
+      "en": "Shooting gallery and charms"
+    },
+    "hints": [
+      "Стрельба по мишеням приносит не только удовольствие.",
+      "Проходи тиры, которые открываются у торговца.",
+      "Прохождение тиров даёт особые бонусы, которые влияют в том числе на цены в лавке торговца. Не пропускай стрельбища, когда они появляются."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-upgrade-priority",
+    "type": "tip",
+    "title": {
+      "ru": "Что улучшать в первую очередь",
+      "en": "What to upgrade first"
+    },
+    "hints": [
+      "Деньги на прокачку лучше не размазывать.",
+      "Вкладывайся в лучшие образцы каждого класса, а не в стартовое оружие.",
+      "Прокачивать стартовый пистолет и первую винтовку смысла мало: сначала добудь сильный ствол, потом улучшай его. Если вложился в оружие и оно разочаровало — продай: вернётся большая часть потраченного. Ориентиры гайда: пистолет Red9, винтовка «Скат», дробовик — «Полицейское ружьё» или «Боевик», пистолет-пулемёт LE 5, магнум «Киллер-7»."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html",
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-upgrades",
+    "type": "tip",
+    "title": {
+      "ru": "Улучшения и бесконечные патроны",
+      "en": "Weapon upgrades and unlimited ammo"
+    },
+    "availableFrom": "ch7",
+    "hints": [
+      "Полностью прокачанный ствол получает особый бонус.",
+      "У торговца улучшаются мощность, магазин, перезарядка и скорострельность; плюс есть эксклюзивное улучшение.",
+      "Каждое оружие улучшается по четырём параметрам. У некоторых стволов есть особое (эксклюзивное) улучшение — для него нужен «Купон на особое улучшение» — за прохождение купить можно всего два: первый за 30 шпинелей (после главы 7), следующий — за 40. Награда за полную прокачку — бесконечный боезапас для этого оружия."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-attachments",
+    "type": "tip",
+    "title": {
+      "ru": "Обвесы для оружия",
+      "en": "Weapon attachments"
+    },
+    "hints": [
+      "Некоторым стволам можно добавить детали.",
+      "Прицелы и приклады продаёт торговец, одна деталь лежит на острове.",
+      "Всего 7 обвесов. У торговца: прицел — 4 000 песет; лазерный прицел — 10 шпинелей; мощный прицел — 7; приклад для TMP — 8; для Red9 — 9; для «Матильды» — 12. Седьмую деталь найди в главе 13 в инкубационной лаборатории (нужна ключ-карта 2 уровня), южнее морозильника. Все 7 — испытание «Внимание к деталям» (500 очков). Ненужные обвесы можно убрать в хранилище у машинки."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-w870",
+    "type": "tip",
+    "region": "village",
+    "location": {
+      "ru": "Деревенская площадь",
+      "en": "Village Square"
+    },
+    "title": {
+      "ru": "Дробовик W-870",
+      "en": "W-870 shotgun"
+    },
+    "availableFrom": "ch1",
+    "hints": [
+      "Первый дробовик висит там, где начинается главная заварушка деревни.",
+      "Деревенская площадь: дальний дом слева, второй этаж.",
+      "В главе 1 на деревенской площади зайди в дальний дом слева (в этот момент появится бензопильщик), поднимись по единственной лестнице — ружьё висит на стене справа от комода."
+    ],
+    "match": {
+      "where": [
+        "деревенская площадь",
+        "площадь",
+        "дом",
+        "второй этаж",
+        "village square"
+      ],
+      "what": [
+        "дробовик",
+        "w-870",
+        "w870",
+        "ружьё",
+        "shotgun"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html",
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-red9",
+    "type": "tip",
+    "region": "village",
+    "location": {
+      "ru": "Озеро, затонувший корабль",
+      "en": "Lake, shipwreck"
+    },
+    "title": {
+      "ru": "Пистолет Red9",
+      "en": "Red9 pistol"
+    },
+    "availableFrom": "ch4",
+    "missableAfter": "ch6",
+    "missableNote": "По данным гайда, если не забрать Red9 на озере, другим способом получить его по ходу прохождения не выйдет.",
+    "hints": [
+      "На озере стоит заглянуть не только туда, куда ведёт сюжет.",
+      "Сплавай на лодке к полузатопленному кораблю в центре озера.",
+      "В начале главы 4, переплыв озеро, вернись в лодку и плыви к затонувшему кораблю в центре (он отмечен на карте). Сначала там будет красный сундук с сокровищем, а чуть дальше — синий кейс с позолотой, в нём Red9. Лучший пистолет игры по версии гайда; для него у торговца есть приклад."
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "корабль",
+        "затонувший корабль",
+        "лодка",
+        "lake",
+        "shipwreck"
+      ],
+      "what": [
+        "red9",
+        "ред9",
+        "пистолет",
+        "кейс",
+        "синий кейс",
+        "pistol"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-kitchen-knife",
+    "type": "tip",
+    "region": "village",
+    "location": {
+      "ru": "Ферма",
+      "en": "Farm"
+    },
+    "title": {
+      "ru": "Кухонный нож",
+      "en": "Kitchen Knife"
+    },
+    "availableFrom": "ch1",
+    "hints": [
+      "Запасные ножи валяются в деревне на виду.",
+      "Первый — на ферме возле сюжетной шестерёнки.",
+      "Первый кухонный нож лежит на ферме на северо-востоке деревни (туда ведёт путь через мельницу), рядом с сюжетной шестерёнкой. Он чуть быстрее боевого, но слабее и быстро ломается. Такие ножи часто встречаются в главах 1–6."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-boot-knife",
+    "type": "tip",
+    "region": "castle",
+    "title": {
+      "ru": "Карманный нож",
+      "en": "Boot Knife"
+    },
+    "availableFrom": "ch7",
+    "hints": [
+      "В замке тебя ждёт ещё один клинок.",
+      "Обрати внимание на первого врага главы 7.",
+      "Карманный нож можно подобрать в самом начале главы 7 — после первого убитого врага в часовне."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-cqbr",
+    "type": "tip",
+    "region": "castle",
+    "location": {
+      "ru": "Библиотека",
+      "en": "Library"
+    },
+    "title": {
+      "ru": "Штурмовая винтовка CQBR",
+      "en": "CQBR Assault Rifle"
+    },
+    "availableFrom": "ch10",
+    "hints": [
+      "В библиотеке замка картина скрывает больше, чем изображение.",
+      "Понадобится кубическое устройство и картина с углублением напротив стола, где Эшли взяла ключи.",
+      "Глава 10, библиотека: найди кубическое устройство, подойди к картине с выемкой напротив стола со связкой ключей Эшли и реши головоломку — в тайнике CQBR. В «Новой игре+», если винтовка уже есть, там будет золотой слиток."
+    ],
+    "match": {
+      "where": [
+        "библиотека",
+        "картина",
+        "library"
+      ],
+      "what": [
+        "cqbr",
+        "штурмовая винтовка",
+        "кубическое устройство",
+        "куб",
+        "assault rifle"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-le5",
+    "type": "tip",
+    "region": "island",
+    "location": {
+      "ru": "Морозильник",
+      "en": "Freezer"
+    },
+    "title": {
+      "ru": "Пистолет-пулемёт LE 5",
+      "en": "LE 5 SMG"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Лучший автомат на острове легко принять за обычное сокровище.",
+      "Ищи запертую дверь в морозильном крыле, куда подаётся питание рубильником.",
+      "Глава 13: после ключ-карты 1 уровня (её берут в секционной, тогда же появляется первый регенератор) снова переключи рубильник, чтобы запитать крыло с морозильником. Там запертая дверь с такой же головоломкой, как первая; за ней LE 5. Головоломка необязательная, а на карте LE 5 отмечен как сокровище — легко пропустить."
+    ],
+    "match": {
+      "where": [
+        "морозильник",
+        "морозильная камера",
+        "секционная",
+        "freezer"
+      ],
+      "what": [
+        "le 5",
+        "le5",
+        "пистолет-пулемёт",
+        "автомат",
+        "smg"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-fighting-knife",
+    "type": "tip",
+    "region": "island",
+    "title": {
+      "ru": "Нож разведчика",
+      "en": "Fighting Knife"
+    },
+    "availableFrom": "ch14",
+    "hints": [
+      "Один нож достаётся как трофей.",
+      "Он связан с боссом конца главы 14.",
+      "Нож разведчика попадает в инвентарь автоматически после победы над боссом в конце главы 14."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-merchant-weapons",
+    "type": "tip",
+    "title": {
+      "ru": "Когда торговец продаёт оружие",
+      "en": "Merchant weapon stock by chapter"
+    },
+    "availableFrom": "ch2",
+    "hints": [
+      "Ассортимент торговца растёт по главам.",
+      "Новые стволы появляются в главах 2, 3, 4, 6, 7, 10 и 13.",
+      "Гл. 2: арбалет «Метатель болтов» (10 000; болты можно подбирать) и винтовка SR M1903 (12 000). Гл. 3: TMP (10 000). Гл. 4: одноразовая ракетница (около 80 000). Гл. 6: «Полицейское ружьё» (28 000). Гл. 7: «Чернохвост» (24 000), винтовка «Скат» (30 000), револьвер «Мёртвая бабочка» (28 000). Гл. 10: дробовик «Боевик» (36–38 000). Гл. 13: «Киллер-7» (77 000). Цены могут отличаться."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html",
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-riot-gun",
+    "type": "tip",
+    "title": {
+      "ru": "Полицейское ружьё",
+      "en": "Riot Gun"
+    },
+    "availableFrom": "ch6",
+    "hints": [
+      "К концу деревни появится дробовик сильнее найденного.",
+      "Ищи его у торговца с главы 6.",
+      "«Полицейское ружьё» (Riot Gun) — полуавтоматический дробовик, у торговца с главы 6 за 28 000 песет. Гайд для новичков советует купить и прокачивать именно его."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html",
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-stingray",
+    "type": "tip",
+    "title": {
+      "ru": "Винтовка «Скат»",
+      "en": "Stingray rifle"
+    },
+    "availableFrom": "ch7",
+    "hints": [
+      "В замке появится лучшая винтовка игры.",
+      "Загляни к торговцу в главе 7.",
+      "«Скат» (Stingray) — у торговца с главы 7 за 30 000 песет. Её стоит прокачивать вместо стартовой SR M1903."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-striker",
+    "type": "tip",
+    "title": {
+      "ru": "Дробовик «Боевик»",
+      "en": "Striker shotgun"
+    },
+    "availableFrom": "ch10",
+    "hints": [
+      "Позже в замке появится ещё один дробовик.",
+      "Торговец, глава 10.",
+      "«Боевик» (Striker) продаётся с главы 10 примерно за 36–38 000 песет. По версии гайда об оружии — лучший дробовик."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html",
+      "https://vgtimes.ru/guides/96462-gayd-dlya-novichkov-po-resident-evil-4-gde-nahodyatsya-fayly-sohraneniya-kak-nayti-glushitel-medalony-i-mnogoe-drugoe.html"
+    ]
+  },
+  {
+    "id": "tip-killer7",
+    "type": "tip",
+    "title": {
+      "ru": "Магнум «Киллер-7»",
+      "en": "Killer7 magnum"
+    },
+    "availableFrom": "ch13",
+    "hints": [
+      "Самый мощный пистолет появится лишь на острове.",
+      "Копи песеты к главе 13.",
+      "«Киллер-7» (Killer7) — у торговца с главы 13 за 77 000 песет. Лучший магнум; пригодится и в финальном бою."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-spinel-weapons",
+    "type": "tip",
+    "title": {
+      "ru": "Оружие за шпинели",
+      "en": "Weapons for spinels"
+    },
+    "availableFrom": "ch2",
+    "hints": [
+      "Не всё оружие покупается за деньги.",
+      "Загляни во вкладку обмена шпинелей у торговца.",
+      "Пистолет «Каратель» (Punisher) — 5 шпинелей, с главы 2. Револьвер «Матильда» (Matilda) — 10 шпинелей, с главы 8."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-grenades",
+    "type": "tip",
+    "title": {
+      "ru": "Три вида гранат",
+      "en": "Three grenade types"
+    },
+    "hints": [
+      "Для коллекции оружия нужна не только огнестрелка.",
+      "Ручная, тяжёлая и светошумовая — все три считаются оружием.",
+      "Для достижения «Фанат оружия» (все 29 видов) нужны ещё ручная, тяжёлая и светошумовая гранаты: их находят, покупают у торговца или крафтят."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-golden-egg",
+    "type": "tip",
+    "region": "village",
+    "location": {
+      "ru": "Озеро",
+      "en": "Lake"
+    },
+    "title": {
+      "ru": "Золотое яйцо против Салазара",
+      "en": "Gold Chicken Egg vs. Salazar"
+    },
+    "availableFrom": "ch4",
+    "hints": [
+      "Одна безделушка с озера пригодится в замке много глав спустя.",
+      "В главе 4 подбери золотое яйцо и не продавай его.",
+      "В начале главы 4 золотое яйцо лежит на маленьком участке к востоку от острова на озере (ещё одно можно найти в главе 11). В главе 12 брось его в лицо Рамону Салазару — это снимет около 70% здоровья и оглушит босса."
+    ],
+    "match": {
+      "where": [
+        "озеро",
+        "остров",
+        "lake"
+      ],
+      "what": [
+        "золотое яйцо",
+        "яйцо",
+        "golden egg",
+        "gold chicken egg"
+      ]
+    },
+    "sources": [
+      "https://vgtimes.ru/guides/96920-sekrety-bystrogo-prohozhdeniya-resident-evil-4-kak-poluchit-rang-s-i-propustit-chast-igry.html"
+    ]
+  },
+  {
+    "id": "tip-wolf-gigante",
+    "type": "tip",
+    "title": {
+      "ru": "Волк в капкане и Эль Гиганте",
+      "en": "Trapped wolf and El Gigante"
+    },
+    "availableFrom": "ch3",
+    "hints": [
+      "Доброе дело в начале главы 3 имеет последствия.",
+      "Подумай, спасать ли волка из капкана.",
+      "По данным гайда о быстром прохождении, если спасти волка из капкана слева от дома в начале главы 3, у Эль Гиганте позже будет больше здоровья. Для скоростного прохождения волка оставляют."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96920-sekrety-bystrogo-prohozhdeniya-resident-evil-4-kak-poluchit-rang-s-i-propustit-chast-igry.html"
+    ]
+  },
+  {
+    "id": "tip-ashley-clock",
+    "type": "tip",
+    "region": "castle",
+    "title": {
+      "ru": "Часы в сегменте за Эшли",
+      "en": "Ashley segment clock"
+    },
+    "availableFrom": "ch9",
+    "hints": [
+      "Головоломку с часами можно не разгадывать.",
+      "Время зависит от сложности.",
+      "На лёгкой и средней сложности выставь 11:04, на «Хардкоре» и «Профессионале» — 7:00. На обратном пути с гербом ключи и лифт не нужны: дверь наверх уже открыта."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96920-sekrety-bystrogo-prohozhdeniya-resident-evil-4-kak-poluchit-rang-s-i-propustit-chast-igry.html"
+    ]
+  },
+  {
+    "id": "tip-sun-moon-skip",
+    "type": "tip",
+    "region": "castle",
+    "title": {
+      "ru": "Решётки «Солнца» и «Луны» — гранатой",
+      "en": "Sun/Moon gates with a grenade"
+    },
+    "availableFrom": "ch8",
+    "hints": [
+      "Переключатели в башне можно обойти.",
+      "Решётку открывает и взрыв.",
+      "В главе 8 в башне с решётками брось гранату через решётку или прикрепи мину на светильник — решётка откроется без головоломки. Затем верни переключатель на «Солнце», чтобы открылась финальная дверь. Следующую решётку открывай так же (удобно через вертикальное окно)."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96920-sekrety-bystrogo-prohozhdeniya-resident-evil-4-kak-poluchit-rang-s-i-propustit-chast-igry.html"
+    ]
+  },
+  {
+    "id": "tip-rank-s-plus",
+    "type": "tip",
+    "title": {
+      "ru": "Ранг S+",
+      "en": "S+ rank"
+    },
+    "availableFrom": "completed",
+    "hints": [
+      "Высший ранг — это гонка со временем и машинкой.",
+      "Нужно уложиться по времени и почти не сохраняться.",
+      "Условия S+: прохождение примерно за 5 часов (на «Упрощённом» — за 4, на «Хардкоре» и «Профессионале» — 5:30), не более 15 сохранений у печатной машинки (автосохранения не считаются), без «Новой игры+». Оружие и предметы из магазина бонусов использовать можно. Ранг A — быстрее 12 часов на обычной сложности (10 — на «Хардкоре»/«Профессионале»)."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96920-sekrety-bystrogo-prohozhdeniya-resident-evil-4-kak-poluchit-rang-s-i-propustit-chast-igry.html",
+      "https://vgtimes.ru/guides/96566-kak-otkryt-vse-kostyumy-i-aksessuary-v-resident-evil-4-remake.html"
+    ]
+  },
+  {
+    "id": "tip-bonus-weapons",
+    "type": "tip",
+    "title": {
+      "ru": "Бонусное оружие",
+      "en": "Bonus weapons"
+    },
+    "availableFrom": "completed",
+    "hints": [
+      "Три ствола покупаются не у торговца, а в меню.",
+      "Выполни испытание и купи оружие в «Магазине бонусов».",
+      "Идеальный нож (Primal Knife) — найди всех 16 заводных смотрителей и потрать 1000 бонусных очков. Chicago Sweeper — пройди «Профессионал» с рангом A (быстрее 10 часов; можно в «Новой игре+»). Ручная пушка (Handcannon) — пройди «Профессионал» с нуля, без «Новой игры+»."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-infinite-rocket",
+    "type": "tip",
+    "title": {
+      "ru": "Ракетница с бесконечным боезапасом",
+      "en": "Infinite Rocket Launcher"
+    },
+    "availableFrom": "completed",
+    "hints": [
+      "Финальное оружие можно получить снова — и навсегда.",
+      "Ищи у торговца в «Новой игре+».",
+      "После прохождения начни «Новую игру+»: торговец продаёт специальную ракетную установку с бесконечными ракетами за 2 000 000 песет."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html"
+    ]
+  },
+  {
+    "id": "tip-accessories",
+    "type": "tip",
+    "title": {
+      "ru": "Полезные аксессуары",
+      "en": "Useful accessories"
+    },
+    "availableFrom": "completed",
+    "hints": [
+      "Некоторые наряды не только для красоты.",
+      "Аксессуары за прохождения и ранг S+ дают реальные бонусы.",
+      "Тёмные очки (две модели и очки Эшли) защищают от светошумовых гранат. Противогаз (пройти «Профессионал») включает автонаведение. За S+: волчий хвост («Упрощённый») — сильнее рукопашная; оленьи рога (обычная) — сильнее нож; шапка с курицей («Хардкор») — меньше урона; кошачьи уши («Профессионал») — бесконечные патроны. Аксессуары меняются прямо в игре, костюмы — только из главного меню («Дополнительно»)."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96566-kak-otkryt-vse-kostyumy-i-aksessuary-v-resident-evil-4-remake.html"
+    ]
+  },
+  {
+    "id": "tip-ashley-armor",
+    "type": "tip",
+    "title": {
+      "ru": "Броня для Эшли",
+      "en": "Ashley's armor"
+    },
+    "availableFrom": "completed",
+    "hints": [
+      "Есть способ сделать Эшли неуязвимой.",
+      "Это костюм за прохождение на высокой сложности.",
+      "Пройди игру на «Хардкоре» с рангом A (не дольше 10 часов) — откроется броня для Эшли: её нельзя утащить и ранить. Сильно упрощает повторные прохождения и сегмент с лабиринтом в главе 9."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96566-kak-otkryt-vse-kostyumy-i-aksessuary-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96920-sekrety-bystrogo-prohozhdeniya-resident-evil-4-kak-poluchit-rang-s-i-propustit-chast-igry.html"
+    ]
+  },
+  {
+    "id": "tip-professional",
+    "type": "tip",
+    "title": {
+      "ru": "Сложность «Профессионал» и «Новая игра+»",
+      "en": "Professional difficulty and New Game+"
+    },
+    "availableFrom": "completed",
+    "hints": [
+      "Первое прохождение открывает новые режимы.",
+      "После титров станут доступны «Новая игра+» и высшая сложность.",
+      "Прохождение на любой сложности открывает «Новую игру+» (с сохранением инвентаря) и сложность «Профессионал», а прохождение на обычной — полосатый гангстерский костюм Леона. В «Новой игре+» доступны и скипы с оружием, например выстрел из винтовки в колокол в главе 1, чтобы закончить бой в деревне."
+    ],
+    "sources": [
+      "https://vgtimes.ru/guides/96533-kak-poluchit-vse-oruzhie-v-resident-evil-4-remake-kak-uluchshat-kakoe-luchshee-oruzhie-v-igre.html",
+      "https://vgtimes.ru/guides/96566-kak-otkryt-vse-kostyumy-i-aksessuary-v-resident-evil-4-remake.html",
+      "https://vgtimes.ru/guides/96920-sekrety-bystrogo-prohozhdeniya-resident-evil-4-kak-poluchit-rang-s-i-propustit-chast-igry.html"
+    ]
+  }
+]
