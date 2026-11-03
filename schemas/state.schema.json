@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/NikAndrei/GuidForGamesOverlay/schemas/state.schema.json",
+  "title": "Общая модель состояния игры",
+  "description": "То, что адаптер игры отдаёт движку правил. Поля, которые адаптер не знает, опускаются.",
+  "type": "object",
+  "required": ["game", "source", "updatedAt"],
+  "properties": {
+    "game": { "type": "string", "description": "id игры, как в GuidForGames (например, dragons-dogma-2)" },
+    "source": { "enum": ["save", "mod"], "description": "откуда взято состояние: файл сохранения или мод-мост" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "progress": { "type": "string", "description": "id ступени прогресса из game.json GuidForGames" },
+    "quests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "properties": {
+          "id": { "type": "string", "description": "id квеста в игре (например, qu010010)" },
+          "stage": { "type": "integer", "description": "текущая задача / этап" },
+          "status": { "enum": ["active", "done", "failed", "unavailable"] },
+          "tracked": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "flags": { "type": "array", "items": { "type": "string" }, "description": "прочие признаки: открытые сундуки, найденные предметы и т.п." },
+    "location": { "type": "string", "description": "id области или локации" },
+    "position": {
+      "type": "object",
+      "properties": { "x": { "type": "number" }, "y": { "type": "number" }, "z": { "type": "number" } }
+    },
+    "inventory": { "type": "array", "items": { "type": "string" } }
+  },
+  "additionalProperties": false
+}

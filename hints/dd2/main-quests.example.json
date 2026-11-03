@@ -1,0 +1,29 @@
+{
+  "$schema": "../../schemas/hints.schema.json",
+  "game": "dragons-dogma-2",
+  "rules": [
+    {
+      "id": "tales-beginning-active",
+      "when": { "quest": { "id": "10050", "status": "active" } },
+      "entry": "mq-tales-beginning",
+      "priority": 10
+    },
+    {
+      "id": "in-dragons-wake-active",
+      "when": { "quest": { "id": "10060", "status": "active" } },
+      "entry": "mq-in-dragons-wake",
+      "priority": 10
+    },
+    {
+      "id": "one-eyed-interloper-before-sovran",
+      "when": {
+        "all": [
+          { "progressAtLeast": "in-dragons-wake" },
+          { "progressBefore": "seat-of-the-sovran" },
+          { "not": { "quest": { "id": "10070", "status": "done" } } }
+        ]
+      },
+      "entry": "sq-one-eyed-interloper"
+    }
+  ]
+}
